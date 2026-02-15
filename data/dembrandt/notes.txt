@@ -1,0 +1,2 @@
+$ pnpx dembrandt --version
+0.6.0

@@ -1,0 +1,44 @@
+<script lang="ts">
+  import { type ThemePalette, extractPalette } from "./extractor";
+
+  let input: string = $state("");
+  let output: string | null = $state(null);
+  let palette: ThemePalette | null = $state(null);
+  function onClick() {
+    const result = extractPalette(input);
+    output = JSON.stringify(result, null, 2);
+    palette = result;
+  }
+</script>
+
+<div class="flex flex-col gap-4">
+  <label for="input">Paste your CSS here:</label>
+  <textarea
+    class="rounded bg-gray-50 text-xs border-gray-300 border p-2 w-full h-48 resize-y focus:outline-none focus:ring-2 focus:ring-purple-300 focus:border-transparent"
+    id="input"
+    bind:value={input}
+  ></textarea>
+  <button
+    class="bg-purple-300 text-purple-700 hover:bg-purple-500 hover:text-purple-900 px-4 py-2 rounded transition-colors duration-150 cursor-pointer"
+    onclick={() => onClick()}>Extract Styles</button
+  >
+  <p class="mt-4">Output:</p>
+  <div>
+    {#each Object.entries(palette || {}) as [key, color]}
+      <div class="mb-4">
+        <h2 class="font-semibold">{key}:</h2>
+        <div class="flex flex-wrap gap-2 mt-2">
+          {#each color as c}
+            <div
+              class="size-8 rounded border border-gray-300"
+              style="background-color: {c};"
+              title={c}
+            ></div>
+          {/each}
+        </div>
+      </div>
+    {/each}
+  </div>
+  <pre
+    class="font-mono text-xs border border-gray-300 p-2 rounded min-h-32">{output}</pre>
+</div>

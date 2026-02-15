@@ -1,0 +1,2166 @@
+{
+  "url": "https://www.microsoft.com/en-us/microsoft-365/outlook/email-and-calendar-software-microsoft-outlook",
+  "extractedAt": "2026-01-09T09:35:08.954Z",
+  "logo": {
+    "source": "img",
+    "url": "https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/Linkedin-2?scl=1",
+    "width": 41,
+    "height": 40,
+    "alt": "linkedin logo",
+    "safeZone": {
+      "top": 0,
+      "right": 0,
+      "bottom": 0,
+      "left": 0
+    }
+  },
+  "favicons": [
+    {
+      "type": "icon",
+      "url": "https://www.microsoft.com/favicon.ico?v2",
+      "sizes": null
+    },
+    {
+      "type": "favicon.ico",
+      "url": "https://www.microsoft.com/favicon.ico",
+      "sizes": null
+    }
+  ],
+  "colors": {
+    "semantic": {
+      "primary": "rgb(23, 37, 61)",
+      "secondary": "rgba(0, 0, 0, 0)"
+    },
+    "palette": [
+      {
+        "color": "rgb(0, 0, 0)",
+        "normalized": "#000000",
+        "count": 1650,
+        "confidence": "high",
+        "sources": [
+          "_1xuci2whiqewruvp3pnfg3",
+          "c-uhfh",
+          "single-link"
+        ]
+      },
+      {
+        "color": "rgb(0, 103, 184)",
+        "normalized": "#0067b8",
+        "count": 628,
+        "confidence": "high",
+        "sources": [
+          "ms-rte-link",
+          "cta"
+        ]
+      },
+      {
+        "color": "rgb(42, 68, 111)",
+        "normalized": "#2a446f",
+        "count": 426,
+        "confidence": "high",
+        "sources": []
+      },
+      {
+        "color": "rgb(255, 255, 255)",
+        "normalized": "#ffffff",
+        "count": 252,
+        "confidence": "high",
+        "sources": [
+          "c-uhfh",
+          "btn"
+        ]
+      },
+      {
+        "color": "rgb(97, 97, 97)",
+        "normalized": "#616161",
+        "count": 168,
+        "confidence": "high",
+        "sources": [
+          "c-uhff-link"
+        ]
+      },
+      {
+        "color": "rgb(38, 38, 38)",
+        "normalized": "#262626",
+        "count": 153,
+        "confidence": "high",
+        "sources": [
+          "c-logo",
+          "c-uhf-nav-link",
+          "js-subm-uhf-nav-link"
+        ]
+      },
+      {
+        "color": "rgb(219, 219, 219)",
+        "normalized": "#dbdbdb",
+        "count": 1,
+        "confidence": "medium",
+        "sources": [
+          "hover/focus"
+        ]
+      }
+    ],
+    "cssVariables": {
+      "--ds-color-red-black-400": "#553d41",
+      "--ds-color-bright-orange-100": "#ffccc2",
+      "--root-color-morganite-500": "#e1d3c7",
+      "--ds-color-pale-lime-700": "#97a865",
+      "--ds-color-brown-500": "#bf9474",
+      "--ds-color-pink-900": "#573d40",
+      "--ds-color-grass-green-600": "#065b1a",
+      "--ds-color-warm-gray-400": "#a39b91",
+      "--ds-color-morganite-700": "#a0968d",
+      "--root-color-orange-coral-400": "#ffb5a2",
+      "--root-color-teams-500": "#5d5bd4",
+      "--ds-color-lilac-300": "#e3bee4",
+      "--root-color-orange-coral-600": "#e8947e",
+      "--root-color-success-100": "#b4dabc",
+      "--root-color-grass-green-300": "#599768",
+      "--ds-color-red-violet-300": "#d57cd7",
+      "--root-color-custard-yellow-200": "#fff2d0",
+      "--root-color-violet-200": "#bd9bbf",
+      "--root-color-breen-200": "#c4b396",
+      "--ds-color-lilac-500": "#d59ed7",
+      "--root-color-brown-600": "#ae876a",
+      "--ds-color-biscay-green-900": "#19433c",
+      "--ds-color-purple-800": "#4a356c",
+      "--root-color-brown-200": "#e2cebf",
+      "--root-color-brown-black-100": "#bdb7b7",
+      "--root-color-pink-200": "#ffdce0",
+      "--root-color-ginger-bread-800": "#3f1f10",
+      "--ds-color-red-violet-400": "#cd62d0",
+      "--root-color-golden-yellow-700": "#b58300",
+      "--ds-color-pale-lime-100": "#f2f9dc",
+      "--root-color-purple-500": "#8661c5",
+      "--root-color-golden-yellow-600": "#e8a800",
+      "--ds-color-violet-300": "#9f6da1",
+      "--ds-color-violet-900": "#260d27",
+      "--ds-color-red-violet-800": "#6a206c",
+      "--root-color-grass-green-900": "#02220a",
+      "--root-color-lilac-600": "#c290c4",
+      "--ds-color-lilac-800": "#755776",
+      "--root-color-mint-green-500": "#8de971",
+      "--root-color-red-200": "#faa3ad",
+      "--ds-color-lavender-700": "#8c80a1",
+      "--root-color-teams-100": "#cdccf2",
+      "--ds-color-breen-900": "#2b1f09",
+      "--root-color-warm-gray-300": "#b2aba3",
+      "--root-color-info-700": "#0041a5",
+      "--root-color-warm-gray-200": "#cac6c0",
+      "--root-color-ginger-bread-400": "#8f614a",
+      "--ds-color-brown-black-200": "#9d9594",
+      "--ds-color-orange-coral-200": "#ffd5ca",
+      "--root-color-success-500": "#0e8728",
+      "--root-color-error-800": "#7a1b26",
+      "--ds-color-red-100": "#fcc1c8",
+      "--root-color-success-300": "#5eaf6f",
+      "--ds-color-morganite-600": "#cdc0b5",
+      "--ds-color-warning-200": "#fdee9a",
+      "--ds-color-breen-500": "#7f5a1a",
+      "--ds-color-dark-brown-600": "#544133",
+      "--root-color-bright-orange-600": "#e85434",
+      "--ds-color-purple-400": "#9e81d1",
+      "--ds-color-grass-green-800": "#043710",
+      "--root-color-custard-yellow-300": "#ffecbb",
+      "--ds-color-mint-green-400": "#a4ed8d",
+      "--root-color-brilliant-blue-100": "#b0d5f2",
+      "--ds-color-dark-blue-200": "#9da9bd",
+      "--root-color-grass-green-700": "#054715",
+      "--ds-color-purple-black-500": "#170d2b",
+      "--root-color-dark-slate-200": "#a9a8a8",
+      "--ds-color-deep-teal-100": "#baccce",
+      "--ds-color-warm-white-800": "#8c8886",
+      "--root-color-sky-blue-200": "#cbe6f4",
+      "--ds-color-aqua-foam-700": "#839c95",
+      "--ds-color-warm-gray-500": "#8c8276",
+      "--ds-color-mint-green-600": "#80d467",
+      "--root-color-lilac-900": "#483649",
+      "--ds-color-twilight-purple-700": "#32264a",
+      "--root-color-mint-green-800": "#4e803e",
+      "--ds-color-orange-coral-900": "#57372f",
+      "--ds-color-green-black-200": "#90999a",
+      "--root-color-breen-300": "#a99066",
+      "--ds-color-pink-600": "#e8a3aa",
+      "--ds-color-info-600": "#0054d3",
+      "--ds-color-error-300": "#e97582",
+      "--root-color-dark-brown-300": "#92847a",
+      "--root-color-error-100": "#f5bfc5",
+      "--root-color-pale-lime-400": "#ddf0a5",
+      "--root-color-dark-blue-300": "#70829f",
+      "--ds-color-biscay-green-800": "#286c61",
+      "--ds-color-mint-green-100": "#dcf8d3",
+      "--root-color-neutral-white": "#fff",
+      "--root-color-teams-700": "#424197",
+      "--root-color-success-200": "#90c89c",
+      "--root-color-ginger-bread-100": "#d4c2b9",
+      "--root-color-ginger-bread-300": "#a17a68",
+      "--root-color-twilight-purple-300": "#83789a",
+      "--root-color-pale-lime-600": "#c1d781",
+      "--root-color-custard-yellow-400": "#ffe9ad",
+      "--root-color-dark-slate-100": "#c5c4c4",
+      "--ds-color-info-300": "#5492f0",
+      "--root-color-bright-orange-700": "#b54128",
+      "--root-color-ginger-bread-700": "#522815",
+      "--root-color-mint-green-700": "#64a550",
+      "--ds-color-purple-900": "#2e2143",
+      "--root-color-maroon-800": "#3f151a",
+      "--root-color-pale-lime-800": "#75824e",
+      "--root-color-pink-700": "#b57f85",
+      "--root-color-golden-yellow-100": "#ffe9b0",
+      "--root-color-red-violet-200": "#e2a5e4",
+      "--ds-color-deep-teal-600": "#1f5359",
+      "--root-color-deep-teal-500": "#225b62",
+      "--ds-color-twilight-purple-200": "#aaa3ba",
+      "--ds-color-purple-300": "#ae95d8",
+      "--ds-color-custard-yellow-600": "#e8cf8b",
+      "--root-color-purple-black-200": "#94909d",
+      "--ds-color-neutral-bright-lime": "#89c402",
+      "--ds-color-golden-yellow-400": "#ffc733",
+      "--root-color-sky-blue-800": "#4e6e80",
+      "--root-color-vapor-gray-300": "#cbcccc",
+      "--root-color-bright-orange-200": "#ffb4a4",
+      "--ds-color-warning-300": "#fce66c",
+      "--root-color-error-900": "#4b1117",
+      "--ds-color-pale-lime-200": "#ebf6cb",
+      "--root-color-deep-teal-300": "#6b9196",
+      "--ds-color-golden-yellow-900": "#573f00",
+      "--root-color-dark-blue-100": "#bdc5d2",
+      "--root-color-golden-yellow-300": "#ffd054",
+      "--ds-color-violet-800": "#3e143f",
+      "--ds-color-success-800": "#084a16",
+      "--ds-color-violet-600": "#662269",
+      "--root-color-grass-green-200": "#8db897",
+      "--root-color-maroon-900": "#270d10",
+      "--root-color-sky-blue-400": "#a4d3ed",
+      "--root-color-aqua-foam-600": "#a8c8bf",
+      "--ds-color-bright-orange-400": "#ff7d61",
+      "--ds-color-breen-100": "#d7ccb8",
+      "--ds-color-custard-yellow-800": "#8c7d54",
+      "--root-color-pink-800": "#8c6267",
+      "--ds-color-purple-600": "#7a58b3",
+      "--root-color-grass-green-100": "#b2cfb9",
+      "--ds-color-golden-yellow-500": "#ffb900",
+      "--ds-color-aqua-foam-400": "#c7e3db",
+      "--ds-color-breen-700": "#5a4012",
+      "--ds-color-teams-200": "#b4b4eb",
+      "--ds-color-neutral-black": "#000",
+      "--ds-color-teams-600": "#5553c1",
+      "--ds-color-purple-200": "#c7b6e4",
+      "--root-color-maroon-500": "#73262f",
+      "--root-color-pink-300": "#ffccd1",
+      "--ds-color-brilliant-blue-200": "#8ac1eb",
+      "--root-color-teams-400": "#7d7cdd",
+      "--root-color-brown-300": "#d4b7a2",
+      "--root-color-maroon-200": "#bf9b9f",
+      "--root-color-purple-black-100": "#b7b4bd",
+      "--ds-color-maroon-700": "#521b21",
+      "--root-color-orange-coral-300": "#ffc1b1",
+      "--root-color-red-black-500": "#2b0d12",
+      "--root-color-warning-100": "#fdf4bb",
+      "--root-color-sky-blue-700": "#648ea5",
+      "--root-color-sky-blue-900": "#30444f",
+      "--ds-color-error-200": "#f0a0a9",
+      "--root-color-pink-500": "#ffb3bb",
+      "--root-color-pale-lime-900": "#485030",
+      "--root-color-orange-coral-700": "#b57463",
+      "--root-color-deep-teal-400": "#4e7c81",
+      "--root-color-mint-green-300": "#b3f0a0",
+      "--ds-color-pale-gray-600": "#c5c5c3",
+      "--ds-color-purple-700": "#5f458c",
+      "--ds-color-pale-gray-700": "#9a9a98",
+      "--root-color-maroon-300": "#a16e74",
+      "--ds-color-info-100": "#b0ccf8",
+      "--ds-color-brilliant-blue-300": "#54a5e2",
+      "--root-color-red-violet-600": "#af36b2",
+      "--root-color-off-white-700": "#adadae",
+      "--root-color-warning-400": "#fbe14f",
+      "--ds-color-info-900": "#001f4f",
+      "--ds-color-red-black-200": "#9d9092",
+      "--ds-color-grass-green-400": "#39834a",
+      "--ds-color-biscay-green-700": "#348c7e",
+      "--ds-color-orange-coral-800": "#8c5a4c",
+      "--ds-color-red-600": "#de3145",
+      "--root-color-red-700": "#ad2636",
+      "--root-color-deep-teal-200": "#99b4b7",
+      "--root-color-vapor-gray-500": "#b1b3b3",
+      "--ds-color-bright-orange-300": "#ff927a",
+      "--ds-color-golden-yellow-200": "#ffdf8a",
+      "--root-color-red-400": "#f65e70",
+      "--root-color-oyster-gray-500": "#d7d2cb",
+      "--ds-color-lilac-200": "#ecd2ed",
+      "--ds-color-golden-yellow-800": "#8c6600",
+      "--ds-color-purple-black-600": "#150c27",
+      "--ds-color-brown-700": "#886952",
+      "--root-color-lavender-900": "#433d4d",
+      "--root-color-warning-700": "#b29b19",
+      "--root-color-biscay-green-300": "#85d8cb",
+      "--ds-color-red-violet-700": "#882a8b",
+      "--root-color-dark-brown-500": "#5c4738",
+      "--root-color-aqua-foam-500": "#b9dcd2",
+      "--ds-color-biscay-green-600": "#42b3a1",
+      "--root-color-blue-black-100": "#b3babe",
+      "--ds-color-lavender-200": "#e4ddf2",
+      "--ds-color-error-400": "#e55a6a",
+      "--root-color-custard-yellow-900": "#574d34",
+      "--root-color-sky-blue-300": "#b3daf0",
+      "--root-color-dark-blue-400": "#55698c",
+      "--root-color-success-900": "#052e0e",
+      "--ds-color-bright-orange-900": "#571f13",
+      "--ds-color-blue-black-200": "#8e989e",
+      "--ds-color-breen-800": "#46320e",
+      "--ds-color-error-600": "#ca2d3f",
+      "--root-color-warm-white-700": "#b5b0ad",
+      "--ds-color-warning-600": "#e4c620",
+      "--ds-color-info-200": "#8ab4f4",
+      "--ds-color-purple-100": "#d9ceed",
+      "--root-color-maroon-400": "#8f5159",
+      "--ds-color-bright-orange-800": "#8c331f",
+      "--ds-color-vapor-gray-400": "#c1c2c2",
+      "--root-color-biscay-green-500": "#49c5b1",
+      "--root-color-sea-salt-700": "#a5a39e",
+      "--ds-color-red-900": "#53121a",
+      "--root-color-oyster-gray-600": "#c4bfb9",
+      "--ds-color-violet-400": "#8d518f",
+      "--ds-color-brown-400": "#cca990",
+      "--root-color-success-600": "#0d7b24",
+      "--root-color-red-800": "#861e2a",
+      "--ds-color-teams-900": "#201f48",
+      "--ds-color-lilac-700": "#977099",
+      "--root-color-red-violet-100": "#ebc2ed",
+      "--root-color-red-black-100": "#bdb4b6",
+      "--ds-color-oyster-gray-700": "#999590",
+      "--root-color-purple-black-400": "#453d55",
+      "--ds-color-dark-blue-800": "#17253d",
+      "--ds-color-red-violet-500": "#c03bc4",
+      "--ds-color-sky-blue-600": "#80b6d3",
+      "--ds-color-custard-yellow-700": "#b5a16d",
+      "--ds-color-teams-800": "#333275",
+      "--ds-color-biscay-green-200": "#abe4db",
+      "--ds-color-pink-400": "#ffc2c9",
+      "--root-color-maroon-100": "#d4bcbf",
+      "--ds-color-info-500": "#005ce8",
+      "--root-color-biscay-green-100": "#c7ede7",
+      "--ds-color-success-400": "#3e9f53",
+      "--ds-color-ginger-bread-200": "#bfa497",
+      "--ds-color-info-400": "#337ded",
+      "--ds-color-twilight-purple-100": "#c6c1d0",
+      "--ds-color-lilac-400": "#ddb1df",
+      "--ds-color-dark-brown-200": "#b4aaa3",
+      "--root-color-violet-100": "#d3bbd4",
+      "--ds-color-success-700": "#0a601c",
+      "--ds-color-violet-700": "#501a52",
+      "--ds-color-biscay-green-400": "#6dd1c1",
+      "--root-color-vapor-gray-600": "#a1a3a3",
+      "--root-color-error-700": "#9e2331",
+      "--ds-color-warning-800": "#8a7813",
+      "--root-color-lavender-400": "#d1c3e9",
+      "--root-color-ginger-bread-500": "#73391d",
+      "--ds-color-teams-300": "#9291e2",
+      "--ds-color-green-black-100": "#b4babb",
+      "--root-color-brilliant-blue-400": "#3393dd",
+      "--root-color-custard-yellow-500": "#ffe399",
+      "--root-color-red-violet-900": "#411443",
+      "--ds-color-grass-green-500": "#07641d",
+      "--ds-color-orange-coral-500": "#ffa38b",
+      "--ds-color-warning-900": "#554a0c",
+      "--ds-color-lavender-800": "#6c637d",
+      "--ds-color-pale-lime-300": "#e2f2b3",
+      "--root-color-mint-green-200": "#cbf5be",
+      "--ds-color-twilight-purple-800": "#271e39",
+      "--ds-color-red-500": "#f4364c",
+      "--ds-color-twilight-purple-400": "#6b5e86",
+      "--ds-color-bright-orange-500": "#ff5c39",
+      "--ds-color-lavender-300": "#d8cdec",
+      "--root-color-lavender-500": "#c5b4e3",
+      "--ds-color-breen-600": "#745218",
+      "--root-color-warning-500": "#fada23",
+      "--ds-color-red-300": "#f87887",
+      "--root-color-violet-500": "#702573",
+      "--ds-color-pale-lime-500": "#d4ec8e",
+      "--root-color-deep-teal-700": "#184146",
+      "--root-color-dark-brown-100": "#ccc6c1",
+      "--root-color-brown-800": "#695140",
+      "--root-color-red-black-600": "#270c10",
+      "--ds-color-sea-salt-600": "#d3d1cb",
+      "--ds-color-maroon-600": "#69232b",
+      "--ds-color-breen-400": "#997b48",
+      "--root-color-info-800": "#003380",
+      "--root-color-ginger-bread-600": "#69341a",
+      "--root-color-mint-green-900": "#304f26",
+      "--ds-color-sky-blue-500": "#8dc8e8",
+      "--root-color-lavender-600": "#b3a4cf"
+    }
+  },
+  "typography": {
+    "styles": [
+      {
+        "context": "heading-1",
+        "family": "Segoe UI Variable Text",
+        "fallbacks": "Segoe UI, segoeui, Helvetica Neue, helvetica, arial",
+        "size": "124px (7.75rem)",
+        "weight": 400,
+        "lineHeight": "1.05",
+        "spacing": "-3.1px",
+        "transform": null
+      },
+      {
+        "context": "heading-1",
+        "family": "Segoe UI Variable Text",
+        "fallbacks": "Segoe UI, segoeui, Helvetica Neue, helvetica, arial",
+        "size": "100px (6.25rem)",
+        "weight": 400,
+        "lineHeight": "1.06",
+        "spacing": "-2.5px",
+        "transform": null
+      },
+      {
+        "context": "heading-1",
+        "family": "Segoe UI Variable Display",
+        "fallbacks": "Segoe UI, segoeui, Helvetica Neue, helvetica, arial",
+        "size": "62px (3.88rem)",
+        "weight": 500,
+        "lineHeight": "1.16",
+        "spacing": "-1.55px",
+        "transform": null
+      },
+      {
+        "context": "heading-1",
+        "family": "Segoe UI Variable Display",
+        "fallbacks": "Segoe UI, segoeui, Helvetica Neue, helvetica, arial",
+        "size": "48px (3.00rem)",
+        "weight": 500,
+        "lineHeight": "1.17",
+        "spacing": "-1.2px",
+        "transform": null
+      },
+      {
+        "context": "heading-1",
+        "family": "Segoe UI Variable Text",
+        "fallbacks": "Segoe UI, segoeui, Helvetica Neue, helvetica, arial",
+        "size": "48px (3.00rem)",
+        "weight": 500,
+        "lineHeight": "1.17",
+        "spacing": "-1.2px",
+        "transform": null
+      },
+      {
+        "context": "heading-1",
+        "family": "Segoe UI Variable Display",
+        "fallbacks": "Segoe UI, segoeui, Helvetica Neue, helvetica, arial",
+        "size": "32px (2.00rem)",
+        "weight": 500,
+        "lineHeight": "1.25",
+        "spacing": "-0.48px",
+        "transform": null
+      },
+      {
+        "context": "heading-1",
+        "family": "Segoe UI Variable Text",
+        "fallbacks": "Segoe UI, segoeui, Helvetica Neue, helvetica, arial",
+        "size": "32px (2.00rem)",
+        "weight": 500,
+        "lineHeight": "1.25",
+        "spacing": "-0.48px",
+        "transform": null
+      },
+      {
+        "context": "heading-1",
+        "family": "Segoe UI",
+        "fallbacks": "SegoeUI, Arial",
+        "size": "24px (1.50rem)",
+        "weight": 400,
+        "lineHeight": "0.00",
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "heading-1",
+        "family": "Segoe UI Variable Text",
+        "fallbacks": "Segoe UI, segoeui, Helvetica Neue, helvetica, arial",
+        "size": "24px (1.50rem)",
+        "weight": 500,
+        "lineHeight": "1.33",
+        "spacing": "-0.24px",
+        "transform": null
+      },
+      {
+        "context": "heading-1",
+        "family": "Segoe UI Variable Display",
+        "fallbacks": "Segoe UI, segoeui, Helvetica Neue, helvetica, arial",
+        "size": "24px (1.50rem)",
+        "weight": 500,
+        "lineHeight": "1.33",
+        "spacing": "-0.24px",
+        "transform": null
+      },
+      {
+        "context": "heading-1",
+        "family": "Segoe UI Variable Text",
+        "fallbacks": "Segoe UI, segoeui, Helvetica Neue, helvetica, arial",
+        "size": "20px (1.25rem)",
+        "weight": 400,
+        "lineHeight": "1.60",
+        "spacing": "-0.6px",
+        "transform": null
+      },
+      {
+        "context": "heading-1",
+        "family": "Segoe UI Variable Display",
+        "fallbacks": "Segoe UI, segoeui, Helvetica Neue, helvetica, arial",
+        "size": "20px (1.25rem)",
+        "weight": 600,
+        "lineHeight": "1.40",
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "heading-1",
+        "family": "Segoe UI Variable Text",
+        "fallbacks": "Segoe UI, segoeui, Helvetica Neue, helvetica, arial",
+        "size": "20px (1.25rem)",
+        "weight": 600,
+        "lineHeight": "1.40",
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "heading-1",
+        "family": "Segoe UI",
+        "fallbacks": "SegoeUI, Helvetica Neue, Helvetica, Arial",
+        "size": "18px (1.13rem)",
+        "weight": 600,
+        "lineHeight": null,
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "link",
+        "family": "Segoe UI Variable Text",
+        "fallbacks": "Segoe UI, segoeui, Helvetica Neue, helvetica, arial",
+        "size": "16px (1.00rem)",
+        "weight": 400,
+        "lineHeight": null,
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "link",
+        "family": "Segoe UI",
+        "fallbacks": "SegoeUI, Helvetica Neue, Helvetica, Arial",
+        "size": "16px (1.00rem)",
+        "weight": 600,
+        "lineHeight": null,
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "heading-1",
+        "family": "Segoe UI Variable Text",
+        "fallbacks": "Segoe UI, segoeui, Helvetica Neue, helvetica, arial",
+        "size": "16px (1.00rem)",
+        "weight": 400,
+        "lineHeight": "1.50",
+        "spacing": "-0.48px",
+        "transform": null
+      },
+      {
+        "context": "link",
+        "family": "Segoe UI Variable Text",
+        "fallbacks": "Segoe UI, segoeui, Helvetica Neue, helvetica, arial",
+        "size": "16px (1.00rem)",
+        "weight": 600,
+        "lineHeight": "1.50",
+        "spacing": "-0.32px",
+        "transform": null
+      },
+      {
+        "context": "heading-1",
+        "family": "Segoe UI Variable Text",
+        "fallbacks": "Segoe UI, segoeui, Helvetica Neue, helvetica, arial",
+        "size": "16px (1.00rem)",
+        "weight": 600,
+        "lineHeight": "1.50",
+        "spacing": "-0.32px",
+        "transform": null
+      },
+      {
+        "context": "link",
+        "family": "Segoe UI Variable Text",
+        "fallbacks": "Segoe UI, segoeui, Helvetica Neue, helvetica, arial",
+        "size": "16px (1.00rem)",
+        "weight": 400,
+        "lineHeight": "1.50",
+        "spacing": "-0.48px",
+        "transform": null
+      },
+      {
+        "context": "button",
+        "family": "Segoe UI Variable Text",
+        "fallbacks": "Segoe UI, segoeui, Helvetica Neue, helvetica, arial",
+        "size": "16px (1.00rem)",
+        "weight": 600,
+        "lineHeight": "1.50",
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "button",
+        "family": "Segoe UI Variable Text",
+        "fallbacks": "Segoe UI, segoeui, Helvetica Neue, helvetica, arial",
+        "size": "16px (1.00rem)",
+        "weight": 400,
+        "lineHeight": "1.50",
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "heading-1",
+        "family": "Segoe UI Variable Text",
+        "fallbacks": "Segoe UI, segoeui, Helvetica Neue, helvetica, arial",
+        "size": "16px (1.00rem)",
+        "weight": 400,
+        "lineHeight": "1.50",
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "link",
+        "family": "Segoe UI Variable Text",
+        "fallbacks": "Segoe UI, segoeui, Helvetica Neue, helvetica, arial",
+        "size": "16px (1.00rem)",
+        "weight": 600,
+        "lineHeight": "1.50",
+        "spacing": "-0.48px",
+        "transform": null
+      },
+      {
+        "context": "heading-1",
+        "family": "Segoe UI Variable Text",
+        "fallbacks": "Segoe UI, segoeui, Helvetica Neue, helvetica, arial",
+        "size": "16px (1.00rem)",
+        "weight": 600,
+        "lineHeight": "1.50",
+        "spacing": "-0.48px",
+        "transform": null
+      },
+      {
+        "context": "heading-1",
+        "family": "Segoe UI Variable Text",
+        "fallbacks": "Segoe UI, segoeui, Helvetica Neue, helvetica, arial",
+        "size": "16px (1.00rem)",
+        "weight": 600,
+        "lineHeight": "1.50",
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "heading-1",
+        "family": "Segoe UI Variable Text",
+        "fallbacks": "Segoe UI, segoeui, Helvetica Neue, helvetica, arial",
+        "size": "16px (1.00rem)",
+        "weight": 600,
+        "lineHeight": "1.38",
+        "spacing": "-0.3px",
+        "transform": null
+      },
+      {
+        "context": "button",
+        "family": "Segoe UI Variable Text",
+        "fallbacks": "Segoe UI, segoeui, Helvetica Neue, helvetica, arial",
+        "size": "16px (1.00rem)",
+        "weight": 400,
+        "lineHeight": "1.50",
+        "spacing": "-0.48px",
+        "transform": null
+      },
+      {
+        "context": "button",
+        "family": "Segoe UI",
+        "fallbacks": "SegoeUI, Arial",
+        "size": "15px (0.94rem)",
+        "weight": 400,
+        "lineHeight": "1.33",
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "heading-1",
+        "family": "Segoe UI",
+        "fallbacks": "SegoeUI, Helvetica Neue, Helvetica, Arial",
+        "size": "15px (0.94rem)",
+        "weight": 400,
+        "lineHeight": null,
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "button",
+        "family": "Segoe UI Variable Text",
+        "fallbacks": "Segoe UI, segoeui, Helvetica Neue, helvetica, arial",
+        "size": "15px (0.94rem)",
+        "weight": 600,
+        "lineHeight": "1.47",
+        "spacing": "-0.3px",
+        "transform": null
+      },
+      {
+        "context": "heading-1",
+        "family": "Segoe UI Variable Text",
+        "fallbacks": "Segoe UI, segoeui, Helvetica Neue, helvetica, arial",
+        "size": "15px (0.94rem)",
+        "weight": 600,
+        "lineHeight": "1.47",
+        "spacing": "-0.3px",
+        "transform": null
+      },
+      {
+        "context": "heading-1",
+        "family": "Segoe UI",
+        "fallbacks": "SegoeUI, Helvetica Neue, Helvetica, Arial",
+        "size": "15px (0.94rem)",
+        "weight": 600,
+        "lineHeight": "1.33",
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "link",
+        "family": "Segoe UI Variable Text",
+        "fallbacks": "Segoe UI, segoeui, Helvetica Neue, helvetica, arial",
+        "size": "14px (0.88rem)",
+        "weight": 600,
+        "lineHeight": "1.43",
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "caption",
+        "family": "Segoe UI Variable Text",
+        "fallbacks": "Segoe UI, segoeui, Helvetica Neue, helvetica, arial",
+        "size": "14px (0.88rem)",
+        "weight": 600,
+        "lineHeight": "1.43",
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "button",
+        "family": "Segoe UI Variable Text",
+        "fallbacks": "Segoe UI, segoeui, Helvetica Neue, helvetica, arial",
+        "size": "14px (0.88rem)",
+        "weight": 600,
+        "lineHeight": "1.43",
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "caption",
+        "family": "Segoe UI Variable Text",
+        "fallbacks": "Segoe UI, segoeui, Helvetica Neue, helvetica, arial",
+        "size": "14px (0.88rem)",
+        "weight": 400,
+        "lineHeight": "1.43",
+        "spacing": "-0.42px",
+        "transform": null
+      },
+      {
+        "context": "button",
+        "family": "Segoe UI Variable Text",
+        "fallbacks": "Segoe UI, segoeui, Helvetica Neue, helvetica, arial",
+        "size": "14px (0.88rem)",
+        "weight": 400,
+        "lineHeight": "1.43",
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "link",
+        "family": "Segoe UI Variable Text",
+        "fallbacks": "Segoe UI, segoeui, Helvetica Neue, helvetica, arial",
+        "size": "14px (0.88rem)",
+        "weight": 400,
+        "lineHeight": "1.43",
+        "spacing": "-0.42px",
+        "transform": null
+      },
+      {
+        "context": "caption",
+        "family": "Segoe UI Variable Small",
+        "fallbacks": "Segoe UI, segoeui, Helvetica Neue, helvetica, arial",
+        "size": "14px (0.88rem)",
+        "weight": 400,
+        "lineHeight": "1.43",
+        "spacing": "-0.42px",
+        "transform": null
+      },
+      {
+        "context": "link",
+        "family": "Segoe UI Variable Small",
+        "fallbacks": "Segoe UI, segoeui, Helvetica Neue, helvetica, arial",
+        "size": "14px (0.88rem)",
+        "weight": 400,
+        "lineHeight": "1.43",
+        "spacing": "-0.42px",
+        "transform": null
+      },
+      {
+        "context": "caption",
+        "family": "Segoe UI",
+        "fallbacks": "SegoeUI, Arial",
+        "size": "13px (0.81rem)",
+        "weight": 400,
+        "lineHeight": "1.23",
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "link",
+        "family": "Segoe UI",
+        "fallbacks": "SegoeUI, Arial",
+        "size": "13px (0.81rem)",
+        "weight": 400,
+        "lineHeight": "1.23",
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "button",
+        "family": "Segoe UI",
+        "fallbacks": "SegoeUI, Helvetica Neue, Helvetica, Arial",
+        "size": "13px (0.81rem)",
+        "weight": 400,
+        "lineHeight": null,
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "button",
+        "family": "Segoe UI",
+        "fallbacks": "SegoeUI, Helvetica Neue, Helvetica, Arial",
+        "size": "13px (0.81rem)",
+        "weight": 600,
+        "lineHeight": null,
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "link",
+        "family": "Segoe UI",
+        "fallbacks": "SegoeUI, Helvetica Neue, Helvetica, Arial",
+        "size": "13px (0.81rem)",
+        "weight": 400,
+        "lineHeight": "0.23",
+        "spacing": null,
+        "transform": "uppercase"
+      },
+      {
+        "context": "caption",
+        "family": "Segoe UI Variable Text",
+        "fallbacks": "Segoe UI, segoeui, Helvetica Neue, helvetica, arial",
+        "size": "12px (0.75rem)",
+        "weight": 600,
+        "lineHeight": "1.33",
+        "spacing": "0.96px",
+        "transform": "uppercase"
+      },
+      {
+        "context": "link",
+        "family": "Segoe UI Variable Text",
+        "fallbacks": "Segoe UI, segoeui, Helvetica Neue, helvetica, arial",
+        "size": "12px (0.75rem)",
+        "weight": 400,
+        "lineHeight": "0.00",
+        "spacing": "-0.48px",
+        "transform": null
+      },
+      {
+        "context": "button",
+        "family": "Segoe UI Variable Text",
+        "fallbacks": "Segoe UI, segoeui, Helvetica Neue, helvetica, arial",
+        "size": "12px (0.75rem)",
+        "weight": 400,
+        "lineHeight": "1.00",
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "caption",
+        "family": "Segoe UI Variable Small",
+        "fallbacks": "Segoe UI, segoeui, Helvetica Neue, helvetica, arial",
+        "size": "12px (0.75rem)",
+        "weight": 400,
+        "lineHeight": "1.33",
+        "spacing": "-0.36px",
+        "transform": null
+      },
+      {
+        "context": "caption",
+        "family": "Segoe UI Variable Text",
+        "fallbacks": "Segoe UI, segoeui, Helvetica Neue, helvetica, arial",
+        "size": "12px (0.75rem)",
+        "weight": 600,
+        "lineHeight": "1.33",
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "link",
+        "family": "Segoe UI Variable Text",
+        "fallbacks": "Segoe UI, segoeui, Helvetica Neue, helvetica, arial",
+        "size": "12px (0.75rem)",
+        "weight": 600,
+        "lineHeight": "1.33",
+        "spacing": "-0.24px",
+        "transform": null
+      },
+      {
+        "context": "caption",
+        "family": "Segoe UI Variable Text",
+        "fallbacks": "Segoe UI, segoeui, Helvetica Neue, helvetica, arial",
+        "size": "12px (0.75rem)",
+        "weight": 600,
+        "lineHeight": "1.33",
+        "spacing": "-0.24px",
+        "transform": null
+      },
+      {
+        "context": "link",
+        "family": "Segoe UI Variable Text",
+        "fallbacks": "Segoe UI, segoeui, Helvetica Neue, helvetica, arial",
+        "size": "12px (0.75rem)",
+        "weight": 600,
+        "lineHeight": "1.33",
+        "spacing": "0.96px",
+        "transform": null
+      },
+      {
+        "context": "link",
+        "family": "Segoe UI",
+        "fallbacks": "SegoeUI, Helvetica Neue, Helvetica, Arial",
+        "size": "11px (0.69rem)",
+        "weight": 400,
+        "lineHeight": "1.45",
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "caption",
+        "family": "Segoe UI",
+        "fallbacks": "SegoeUI, Helvetica Neue, Helvetica, Arial",
+        "size": "11px (0.69rem)",
+        "weight": 400,
+        "lineHeight": "1.45",
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "link",
+        "family": "Segoe UI Variable Text",
+        "fallbacks": "Segoe UI, segoeui, Helvetica Neue, helvetica, arial",
+        "size": "9px (0.56rem)",
+        "weight": 400,
+        "lineHeight": "0.00",
+        "spacing": "-0.36px",
+        "transform": null
+      }
+    ],
+    "sources": {
+      "googleFonts": [],
+      "adobeFonts": false,
+      "variableFonts": false
+    }
+  },
+  "spacing": {
+    "scaleType": "8px",
+    "commonValues": [
+      {
+        "px": "1px",
+        "rem": "0.06rem",
+        "count": 34,
+        "numericValue": 1
+      },
+      {
+        "px": "2px",
+        "rem": "0.13rem",
+        "count": 108,
+        "numericValue": 2
+      },
+      {
+        "px": "3px",
+        "rem": "0.19rem",
+        "count": 69,
+        "numericValue": 3
+      },
+      {
+        "px": "4px",
+        "rem": "0.25rem",
+        "count": 39,
+        "numericValue": 4
+      },
+      {
+        "px": "5px",
+        "rem": "0.31rem",
+        "count": 6,
+        "numericValue": 5
+      },
+      {
+        "px": "8px",
+        "rem": "0.50rem",
+        "count": 304,
+        "numericValue": 8
+      },
+      {
+        "px": "10px",
+        "rem": "0.63rem",
+        "count": 329,
+        "numericValue": 10
+      },
+      {
+        "px": "12px",
+        "rem": "0.75rem",
+        "count": 469,
+        "numericValue": 12
+      },
+      {
+        "px": "13.5px",
+        "rem": "0.84rem",
+        "count": 14,
+        "numericValue": 13.5
+      },
+      {
+        "px": "14px",
+        "rem": "0.88rem",
+        "count": 22,
+        "numericValue": 14
+      },
+      {
+        "px": "16px",
+        "rem": "1.00rem",
+        "count": 149,
+        "numericValue": 16
+      },
+      {
+        "px": "17px",
+        "rem": "1.06rem",
+        "count": 24,
+        "numericValue": 17
+      },
+      {
+        "px": "18px",
+        "rem": "1.13rem",
+        "count": 48,
+        "numericValue": 18
+      },
+      {
+        "px": "24px",
+        "rem": "1.50rem",
+        "count": 266,
+        "numericValue": 24
+      },
+      {
+        "px": "28px",
+        "rem": "1.75rem",
+        "count": 8,
+        "numericValue": 28
+      },
+      {
+        "px": "32px",
+        "rem": "2.00rem",
+        "count": 112,
+        "numericValue": 32
+      },
+      {
+        "px": "36px",
+        "rem": "2.25rem",
+        "count": 8,
+        "numericValue": 36
+      },
+      {
+        "px": "48px",
+        "rem": "3.00rem",
+        "count": 60,
+        "numericValue": 48
+      },
+      {
+        "px": "72px",
+        "rem": "4.50rem",
+        "count": 8,
+        "numericValue": 72
+      },
+      {
+        "px": "96px",
+        "rem": "6.00rem",
+        "count": 28,
+        "numericValue": 96
+      }
+    ]
+  },
+  "borderRadius": {
+    "values": [
+      {
+        "value": "0px 0px 0px 16px",
+        "count": 1,
+        "elements": [
+          "span"
+        ],
+        "confidence": "low",
+        "numericValue": 0
+      },
+      {
+        "value": "0px 16px 16px 0px",
+        "count": 2,
+        "elements": [
+          "tab",
+          "div"
+        ],
+        "confidence": "low",
+        "numericValue": 0
+      },
+      {
+        "value": "0px 0px 16px",
+        "count": 1,
+        "elements": [
+          "span"
+        ],
+        "confidence": "low",
+        "numericValue": 0
+      },
+      {
+        "value": "3px",
+        "count": 2,
+        "elements": [
+          "a"
+        ],
+        "confidence": "low",
+        "numericValue": 3
+      },
+      {
+        "value": "4px",
+        "count": 175,
+        "elements": [
+          "div",
+          "span",
+          "dialog"
+        ],
+        "confidence": "high",
+        "numericValue": 4
+      },
+      {
+        "value": "8px",
+        "count": 250,
+        "elements": [
+          "Close Announcement Banner",
+          "Close",
+          "Download the Outlook app from Google Play Store or Apple App Store",
+          "Sign in to Outlook",
+          "button"
+        ],
+        "confidence": "high",
+        "numericValue": 8
+      },
+      {
+        "value": "16px 0px 0px 16px",
+        "count": 2,
+        "elements": [
+          "tab",
+          "div"
+        ],
+        "confidence": "low",
+        "numericValue": 16
+      },
+      {
+        "value": "16px",
+        "count": 51,
+        "elements": [
+          "image",
+          "img",
+          "video"
+        ],
+        "confidence": "high",
+        "numericValue": 16
+      },
+      {
+        "value": "24px",
+        "count": 88,
+        "elements": [
+          "modal",
+          "div",
+          "card"
+        ],
+        "confidence": "high",
+        "numericValue": 24
+      },
+      {
+        "value": "200px",
+        "count": 29,
+        "elements": [
+          "tab",
+          "button"
+        ],
+        "confidence": "high",
+        "numericValue": 200
+      },
+      {
+        "value": "50%",
+        "count": 4,
+        "elements": [
+          "input"
+        ],
+        "confidence": "medium",
+        "numericValue": 50
+      }
+    ]
+  },
+  "borders": {
+    "combinations": [
+      {
+        "width": "1px",
+        "style": "solid",
+        "color": "rgb(230, 242, 251)",
+        "count": 142,
+        "elements": [
+          "div",
+          "span",
+          "card"
+        ],
+        "confidence": "high"
+      },
+      {
+        "width": "2px",
+        "style": "solid",
+        "color": "rgb(9, 31, 44)",
+        "count": 32,
+        "elements": [
+          "button"
+        ],
+        "confidence": "high"
+      },
+      {
+        "width": "0px 0px 1px",
+        "style": "none none solid",
+        "color": "rgb(23, 37, 61)",
+        "count": 18,
+        "elements": [
+          "div"
+        ],
+        "confidence": "high"
+      },
+      {
+        "width": "1px 0px 0px",
+        "style": "solid",
+        "color": "rgb(178, 207, 185)",
+        "count": 14,
+        "elements": [
+          "div"
+        ],
+        "confidence": "high"
+      },
+      {
+        "width": "2px",
+        "style": "solid",
+        "color": "rgb(5, 17, 24)",
+        "count": 8,
+        "elements": [
+          "button"
+        ],
+        "confidence": "medium"
+      },
+      {
+        "width": "0px 0px 1px",
+        "style": "none none solid",
+        "color": "rgb(14, 23, 38)",
+        "count": 8,
+        "elements": [
+          "modal"
+        ],
+        "confidence": "medium"
+      },
+      {
+        "width": "2px",
+        "style": "solid",
+        "color": "rgb(14, 23, 38)",
+        "count": 8,
+        "elements": [
+          "button"
+        ],
+        "confidence": "medium"
+      },
+      {
+        "width": "0px 0px 1px",
+        "style": "none none solid",
+        "color": "rgb(5, 17, 24)",
+        "count": 7,
+        "elements": [
+          "a"
+        ],
+        "confidence": "medium"
+      },
+      {
+        "width": "1px 1px 2px",
+        "style": "solid",
+        "color": "rgba(0, 0, 0, 0.05)",
+        "count": 5,
+        "elements": [
+          "ul"
+        ],
+        "confidence": "medium"
+      },
+      {
+        "width": "2px",
+        "style": "outset",
+        "color": "rgb(0, 0, 0)",
+        "count": 3,
+        "elements": [
+          "button"
+        ],
+        "confidence": "low"
+      },
+      {
+        "width": "1px",
+        "style": "solid",
+        "color": "rgba(255, 255, 255, 0.1)",
+        "count": 3,
+        "elements": [
+          "div"
+        ],
+        "confidence": "low"
+      },
+      {
+        "width": "1px",
+        "style": "solid",
+        "color": "rgb(0, 0, 0)",
+        "count": 2,
+        "elements": [
+          "a"
+        ],
+        "confidence": "low"
+      },
+      {
+        "width": "1px",
+        "style": "solid",
+        "color": "rgb(210, 210, 210)",
+        "count": 2,
+        "elements": [
+          "listbox"
+        ],
+        "confidence": "low"
+      },
+      {
+        "width": "1px 0px 0px",
+        "style": "solid",
+        "color": "rgb(97, 98, 98)",
+        "count": 2,
+        "elements": [
+          "div"
+        ],
+        "confidence": "low"
+      },
+      {
+        "width": "1px 0px 0px",
+        "style": "solid none none",
+        "color": "rgb(117, 117, 117)",
+        "count": 2,
+        "elements": [
+          "hr"
+        ],
+        "confidence": "low"
+      },
+      {
+        "width": "0px 1px 0px 0px",
+        "style": "none solid none none",
+        "color": "rgb(189, 197, 210)",
+        "count": 2,
+        "elements": [
+          "tab"
+        ],
+        "confidence": "low"
+      },
+      {
+        "width": "0px 1px 0px 0px",
+        "style": "solid",
+        "color": "rgba(0, 0, 0, 0.1)",
+        "count": 1,
+        "elements": [
+          "button"
+        ],
+        "confidence": "low"
+      },
+      {
+        "width": "0px 0px 0px 1px",
+        "style": "solid",
+        "color": "rgba(0, 0, 0, 0.1)",
+        "count": 1,
+        "elements": [
+          "button"
+        ],
+        "confidence": "low"
+      },
+      {
+        "width": "1px",
+        "style": "solid",
+        "color": "rgba(0, 0, 0, 0.7)",
+        "count": 1,
+        "elements": [
+          "combobox"
+        ],
+        "confidence": "low"
+      },
+      {
+        "width": "0px 0px 2px",
+        "style": "none none solid",
+        "color": "rgb(0, 0, 0)",
+        "count": 1,
+        "elements": [
+          "li"
+        ],
+        "confidence": "low"
+      }
+    ]
+  },
+  "shadows": [
+    {
+      "shadow": "rgba(0, 0, 0, 0.12) 0px 0px 2px 0px, rgba(0, 0, 0, 0.14) 0px 2px 4px 0px",
+      "count": 231,
+      "confidence": "high"
+    },
+    {
+      "shadow": "rgba(0, 0, 0, 0.12) 0px 0px 2px 0px, rgba(0, 0, 0, 0.14) 0px 1.008px 2px 0px",
+      "count": 4,
+      "confidence": "medium"
+    }
+  ],
+  "components": {
+    "buttons": [
+      {
+        "states": {
+          "default": {
+            "backgroundColor": "rgb(235, 235, 235)",
+            "color": "rgb(0, 0, 0)",
+            "padding": "5px",
+            "borderRadius": "0px",
+            "border": "0px none rgb(0, 0, 0)",
+            "boxShadow": "none",
+            "outline": "rgb(0, 0, 0) none 0px",
+            "transform": "none",
+            "opacity": "1"
+          },
+          "hover": {
+            "color": "rgb(242, 242, 242)",
+            "backgroundColor": "rgb(0, 0, 0)",
+            "transform": "translate(-0.25rem, -50%)",
+            "boxShadow": "none",
+            "opacity": "1",
+            "border": "none",
+            "outline": "none"
+          },
+          "active": {
+            "backgroundColor": "rgb(0, 103, 184)",
+            "color": "rgb(0, 0, 0)",
+            "transform": "none",
+            "boxShadow": "none",
+            "outline": "transparent"
+          },
+          "focus": {
+            "outline": "currentcolor dashed 1px",
+            "color": "rgba(0, 0, 0, 0.2)",
+            "backgroundColor": "rgb(0, 0, 0)",
+            "border": "2px solid rgb(0, 0, 0)",
+            "boxShadow": "rgb(255, 255, 255) 0px 2px"
+          }
+        },
+        "fontWeight": "400",
+        "fontSize": "15px",
+        "classes": "_1XuCi2WhiqeWRUVp3pnFG3 erL690_8JwUW-R4bJRcfl",
+        "confidence": "high"
+      },
+      {
+        "states": {
+          "default": {
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "color": "rgb(38, 38, 38)",
+            "padding": "16px 30px 16px 16px",
+            "borderRadius": "0px",
+            "border": "1px solid rgba(0, 0, 0, 0)",
+            "boxShadow": "none",
+            "outline": "rgb(38, 38, 38) none 0px",
+            "transform": "none",
+            "opacity": "1"
+          },
+          "hover": {
+            "color": "rgb(242, 242, 242)",
+            "backgroundColor": "rgb(0, 0, 0)",
+            "transform": "translate(-0.25rem, -50%)",
+            "boxShadow": "none",
+            "opacity": "1",
+            "outline": "none"
+          },
+          "active": {
+            "backgroundColor": "rgb(0, 103, 184)",
+            "color": "rgb(0, 0, 0)",
+            "transform": "none",
+            "boxShadow": "none",
+            "outline": "transparent"
+          },
+          "focus": {
+            "outline": "currentcolor dashed 1px",
+            "color": "rgba(0, 0, 0, 0.2)",
+            "backgroundColor": "rgb(0, 0, 0)",
+            "border": "1px dotted rgb(0, 0, 0)",
+            "boxShadow": "rgb(255, 255, 255) 0px 2px"
+          }
+        },
+        "fontWeight": "400",
+        "fontSize": "13px",
+        "classes": "",
+        "confidence": "high"
+      },
+      {
+        "states": {
+          "default": {
+            "backgroundColor": "rgb(9, 31, 44)",
+            "color": "rgb(255, 255, 255)",
+            "padding": "12px 16px",
+            "borderRadius": "8px",
+            "border": "2px solid rgba(0, 0, 0, 0)",
+            "boxShadow": "none",
+            "outline": "rgb(255, 255, 255) none 0px",
+            "transform": "none",
+            "opacity": "1"
+          },
+          "hover": {
+            "boxShadow": "rgb(119, 119, 119) 2px 2px 2px",
+            "transform": "unset",
+            "opacity": "1",
+            "border": "1px solid rgb(204, 204, 204)",
+            "backgroundColor": "rgb(255, 255, 255)",
+            "color": "rgba(0, 0, 0, 0.9)",
+            "outline": "transparent"
+          },
+          "active": {
+            "backgroundColor": "initial",
+            "color": "rgba(0, 0, 0, 0.8)",
+            "border": "2px solid",
+            "opacity": "1",
+            "outline": "none",
+            "transform": "none",
+            "boxShadow": "none"
+          },
+          "focus": {
+            "outline": "dashed 1px",
+            "backgroundColor": "rgb(255, 255, 255)",
+            "color": "rgba(0, 0, 0, 0.9)",
+            "boxShadow": "rgb(119, 119, 119) 2px 2px 2px",
+            "border": "none",
+            "transform": "unset",
+            "opacity": "1"
+          }
+        },
+        "fontWeight": "600",
+        "fontSize": "15px",
+        "classes": "btn ",
+        "confidence": "medium"
+      },
+      {
+        "states": {
+          "default": {
+            "backgroundColor": "rgb(6, 22, 31)",
+            "color": "rgb(255, 255, 255)",
+            "padding": "8px 24px",
+            "borderRadius": "200px",
+            "border": "0px none rgb(255, 255, 255)",
+            "boxShadow": "none",
+            "outline": "rgb(255, 255, 255) none 0px",
+            "transform": "none",
+            "opacity": "1"
+          },
+          "hover": {
+            "color": "rgb(242, 242, 242)",
+            "backgroundColor": "rgb(0, 0, 0)",
+            "opacity": "1",
+            "transform": "translate(-0.25rem, -50%)",
+            "boxShadow": "none",
+            "outline": "none"
+          },
+          "active": {
+            "backgroundColor": "rgb(0, 103, 184)",
+            "color": "rgb(0, 0, 0)",
+            "transform": "none",
+            "boxShadow": "none",
+            "outline": "transparent"
+          },
+          "focus": {
+            "outline": "currentcolor dashed 1px",
+            "color": "rgba(0, 0, 0, 0.2)",
+            "backgroundColor": "rgb(0, 0, 0)",
+            "opacity": "0",
+            "border": "1px dotted rgb(0, 0, 0)",
+            "boxShadow": "rgb(255, 255, 255) 0px 2px"
+          }
+        },
+        "fontWeight": "600",
+        "fontSize": "16px",
+        "classes": "pill-bar__item active",
+        "confidence": "high"
+      },
+      {
+        "states": {
+          "default": {
+            "backgroundColor": "rgba(6, 22, 31, 0.1)",
+            "color": "rgb(5, 17, 24)",
+            "padding": "8px 24px",
+            "borderRadius": "200px",
+            "border": "0px none rgb(5, 17, 24)",
+            "boxShadow": "none",
+            "outline": "rgb(5, 17, 24) none 0px",
+            "transform": "none",
+            "opacity": "1"
+          },
+          "hover": {
+            "color": "rgb(242, 242, 242)",
+            "backgroundColor": "rgb(0, 0, 0)",
+            "transform": "translate(-0.25rem, -50%)",
+            "boxShadow": "none",
+            "opacity": "1",
+            "outline": "none"
+          },
+          "active": {
+            "backgroundColor": "rgb(0, 103, 184)",
+            "color": "rgb(0, 0, 0)",
+            "transform": "none",
+            "boxShadow": "none",
+            "outline": "transparent"
+          },
+          "focus": {
+            "outline": "currentcolor dashed 1px",
+            "color": "rgba(0, 0, 0, 0.2)",
+            "backgroundColor": "rgb(0, 0, 0)",
+            "border": "1px dotted rgb(0, 0, 0)",
+            "boxShadow": "rgb(255, 255, 255) 0px 2px"
+          }
+        },
+        "fontWeight": "600",
+        "fontSize": "16px",
+        "classes": "pill-bar__item ",
+        "confidence": "high"
+      },
+      {
+        "states": {
+          "default": {
+            "backgroundColor": "rgb(0, 0, 0)",
+            "color": "rgb(255, 255, 255)",
+            "padding": "12px 16px",
+            "borderRadius": "8px",
+            "border": "2px solid rgba(0, 0, 0, 0)",
+            "boxShadow": "none",
+            "outline": "rgb(255, 255, 255) none 0px",
+            "transform": "none",
+            "opacity": "1"
+          },
+          "hover": {
+            "boxShadow": "rgb(119, 119, 119) 2px 2px 2px",
+            "transform": "unset",
+            "opacity": "1",
+            "border": "1px solid rgb(204, 204, 204)",
+            "backgroundColor": "rgb(255, 255, 255)",
+            "color": "rgba(0, 0, 0, 0.9)",
+            "outline": "transparent"
+          },
+          "active": {
+            "backgroundColor": "initial",
+            "color": "rgba(0, 0, 0, 0.8)",
+            "border": "2px solid",
+            "opacity": "1",
+            "outline": "none",
+            "transform": "none",
+            "boxShadow": "none"
+          },
+          "focus": {
+            "outline": "dashed 1px",
+            "backgroundColor": "rgb(255, 255, 255)",
+            "color": "rgba(0, 0, 0, 0.9)",
+            "boxShadow": "rgb(119, 119, 119) 2px 2px 2px",
+            "border": "none",
+            "transform": "unset",
+            "opacity": "1"
+          }
+        },
+        "fontWeight": "600",
+        "fontSize": "15px",
+        "classes": "btn bg-black",
+        "confidence": "medium"
+      },
+      {
+        "states": {
+          "default": {
+            "backgroundColor": "rgb(114, 114, 114)",
+            "color": "rgb(255, 255, 255)",
+            "padding": "10px",
+            "borderRadius": "0px",
+            "border": "2px outset rgb(0, 0, 0)",
+            "boxShadow": "none",
+            "outline": "rgb(255, 255, 255) none 0px",
+            "transform": "none",
+            "opacity": "1"
+          },
+          "hover": {
+            "color": "rgb(242, 242, 242)",
+            "backgroundColor": "rgb(0, 0, 0)",
+            "transform": "translate(-0.25rem, -50%)",
+            "boxShadow": "none",
+            "opacity": "1",
+            "outline": "none"
+          },
+          "active": {
+            "backgroundColor": "rgb(0, 103, 184)",
+            "color": "rgb(0, 0, 0)",
+            "transform": "none",
+            "boxShadow": "none",
+            "outline": "transparent"
+          },
+          "focus": {
+            "outline": "currentcolor dashed 1px",
+            "color": "rgba(0, 0, 0, 0.2)",
+            "backgroundColor": "rgb(0, 0, 0)",
+            "border": "1px dotted rgb(0, 0, 0)",
+            "boxShadow": "rgb(255, 255, 255) 0px 2px"
+          }
+        },
+        "fontWeight": "400",
+        "fontSize": "16px",
+        "classes": "",
+        "confidence": "high"
+      }
+    ],
+    "inputs": {
+      "text": [],
+      "checkbox": [],
+      "radio": [],
+      "select": []
+    },
+    "links": [
+      {
+        "color": "rgb(0, 103, 184)",
+        "textDecoration": "underline",
+        "fontWeight": "400",
+        "states": {
+          "default": {
+            "color": "rgb(0, 103, 184)",
+            "textDecoration": "underline"
+          },
+          "hover": {
+            "textDecoration": "none",
+            "color": "rgba(0, 0, 0, 0.8)"
+          }
+        }
+      },
+      {
+        "color": "rgb(38, 38, 38)",
+        "textDecoration": "none",
+        "fontWeight": "400",
+        "states": {
+          "default": {
+            "color": "rgb(38, 38, 38)",
+            "textDecoration": "none"
+          },
+          "hover": {
+            "textDecoration": "none",
+            "color": "rgba(0, 0, 0, 0.8)"
+          }
+        }
+      },
+      {
+        "color": "rgb(220, 238, 248)",
+        "textDecoration": "none",
+        "fontWeight": "600",
+        "states": {
+          "default": {
+            "color": "rgb(220, 238, 248)",
+            "textDecoration": "none"
+          },
+          "hover": {
+            "textDecoration": "none",
+            "color": "rgba(0, 0, 0, 0.8)"
+          }
+        }
+      },
+      {
+        "color": "rgb(255, 255, 255)",
+        "textDecoration": "none",
+        "fontWeight": "600",
+        "states": {
+          "default": {
+            "color": "rgb(255, 255, 255)",
+            "textDecoration": "underline"
+          },
+          "hover": {
+            "textDecoration": "none",
+            "color": "rgba(0, 0, 0, 0.8)"
+          }
+        }
+      },
+      {
+        "color": "rgb(5, 17, 24)",
+        "textDecoration": "none",
+        "fontWeight": "600",
+        "states": {
+          "default": {
+            "color": "rgb(5, 17, 24)",
+            "textDecoration": "underline"
+          },
+          "hover": {
+            "textDecoration": "none",
+            "color": "rgba(0, 0, 0, 0.8)"
+          }
+        }
+      },
+      {
+        "color": "rgb(0, 0, 0)",
+        "textDecoration": "none",
+        "fontWeight": "600",
+        "states": {
+          "default": {
+            "color": "rgb(0, 0, 0)",
+            "textDecoration": "none"
+          },
+          "hover": {
+            "textDecoration": "none",
+            "color": "rgba(0, 0, 0, 0.8)"
+          }
+        }
+      },
+      {
+        "color": "rgb(80, 80, 80)",
+        "textDecoration": "none",
+        "fontWeight": "600",
+        "states": {
+          "default": {
+            "color": "rgb(80, 80, 80)",
+            "textDecoration": "none"
+          },
+          "hover": {
+            "textDecoration": "none",
+            "color": "rgba(0, 0, 0, 0.8)"
+          }
+        }
+      },
+      {
+        "color": "rgb(97, 97, 97)",
+        "textDecoration": "none",
+        "fontWeight": "400",
+        "states": {
+          "default": {
+            "color": "rgb(97, 97, 97)",
+            "textDecoration": "none"
+          },
+          "hover": {
+            "textDecoration": "underline",
+            "color": "rgba(0, 0, 0, 0.9)"
+          }
+        }
+      }
+    ],
+    "badges": {
+      "all": [
+        {
+          "backgroundColor": "rgb(42, 68, 111)",
+          "color": "rgb(42, 68, 111)",
+          "padding": "0px",
+          "borderRadius": "4px",
+          "border": "0px none rgb(42, 68, 111)",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "lineHeight": "24px",
+          "textTransform": "none",
+          "letterSpacing": "-0.48px",
+          "variant": "neutral",
+          "styleType": "filled",
+          "isRounded": true,
+          "classes": "indicator indicator--shape-pill",
+          "confidence": "high"
+        },
+        {
+          "backgroundColor": "rgb(6, 22, 31)",
+          "color": "rgb(255, 255, 255)",
+          "padding": "8px 24px",
+          "borderRadius": "200px",
+          "border": "0px none rgb(255, 255, 255)",
+          "fontSize": "16px",
+          "fontWeight": "600",
+          "lineHeight": "24px",
+          "textTransform": "none",
+          "letterSpacing": "normal",
+          "variant": "neutral",
+          "styleType": "filled",
+          "isRounded": true,
+          "classes": "pill-bar__item active",
+          "confidence": "high"
+        },
+        {
+          "backgroundColor": "rgba(6, 22, 31, 0.1)",
+          "color": "rgb(5, 17, 24)",
+          "padding": "8px 24px",
+          "borderRadius": "200px",
+          "border": "0px none rgb(5, 17, 24)",
+          "fontSize": "16px",
+          "fontWeight": "600",
+          "lineHeight": "24px",
+          "textTransform": "none",
+          "letterSpacing": "normal",
+          "variant": "neutral",
+          "styleType": "filled",
+          "isRounded": true,
+          "classes": "pill-bar__item ",
+          "confidence": "high"
+        },
+        {
+          "backgroundColor": "rgb(254, 254, 254)",
+          "color": "rgb(23, 37, 61)",
+          "padding": "0px",
+          "borderRadius": "8px",
+          "border": "1px solid rgb(230, 242, 251)",
+          "fontSize": "16px",
+          "fontWeight": "600",
+          "lineHeight": "16px",
+          "textTransform": "none",
+          "letterSpacing": "-0.48px",
+          "variant": "neutral",
+          "styleType": "subtle",
+          "isRounded": false,
+          "classes": "badge badge--size-s",
+          "confidence": "high"
+        },
+        {
+          "backgroundColor": "rgb(254, 254, 254)",
+          "color": "rgb(0, 0, 0)",
+          "padding": "0px",
+          "borderRadius": "8px",
+          "border": "1px solid rgb(230, 242, 251)",
+          "fontSize": "16px",
+          "fontWeight": "600",
+          "lineHeight": "16px",
+          "textTransform": "none",
+          "letterSpacing": "normal",
+          "variant": "neutral",
+          "styleType": "subtle",
+          "isRounded": false,
+          "classes": "badge badge-logo--xs badge--size-xs",
+          "confidence": "high"
+        }
+      ],
+      "byVariant": {
+        "error": [],
+        "warning": [],
+        "success": [],
+        "info": [],
+        "neutral": [
+          {
+            "backgroundColor": "rgb(42, 68, 111)",
+            "color": "rgb(42, 68, 111)",
+            "padding": "0px",
+            "borderRadius": "4px",
+            "border": "0px none rgb(42, 68, 111)",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "24px",
+            "textTransform": "none",
+            "letterSpacing": "-0.48px",
+            "variant": "neutral",
+            "styleType": "filled",
+            "isRounded": true,
+            "classes": "indicator indicator--shape-pill",
+            "confidence": "high"
+          },
+          {
+            "backgroundColor": "rgb(6, 22, 31)",
+            "color": "rgb(255, 255, 255)",
+            "padding": "8px 24px",
+            "borderRadius": "200px",
+            "border": "0px none rgb(255, 255, 255)",
+            "fontSize": "16px",
+            "fontWeight": "600",
+            "lineHeight": "24px",
+            "textTransform": "none",
+            "letterSpacing": "normal",
+            "variant": "neutral",
+            "styleType": "filled",
+            "isRounded": true,
+            "classes": "pill-bar__item active",
+            "confidence": "high"
+          },
+          {
+            "backgroundColor": "rgba(6, 22, 31, 0.1)",
+            "color": "rgb(5, 17, 24)",
+            "padding": "8px 24px",
+            "borderRadius": "200px",
+            "border": "0px none rgb(5, 17, 24)",
+            "fontSize": "16px",
+            "fontWeight": "600",
+            "lineHeight": "24px",
+            "textTransform": "none",
+            "letterSpacing": "normal",
+            "variant": "neutral",
+            "styleType": "filled",
+            "isRounded": true,
+            "classes": "pill-bar__item ",
+            "confidence": "high"
+          },
+          {
+            "backgroundColor": "rgb(254, 254, 254)",
+            "color": "rgb(23, 37, 61)",
+            "padding": "0px",
+            "borderRadius": "8px",
+            "border": "1px solid rgb(230, 242, 251)",
+            "fontSize": "16px",
+            "fontWeight": "600",
+            "lineHeight": "16px",
+            "textTransform": "none",
+            "letterSpacing": "-0.48px",
+            "variant": "neutral",
+            "styleType": "subtle",
+            "isRounded": false,
+            "classes": "badge badge--size-s",
+            "confidence": "high"
+          },
+          {
+            "backgroundColor": "rgb(254, 254, 254)",
+            "color": "rgb(0, 0, 0)",
+            "padding": "0px",
+            "borderRadius": "8px",
+            "border": "1px solid rgb(230, 242, 251)",
+            "fontSize": "16px",
+            "fontWeight": "600",
+            "lineHeight": "16px",
+            "textTransform": "none",
+            "letterSpacing": "normal",
+            "variant": "neutral",
+            "styleType": "subtle",
+            "isRounded": false,
+            "classes": "badge badge-logo--xs badge--size-xs",
+            "confidence": "high"
+          }
+        ]
+      }
+    }
+  },
+  "breakpoints": [
+    {
+      "px": "8px"
+    },
+    {
+      "px": "9px"
+    },
+    {
+      "px": "78px"
+    },
+    {
+      "px": "98px"
+    },
+    {
+      "px": "260px"
+    },
+    {
+      "px": "320px"
+    },
+    {
+      "px": "340px"
+    },
+    {
+      "px": "360px"
+    },
+    {
+      "px": "539px"
+    },
+    {
+      "px": "540px"
+    },
+    {
+      "px": "560px"
+    },
+    {
+      "px": "615px"
+    },
+    {
+      "px": "767px"
+    },
+    {
+      "px": "768px"
+    },
+    {
+      "px": "819px"
+    },
+    {
+      "px": "820px"
+    },
+    {
+      "px": "859px"
+    },
+    {
+      "px": "860px"
+    },
+    {
+      "px": "939px"
+    },
+    {
+      "px": "1024px"
+    },
+    {
+      "px": "1025px"
+    },
+    {
+      "px": "1083px"
+    },
+    {
+      "px": "1084px"
+    },
+    {
+      "px": "1229px"
+    },
+    {
+      "px": "1230px"
+    },
+    {
+      "px": "1280px"
+    },
+    {
+      "px": "1300px"
+    },
+    {
+      "px": "1399px"
+    },
+    {
+      "px": "1400px"
+    },
+    {
+      "px": "1440px"
+    },
+    {
+      "px": "1778px"
+    },
+    {
+      "px": "1779px"
+    }
+  ],
+  "iconSystem": [],
+  "frameworks": [
+    {
+      "name": "PrimeReact/Vue/NG",
+      "confidence": "high",
+      "evidence": "77 Prime components"
+    },
+    {
+      "name": "Fluent UI",
+      "confidence": "high",
+      "evidence": "736 Fluent components"
+    },
+    {
+      "name": "Quasar",
+      "confidence": "high",
+      "evidence": "56 q- components"
+    },
+    {
+      "name": "Element Plus/UI",
+      "confidence": "high",
+      "evidence": "28 el- components"
+    }
+  ]
+}

@@ -1,0 +1,145 @@
+{
+  "core": [
+    {
+      "match": "brand|accent",
+      "role": "primary",
+      "boost": 12
+    },
+    {
+      "match": "interactive",
+      "role": "primary",
+      "boost": 6
+    },
+    {
+      "match": "control|btn|button",
+      "role": "primary",
+      "boost": 6
+    },
+    {
+      "match": "link-primary",
+      "role": "link",
+      "boost": 14
+    },
+    {
+      "match": "divider|stroke",
+      "role": "border",
+      "boost": 15
+    },
+    {
+      "match": "subdued|subtle",
+      "role": "muted",
+      "boost": 6
+    },
+    {
+      "match": "ring|focus-ring|outline",
+      "role": "ring",
+      "boost": 8
+    },
+    {
+      "match": "strong",
+      "role": "border",
+      "boost": 10
+    },
+    {
+      "match": "destructive|invalid",
+      "role": "danger",
+      "boost": 8
+    }
+  ],
+  "material": [
+    {
+      "match": "on-primary-container",
+      "role": "linkVariant",
+      "boost": 12
+    },
+    {
+      "match": "on-surface-variant",
+      "role": "muted",
+      "boost": 12
+    },
+    {
+      "match": "surface-variant",
+      "role": "border",
+      "boost": 11
+    },
+    {
+      "match": "primary-container",
+      "role": "primaryVariant",
+      "boost": 12
+    },
+    {
+      "match": "error-container",
+      "role": "dangerVariant",
+      "boost": 12
+    }
+  ],
+  "fluent": [
+    {
+      "match": "neutralForeground1",
+      "role": "text",
+      "boost": 14
+    },
+    {
+      "match": "neutralForeground2",
+      "role": "muted",
+      "boost": 12
+    },
+    {
+      "match": "neutralBackground1",
+      "role": "background",
+      "boost": 14
+    },
+    {
+      "match": "neutralStroke",
+      "role": "border",
+      "boost": 12
+    },
+    {
+      "match": "brandBackground",
+      "role": "primary",
+      "boost": 12
+    }
+  ],
+  "carbon": [
+    {
+      "match": "cds-text-primary",
+      "role": "text",
+      "boost": 14
+    },
+    {
+      "match": "cds-text-secondary",
+      "role": "muted",
+      "boost": 12
+    },
+    {
+      "match": "cds-background",
+      "role": "background",
+      "boost": 14
+    },
+    {
+      "match": "cds-layer-0[1-3]$",
+      "role": "surface",
+      "boost": 12
+    },
+    {
+      "match": "cds-field",
+      "role": "surface",
+      "boost": 10
+    },
+    {
+      "match": "cds-link-primary",
+      "role": "link",
+      "boost": 14
+    },
+    {
+      "match": "cds-border-subtle",
+      "role": "border",
+      "boost": 12
+    },
+    {
+      "match": "cds-border-strong",
+      "role": "border",
+      "boost": 10
+    }
+  ]
+}

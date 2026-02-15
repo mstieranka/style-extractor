@@ -1,0 +1,1173 @@
+{
+  "url": "https://www.theguardian.com/europe",
+  "extractedAt": "2026-01-09T09:37:56.673Z",
+  "logo": {
+    "source": "img",
+    "url": "https://i.guim.co.uk/img/media/5602890ef620af5b8c02784d85062ad26bfaa4a7/308_0_3083_2467/master/3083.jpg?width=120&dpr=1&s=none&crop=5%3A4",
+    "width": 220,
+    "height": 176,
+    "alt": "Person holds a phone with Grok logo displayed on screen.",
+    "safeZone": {
+      "top": 176,
+      "right": 0,
+      "bottom": 0,
+      "left": 0
+    }
+  },
+  "favicons": [
+    {
+      "type": "apple-touch-icon",
+      "url": "https://assets.guim.co.uk/static/frontend/icons/homescreen/apple-touch-icon.svg",
+      "sizes": "any"
+    },
+    {
+      "type": "apple-touch-icon",
+      "url": "https://assets.guim.co.uk/static/frontend/icons/homescreen/apple-touch-icon-512.png",
+      "sizes": "512x512"
+    },
+    {
+      "type": "apple-touch-icon",
+      "url": "https://assets.guim.co.uk/static/frontend/icons/homescreen/apple-touch-icon-360.png",
+      "sizes": "360x360"
+    },
+    {
+      "type": "apple-touch-icon",
+      "url": "https://assets.guim.co.uk/static/frontend/icons/homescreen/apple-touch-icon-240.png",
+      "sizes": "240x240"
+    },
+    {
+      "type": "apple-touch-icon",
+      "url": "https://assets.guim.co.uk/static/frontend/icons/homescreen/apple-touch-icon-120.png",
+      "sizes": "120x120"
+    },
+    {
+      "type": "icon",
+      "url": "https://static.guim.co.uk/images/favicon-32x32.ico",
+      "sizes": null
+    },
+    {
+      "type": "apple-touch-icon",
+      "url": "https://assets.guim.co.uk/static/frontend/icons/homescreen/apple-touch-icon.svg",
+      "sizes": "any"
+    },
+    {
+      "type": "apple-touch-icon",
+      "url": "https://assets.guim.co.uk/static/frontend/icons/homescreen/apple-touch-icon-512.png",
+      "sizes": "512x512"
+    },
+    {
+      "type": "apple-touch-icon",
+      "url": "https://assets.guim.co.uk/static/frontend/icons/homescreen/apple-touch-icon-360.png",
+      "sizes": "360x360"
+    },
+    {
+      "type": "apple-touch-icon",
+      "url": "https://assets.guim.co.uk/static/frontend/icons/homescreen/apple-touch-icon-240.png",
+      "sizes": "240x240"
+    },
+    {
+      "type": "apple-touch-icon",
+      "url": "https://assets.guim.co.uk/static/frontend/icons/homescreen/apple-touch-icon-120.png",
+      "sizes": "120x120"
+    },
+    {
+      "type": "favicon.ico",
+      "url": "https://www.theguardian.com/favicon.ico",
+      "sizes": null
+    }
+  ],
+  "colors": {
+    "semantic": {},
+    "palette": [
+      {
+        "color": "rgb(255, 255, 255)",
+        "normalized": "#ffffff",
+        "count": 839,
+        "confidence": "high",
+        "sources": [
+          "dcr-fq58ld",
+          "dcr-1s2zcg3",
+          "dcr-lprv81"
+        ]
+      },
+      {
+        "color": "rgb(0, 0, 238)",
+        "normalized": "#0000ee",
+        "count": 627,
+        "confidence": "high",
+        "sources": []
+      },
+      {
+        "color": "rgb(112, 112, 112)",
+        "normalized": "#707070",
+        "count": 458,
+        "confidence": "high",
+        "sources": []
+      },
+      {
+        "color": "rgb(0, 0, 0)",
+        "normalized": "#000000",
+        "count": 236,
+        "confidence": "high",
+        "sources": [
+          "dcr-1acea34"
+        ]
+      },
+      {
+        "color": "rgb(199, 0, 0)",
+        "normalized": "#c70000",
+        "count": 115,
+        "confidence": "high",
+        "sources": []
+      },
+      {
+        "color": "rgb(51, 51, 51)",
+        "normalized": "#333333",
+        "count": 61,
+        "confidence": "high",
+        "sources": []
+      },
+      {
+        "color": "rgb(134, 109, 80)",
+        "normalized": "#866d50",
+        "count": 53,
+        "confidence": "high",
+        "sources": []
+      },
+      {
+        "color": "rgb(187, 59, 128)",
+        "normalized": "#bb3b80",
+        "count": 51,
+        "confidence": "high",
+        "sources": []
+      }
+    ],
+    "cssVariables": {
+      "--masthead-nav-link-text-hover": "#FFE500",
+      "--sport-competition-text": "#005689",
+      "--key-event-text": "#AB0613",
+      "--affiliate-disclaimer-text-hover": "#BABABA",
+      "--labs-header-label-text": "#09615B",
+      "--discussion-report-success-text": "#22874D",
+      "--discussion-staff-label-text": "#052962"
+    }
+  },
+  "typography": {
+    "styles": [
+      {
+        "context": "heading-1",
+        "family": "GH Guardian Headline",
+        "fallbacks": "Guardian Egyptian Web, Georgia",
+        "size": "34px (2.13rem)",
+        "weight": 500,
+        "lineHeight": "1.15",
+        "spacing": null,
+        "transform": null,
+        "fontFeatures": "\"kern\""
+      },
+      {
+        "context": "heading-1",
+        "family": "GH Guardian Headline",
+        "fallbacks": "Guardian Egyptian Web, Georgia",
+        "size": "28px (1.75rem)",
+        "weight": 700,
+        "lineHeight": "1.15",
+        "spacing": null,
+        "transform": null,
+        "fontFeatures": "\"kern\""
+      },
+      {
+        "context": "heading-1",
+        "family": "GH Guardian Headline",
+        "fallbacks": "Guardian Egyptian Web, Georgia",
+        "size": "28px (1.75rem)",
+        "weight": 500,
+        "lineHeight": "1.15",
+        "spacing": null,
+        "transform": null,
+        "fontFeatures": "\"kern\""
+      },
+      {
+        "context": "heading-1",
+        "family": "GH Guardian Headline",
+        "fallbacks": "Guardian Egyptian Web, Georgia",
+        "size": "24px (1.50rem)",
+        "weight": 700,
+        "lineHeight": "1.15",
+        "spacing": null,
+        "transform": null,
+        "fontFeatures": "\"kern\""
+      },
+      {
+        "context": "link",
+        "family": "GH Guardian Headline",
+        "fallbacks": "Guardian Egyptian Web, Georgia",
+        "size": "24px (1.50rem)",
+        "weight": 700,
+        "lineHeight": "1.15",
+        "spacing": null,
+        "transform": null,
+        "fontFeatures": "\"kern\""
+      },
+      {
+        "context": "heading-1",
+        "family": "GH Guardian Headline",
+        "fallbacks": "Guardian Egyptian Web, Georgia",
+        "size": "24px (1.50rem)",
+        "weight": 500,
+        "lineHeight": "1.15",
+        "spacing": null,
+        "transform": null,
+        "fontFeatures": "\"kern\""
+      },
+      {
+        "context": "heading-1",
+        "family": "GuardianTextSans",
+        "fallbacks": "Guardian Text Sans Web, Helvetica Neue, Helvetica, Arial, Lucida Grande",
+        "size": "20px (1.25rem)",
+        "weight": 400,
+        "lineHeight": "1.30",
+        "spacing": null,
+        "transform": null,
+        "fontFeatures": "\"kern\""
+      },
+      {
+        "context": "heading-1",
+        "family": "GH Guardian Headline",
+        "fallbacks": "Guardian Egyptian Web, Georgia",
+        "size": "20px (1.25rem)",
+        "weight": 500,
+        "lineHeight": "1.15",
+        "spacing": null,
+        "transform": null,
+        "fontFeatures": "\"kern\""
+      },
+      {
+        "context": "heading-1",
+        "family": "GuardianTextSans",
+        "fallbacks": "Guardian Text Sans Web, Helvetica Neue, Helvetica, Arial, Lucida Grande",
+        "size": "20px (1.25rem)",
+        "weight": 700,
+        "lineHeight": "1.30",
+        "spacing": null,
+        "transform": null,
+        "fontFeatures": "\"kern\""
+      },
+      {
+        "context": "link",
+        "family": "GuardianTextSans",
+        "fallbacks": "Guardian Text Sans Web, Helvetica Neue, Helvetica, Arial, Lucida Grande",
+        "size": "17px (1.06rem)",
+        "weight": 400,
+        "lineHeight": "1.76",
+        "spacing": null,
+        "transform": null,
+        "fontFeatures": "\"kern\""
+      },
+      {
+        "context": "link",
+        "family": "GuardianTextSans",
+        "fallbacks": "Guardian Text Sans Web, Helvetica Neue, Helvetica, Arial, Lucida Grande",
+        "size": "17px (1.06rem)",
+        "weight": 700,
+        "lineHeight": "1.30",
+        "spacing": null,
+        "transform": null,
+        "fontFeatures": "\"kern\""
+      },
+      {
+        "context": "heading-1",
+        "family": "GH Guardian Headline",
+        "fallbacks": "Guardian Egyptian Web, Georgia",
+        "size": "17px (1.06rem)",
+        "weight": 500,
+        "lineHeight": "1.15",
+        "spacing": null,
+        "transform": null,
+        "fontFeatures": "\"kern\""
+      },
+      {
+        "context": "button",
+        "family": "GuardianTextSans",
+        "fallbacks": "Guardian Text Sans Web, Helvetica Neue, Helvetica, Arial, Lucida Grande",
+        "size": "17px (1.06rem)",
+        "weight": 700,
+        "lineHeight": "1.30",
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "heading-1",
+        "family": "GuardianTextSans",
+        "fallbacks": "Guardian Text Sans Web, Helvetica Neue, Helvetica, Arial, Lucida Grande",
+        "size": "17px (1.06rem)",
+        "weight": 700,
+        "lineHeight": "1.30",
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "button",
+        "family": "GuardianTextSans",
+        "fallbacks": "Guardian Text Sans Web, Helvetica Neue, Helvetica, Arial, Lucida Grande",
+        "size": "17px (1.06rem)",
+        "weight": 400,
+        "lineHeight": "1.30",
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "heading-1",
+        "family": "GH Guardian Headline",
+        "fallbacks": "Guardian Egyptian Web, Georgia",
+        "size": "17px (1.06rem)",
+        "weight": 700,
+        "lineHeight": "1.15",
+        "spacing": null,
+        "transform": null,
+        "fontFeatures": "\"kern\""
+      },
+      {
+        "context": "link",
+        "family": "GH Guardian Headline",
+        "fallbacks": "Guardian Egyptian Web, Georgia",
+        "size": "17px (1.06rem)",
+        "weight": 500,
+        "lineHeight": "1.15",
+        "spacing": null,
+        "transform": null,
+        "fontFeatures": "\"kern\""
+      },
+      {
+        "context": "heading-1",
+        "family": "GuardianTextSans",
+        "fallbacks": "Guardian Text Sans Web, Helvetica Neue, Helvetica, Arial, Lucida Grande",
+        "size": "17px (1.06rem)",
+        "weight": 400,
+        "lineHeight": "1.12",
+        "spacing": null,
+        "transform": null,
+        "fontFeatures": "\"kern\""
+      },
+      {
+        "context": "heading-1",
+        "family": "Times",
+        "fallbacks": null,
+        "size": "16px (1.00rem)",
+        "weight": 400,
+        "lineHeight": "1.00",
+        "spacing": null,
+        "transform": null,
+        "fontFeatures": "\"kern\""
+      },
+      {
+        "context": "link",
+        "family": "Times",
+        "fallbacks": null,
+        "size": "16px (1.00rem)",
+        "weight": 400,
+        "lineHeight": "1.00",
+        "spacing": null,
+        "transform": null,
+        "fontFeatures": "\"kern\""
+      },
+      {
+        "context": "button",
+        "family": "Times",
+        "fallbacks": null,
+        "size": "16px (1.00rem)",
+        "weight": 400,
+        "lineHeight": "1.00",
+        "spacing": null,
+        "transform": null,
+        "fontFeatures": "\"kern\""
+      },
+      {
+        "context": "link",
+        "family": "GuardianTextSans",
+        "fallbacks": "Guardian Text Sans Web, Helvetica Neue, Helvetica, Arial, Lucida Grande",
+        "size": "16px (1.00rem)",
+        "weight": 400,
+        "lineHeight": "2.63",
+        "spacing": null,
+        "transform": null,
+        "fontFeatures": "\"kern\""
+      },
+      {
+        "context": "link",
+        "family": "GuardianTextSans",
+        "fallbacks": "Guardian Text Sans Web, Helvetica Neue, Helvetica, Arial, Lucida Grande",
+        "size": "15px (0.94rem)",
+        "weight": 700,
+        "lineHeight": "1.30",
+        "spacing": null,
+        "transform": null,
+        "fontFeatures": "\"kern\""
+      },
+      {
+        "context": "link",
+        "family": "GuardianTextSans",
+        "fallbacks": "Guardian Text Sans Web, Helvetica Neue, Helvetica, Arial, Lucida Grande",
+        "size": "15px (0.94rem)",
+        "weight": 400,
+        "lineHeight": "1.30",
+        "spacing": null,
+        "transform": null,
+        "fontFeatures": "\"kern\""
+      },
+      {
+        "context": "heading-1",
+        "family": "GuardianTextSans",
+        "fallbacks": "Guardian Text Sans Web, Helvetica Neue, Helvetica, Arial, Lucida Grande",
+        "size": "15px (0.94rem)",
+        "weight": 700,
+        "lineHeight": "1.30",
+        "spacing": null,
+        "transform": null,
+        "fontFeatures": "\"kern\""
+      },
+      {
+        "context": "caption",
+        "family": "GuardianTextSans",
+        "fallbacks": "Guardian Text Sans Web, Helvetica Neue, Helvetica, Arial, Lucida Grande",
+        "size": "14px (0.88rem)",
+        "weight": 400,
+        "lineHeight": "1.30",
+        "spacing": null,
+        "transform": null,
+        "fontFeatures": "\"kern\""
+      },
+      {
+        "context": "link",
+        "family": "GuardianTextSans",
+        "fallbacks": "Guardian Text Sans Web, Helvetica Neue, Helvetica, Arial, Lucida Grande",
+        "size": "14px (0.88rem)",
+        "weight": 700,
+        "lineHeight": "1.30",
+        "spacing": null,
+        "transform": null,
+        "fontFeatures": "\"kern\""
+      },
+      {
+        "context": "link",
+        "family": "GuardianTextSans",
+        "fallbacks": "Guardian Text Sans Web, Helvetica Neue, Helvetica, Arial, Lucida Grande",
+        "size": "14px (0.88rem)",
+        "weight": 400,
+        "lineHeight": "1.30",
+        "spacing": null,
+        "transform": null,
+        "fontFeatures": "\"kern\""
+      },
+      {
+        "context": "caption",
+        "family": "GuardianTextSans",
+        "fallbacks": "Guardian Text Sans Web, Helvetica Neue, Helvetica, Arial, Lucida Grande",
+        "size": "14px (0.88rem)",
+        "weight": 700,
+        "lineHeight": "1.30",
+        "spacing": null,
+        "transform": null,
+        "fontFeatures": "\"kern\""
+      },
+      {
+        "context": "button",
+        "family": "Arial",
+        "fallbacks": null,
+        "size": "13.3333px (0.83rem)",
+        "weight": 400,
+        "lineHeight": null,
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "caption",
+        "family": "GuardianTextSans",
+        "fallbacks": "Guardian Text Sans Web, Helvetica Neue, Helvetica, Arial, Lucida Grande",
+        "size": "12px (0.75rem)",
+        "weight": 700,
+        "lineHeight": "1.30",
+        "spacing": null,
+        "transform": null,
+        "fontFeatures": "\"kern\""
+      },
+      {
+        "context": "link",
+        "family": "GuardianTextSans",
+        "fallbacks": "Guardian Text Sans Web, Helvetica Neue, Helvetica, Arial, Lucida Grande",
+        "size": "12px (0.75rem)",
+        "weight": 400,
+        "lineHeight": "1.30",
+        "spacing": null,
+        "transform": null,
+        "fontFeatures": "\"kern\""
+      }
+    ],
+    "sources": {
+      "googleFonts": [],
+      "adobeFonts": false,
+      "variableFonts": false
+    }
+  },
+  "spacing": {
+    "scaleType": "8px",
+    "commonValues": [
+      {
+        "px": "2px",
+        "rem": "0.13rem",
+        "count": 13,
+        "numericValue": 2
+      },
+      {
+        "px": "3px",
+        "rem": "0.19rem",
+        "count": 130,
+        "numericValue": 3
+      },
+      {
+        "px": "4px",
+        "rem": "0.25rem",
+        "count": 170,
+        "numericValue": 4
+      },
+      {
+        "px": "6px",
+        "rem": "0.38rem",
+        "count": 194,
+        "numericValue": 6
+      },
+      {
+        "px": "8px",
+        "rem": "0.50rem",
+        "count": 406,
+        "numericValue": 8
+      },
+      {
+        "px": "10px",
+        "rem": "0.63rem",
+        "count": 31,
+        "numericValue": 10
+      },
+      {
+        "px": "12px",
+        "rem": "0.75rem",
+        "count": 84,
+        "numericValue": 12
+      },
+      {
+        "px": "15px",
+        "rem": "0.94rem",
+        "count": 7,
+        "numericValue": 15
+      },
+      {
+        "px": "18px",
+        "rem": "1.13rem",
+        "count": 22,
+        "numericValue": 18
+      },
+      {
+        "px": "24px",
+        "rem": "1.50rem",
+        "count": 45,
+        "numericValue": 24
+      },
+      {
+        "px": "28.9062px",
+        "rem": "1.81rem",
+        "count": 10,
+        "numericValue": 28.9062
+      },
+      {
+        "px": "36px",
+        "rem": "2.25rem",
+        "count": 6,
+        "numericValue": 36
+      },
+      {
+        "px": "40px",
+        "rem": "2.50rem",
+        "count": 24,
+        "numericValue": 40
+      },
+      {
+        "px": "42.4062px",
+        "rem": "2.65rem",
+        "count": 9,
+        "numericValue": 42.4062
+      },
+      {
+        "px": "64px",
+        "rem": "4.00rem",
+        "count": 9,
+        "numericValue": 64
+      },
+      {
+        "px": "98px",
+        "rem": "6.13rem",
+        "count": 28,
+        "numericValue": 98
+      },
+      {
+        "px": "176px",
+        "rem": "11.00rem",
+        "count": 47,
+        "numericValue": 176
+      },
+      {
+        "px": "361.594px",
+        "rem": "22.60rem",
+        "count": 9,
+        "numericValue": 361.594
+      },
+      {
+        "px": "368px",
+        "rem": "23.00rem",
+        "count": 9,
+        "numericValue": 368
+      },
+      {
+        "px": "575px",
+        "rem": "35.94rem",
+        "count": 6,
+        "numericValue": 575
+      }
+    ]
+  },
+  "borderRadius": {
+    "values": [
+      {
+        "value": "3px",
+        "count": 1,
+        "elements": [
+          "ul"
+        ],
+        "confidence": "low",
+        "numericValue": 3
+      },
+      {
+        "value": "12px",
+        "count": 5,
+        "elements": [
+          "a"
+        ],
+        "confidence": "medium",
+        "numericValue": 12
+      },
+      {
+        "value": "24px",
+        "count": 2,
+        "elements": [
+          "a"
+        ],
+        "confidence": "low",
+        "numericValue": 24
+      },
+      {
+        "value": "36px",
+        "count": 6,
+        "elements": [
+          "Move highlight stories forwards",
+          "View next image in slideshow",
+          "View previous image in slideshow",
+          "a"
+        ],
+        "confidence": "medium",
+        "numericValue": 36
+      },
+      {
+        "value": "40px",
+        "count": 13,
+        "elements": [
+          "div"
+        ],
+        "confidence": "high",
+        "numericValue": 40
+      },
+      {
+        "value": "44px",
+        "count": 2,
+        "elements": [
+          "Search with Google"
+        ],
+        "confidence": "low",
+        "numericValue": 44
+      },
+      {
+        "value": "1000px",
+        "count": 2,
+        "elements": [
+          "input"
+        ],
+        "confidence": "low",
+        "numericValue": 1000
+      },
+      {
+        "value": "50%",
+        "count": 3,
+        "elements": [
+          "span",
+          "div"
+        ],
+        "confidence": "low",
+        "numericValue": 50
+      },
+      {
+        "value": "100%",
+        "count": 29,
+        "elements": [
+          "picture",
+          "img",
+          "span"
+        ],
+        "confidence": "high",
+        "numericValue": 100
+      }
+    ]
+  },
+  "borders": {
+    "combinations": [
+      {
+        "width": "0px 1px",
+        "style": "none solid",
+        "color": "rgb(220, 220, 220)",
+        "count": 34,
+        "elements": [
+          "div"
+        ],
+        "confidence": "high"
+      },
+      {
+        "width": "1px 0px 0px",
+        "style": "solid none none",
+        "color": "rgb(186, 186, 186)",
+        "count": 25,
+        "elements": [
+          "div"
+        ],
+        "confidence": "high"
+      },
+      {
+        "width": "1px 1px 0px 0px",
+        "style": "solid solid none none",
+        "color": "rgb(220, 220, 220)",
+        "count": 20,
+        "elements": [
+          "li"
+        ],
+        "confidence": "high"
+      },
+      {
+        "width": "0px 0px 0px 1px",
+        "style": "none none none solid",
+        "color": "rgb(255, 255, 255)",
+        "count": 8,
+        "elements": [
+          "none",
+          "ul",
+          "div"
+        ],
+        "confidence": "medium"
+      },
+      {
+        "width": "2px 0px 0px",
+        "style": "solid none none",
+        "color": "rgb(51, 51, 51)",
+        "count": 5,
+        "elements": [
+          "div"
+        ],
+        "confidence": "medium"
+      },
+      {
+        "width": "1px",
+        "style": "solid",
+        "color": "rgb(51, 51, 51)",
+        "count": 5,
+        "elements": [
+          "a"
+        ],
+        "confidence": "medium"
+      },
+      {
+        "width": "0px 1px 0px 0px",
+        "style": "none solid none none",
+        "color": "rgb(255, 255, 255)",
+        "count": 4,
+        "elements": [
+          "span"
+        ],
+        "confidence": "medium"
+      },
+      {
+        "width": "1px",
+        "style": "solid",
+        "color": "rgba(186, 186, 186, 0.32)",
+        "count": 2,
+        "elements": [
+          "button"
+        ],
+        "confidence": "low"
+      },
+      {
+        "width": "1px",
+        "style": "solid",
+        "color": "rgb(186, 186, 186)",
+        "count": 2,
+        "elements": [
+          "button"
+        ],
+        "confidence": "low"
+      },
+      {
+        "width": "0px 1px 0px 0px",
+        "style": "none solid none none",
+        "color": "rgb(18, 18, 18)",
+        "count": 2,
+        "elements": [
+          "div"
+        ],
+        "confidence": "low"
+      },
+      {
+        "width": "0px 0px 1px",
+        "style": "none none solid",
+        "color": "rgb(18, 18, 18)",
+        "count": 1,
+        "elements": [
+          "div"
+        ],
+        "confidence": "low"
+      },
+      {
+        "width": "1px 1px 0px",
+        "style": "solid solid none",
+        "color": "rgb(80, 105, 145)",
+        "count": 1,
+        "elements": [
+          "menubar"
+        ],
+        "confidence": "low"
+      },
+      {
+        "width": "2px 0px 0px",
+        "style": "solid none none",
+        "color": "rgb(224, 94, 0)",
+        "count": 1,
+        "elements": [
+          "div"
+        ],
+        "confidence": "low"
+      },
+      {
+        "width": "2px 0px 0px",
+        "style": "solid none none",
+        "color": "rgb(0, 119, 182)",
+        "count": 1,
+        "elements": [
+          "div"
+        ],
+        "confidence": "low"
+      },
+      {
+        "width": "2px 0px 0px",
+        "style": "solid none none",
+        "color": "rgb(134, 109, 80)",
+        "count": 1,
+        "elements": [
+          "div"
+        ],
+        "confidence": "low"
+      },
+      {
+        "width": "2px 0px 0px",
+        "style": "solid none none",
+        "color": "rgb(187, 59, 128)",
+        "count": 1,
+        "elements": [
+          "div"
+        ],
+        "confidence": "low"
+      },
+      {
+        "width": "1px",
+        "style": "solid",
+        "color": "rgb(153, 153, 153)",
+        "count": 1,
+        "elements": [
+          "div"
+        ],
+        "confidence": "low"
+      },
+      {
+        "width": "1px 1px 0px",
+        "style": "solid solid none",
+        "color": "rgb(220, 220, 220)",
+        "count": 1,
+        "elements": [
+          "div"
+        ],
+        "confidence": "low"
+      },
+      {
+        "width": "0px 0px 0px 1px",
+        "style": "none none none solid",
+        "color": "rgb(18, 18, 18)",
+        "count": 1,
+        "elements": [
+          "div"
+        ],
+        "confidence": "low"
+      },
+      {
+        "width": "0px 1px",
+        "style": "none solid",
+        "color": "rgb(255, 255, 255)",
+        "count": 1,
+        "elements": [
+          "div"
+        ],
+        "confidence": "low"
+      },
+      {
+        "width": "1px",
+        "style": "solid",
+        "color": "rgb(80, 105, 145)",
+        "count": 1,
+        "elements": [
+          "div"
+        ],
+        "confidence": "low"
+      }
+    ]
+  },
+  "shadows": [
+    {
+      "shadow": "rgba(0, 0, 0, 0.1) 0px 0px 0px 1px",
+      "count": 1,
+      "confidence": "low"
+    }
+  ],
+  "components": {
+    "buttons": [
+      {
+        "states": {
+          "default": {
+            "backgroundColor": "rgb(5, 41, 98)",
+            "color": "rgb(255, 255, 255)",
+            "padding": "0px",
+            "borderRadius": "36px",
+            "border": "0px none rgb(255, 255, 255)",
+            "boxShadow": "none",
+            "outline": "rgb(255, 255, 255) none 0px",
+            "transform": "none",
+            "opacity": "1"
+          },
+          "hover": {
+            "backgroundColor": "rgb(3, 24, 58)"
+          },
+          "active": null,
+          "focus": {
+            "outline": "rgb(0, 119, 182) solid 5px",
+            "backgroundColor": "transparent",
+            "opacity": "1"
+          }
+        },
+        "fontWeight": "700",
+        "fontSize": "17px",
+        "classes": "dcr-fq58ld",
+        "confidence": "high"
+      },
+      {
+        "states": {
+          "default": {
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "color": "rgba(18, 18, 18, 0.32)",
+            "padding": "0px",
+            "borderRadius": "36px",
+            "border": "1px solid rgba(186, 186, 186, 0.32)",
+            "boxShadow": "none",
+            "outline": "rgba(18, 18, 18, 0.32) none 0px",
+            "transform": "none",
+            "opacity": "1"
+          },
+          "hover": {
+            "backgroundColor": "transparent"
+          },
+          "active": null,
+          "focus": {
+            "backgroundColor": "transparent",
+            "opacity": "1",
+            "outline": "rgb(0, 119, 182) solid 5px"
+          }
+        },
+        "fontWeight": "700",
+        "fontSize": "17px",
+        "classes": "dcr-8jkbi7",
+        "confidence": "high"
+      }
+    ],
+    "inputs": {
+      "text": [],
+      "checkbox": [
+        {
+          "specificType": "checkbox",
+          "states": {
+            "default": {
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "color": "rgb(0, 0, 0)",
+              "border": "0px none rgb(0, 0, 0)",
+              "borderRadius": "0px",
+              "padding": "0px",
+              "boxShadow": "none",
+              "outline": "rgb(0, 0, 0) none 0px"
+            },
+            "focus": {}
+          }
+        }
+      ],
+      "radio": [],
+      "select": []
+    },
+    "links": [
+      {
+        "color": "rgb(0, 0, 0)",
+        "textDecoration": "none",
+        "fontWeight": "400",
+        "states": {
+          "default": {
+            "color": "rgb(0, 0, 0)",
+            "textDecoration": "none"
+          },
+          "hover": null
+        }
+      },
+      {
+        "color": "rgb(5, 41, 98)",
+        "textDecoration": "none",
+        "fontWeight": "700",
+        "states": {
+          "default": {
+            "color": "rgb(5, 41, 98)",
+            "textDecoration": "none"
+          },
+          "hover": {}
+        }
+      },
+      {
+        "color": "rgb(255, 255, 255)",
+        "textDecoration": "none",
+        "fontWeight": "700",
+        "states": {
+          "default": {
+            "color": "rgb(255, 255, 255)",
+            "textDecoration": "none"
+          },
+          "hover": {
+            "textDecoration": "underline"
+          }
+        }
+      },
+      {
+        "color": "rgb(0, 0, 238)",
+        "textDecoration": "underline",
+        "fontWeight": "400",
+        "states": {
+          "default": {
+            "color": "rgb(0, 0, 238)",
+            "textDecoration": "underline"
+          },
+          "hover": null
+        }
+      },
+      {
+        "color": "rgb(18, 18, 18)",
+        "textDecoration": "none",
+        "fontWeight": "400",
+        "states": {
+          "default": {
+            "color": "rgb(18, 18, 18)",
+            "textDecoration": "none"
+          },
+          "hover": {
+            "color": "inherit",
+            "textDecoration": "underline"
+          }
+        }
+      },
+      {
+        "color": "rgb(112, 112, 112)",
+        "textDecoration": "underline",
+        "fontWeight": "400",
+        "states": {
+          "default": {
+            "color": "rgb(112, 112, 112)",
+            "textDecoration": "underline"
+          },
+          "hover": {
+            "color": "rgb(0, 119, 182)"
+          }
+        }
+      },
+      {
+        "color": "rgb(51, 51, 51)",
+        "textDecoration": "none",
+        "fontWeight": "400",
+        "states": {
+          "default": {
+            "color": "rgb(51, 51, 51)",
+            "textDecoration": "none"
+          },
+          "hover": null
+        }
+      }
+    ],
+    "badges": {
+      "all": [],
+      "byVariant": {
+        "error": [],
+        "warning": [],
+        "success": [],
+        "info": [],
+        "neutral": []
+      }
+    }
+  },
+  "breakpoints": [
+    {
+      "px": "9px"
+    },
+    {
+      "px": "375px"
+    },
+    {
+      "px": "480px"
+    },
+    {
+      "px": "660px"
+    },
+    {
+      "px": "739px"
+    },
+    {
+      "px": "740px"
+    },
+    {
+      "px": "980px"
+    },
+    {
+      "px": "1140px"
+    },
+    {
+      "px": "1300px"
+    }
+  ],
+  "iconSystem": [],
+  "frameworks": [
+    {
+      "name": "PrimeReact/Vue/NG",
+      "confidence": "high",
+      "evidence": "21 Prime components"
+    }
+  ]
+}

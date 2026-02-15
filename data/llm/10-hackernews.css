@@ -1,0 +1,167 @@
+body {
+  color: #828282;
+}
+td {
+  color: #828282;
+}
+.admin td {
+  color: #000000;
+}
+.subtext td {
+  color: #828282;
+}
+a:link {
+  color: #000000;
+  text-decoration: none;
+}
+a:visited {
+  color: #828282;
+  text-decoration: none;
+}
+.default {
+  color: #828282;
+}
+.admin {
+  color: #000000;
+}
+.title {
+  color: #828282;
+}
+.subtext {
+  color: #828282;
+}
+.yclinks {
+  color: #828282;
+}
+.pagetop {
+  color: #222222;
+}
+.comhead {
+  color: #828282;
+}
+.comment a:link,
+.comment a:visited {
+  text-decoration: underline;
+}
+.c00,
+.c00 a:link {
+  color: #000000;
+}
+.c5a,
+.c5a a:link,
+.c5a a:visited {
+  color: #5a5a5a;
+}
+.c73,
+.c73 a:link,
+.c73 a:visited {
+  color: #737373;
+}
+.c82,
+.c82 a:link,
+.c82 a:visited {
+  color: #828282;
+}
+.c88,
+.c88 a:link,
+.c88 a:visited {
+  color: #888888;
+}
+.c9c,
+.c9c a:link,
+.c9c a:visited {
+  color: #9c9c9c;
+}
+.cae,
+.cae a:link,
+.cae a:visited {
+  color: #aeaeae;
+}
+.cbe,
+.cbe a:link,
+.cbe a:visited {
+  color: #bebebe;
+}
+.cce,
+.cce a:link,
+.cce a:visited {
+  color: #cecece;
+}
+.cdd,
+.cdd a:link,
+.cdd a:visited {
+  color: #dddddd;
+}
+.ca2 {
+  color: #a30000;
+}
+.pagetop a:visited {
+  color: #000000;
+}
+.topsel a:link,
+.topsel a:visited {
+  color: #ffffff;
+}
+.subtext a:link,
+.subtext a:visited {
+  color: #828282;
+}
+.subtext a:hover {
+  text-decoration: underline;
+}
+.comhead a:link,
+.subtext a:visited {
+  color: #828282;
+}
+.comhead a:hover {
+  text-decoration: underline;
+}
+.hnmore a:link,
+a:visited {
+  color: #828282;
+}
+.hnmore {
+  text-decoration: underline;
+}
+.votearrow {
+  border: 0px;
+  background:
+    url(triangle.svg),
+    linear-gradient(transparent, transparent) no-repeat;
+}
+@media only screen and (-webkit-min-device-pixel-ratio: 2),
+  only screen and (min-device-pixel-ratio: 2) {
+  .votearrow {
+    background-image:
+      url(triangle.svg), linear-gradient(transparent, transparent);
+  }
+}
+@media only screen and (min-width: 300px) and (max-width: 750px) {
+  td {
+    height: inherit !important;
+  }
+  .title,
+  .comment {
+    font-size: inherit;
+  }
+}
+table#hnmain > tbody > tr > td > table > tbody > tr > td > a > img {
+  border-top-color: white;
+  border-right-color: white;
+  border-bottom-color: white;
+  border-left-color: white;
+  border-image-source: initial;
+  border-image-slice: initial;
+  border-image-width: initial;
+  border-image-outset: initial;
+  border-image-repeat: initial;
+}
+table#hnmain {
+  background-color: #f6f6ef;
+}
+table#hnmain > tbody > tr > td {
+  background-color: #ff6600;
+}
+table#hnmain > tbody > tr:nth-of-type(4) > td > table > tbody > tr > td {
+  background-color: #ff6600;
+}

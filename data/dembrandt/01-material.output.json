@@ -1,0 +1,16 @@
+{
+  "color": {
+    "background": "#FEFBFF",
+    "surface": "#F8F1F6",
+    "text": "#1c1b1d",
+    "muted": "#4d4256",
+    "primary": "#6442d6",
+    "primaryVariant": "#9f86ff",
+    "border": "#E8E0E8",
+    "danger": "#ff6240",
+    "dangerVariant": null,
+    "link": "#6442D6",
+    "linkVariant": "#1e0060",
+    "ring": "#1c1b1d"
+  }
+}

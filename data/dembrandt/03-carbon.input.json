@@ -1,0 +1,1118 @@
+{
+  "url": "https://carbondesignsystem.com/",
+  "extractedAt": "2026-01-09T09:35:38.467Z",
+  "logo": {
+    "source": "svg",
+    "url": "https://carbondesignsystem.com/",
+    "width": 81,
+    "height": 32,
+    "safeZone": {
+      "top": 32,
+      "right": 16,
+      "bottom": 0,
+      "left": 16
+    }
+  },
+  "favicons": [
+    {
+      "type": "icon",
+      "url": "https://carbondesignsystem.com/favicon-32x32.png?v=5cf4c8343dc066e64aa2555b67a58e0a",
+      "sizes": null
+    },
+    {
+      "type": "icon",
+      "url": "https://carbondesignsystem.com/favicon.svg?v=5cf4c8343dc066e64aa2555b67a58e0a",
+      "sizes": null
+    },
+    {
+      "type": "apple-touch-icon",
+      "url": "https://carbondesignsystem.com/icons/icon-48x48.png?v=5cf4c8343dc066e64aa2555b67a58e0a",
+      "sizes": "48x48"
+    },
+    {
+      "type": "apple-touch-icon",
+      "url": "https://carbondesignsystem.com/icons/icon-72x72.png?v=5cf4c8343dc066e64aa2555b67a58e0a",
+      "sizes": "72x72"
+    },
+    {
+      "type": "apple-touch-icon",
+      "url": "https://carbondesignsystem.com/icons/icon-96x96.png?v=5cf4c8343dc066e64aa2555b67a58e0a",
+      "sizes": "96x96"
+    },
+    {
+      "type": "apple-touch-icon",
+      "url": "https://carbondesignsystem.com/icons/icon-144x144.png?v=5cf4c8343dc066e64aa2555b67a58e0a",
+      "sizes": "144x144"
+    },
+    {
+      "type": "apple-touch-icon",
+      "url": "https://carbondesignsystem.com/icons/icon-192x192.png?v=5cf4c8343dc066e64aa2555b67a58e0a",
+      "sizes": "192x192"
+    },
+    {
+      "type": "apple-touch-icon",
+      "url": "https://carbondesignsystem.com/icons/icon-256x256.png?v=5cf4c8343dc066e64aa2555b67a58e0a",
+      "sizes": "256x256"
+    },
+    {
+      "type": "apple-touch-icon",
+      "url": "https://carbondesignsystem.com/icons/icon-384x384.png?v=5cf4c8343dc066e64aa2555b67a58e0a",
+      "sizes": "384x384"
+    },
+    {
+      "type": "apple-touch-icon",
+      "url": "https://carbondesignsystem.com/icons/icon-512x512.png?v=5cf4c8343dc066e64aa2555b67a58e0a",
+      "sizes": "512x512"
+    },
+    {
+      "type": "icon",
+      "url": "https://carbondesignsystem.com/favicon-32x32.png?v=5cf4c8343dc066e64aa2555b67a58e0a",
+      "sizes": null
+    },
+    {
+      "type": "icon",
+      "url": "https://carbondesignsystem.com/favicon.svg?v=5cf4c8343dc066e64aa2555b67a58e0a",
+      "sizes": null
+    },
+    {
+      "type": "apple-touch-icon",
+      "url": "https://carbondesignsystem.com/icons/icon-48x48.png?v=5cf4c8343dc066e64aa2555b67a58e0a",
+      "sizes": "48x48"
+    },
+    {
+      "type": "apple-touch-icon",
+      "url": "https://carbondesignsystem.com/icons/icon-72x72.png?v=5cf4c8343dc066e64aa2555b67a58e0a",
+      "sizes": "72x72"
+    },
+    {
+      "type": "apple-touch-icon",
+      "url": "https://carbondesignsystem.com/icons/icon-96x96.png?v=5cf4c8343dc066e64aa2555b67a58e0a",
+      "sizes": "96x96"
+    },
+    {
+      "type": "apple-touch-icon",
+      "url": "https://carbondesignsystem.com/icons/icon-144x144.png?v=5cf4c8343dc066e64aa2555b67a58e0a",
+      "sizes": "144x144"
+    },
+    {
+      "type": "apple-touch-icon",
+      "url": "https://carbondesignsystem.com/icons/icon-192x192.png?v=5cf4c8343dc066e64aa2555b67a58e0a",
+      "sizes": "192x192"
+    },
+    {
+      "type": "apple-touch-icon",
+      "url": "https://carbondesignsystem.com/icons/icon-256x256.png?v=5cf4c8343dc066e64aa2555b67a58e0a",
+      "sizes": "256x256"
+    },
+    {
+      "type": "apple-touch-icon",
+      "url": "https://carbondesignsystem.com/icons/icon-384x384.png?v=5cf4c8343dc066e64aa2555b67a58e0a",
+      "sizes": "384x384"
+    },
+    {
+      "type": "apple-touch-icon",
+      "url": "https://carbondesignsystem.com/icons/icon-512x512.png?v=5cf4c8343dc066e64aa2555b67a58e0a",
+      "sizes": "512x512"
+    },
+    {
+      "type": "apple-touch-icon",
+      "url": "https://carbondesignsystem.com/icons/icon-48x48.png?v=5cf4c8343dc066e64aa2555b67a58e0a",
+      "sizes": "48x48"
+    },
+    {
+      "type": "apple-touch-icon",
+      "url": "https://carbondesignsystem.com/icons/icon-72x72.png?v=5cf4c8343dc066e64aa2555b67a58e0a",
+      "sizes": "72x72"
+    },
+    {
+      "type": "apple-touch-icon",
+      "url": "https://carbondesignsystem.com/icons/icon-96x96.png?v=5cf4c8343dc066e64aa2555b67a58e0a",
+      "sizes": "96x96"
+    },
+    {
+      "type": "apple-touch-icon",
+      "url": "https://carbondesignsystem.com/icons/icon-144x144.png?v=5cf4c8343dc066e64aa2555b67a58e0a",
+      "sizes": "144x144"
+    },
+    {
+      "type": "apple-touch-icon",
+      "url": "https://carbondesignsystem.com/icons/icon-192x192.png?v=5cf4c8343dc066e64aa2555b67a58e0a",
+      "sizes": "192x192"
+    },
+    {
+      "type": "apple-touch-icon",
+      "url": "https://carbondesignsystem.com/icons/icon-256x256.png?v=5cf4c8343dc066e64aa2555b67a58e0a",
+      "sizes": "256x256"
+    },
+    {
+      "type": "apple-touch-icon",
+      "url": "https://carbondesignsystem.com/icons/icon-384x384.png?v=5cf4c8343dc066e64aa2555b67a58e0a",
+      "sizes": "384x384"
+    },
+    {
+      "type": "apple-touch-icon",
+      "url": "https://carbondesignsystem.com/icons/icon-512x512.png?v=5cf4c8343dc066e64aa2555b67a58e0a",
+      "sizes": "512x512"
+    },
+    {
+      "type": "apple-touch-icon",
+      "url": "https://carbondesignsystem.com/icons/icon-48x48.png?v=5cf4c8343dc066e64aa2555b67a58e0a",
+      "sizes": "48x48"
+    },
+    {
+      "type": "apple-touch-icon",
+      "url": "https://carbondesignsystem.com/icons/icon-72x72.png?v=5cf4c8343dc066e64aa2555b67a58e0a",
+      "sizes": "72x72"
+    },
+    {
+      "type": "apple-touch-icon",
+      "url": "https://carbondesignsystem.com/icons/icon-96x96.png?v=5cf4c8343dc066e64aa2555b67a58e0a",
+      "sizes": "96x96"
+    },
+    {
+      "type": "apple-touch-icon",
+      "url": "https://carbondesignsystem.com/icons/icon-144x144.png?v=5cf4c8343dc066e64aa2555b67a58e0a",
+      "sizes": "144x144"
+    },
+    {
+      "type": "apple-touch-icon",
+      "url": "https://carbondesignsystem.com/icons/icon-192x192.png?v=5cf4c8343dc066e64aa2555b67a58e0a",
+      "sizes": "192x192"
+    },
+    {
+      "type": "apple-touch-icon",
+      "url": "https://carbondesignsystem.com/icons/icon-256x256.png?v=5cf4c8343dc066e64aa2555b67a58e0a",
+      "sizes": "256x256"
+    },
+    {
+      "type": "apple-touch-icon",
+      "url": "https://carbondesignsystem.com/icons/icon-384x384.png?v=5cf4c8343dc066e64aa2555b67a58e0a",
+      "sizes": "384x384"
+    },
+    {
+      "type": "apple-touch-icon",
+      "url": "https://carbondesignsystem.com/icons/icon-512x512.png?v=5cf4c8343dc066e64aa2555b67a58e0a",
+      "sizes": "512x512"
+    },
+    {
+      "type": "og:image",
+      "url": "https://ogimage.png/",
+      "sizes": null
+    },
+    {
+      "type": "twitter:image",
+      "url": "https://carbondesignsystem.com/ogimage.png",
+      "sizes": null
+    },
+    {
+      "type": "favicon.ico",
+      "url": "https://carbondesignsystem.com/favicon.ico",
+      "sizes": null
+    }
+  ],
+  "colors": {
+    "semantic": {},
+    "palette": [
+      {
+        "color": "rgb(82, 82, 82)",
+        "normalized": "#525252",
+        "count": 192,
+        "confidence": "high",
+        "sources": []
+      },
+      {
+        "color": "rgb(255, 255, 255)",
+        "normalized": "#ffffff",
+        "count": 91,
+        "confidence": "high",
+        "sources": [
+          "cds--skip-to-content",
+          "header-module--headername--d35",
+          "cds--row"
+        ]
+      },
+      {
+        "color": "rgb(198, 198, 198)",
+        "normalized": "#c6c6c6",
+        "count": 56,
+        "confidence": "high",
+        "sources": [
+          "switcher-module--link--21c8c"
+        ]
+      },
+      {
+        "color": "rgb(15, 98, 254)",
+        "normalized": "#0f62fe",
+        "count": 29,
+        "confidence": "high",
+        "sources": [
+          "header-module--header-button--",
+          "truste-cookie-link"
+        ]
+      },
+      {
+        "color": "rgb(0, 0, 0)",
+        "normalized": "#000000",
+        "count": 23,
+        "confidence": "high",
+        "sources": [
+          "globalsearch-module--searchbut",
+          "backtotopbtn-module--button--1"
+        ]
+      },
+      {
+        "color": "rgba(53, 53, 53, 0.996)",
+        "normalized": "#353535",
+        "count": 1,
+        "confidence": "medium",
+        "sources": [
+          "hover/focus"
+        ]
+      },
+      {
+        "color": "rgb(0, 67, 206)",
+        "normalized": "#0043ce",
+        "count": 1,
+        "confidence": "medium",
+        "sources": [
+          "hover/focus"
+        ]
+      },
+      {
+        "color": "rgb(57, 57, 57)",
+        "normalized": "#393939",
+        "count": 1,
+        "confidence": "medium",
+        "sources": [
+          "hover/focus"
+        ]
+      }
+    ],
+    "cssVariables": {}
+  },
+  "typography": {
+    "styles": [
+      {
+        "context": "heading-1",
+        "family": "IBM Plex Sans Var",
+        "fallbacks": "Helvetica Neue, Arial",
+        "size": "32px (2.00rem)",
+        "weight": 300,
+        "lineHeight": "1.25",
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "heading-1",
+        "family": "IBM Plex Sans Var",
+        "fallbacks": "Helvetica Neue, Arial",
+        "size": "24px (1.50rem)",
+        "weight": 400,
+        "lineHeight": "1.33",
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "link",
+        "family": "IBM Plex Sans Var",
+        "fallbacks": "Helvetica Neue, Arial",
+        "size": "24px (1.50rem)",
+        "weight": 400,
+        "lineHeight": "1.33",
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "heading-1",
+        "family": "IBM Plex Sans Var",
+        "fallbacks": "Helvetica Neue, Arial",
+        "size": "20px (1.25rem)",
+        "weight": 400,
+        "lineHeight": "1.40",
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "link",
+        "family": "IBM Plex Sans Var",
+        "fallbacks": "Helvetica Neue, Arial",
+        "size": "16px (1.00rem)",
+        "weight": 400,
+        "lineHeight": "1.50",
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "heading-1",
+        "family": "IBM Plex Sans Var",
+        "fallbacks": "Helvetica Neue, Arial",
+        "size": "16px (1.00rem)",
+        "weight": 600,
+        "lineHeight": "1.38",
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "heading-1",
+        "family": "IBM Plex Sans Var",
+        "fallbacks": "Helvetica Neue, Arial",
+        "size": "16px (1.00rem)",
+        "weight": 400,
+        "lineHeight": "1.50",
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "button",
+        "family": "IBM Plex Sans Var",
+        "fallbacks": "Helvetica Neue, Arial",
+        "size": "16px (1.00rem)",
+        "weight": 400,
+        "lineHeight": "1.29",
+        "spacing": "0.16px",
+        "transform": null
+      },
+      {
+        "context": "button",
+        "family": "IBM Plex Sans Var",
+        "fallbacks": "Helvetica Neue, Arial",
+        "size": "16px (1.00rem)",
+        "weight": 400,
+        "lineHeight": "1.50",
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "heading-1",
+        "family": "IBM Plex sans",
+        "fallbacks": "ibm-plex-sans",
+        "size": "16px (1.00rem)",
+        "weight": 400,
+        "lineHeight": "2.50",
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "button",
+        "family": "IBM Plex Sans Var",
+        "fallbacks": "Helvetica Neue, Arial",
+        "size": "14px (0.88rem)",
+        "weight": 600,
+        "lineHeight": "1.43",
+        "spacing": "0.16px",
+        "transform": null
+      },
+      {
+        "context": "caption",
+        "family": "IBM Plex Sans Var",
+        "fallbacks": "Helvetica Neue, Arial",
+        "size": "14px (0.88rem)",
+        "weight": 600,
+        "lineHeight": "1.29",
+        "spacing": "0.16px",
+        "transform": null
+      },
+      {
+        "context": "link",
+        "family": "IBM Plex Sans Var",
+        "fallbacks": "Helvetica Neue, Arial",
+        "size": "14px (0.88rem)",
+        "weight": 600,
+        "lineHeight": "1.29",
+        "spacing": "0.16px",
+        "transform": null
+      },
+      {
+        "context": "caption",
+        "family": "IBM Plex Sans Var",
+        "fallbacks": "Helvetica Neue, Arial",
+        "size": "14px (0.88rem)",
+        "weight": 600,
+        "lineHeight": "1.43",
+        "spacing": "0.1px",
+        "transform": null
+      },
+      {
+        "context": "link",
+        "family": "IBM Plex Sans Var",
+        "fallbacks": "Helvetica Neue, Arial",
+        "size": "14px (0.88rem)",
+        "weight": 400,
+        "lineHeight": "1.29",
+        "spacing": "0.16px",
+        "transform": null
+      },
+      {
+        "context": "caption",
+        "family": "IBM Plex Sans Var",
+        "fallbacks": "Helvetica Neue, Arial",
+        "size": "14px (0.88rem)",
+        "weight": 400,
+        "lineHeight": "1.43",
+        "spacing": "0.16px",
+        "transform": null
+      },
+      {
+        "context": "caption",
+        "family": "IBM Plex Sans",
+        "fallbacks": "ibm-plex-sans",
+        "size": "14px (0.88rem)",
+        "weight": 600,
+        "lineHeight": "1.29",
+        "spacing": "0.16px",
+        "transform": null
+      },
+      {
+        "context": "caption",
+        "family": "IBM Plex Sans",
+        "fallbacks": "ibm-plex-sans",
+        "size": "14px (0.88rem)",
+        "weight": 400,
+        "lineHeight": "1.29",
+        "spacing": "0.16px",
+        "transform": null
+      },
+      {
+        "context": "button",
+        "family": "IBM Plex Sans",
+        "fallbacks": "ibm-plex-sans",
+        "size": "14px (0.88rem)",
+        "weight": 400,
+        "lineHeight": null,
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "link",
+        "family": "IBM Plex Sans",
+        "fallbacks": "ibm-plex-sans",
+        "size": "14px (0.88rem)",
+        "weight": 400,
+        "lineHeight": "1.29",
+        "spacing": "0.16px",
+        "transform": null
+      },
+      {
+        "context": "button",
+        "family": "IBM Plex Sans",
+        "fallbacks": "ibm-plex-sans",
+        "size": "14px (0.88rem)",
+        "weight": 400,
+        "lineHeight": "1.14",
+        "spacing": "0.16px",
+        "transform": null
+      },
+      {
+        "context": "button",
+        "family": "IBM Plex Sans Var",
+        "fallbacks": "Helvetica Neue, Arial",
+        "size": "13.3333px (0.83rem)",
+        "weight": 400,
+        "lineHeight": null,
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "caption",
+        "family": "IBM Plex Sans Var",
+        "fallbacks": "Helvetica Neue, Arial",
+        "size": "12px (0.75rem)",
+        "weight": 400,
+        "lineHeight": "1.33",
+        "spacing": "0.32px",
+        "transform": null
+      }
+    ],
+    "sources": {
+      "googleFonts": [],
+      "adobeFonts": false,
+      "variableFonts": false
+    }
+  },
+  "spacing": {
+    "scaleType": "8px",
+    "commonValues": [
+      {
+        "px": "1px",
+        "rem": "0.06rem",
+        "count": 4,
+        "numericValue": 1
+      },
+      {
+        "px": "2px",
+        "rem": "0.13rem",
+        "count": 2,
+        "numericValue": 2
+      },
+      {
+        "px": "4px",
+        "rem": "0.25rem",
+        "count": 6,
+        "numericValue": 4
+      },
+      {
+        "px": "5.2px",
+        "rem": "0.33rem",
+        "count": 1,
+        "numericValue": 5.2
+      },
+      {
+        "px": "6px",
+        "rem": "0.38rem",
+        "count": 28,
+        "numericValue": 6
+      },
+      {
+        "px": "8px",
+        "rem": "0.50rem",
+        "count": 13,
+        "numericValue": 8
+      },
+      {
+        "px": "10px",
+        "rem": "0.63rem",
+        "count": 1,
+        "numericValue": 10
+      },
+      {
+        "px": "15px",
+        "rem": "0.94rem",
+        "count": 4,
+        "numericValue": 15
+      },
+      {
+        "px": "16px",
+        "rem": "1.00rem",
+        "count": 45,
+        "numericValue": 16
+      },
+      {
+        "px": "20px",
+        "rem": "1.25rem",
+        "count": 1,
+        "numericValue": 20
+      },
+      {
+        "px": "24px",
+        "rem": "1.50rem",
+        "count": 11,
+        "numericValue": 24
+      },
+      {
+        "px": "32px",
+        "rem": "2.00rem",
+        "count": 11,
+        "numericValue": 32
+      },
+      {
+        "px": "40px",
+        "rem": "2.50rem",
+        "count": 2,
+        "numericValue": 40
+      },
+      {
+        "px": "48px",
+        "rem": "3.00rem",
+        "count": 3,
+        "numericValue": 48
+      },
+      {
+        "px": "64px",
+        "rem": "4.00rem",
+        "count": 7,
+        "numericValue": 64
+      },
+      {
+        "px": "80px",
+        "rem": "5.00rem",
+        "count": 1,
+        "numericValue": 80
+      },
+      {
+        "px": "383px",
+        "rem": "23.94rem",
+        "count": 3,
+        "numericValue": 383
+      }
+    ]
+  },
+  "borderRadius": {
+    "values": [
+      {
+        "value": "2px",
+        "count": 1,
+        "elements": [
+          "span"
+        ],
+        "confidence": "low",
+        "numericValue": 2
+      },
+      {
+        "value": "50%",
+        "count": 1,
+        "elements": [
+          "Back to Top"
+        ],
+        "confidence": "low",
+        "numericValue": 50
+      }
+    ]
+  },
+  "borders": {
+    "combinations": [
+      {
+        "width": "0px 0px 1px",
+        "style": "none none solid",
+        "color": "rgb(82, 82, 82)",
+        "count": 4,
+        "elements": [
+          "li"
+        ],
+        "confidence": "medium"
+      },
+      {
+        "width": "1px 0px 0px 1px",
+        "style": "solid none none solid",
+        "color": "rgb(224, 224, 224)",
+        "count": 4,
+        "elements": [
+          "card"
+        ],
+        "confidence": "medium"
+      },
+      {
+        "width": "1px 1px 0px",
+        "style": "solid solid none",
+        "color": "rgb(224, 224, 224)",
+        "count": 3,
+        "elements": [
+          "hr"
+        ],
+        "confidence": "low"
+      },
+      {
+        "width": "1px",
+        "style": "solid",
+        "color": "rgb(168, 168, 168)",
+        "count": 3,
+        "elements": [
+          "card"
+        ],
+        "confidence": "low"
+      },
+      {
+        "width": "1px 0px 0px",
+        "style": "solid none none",
+        "color": "rgb(168, 168, 168)",
+        "count": 3,
+        "elements": [
+          "card"
+        ],
+        "confidence": "low"
+      },
+      {
+        "width": "1px",
+        "style": "solid",
+        "color": "rgb(15, 98, 254)",
+        "count": 2,
+        "elements": [
+          "button"
+        ],
+        "confidence": "low"
+      },
+      {
+        "width": "0px 0px 1px",
+        "style": "none none solid",
+        "color": "rgb(22, 22, 22)",
+        "count": 1,
+        "elements": [
+          "header"
+        ],
+        "confidence": "low"
+      },
+      {
+        "width": "0px 1px 0px 0px",
+        "style": "none solid none none",
+        "color": "rgb(0, 0, 0)",
+        "count": 1,
+        "elements": [
+          "button"
+        ],
+        "confidence": "low"
+      },
+      {
+        "width": "0px 0px 1px",
+        "style": "none none solid",
+        "color": "rgb(255, 255, 255)",
+        "count": 1,
+        "elements": [
+          "input"
+        ],
+        "confidence": "low"
+      },
+      {
+        "width": "0px 0px 0px 1px",
+        "style": "none none none solid",
+        "color": "rgb(255, 255, 255)",
+        "count": 1,
+        "elements": [
+          "nav"
+        ],
+        "confidence": "low"
+      },
+      {
+        "width": "0px 1px 0px 0px",
+        "style": "none solid none none",
+        "color": "rgb(82, 82, 82)",
+        "count": 1,
+        "elements": [
+          "nav"
+        ],
+        "confidence": "low"
+      },
+      {
+        "width": "1px",
+        "style": "solid",
+        "color": "rgb(255, 255, 255)",
+        "count": 1,
+        "elements": [
+          "div"
+        ],
+        "confidence": "low"
+      }
+    ]
+  },
+  "shadows": [
+    {
+      "shadow": "rgba(0, 0, 0, 0.5) 0px 4px 8px 0px",
+      "count": 1,
+      "confidence": "low"
+    },
+    {
+      "shadow": "rgb(42, 42, 42) 1px 5px 5px 3px",
+      "count": 1,
+      "confidence": "low"
+    },
+    {
+      "shadow": "rgba(0, 0, 0, 0.1) 0px 0px 10px 3px",
+      "count": 1,
+      "confidence": "low"
+    }
+  ],
+  "components": {
+    "buttons": [
+      {
+        "states": {
+          "default": {
+            "backgroundColor": "rgb(22, 22, 22)",
+            "color": "rgb(15, 98, 254)",
+            "padding": "0px",
+            "borderRadius": "0px",
+            "border": "",
+            "boxShadow": "none",
+            "outline": "rgb(15, 98, 254) none 0px",
+            "transform": "none",
+            "opacity": "1"
+          },
+          "hover": {
+            "backgroundColor": "var(--cds-hover-ui,#e5e5e5)",
+            "color": "var(--cds-link-primary,#0f62fe)",
+            "boxShadow": "0 .0625rem var(--cds-link-primary,#0f62fe)",
+            "outline": "none",
+            "border": "none",
+            "opacity": "0.8"
+          },
+          "active": {
+            "backgroundColor": "var(--cds-active-ui,#c6c6c6)",
+            "boxShadow": "0 .0625rem 0 0 var(--cds-text-primary,#161616)",
+            "color": "var(--cds-text-primary,#161616)",
+            "outline": "2px solid var(--cds-focus,#0f62fe)",
+            "border": "none"
+          },
+          "focus": {
+            "outline": "2px solid var(--cds-focus,#0f62fe)",
+            "boxShadow": "rgb(15, 98, 254) 0px 0px 0px 2px",
+            "border": "none",
+            "color": "var(--cds-focus,#0f62fe)",
+            "backgroundColor": "rgb(229, 229, 229)",
+            "opacity": "0"
+          }
+        },
+        "fontWeight": "400",
+        "fontSize": "16px",
+        "classes": "Header-module--header-button--7135b Header-module-",
+        "confidence": "high"
+      },
+      {
+        "states": {
+          "default": {
+            "backgroundColor": "rgba(22, 22, 22, 0.5)",
+            "color": "rgb(22, 22, 22)",
+            "padding": "0px",
+            "borderRadius": "0px",
+            "border": "0px none rgb(22, 22, 22)",
+            "boxShadow": "none",
+            "outline": "rgb(22, 22, 22) none 0px",
+            "transform": "none",
+            "opacity": "0"
+          },
+          "hover": {
+            "backgroundColor": "initial",
+            "opacity": "0",
+            "boxShadow": "rgb(15, 98, 254) 0px 0px 0px 2px",
+            "border": "1px solid rgb(255, 255, 255)"
+          },
+          "active": null,
+          "focus": {
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "outline": "none"
+          }
+        },
+        "fontWeight": "400",
+        "fontSize": "16px",
+        "classes": "Container-module--overlay--d2679",
+        "confidence": "high"
+      },
+      {
+        "states": {
+          "default": {
+            "backgroundColor": "rgb(111, 111, 111)",
+            "color": "rgb(0, 0, 0)",
+            "padding": "5.2px 6px 1px",
+            "borderRadius": "50%",
+            "border": "2px outset rgba(0, 0, 0, 0)",
+            "boxShadow": "none",
+            "outline": "rgb(0, 0, 0) none 0px",
+            "transform": "none",
+            "opacity": "1"
+          },
+          "hover": {
+            "backgroundColor": "var(--cds-hover-ui,#e5e5e5)",
+            "color": "var(--cds-link-primary,#0f62fe)",
+            "boxShadow": "0 .0625rem var(--cds-link-primary,#0f62fe)",
+            "outline": "none",
+            "border": "none",
+            "opacity": "0.8"
+          },
+          "active": {
+            "backgroundColor": "var(--cds-active-ui,#c6c6c6)",
+            "boxShadow": "0 .0625rem 0 0 var(--cds-text-primary,#161616)",
+            "color": "var(--cds-text-primary,#161616)",
+            "outline": "2px solid var(--cds-focus,#0f62fe)",
+            "border": "none"
+          },
+          "focus": {
+            "outline": "2px solid var(--cds-focus,#0f62fe)",
+            "boxShadow": "rgb(15, 98, 254) 0px 0px 0px 2px",
+            "border": "none",
+            "backgroundColor": "rgb(229, 229, 229)",
+            "color": "var(--cds-focus,#0f62fe)"
+          }
+        },
+        "fontWeight": "400",
+        "fontSize": "13.3333px",
+        "classes": "BackToTopBtn-module--button--12d77",
+        "confidence": "high"
+      },
+      {
+        "states": {
+          "default": {
+            "backgroundColor": "rgb(15, 98, 254)",
+            "color": "rgb(255, 255, 255)",
+            "padding": "15px 15px 15px 16px",
+            "borderRadius": "0px",
+            "border": "",
+            "boxShadow": "none",
+            "outline": "rgb(255, 255, 255) none 0px",
+            "transform": "none",
+            "opacity": "1"
+          },
+          "hover": {
+            "backgroundColor": "var(--cds-hover-ui,#e5e5e5)",
+            "color": "var(--cds-link-primary,#0f62fe)",
+            "boxShadow": "0 .0625rem var(--cds-link-primary,#0f62fe)",
+            "outline": "none",
+            "border": "none",
+            "opacity": "0.8"
+          },
+          "active": {
+            "backgroundColor": "var(--cds-active-ui,#c6c6c6)",
+            "boxShadow": "0 .0625rem 0 0 var(--cds-text-primary,#161616)",
+            "color": "var(--cds-text-primary,#161616)",
+            "outline": "2px solid var(--cds-focus,#0f62fe)",
+            "border": "none"
+          },
+          "focus": {
+            "outline": "2px solid var(--cds-focus,#0f62fe)",
+            "boxShadow": "rgb(15, 98, 254) 0px 0px 0px 2px",
+            "border": "none",
+            "backgroundColor": "rgb(229, 229, 229)",
+            "color": "var(--cds-focus,#0f62fe)"
+          }
+        },
+        "fontWeight": "400",
+        "fontSize": "14px",
+        "classes": "",
+        "confidence": "high"
+      }
+    ],
+    "inputs": {
+      "text": [],
+      "checkbox": [],
+      "radio": [],
+      "select": []
+    },
+    "links": [
+      {
+        "color": "rgb(255, 255, 255)",
+        "textDecoration": "underline",
+        "fontWeight": "400",
+        "states": {
+          "default": {
+            "color": "rgb(255, 255, 255)",
+            "textDecoration": "underline"
+          },
+          "hover": {
+            "color": "rgb(244, 244, 244)",
+            "textDecoration": "underline"
+          }
+        }
+      },
+      {
+        "color": "rgb(198, 198, 198)",
+        "textDecoration": "none",
+        "fontWeight": "600",
+        "states": {
+          "default": {
+            "color": "rgb(198, 198, 198)",
+            "textDecoration": "none"
+          },
+          "hover": {
+            "color": "rgb(244, 244, 244)",
+            "textDecoration": "underline"
+          }
+        }
+      },
+      {
+        "color": "rgb(15, 98, 254)",
+        "textDecoration": "none",
+        "fontWeight": "600",
+        "states": {
+          "default": {
+            "color": "rgb(15, 98, 254)",
+            "textDecoration": "underline"
+          },
+          "hover": {
+            "color": "var(--cds-text-primary,#161616)",
+            "textDecoration": "underline"
+          }
+        }
+      },
+      {
+        "color": "rgb(22, 22, 22)",
+        "textDecoration": "none",
+        "fontWeight": "400",
+        "states": {
+          "default": {
+            "color": "rgb(22, 22, 22)",
+            "textDecoration": "underline 1px"
+          },
+          "hover": {
+            "color": "var(--cds-text-disabled,#16161640)",
+            "textDecoration": "underline"
+          }
+        }
+      },
+      {
+        "color": "rgb(0, 98, 254)",
+        "textDecoration": "underline",
+        "fontWeight": "400",
+        "states": {
+          "default": {
+            "color": "rgb(0, 98, 254)",
+            "textDecoration": "underline"
+          },
+          "hover": {
+            "color": "rgb(244, 244, 244)",
+            "textDecoration": "underline"
+          }
+        }
+      },
+      {
+        "color": "rgb(244, 244, 244)",
+        "textDecoration": "none",
+        "fontWeight": "400",
+        "states": {
+          "default": {
+            "color": "rgb(244, 244, 244)",
+            "textDecoration": "underline"
+          },
+          "hover": {
+            "color": "rgb(244, 244, 244)",
+            "textDecoration": "underline"
+          }
+        }
+      }
+    ],
+    "badges": {
+      "all": [],
+      "byVariant": {
+        "error": [],
+        "warning": [],
+        "success": [],
+        "info": [],
+        "neutral": []
+      }
+    }
+  },
+  "breakpoints": [
+    {
+      "px": "1px"
+    },
+    {
+      "px": "410px"
+    },
+    {
+      "px": "480px"
+    },
+    {
+      "px": "550px"
+    },
+    {
+      "px": "580px"
+    },
+    {
+      "px": "640px"
+    },
+    {
+      "px": "672px"
+    },
+    {
+      "px": "760px"
+    },
+    {
+      "px": "767px"
+    },
+    {
+      "px": "991px"
+    }
+  ],
+  "iconSystem": [
+    {
+      "name": "SVG Icons",
+      "type": "svg"
+    }
+  ],
+  "frameworks": [
+    {
+      "name": "PrimeReact/Vue/NG",
+      "confidence": "high",
+      "evidence": "14 Prime components"
+    },
+    {
+      "name": "Carbon Design System",
+      "confidence": "high",
+      "evidence": "580 Carbon components"
+    }
+  ]
+}

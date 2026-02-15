@@ -1,0 +1,319 @@
+{
+  "url": "https://news.ycombinator.com/",
+  "extractedAt": "2026-01-09T09:38:22.951Z",
+  "logo": null,
+  "favicons": [
+    {
+      "type": "icon",
+      "url": "https://news.ycombinator.com/y18.svg",
+      "sizes": null
+    },
+    {
+      "type": "favicon.ico",
+      "url": "https://news.ycombinator.com/favicon.ico",
+      "sizes": null
+    }
+  ],
+  "colors": {
+    "semantic": {},
+    "palette": [
+      {
+        "color": "rgb(0, 0, 0)",
+        "normalized": "#000000",
+        "count": 222,
+        "confidence": "high",
+        "sources": [
+          "morelink"
+        ]
+      },
+      {
+        "color": "rgb(128, 128, 128)",
+        "normalized": "#808080",
+        "count": 106,
+        "confidence": "high",
+        "sources": []
+      }
+    ],
+    "cssVariables": {}
+  },
+  "typography": {
+    "styles": [
+      {
+        "context": "link",
+        "family": "Verdana",
+        "fallbacks": "Geneva",
+        "size": "13.3333px (0.83rem)",
+        "weight": 400,
+        "lineHeight": null,
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "caption",
+        "family": "Verdana",
+        "fallbacks": "Geneva",
+        "size": "13.3333px (0.83rem)",
+        "weight": 400,
+        "lineHeight": "0.90",
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "link",
+        "family": "Verdana",
+        "fallbacks": "Geneva",
+        "size": "13.3333px (0.83rem)",
+        "weight": 700,
+        "lineHeight": "0.90",
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "caption",
+        "family": "Verdana",
+        "fallbacks": "Geneva",
+        "size": "10.6667px (0.67rem)",
+        "weight": 400,
+        "lineHeight": null,
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "link",
+        "family": "Verdana",
+        "fallbacks": "Geneva",
+        "size": "10.6667px (0.67rem)",
+        "weight": 400,
+        "lineHeight": null,
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "caption",
+        "family": "Verdana",
+        "fallbacks": "Geneva",
+        "size": "9.33333px (0.58rem)",
+        "weight": 400,
+        "lineHeight": null,
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "link",
+        "family": "Verdana",
+        "fallbacks": "Geneva",
+        "size": "9.33333px (0.58rem)",
+        "weight": 400,
+        "lineHeight": null,
+        "spacing": null,
+        "transform": null
+      }
+    ],
+    "sources": {
+      "googleFonts": [],
+      "adobeFonts": false,
+      "variableFonts": false
+    }
+  },
+  "spacing": {
+    "scaleType": "8px",
+    "commonValues": [
+      {
+        "px": "1px",
+        "rem": "0.06rem",
+        "count": 4,
+        "numericValue": 1
+      },
+      {
+        "px": "2px",
+        "rem": "0.13rem",
+        "count": 2,
+        "numericValue": 2
+      },
+      {
+        "px": "3px",
+        "rem": "0.19rem",
+        "count": 30,
+        "numericValue": 3
+      },
+      {
+        "px": "6px",
+        "rem": "0.38rem",
+        "count": 30,
+        "numericValue": 6
+      },
+      {
+        "px": "8px",
+        "rem": "0.50rem",
+        "count": 2,
+        "numericValue": 8
+      },
+      {
+        "px": "13.3333px",
+        "rem": "0.83rem",
+        "count": 1,
+        "numericValue": 13.3333
+      }
+    ]
+  },
+  "borderRadius": {
+    "values": []
+  },
+  "borders": {
+    "combinations": [
+      {
+        "width": "1px",
+        "style": "solid",
+        "color": "rgb(255, 255, 255)",
+        "count": 1,
+        "elements": [
+          "img"
+        ],
+        "confidence": "low"
+      },
+      {
+        "width": "2px",
+        "style": "inset",
+        "color": "rgb(118, 118, 118)",
+        "count": 1,
+        "elements": [
+          "input"
+        ],
+        "confidence": "low"
+      }
+    ]
+  },
+  "shadows": [],
+  "components": {
+    "buttons": [],
+    "inputs": {
+      "text": [
+        {
+          "specificType": "text",
+          "states": {
+            "default": {
+              "backgroundColor": "rgb(255, 255, 255)",
+              "color": "rgb(0, 0, 0)",
+              "border": "2px inset rgb(118, 118, 118)",
+              "borderRadius": "0px",
+              "padding": "1px 2px",
+              "boxShadow": "none",
+              "outline": "rgb(0, 0, 0) none 0px"
+            },
+            "focus": null
+          }
+        }
+      ],
+      "checkbox": [],
+      "radio": [],
+      "select": []
+    },
+    "links": [
+      {
+        "color": "rgb(0, 0, 0)",
+        "textDecoration": "none",
+        "fontWeight": "400",
+        "states": {
+          "default": {
+            "color": "rgb(0, 0, 0)",
+            "textDecoration": "none"
+          },
+          "hover": {
+            "textDecoration": "underline"
+          }
+        }
+      },
+      {
+        "color": "rgb(130, 130, 130)",
+        "textDecoration": "none",
+        "fontWeight": "400",
+        "states": {
+          "default": {
+            "color": "rgb(130, 130, 130)",
+            "textDecoration": "underline"
+          },
+          "hover": {
+            "textDecoration": "underline"
+          }
+        }
+      }
+    ],
+    "badges": {
+      "all": [],
+      "byVariant": {
+        "error": [],
+        "warning": [],
+        "success": [],
+        "info": [],
+        "neutral": []
+      }
+    }
+  },
+  "breakpoints": [
+    {
+      "px": "300px"
+    },
+    {
+      "px": "389px"
+    },
+    {
+      "px": "390px"
+    },
+    {
+      "px": "509px"
+    },
+    {
+      "px": "510px"
+    },
+    {
+      "px": "599px"
+    },
+    {
+      "px": "600px"
+    },
+    {
+      "px": "689px"
+    },
+    {
+      "px": "690px"
+    },
+    {
+      "px": "750px"
+    },
+    {
+      "px": "809px"
+    },
+    {
+      "px": "810px"
+    },
+    {
+      "px": "899px"
+    },
+    {
+      "px": "900px"
+    },
+    {
+      "px": "1079px"
+    },
+    {
+      "px": "1080px"
+    },
+    {
+      "px": "1169px"
+    },
+    {
+      "px": "1170px"
+    },
+    {
+      "px": "1259px"
+    },
+    {
+      "px": "1260px"
+    },
+    {
+      "px": "1349px"
+    }
+  ],
+  "iconSystem": [],
+  "frameworks": []
+}

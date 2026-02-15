@@ -1,0 +1,1216 @@
+{
+  "url": "https://zed.dev/",
+  "extractedAt": "2026-01-09T09:36:18.861Z",
+  "logo": {
+    "source": "img",
+    "url": "https://zed.dev/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Flogo_icon.d67dc948.webp&w=3840&q=100",
+    "width": 330,
+    "height": 330,
+    "alt": "Zed Industries logo",
+    "safeZone": {
+      "top": 0,
+      "right": 0,
+      "bottom": 0,
+      "left": 0
+    }
+  },
+  "favicons": [
+    {
+      "type": "icon",
+      "url": "https://zed.dev/favicon_black_16.png",
+      "sizes": "16x16"
+    },
+    {
+      "type": "icon",
+      "url": "https://zed.dev/favicon_black_32.png",
+      "sizes": "32x32"
+    },
+    {
+      "type": "icon",
+      "url": "https://zed.dev/favicon_black_64.png",
+      "sizes": "64x64"
+    },
+    {
+      "type": "icon",
+      "url": "https://zed.dev/favicon_white_16.png",
+      "sizes": "16x16"
+    },
+    {
+      "type": "icon",
+      "url": "https://zed.dev/favicon_white_32.png",
+      "sizes": "32x32"
+    },
+    {
+      "type": "icon",
+      "url": "https://zed.dev/favicon_white_64.png",
+      "sizes": "64x64"
+    },
+    {
+      "type": "og:image",
+      "url": "https://zed.dev/img/home/og.webp",
+      "sizes": null
+    },
+    {
+      "type": "twitter:image",
+      "url": "https://zed.dev/img/home/og.webp",
+      "sizes": null
+    },
+    {
+      "type": "favicon.ico",
+      "url": "https://zed.dev/favicon.ico",
+      "sizes": null
+    }
+  ],
+  "colors": {
+    "semantic": {},
+    "palette": [
+      {
+        "color": "oklch",
+        "normalized": "oklch",
+        "count": 1979,
+        "confidence": "high",
+        "sources": [
+          "size-16",
+          "mb-2",
+          "dark:bg-offgray-950"
+        ]
+      },
+      {
+        "color": "rgb(76, 84, 97)",
+        "normalized": "#4c5461",
+        "count": 1010,
+        "confidence": "high",
+        "sources": [
+          "sticky",
+          "size-16",
+          "mb-2"
+        ]
+      },
+      {
+        "color": "rgb(7, 81, 207)",
+        "normalized": "#0751cf",
+        "count": 331,
+        "confidence": "high",
+        "sources": [
+          "size-16",
+          "dark:bg-offgray-950",
+          "relative"
+        ]
+      },
+      {
+        "color": "oklab",
+        "normalized": "oklab",
+        "count": 205,
+        "confidence": "high",
+        "sources": [
+          "sticky",
+          "group",
+          "w-fit"
+        ]
+      },
+      {
+        "color": "rgb(0, 0, 0)",
+        "normalized": "#000000",
+        "count": 141,
+        "confidence": "high",
+        "sources": [
+          "group"
+        ]
+      },
+      {
+        "color": "rgb(255, 255, 255)",
+        "normalized": "#ffffff",
+        "count": 76,
+        "confidence": "high",
+        "sources": []
+      },
+      {
+        "color": "oklab(0.903549 -0.000140101 -0.00710732 / 0.5)",
+        "normalized": "oklab(0.903549 -0.000140101 -0.00710732 / 0.5)",
+        "count": 1,
+        "confidence": "medium",
+        "sources": [
+          "hover/focus"
+        ]
+      },
+      {
+        "color": "rgba(9, 78, 206, 0.5)",
+        "normalized": "#094ece",
+        "count": 1,
+        "confidence": "medium",
+        "sources": [
+          "hover/focus"
+        ]
+      },
+      {
+        "color": "rgb(6, 64, 172)",
+        "normalized": "#0640ac",
+        "count": 1,
+        "confidence": "medium",
+        "sources": [
+          "hover/focus"
+        ]
+      },
+      {
+        "color": "oklab(0.537556 -0.0299223 -0.185701 / 0.479162)",
+        "normalized": "oklab(0.537556 -0.0299223 -0.185701 / 0.479162)",
+        "count": 1,
+        "confidence": "medium",
+        "sources": [
+          "hover/focus"
+        ]
+      }
+    ],
+    "cssVariables": {
+      "--color-cream-200": "#d9d5bf",
+      "--tw-mask-bottom-from-color": "#000",
+      "--color-offgray-500": "#818b9c",
+      "--color-white": "#fff",
+      "--color-offgray-950": "#22252b",
+      "--color-offgray-300": "#b8bdc7",
+      "--color-offgray-200": "#c6cad2",
+      "--color-cream-900": "#4c472e",
+      "--color-offgray-400": "#98a0ae"
+    }
+  },
+  "typography": {
+    "styles": [
+      {
+        "context": "heading-1",
+        "family": "__lora_1fc044",
+        "fallbacks": "__lora_Fallback_1fc044",
+        "size": "48px (3.00rem)",
+        "weight": 400,
+        "lineHeight": "1.20",
+        "spacing": "-0.96px",
+        "transform": null
+      },
+      {
+        "context": "heading-1",
+        "family": "__lora_1fc044",
+        "fallbacks": "__lora_Fallback_1fc044",
+        "size": "27.2px (1.70rem)",
+        "weight": 500,
+        "lineHeight": "1.25",
+        "spacing": "-0.136px",
+        "transform": null
+      },
+      {
+        "context": "heading-1",
+        "family": "__lora_1fc044",
+        "fallbacks": "__lora_Fallback_1fc044",
+        "size": "24px (1.50rem)",
+        "weight": 600,
+        "lineHeight": "1.33",
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "heading-1",
+        "family": "__lora_1fc044",
+        "fallbacks": "__lora_Fallback_1fc044",
+        "size": "18.4px (1.15rem)",
+        "weight": 500,
+        "lineHeight": "1.20",
+        "spacing": "-0.092px",
+        "transform": null
+      },
+      {
+        "context": "heading-1",
+        "family": "__lora_1fc044",
+        "fallbacks": "__lora_Fallback_1fc044",
+        "size": "17.6px (1.10rem)",
+        "weight": 500,
+        "lineHeight": "1.10",
+        "spacing": "-0.088px",
+        "transform": null
+      },
+      {
+        "context": "heading-1",
+        "family": "__writer_1deb74",
+        "fallbacks": "__writer_Fallback_1deb74",
+        "size": "16px (1.00rem)",
+        "weight": 400,
+        "lineHeight": "1.50",
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "link",
+        "family": "__writer_1deb74",
+        "fallbacks": "__writer_Fallback_1deb74",
+        "size": "16px (1.00rem)",
+        "weight": 400,
+        "lineHeight": "1.50",
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "heading-1",
+        "family": "__writer_1deb74",
+        "fallbacks": "__writer_Fallback_1deb74",
+        "size": "16px (1.00rem)",
+        "weight": 400,
+        "lineHeight": "1.50",
+        "spacing": "-0.4px",
+        "transform": null
+      },
+      {
+        "context": "button",
+        "family": "__writer_1deb74",
+        "fallbacks": "__writer_Fallback_1deb74",
+        "size": "16px (1.00rem)",
+        "weight": 400,
+        "lineHeight": "1.50",
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "heading-1",
+        "family": "__writer_1deb74",
+        "fallbacks": "__writer_Fallback_1deb74",
+        "size": "15px (0.94rem)",
+        "weight": 400,
+        "lineHeight": "1.50",
+        "spacing": "-0.375px",
+        "transform": null
+      },
+      {
+        "context": "heading-1",
+        "family": "__writer_1deb74",
+        "fallbacks": "__writer_Fallback_1deb74",
+        "size": "15px (0.94rem)",
+        "weight": 400,
+        "lineHeight": "1.50",
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "button",
+        "family": "__writer_1deb74",
+        "fallbacks": "__writer_Fallback_1deb74",
+        "size": "14px (0.88rem)",
+        "weight": 400,
+        "lineHeight": "1.43",
+        "spacing": "-0.35px",
+        "transform": null
+      },
+      {
+        "context": "link",
+        "family": "__writer_1deb74",
+        "fallbacks": "__writer_Fallback_1deb74",
+        "size": "14px (0.88rem)",
+        "weight": 400,
+        "lineHeight": "1.43",
+        "spacing": "-0.35px",
+        "transform": null
+      },
+      {
+        "context": "caption",
+        "family": "__writer_1deb74",
+        "fallbacks": "__writer_Fallback_1deb74",
+        "size": "14px (0.88rem)",
+        "weight": 400,
+        "lineHeight": "1.43",
+        "spacing": "-0.35px",
+        "transform": null
+      },
+      {
+        "context": "caption",
+        "family": "__writer_1deb74",
+        "fallbacks": "__writer_Fallback_1deb74",
+        "size": "14px (0.88rem)",
+        "weight": 400,
+        "lineHeight": "1.43",
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "link",
+        "family": "__writer_1deb74",
+        "fallbacks": "__writer_Fallback_1deb74",
+        "size": "14px (0.88rem)",
+        "weight": 400,
+        "lineHeight": "1.43",
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "caption",
+        "family": "__lora_1fc044",
+        "fallbacks": "__lora_Fallback_1fc044",
+        "size": "14px (0.88rem)",
+        "weight": 600,
+        "lineHeight": "1.43",
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "caption",
+        "family": "__writer_1deb74",
+        "fallbacks": "__writer_Fallback_1deb74",
+        "size": "13px (0.81rem)",
+        "weight": 400,
+        "lineHeight": "1.50",
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "caption",
+        "family": "__lora_1fc044",
+        "fallbacks": "__lora_Fallback_1fc044",
+        "size": "13px (0.81rem)",
+        "weight": 500,
+        "lineHeight": "1.50",
+        "spacing": "0.325px",
+        "transform": null
+      },
+      {
+        "context": "caption",
+        "family": "__writer_1deb74",
+        "fallbacks": "__writer_Fallback_1deb74",
+        "size": "12px (0.75rem)",
+        "weight": 400,
+        "lineHeight": "1.33",
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "link",
+        "family": "__writer_1deb74",
+        "fallbacks": "__writer_Fallback_1deb74",
+        "size": "12px (0.75rem)",
+        "weight": 400,
+        "lineHeight": "1.33",
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "button",
+        "family": "__writer_1deb74",
+        "fallbacks": "__writer_Fallback_1deb74",
+        "size": "12px (0.75rem)",
+        "weight": 400,
+        "lineHeight": "1.33",
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "caption",
+        "family": "ui-monospace",
+        "fallbacks": "SFMono-Regular, Menlo, Monaco, Consolas, Liberation Mono, Courier New",
+        "size": "11px (0.69rem)",
+        "weight": 700,
+        "lineHeight": "1.43",
+        "spacing": "-0.35px",
+        "transform": null
+      },
+      {
+        "context": "caption",
+        "family": "__writer_1deb74",
+        "fallbacks": "__writer_Fallback_1deb74",
+        "size": "11px (0.69rem)",
+        "weight": 400,
+        "lineHeight": "1.50",
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "caption",
+        "family": "ui-monospace",
+        "fallbacks": "SFMono-Regular, Menlo, Monaco, Consolas, Liberation Mono, Courier New",
+        "size": "11px (0.69rem)",
+        "weight": 400,
+        "lineHeight": "1.50",
+        "spacing": "0.55px",
+        "transform": "uppercase"
+      },
+      {
+        "context": "caption",
+        "family": "ui-monospace",
+        "fallbacks": "SFMono-Regular, Menlo, Monaco, Consolas, Liberation Mono, Courier New",
+        "size": "10px (0.63rem)",
+        "weight": 400,
+        "lineHeight": "1.50",
+        "spacing": null,
+        "transform": null
+      }
+    ],
+    "sources": {
+      "googleFonts": [],
+      "adobeFonts": false,
+      "variableFonts": false
+    }
+  },
+  "spacing": {
+    "scaleType": "8px",
+    "commonValues": [
+      {
+        "px": "1px",
+        "rem": "0.06rem",
+        "count": 19,
+        "numericValue": 1
+      },
+      {
+        "px": "2px",
+        "rem": "0.13rem",
+        "count": 10,
+        "numericValue": 2
+      },
+      {
+        "px": "4px",
+        "rem": "0.25rem",
+        "count": 39,
+        "numericValue": 4
+      },
+      {
+        "px": "6px",
+        "rem": "0.38rem",
+        "count": 2,
+        "numericValue": 6
+      },
+      {
+        "px": "8px",
+        "rem": "0.50rem",
+        "count": 76,
+        "numericValue": 8
+      },
+      {
+        "px": "10px",
+        "rem": "0.63rem",
+        "count": 55,
+        "numericValue": 10
+      },
+      {
+        "px": "12px",
+        "rem": "0.75rem",
+        "count": 16,
+        "numericValue": 12
+      },
+      {
+        "px": "14px",
+        "rem": "0.88rem",
+        "count": 34,
+        "numericValue": 14
+      },
+      {
+        "px": "16px",
+        "rem": "1.00rem",
+        "count": 49,
+        "numericValue": 16
+      },
+      {
+        "px": "20px",
+        "rem": "1.25rem",
+        "count": 2,
+        "numericValue": 20
+      },
+      {
+        "px": "24px",
+        "rem": "1.50rem",
+        "count": 19,
+        "numericValue": 24
+      },
+      {
+        "px": "32px",
+        "rem": "2.00rem",
+        "count": 4,
+        "numericValue": 32
+      },
+      {
+        "px": "48px",
+        "rem": "3.00rem",
+        "count": 4,
+        "numericValue": 48
+      },
+      {
+        "px": "64px",
+        "rem": "4.00rem",
+        "count": 4,
+        "numericValue": 64
+      },
+      {
+        "px": "80px",
+        "rem": "5.00rem",
+        "count": 9,
+        "numericValue": 80
+      },
+      {
+        "px": "96px",
+        "rem": "6.00rem",
+        "count": 5,
+        "numericValue": 96
+      },
+      {
+        "px": "112px",
+        "rem": "7.00rem",
+        "count": 1,
+        "numericValue": 112
+      },
+      {
+        "px": "153.6px",
+        "rem": "9.60rem",
+        "count": 1,
+        "numericValue": 153.6
+      }
+    ]
+  },
+  "borderRadius": {
+    "values": [
+      {
+        "value": "0px 0px 4px",
+        "count": 1,
+        "elements": [
+          "div"
+        ],
+        "confidence": "low",
+        "numericValue": 0
+      },
+      {
+        "value": "1px",
+        "count": 58,
+        "elements": [
+          "div"
+        ],
+        "confidence": "high",
+        "numericValue": 1
+      },
+      {
+        "value": "2px",
+        "count": 33,
+        "elements": [
+          "kbd",
+          "div",
+          "span",
+          "img",
+          "video"
+        ],
+        "confidence": "high",
+        "numericValue": 2
+      },
+      {
+        "value": "4px",
+        "count": 215,
+        "elements": [
+          "Go back to zed.dev homepage",
+          "Product",
+          "Extensions",
+          "Docs",
+          "Blog"
+        ],
+        "confidence": "high",
+        "numericValue": 4
+      },
+      {
+        "value": "28px",
+        "count": 1,
+        "elements": [
+          "div"
+        ],
+        "confidence": "low",
+        "numericValue": 28
+      },
+      {
+        "value": "32px",
+        "count": 1,
+        "elements": [
+          "div"
+        ],
+        "confidence": "low",
+        "numericValue": 32
+      },
+      {
+        "value": "36px",
+        "count": 1,
+        "elements": [
+          "div"
+        ],
+        "confidence": "low",
+        "numericValue": 36
+      },
+      {
+        "value": "40px",
+        "count": 1,
+        "elements": [
+          "div"
+        ],
+        "confidence": "low",
+        "numericValue": 40
+      },
+      {
+        "value": "3.35544e+07px",
+        "count": 19,
+        "elements": [
+          "Play video",
+          "Nathan Sobo's GitHub profile",
+          "img",
+          "Antonio Scandurra's GitHub profile",
+          "Max Brunsfeld's GitHub profile"
+        ],
+        "confidence": "high",
+        "numericValue": 33554400
+      }
+    ]
+  },
+  "borders": {
+    "combinations": [
+      {
+        "width": "1px",
+        "style": "dashed",
+        "color": "oklch(0.809 0.105 251.813)",
+        "count": 84,
+        "elements": [
+          "div"
+        ],
+        "confidence": "high"
+      },
+      {
+        "width": "1px",
+        "style": "solid",
+        "color": "oklch(0.882 0.059 254.128)",
+        "count": 58,
+        "elements": [
+          "div"
+        ],
+        "confidence": "high"
+      },
+      {
+        "width": "1px",
+        "style": "solid",
+        "color": "oklab(0.838267 -0.00110692 -0.0118781 / 0.5)",
+        "count": 44,
+        "elements": [
+          "a",
+          "div",
+          "img",
+          "video"
+        ],
+        "confidence": "high"
+      },
+      {
+        "width": "1px",
+        "style": "solid",
+        "color": "rgb(221, 223, 228)",
+        "count": 39,
+        "elements": [
+          "a",
+          "div",
+          "section"
+        ],
+        "confidence": "high"
+      },
+      {
+        "width": "1px 0px 0px",
+        "style": "solid",
+        "color": "rgb(221, 223, 228)",
+        "count": 17,
+        "elements": [
+          "div"
+        ],
+        "confidence": "high"
+      },
+      {
+        "width": "1px",
+        "style": "solid",
+        "color": "oklch(0.928 0.006 264.531)",
+        "count": 13,
+        "elements": [
+          "button",
+          "div"
+        ],
+        "confidence": "high"
+      },
+      {
+        "width": "1px",
+        "style": "solid",
+        "color": "oklab(0.882 -0.0161359 -0.0567506 / 0.8)",
+        "count": 11,
+        "elements": [
+          "div"
+        ],
+        "confidence": "high"
+      },
+      {
+        "width": "1px 0px 0px",
+        "style": "solid",
+        "color": "oklch(0.928 0.006 264.531)",
+        "count": 8,
+        "elements": [
+          "hr"
+        ],
+        "confidence": "medium"
+      },
+      {
+        "width": "1px 0px 0px",
+        "style": "solid",
+        "color": "oklab(0.838267 -0.00110692 -0.0118781 / 0.8)",
+        "count": 7,
+        "elements": [
+          "div"
+        ],
+        "confidence": "medium"
+      },
+      {
+        "width": "0px 0px 1px",
+        "style": "solid",
+        "color": "oklab(0.882 -0.0161359 -0.0567506 / 0.5)",
+        "count": 5,
+        "elements": [
+          "header",
+          "div",
+          "tab"
+        ],
+        "confidence": "medium"
+      },
+      {
+        "width": "0px 1px",
+        "style": "solid",
+        "color": "oklab(0.882 -0.0161359 -0.0567506 / 0.5)",
+        "count": 4,
+        "elements": [
+          "div",
+          "main",
+          "section"
+        ],
+        "confidence": "medium"
+      },
+      {
+        "width": "1px",
+        "style": "solid",
+        "color": "oklab(0.551 -0.00265162 -0.0268695 / 0.2)",
+        "count": 4,
+        "elements": [
+          "kbd"
+        ],
+        "confidence": "medium"
+      },
+      {
+        "width": "0px 1px 1px 0px",
+        "style": "solid",
+        "color": "oklch(0.928 0.006 264.531)",
+        "count": 4,
+        "elements": [
+          "div"
+        ],
+        "confidence": "medium"
+      },
+      {
+        "width": "0px 1px 0px 0px",
+        "style": "solid",
+        "color": "oklch(0.928 0.006 264.531)",
+        "count": 4,
+        "elements": [
+          "div"
+        ],
+        "confidence": "medium"
+      },
+      {
+        "width": "0px 1px 0px 0px",
+        "style": "solid",
+        "color": "oklch(0.809 0.105 251.813)",
+        "count": 4,
+        "elements": [
+          "a"
+        ],
+        "confidence": "medium"
+      },
+      {
+        "width": "1px",
+        "style": "solid",
+        "color": "oklab(0.623 -0.0378409 -0.210628 / 0.15)",
+        "count": 4,
+        "elements": [
+          "span"
+        ],
+        "confidence": "medium"
+      },
+      {
+        "width": "0px 1px 0px 0px",
+        "style": "solid",
+        "color": "oklab(0.999994 0.0000455678 0.0000200868 / 0.1)",
+        "count": 4,
+        "elements": [
+          "div"
+        ],
+        "confidence": "medium"
+      },
+      {
+        "width": "1px",
+        "style": "solid",
+        "color": "oklab(0.999994 0.0000455678 0.0000200868 / 0.2)",
+        "count": 3,
+        "elements": [
+          "kbd"
+        ],
+        "confidence": "low"
+      },
+      {
+        "width": "0px 1px 0px 0px",
+        "style": "solid",
+        "color": "oklab(0.882 -0.0161359 -0.0567506 / 0.5)",
+        "count": 2,
+        "elements": [
+          "div"
+        ],
+        "confidence": "low"
+      },
+      {
+        "width": "0px 0px 1px",
+        "style": "solid",
+        "color": "oklch(0.928 0.006 264.531)",
+        "count": 2,
+        "elements": [
+          "div"
+        ],
+        "confidence": "low"
+      },
+      {
+        "width": "1px",
+        "style": "solid",
+        "color": "rgb(198, 202, 210)",
+        "count": 2,
+        "elements": [
+          "div"
+        ],
+        "confidence": "low"
+      },
+      {
+        "width": "1px",
+        "style": "solid",
+        "color": "oklab(0.872 -0.00202137 -0.00979357 / 0.9)",
+        "count": 1,
+        "elements": [
+          "div"
+        ],
+        "confidence": "low"
+      },
+      {
+        "width": "1px",
+        "style": "solid",
+        "color": "oklab(0.797471 -0.00141972 -0.015056 / 0.4)",
+        "count": 1,
+        "elements": [
+          "div"
+        ],
+        "confidence": "low"
+      },
+      {
+        "width": "8px",
+        "style": "solid",
+        "color": "oklab(0.97 -0.00371685 -0.0134976 / 0.6)",
+        "count": 1,
+        "elements": [
+          "div"
+        ],
+        "confidence": "low"
+      },
+      {
+        "width": "1px 0px 0px",
+        "style": "dashed",
+        "color": "oklab(0.838267 -0.00110692 -0.0118781 / 0.5)",
+        "count": 1,
+        "elements": [
+          "div"
+        ],
+        "confidence": "low"
+      },
+      {
+        "width": "0px 1px 1px",
+        "style": "solid",
+        "color": "oklab(0.882 -0.0161359 -0.0567506 / 0.5)",
+        "count": 1,
+        "elements": [
+          "section"
+        ],
+        "confidence": "low"
+      },
+      {
+        "width": "0px 0px 0px 1px",
+        "style": "solid",
+        "color": "oklab(0.882 -0.0161359 -0.0567506 / 0.5)",
+        "count": 1,
+        "elements": [
+          "div"
+        ],
+        "confidence": "low"
+      },
+      {
+        "width": "1px",
+        "style": "solid",
+        "color": "oklab(0.623 -0.0378409 -0.210628 / 0.7)",
+        "count": 1,
+        "elements": [
+          "tab"
+        ],
+        "confidence": "low"
+      },
+      {
+        "width": "1px",
+        "style": "solid",
+        "color": "rgb(255, 255, 255)",
+        "count": 1,
+        "elements": [
+          "img"
+        ],
+        "confidence": "low"
+      },
+      {
+        "width": "1px",
+        "style": "solid",
+        "color": "oklch(0.809 0.105 251.813)",
+        "count": 1,
+        "elements": [
+          "div"
+        ],
+        "confidence": "low"
+      },
+      {
+        "width": "8px",
+        "style": "solid",
+        "color": "oklab(0.999994 0.0000455678 0.0000200868 / 0.5)",
+        "count": 1,
+        "elements": [
+          "div"
+        ],
+        "confidence": "low"
+      },
+      {
+        "width": "0px 1px",
+        "style": "solid",
+        "color": "oklab(0.999994 0.0000455678 0.0000200868 / 0.1)",
+        "count": 1,
+        "elements": [
+          "div"
+        ],
+        "confidence": "low"
+      },
+      {
+        "width": "1px 0px 0px",
+        "style": "solid",
+        "color": "oklab(0.999994 0.0000455678 0.0000200868 / 0.1)",
+        "count": 1,
+        "elements": [
+          "hr"
+        ],
+        "confidence": "low"
+      }
+    ]
+  },
+  "shadows": [
+    {
+      "shadow": "rgba(111, 123, 144, 0.05) 0px -2px 0px 0px inset",
+      "count": 41,
+      "confidence": "high"
+    },
+    {
+      "shadow": "rgba(111, 123, 144, 0.1) 0px -2px 0px 0px inset",
+      "count": 29,
+      "confidence": "high"
+    },
+    {
+      "shadow": "rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.1) 0px 4px 6px -4px",
+      "count": 28,
+      "confidence": "high"
+    },
+    {
+      "shadow": "rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.1) 0px 2px 4px -2px",
+      "count": 13,
+      "confidence": "high"
+    },
+    {
+      "shadow": "rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(7, 77, 207, 0.06) 6px 6px 0px 0px",
+      "count": 6,
+      "confidence": "high"
+    },
+    {
+      "shadow": "rgb(5, 55, 148) 0px -2px 0px 0px inset, rgb(230, 239, 254) 0px 1px 3px 0px",
+      "count": 3,
+      "confidence": "medium"
+    },
+    {
+      "shadow": "rgba(7, 77, 207, 0.06) 6px 6px 0px 0px, rgba(7, 77, 207, 0.06) -6px -6px 0px 0px",
+      "count": 2,
+      "confidence": "low"
+    },
+    {
+      "shadow": "rgba(7, 77, 207, 0.06) 6px 6px 0px 0px",
+      "count": 2,
+      "confidence": "low"
+    },
+    {
+      "shadow": "rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, oklab(0.872 -0.00202137 -0.00979357 / 0.8) 0px 20px 25px -5px, oklab(0.872 -0.00202137 -0.00979357 / 0.8) 0px 8px 10px -6px",
+      "count": 2,
+      "confidence": "low"
+    },
+    {
+      "shadow": "rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, oklab(0 0 0 / 0.6) 0px 20px 25px -5px, oklab(0 0 0 / 0.6) 0px 8px 10px -6px",
+      "count": 1,
+      "confidence": "low"
+    }
+  ],
+  "components": {
+    "buttons": [
+      {
+        "states": {
+          "default": {
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "color": "rgb(0, 0, 0)",
+            "padding": "0px 8px 0px 10px",
+            "borderRadius": "4px",
+            "border": "1px solid rgba(0, 0, 0, 0)",
+            "boxShadow": "none",
+            "outline": "rgb(0, 0, 0) none 0px",
+            "transform": "none",
+            "opacity": "1"
+          },
+          "hover": null,
+          "active": null,
+          "focus": null
+        },
+        "fontWeight": "400",
+        "fontSize": "14px",
+        "classes": "group select-none text-sm tracking-tight rounded-s",
+        "confidence": "high"
+      },
+      {
+        "states": {
+          "default": {
+            "backgroundColor": "rgb(7, 81, 207)",
+            "color": "rgb(76, 84, 97)",
+            "padding": "0px",
+            "borderRadius": "3.35544e+07px",
+            "border": "0px solid oklch(0.928 0.006 264.531)",
+            "boxShadow": "rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, oklab(0 0 0 / 0.6) 0px 20px 25px -5px, oklab(0 0 0 / 0.6) 0px 8px 10px -6px",
+            "outline": "oklab(0.809 -0.0327725 -0.0997545 / 0.2) solid 4px",
+            "transform": "none",
+            "opacity": "1"
+          },
+          "hover": null,
+          "active": null,
+          "focus": null
+        },
+        "fontWeight": "400",
+        "fontSize": "16px",
+        "classes": "size-16 rounded-full relative overflow-clip flex i",
+        "confidence": "high"
+      }
+    ],
+    "inputs": {
+      "text": [],
+      "checkbox": [],
+      "radio": [],
+      "select": []
+    },
+    "links": [
+      {
+        "color": "rgb(76, 84, 97)",
+        "textDecoration": "none",
+        "fontWeight": "400",
+        "states": {
+          "default": {
+            "color": "rgb(76, 84, 97)",
+            "textDecoration": "none"
+          },
+          "hover": null
+        }
+      },
+      {
+        "color": "rgb(0, 0, 0)",
+        "textDecoration": "none",
+        "fontWeight": "400",
+        "states": {
+          "default": {
+            "color": "rgb(0, 0, 0)",
+            "textDecoration": "none"
+          },
+          "hover": null
+        }
+      },
+      {
+        "color": "rgb(255, 255, 255)",
+        "textDecoration": "none",
+        "fontWeight": "400",
+        "states": {
+          "default": {
+            "color": "rgb(255, 255, 255)",
+            "textDecoration": "none"
+          },
+          "hover": null
+        }
+      },
+      {
+        "color": "rgb(7, 81, 207)",
+        "textDecoration": "none",
+        "fontWeight": "400",
+        "states": {
+          "default": {
+            "color": "rgb(7, 81, 207)",
+            "textDecoration": "underline oklab(0.4817 -0.0309288 -0.203076 / 0.2)"
+          },
+          "hover": null
+        }
+      },
+      {
+        "color": "rgb(241, 242, 244)",
+        "textDecoration": "none",
+        "fontWeight": "400",
+        "states": {
+          "default": {
+            "color": "rgb(241, 242, 244)",
+            "textDecoration": "underline oklab(0.999994 0.0000455678 0.0000200868 / 0.2)"
+          },
+          "hover": null
+        }
+      }
+    ],
+    "badges": {
+      "all": [],
+      "byVariant": {
+        "error": [],
+        "warning": [],
+        "success": [],
+        "info": [],
+        "neutral": []
+      }
+    }
+  },
+  "breakpoints": [],
+  "iconSystem": [
+    {
+      "name": "SVG Icons",
+      "type": "svg"
+    }
+  ],
+  "frameworks": [
+    {
+      "name": "Tailwind CSS",
+      "confidence": "high",
+      "evidence": "arbitrary values (e.g., top-[117px]), responsive/state modifiers"
+    },
+    {
+      "name": "Radix UI",
+      "confidence": "high",
+      "evidence": "24 Radix primitives"
+    },
+    {
+      "name": "shadcn/ui",
+      "confidence": "medium",
+      "evidence": "Tailwind + Radix + component patterns"
+    },
+    {
+      "name": "Headless UI",
+      "confidence": "high",
+      "evidence": "10 headless components with Tailwind"
+    },
+    {
+      "name": "PrimeReact/Vue/NG",
+      "confidence": "high",
+      "evidence": "432 Prime components"
+    },
+    {
+      "name": "Fluent UI",
+      "confidence": "high",
+      "evidence": "383 Fluent components"
+    }
+  ]
+}

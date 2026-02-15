@@ -1,0 +1,3035 @@
+.theme--Dark {
+  --backgroundColor: #0a2540;
+  --linkColor: var(--accentColor);
+  --linkHoverColor: #fff;
+  --buttonColor: var(--accentColor);
+  --buttonHoverColor: #fff;
+  --knockoutColor: #0a2540;
+  --guideSolidColor: rgba(66, 71, 112, 0.3);
+  --guideDashedColor: rgba(66, 71, 112, 0.3);
+  --titleColor: #fff;
+  --textColor: #adbdcc;
+  --inputBackground: #0c2e4e;
+  --inputPlaceholderColor: #b6c2cd;
+  --inputTextColor: #fff;
+  --inputErrorAccentColor: #ff5996;
+  --navColor: #fff;
+  --navHoverColor: #fff;
+  --footerColor: #fff;
+  --cardBorderColor: #0f395e;
+  --cardBackground: #0c2e4e;
+  --stripeAccentDark: #0c2e4e;
+}
+.theme--Dark.accent--Slate,
+.theme--Dark .accent--Slate {
+  --accentColor: #fff;
+}
+.SiteNavList__title {
+  color: #727f96;
+}
+@media (max-width: 899px) {
+  .SiteNavList__title {
+    margin: var(
+      --SiteNavListTitleMargin,
+      0 0 calc(10px + var(--siteNavListSpacing)) 0
+    );
+  }
+}
+.SiteMobileNavGroup {
+  background-color: #fff;
+}
+.SiteMobileNavGroup--transparent {
+  background: none;
+}
+.SiteMobileNavGroup__title {
+  color: #0a2540;
+}
+.VariantSiteMobileDevelopersNav__subtitle {
+  color: #0a2540;
+}
+.flavor--Twilight {
+  --blendBackground: #11efe3;
+  --blendIntersection: #0048e5;
+  --blendForeground: #96f;
+  --gradientColorZero: #4436ff;
+  --gradientColorOne: #56f;
+  --gradientColorTwo: #d679ff;
+  --gradientColorThree: #11efe3;
+  --gradientColorZeroTransparent: rgba(68, 54, 255, 0);
+  --gradientColorOneTransparent: rgba(85, 102, 255, 0);
+  --gradientColorTwoTransparent: rgba(214, 121, 255, 0);
+  --gradientColorThreeTransparent: rgba(4, 255, 255, 0);
+  --shadeFourColor: #1959e6;
+}
+.flavor--Twilight.theme--Dark,
+.flavor--Twilight .theme--Dark,
+.flavor--Twilight.theme--SemiDark,
+.flavor--Twilight .theme--SemiDark {
+  --blendBackground: #11efe3;
+  --blendIntersection: #c2ffff;
+  --blendForeground: #96f;
+}
+.flavor--Twilight.theme--Dark .theme--Light,
+.flavor--Twilight.theme--Dark .theme--White {
+  --blendForeground: #11efe3;
+  --blendIntersection: #0048e5;
+  --blendBackground: #96f;
+}
+.flavor--Twilight.accent--Purple,
+.flavor--Twilight .accent--Purple {
+  --accentColor: #96f;
+}
+.flavor--Twilight.accent--Teal,
+.flavor--Twilight .accent--Teal {
+  --accentColor: #00c4c4;
+}
+.flavor--Twilight.theme--Dark.accent--Teal,
+.flavor--Twilight.theme--Dark .accent--Teal,
+.flavor--Twilight .theme--Dark.accent--Teal,
+.flavor--Twilight.theme--SemiDark.accent--Teal,
+.flavor--Twilight.theme--SemiDark .accent--Teal,
+.flavor--Twilight .theme--SemiDark.accent--Teal {
+  --accentColor: #0de4e4;
+}
+.ApplePaySheet__overlay {
+  background: #0b3055;
+}
+.ApplePaySheet__sheet {
+  background: #fff;
+  box-shadow:
+    0 6px 12px -2px rgba(50, 50, 93, 0.12),
+    0 3px 7px -3px rgba(0, 0, 0, 0.15);
+}
+.ApplePaySheet__row {
+  border-bottom: 1px solid #e6ebf1;
+}
+.ApplePaySheet__cancelButton {
+  color: #2a69fe;
+}
+.ApplePaySheet__checkoutLabel {
+  color: #66788f;
+}
+.ApplePaySheet__checkoutInfo {
+  color: #425466;
+}
+.flavor--CottonCandy {
+  --blendBackground: #ff80ff;
+  --blendIntersection: #003dc1;
+  --blendForeground: #0073e6;
+  --gradientColorZero: #45dfff;
+  --gradientColorOne: #2aa1ff;
+  --gradientColorTwo: #4536ff;
+  --gradientColorThree: #ff79f6;
+  --gradientColorZeroTransparent: rgba(69, 223, 255, 0);
+  --gradientColorOneTransparent: rgba(42, 161, 255, 0);
+  --gradientColorTwoTransparent: rgba(69, 54, 255, 0);
+  --gradientColorThreeTransparent: rgba(255, 121, 246, 0);
+}
+.flavor--CottonCandy.theme--Dark,
+.flavor--CottonCandy .theme--Dark {
+  --blendBackground: #ff80ff;
+  --blendIntersection: #fac7ff;
+  --blendForeground: #0073e6;
+  --accentColor: #f363f3;
+}
+.flavor--CottonCandy.accent--Pink,
+.flavor--CottonCandy .accent--Pink {
+  --accentColor: #f363f3;
+}
+.flavor--CottonCandy.theme--Dark.accent--Pink,
+.flavor--CottonCandy.theme--Dark .accent--Pink {
+  --accentColor: #ff83ff;
+}
+.flavor--CottonCandy.accent--Cyan,
+.flavor--CottonCandy .accent--Cyan {
+  --accentColor: #02bcf5;
+}
+.flavor--CottonCandy.theme--Dark.accent--Cyan,
+.flavor--CottonCandy.theme--Dark .accent--Cyan {
+  --accentColor: #09d6ff;
+}
+.flavor--CottonCandy.accent--Blurple,
+.flavor--CottonCandy .accent--Blurple {
+  --accentColor: #6061f6;
+}
+.flavor--CottonCandy.accent--Blue,
+.flavor--CottonCandy .accent--Blue {
+  --accentColor: #0073e6;
+}
+.flavor--Perennial {
+  --blendBackground: #ff80ff;
+  --blendIntersection: #003dc1;
+  --blendForeground: #0073e6;
+  --gradientColorZero: #45dfff;
+  --gradientColorOne: #2aa1ff;
+  --gradientColorTwo: #4536ff;
+  --gradientColorThree: #a755fa;
+  --gradientColorZeroTransparent: rgba(69, 223, 255, 0);
+  --gradientColorOneTransparent: rgba(42, 161, 255, 0);
+  --gradientColorTwoTransparent: rgba(69, 54, 255, 0);
+  --gradientColorThreeTransparent: rgba(167, 85, 250, 0);
+}
+.flavor--Perennial.theme--Dark,
+.flavor--Perennial .theme--Dark {
+  --blendBackground: #0073e6;
+  --blendIntersection: #fac7ff;
+  --blendForeground: #ff80ff;
+}
+.flavor--Perennial.accent--Blurple,
+.flavor--Perennial .accent--Blurple {
+  --accentColor: #635bff;
+}
+.flavor--Perennial.theme--Dark.accent--Blurple,
+.flavor--Perennial.theme--Dark .accent--Blurple {
+  --accentColor: #7a73ff;
+}
+.flavor--Perennial.accent--Cyan,
+.flavor--Perennial .accent--Cyan {
+  --accentColor: #02bcf5;
+}
+.flavor--Perennial.theme--Dark.accent--Cyan,
+.flavor--Perennial.theme--Dark .accent--Cyan {
+  --accentColor: #09d6ff;
+}
+.HomepageFrontdoorIcon {
+  --iconScale: 1;
+}
+.HomepageFrontdoorIcon--iconSizeMedium {
+  --iconScale: calc(48/var(--activeSize));
+}
+.HomepageFrontdoorIcon__icon--outline {
+  border: calc(1px / var(--iconScale)) solid #c4ccd8;
+  background: #f6f9fc;
+}
+.HomepageFrontdoorIcon__icon--solid {
+  background: #fff;
+  box-shadow:
+    0 12.6px 25.2px -11.5733px rgba(50, 50, 93, 0.25),
+    0 7.56px 15.12px -7.56px rgba(0, 0, 0, 0.1);
+}
+.HomepageFrontdoorIcon__label {
+  color: #2e3a55;
+}
+.theme--Transparent {
+  --backgroundColor: none;
+  --linkColor: #fff;
+  --linkHoverColor: var(--linkColor);
+  --buttonColor: hsla(0, 0%, 100%, 0.2);
+  --buttonHoverColor: hsla(0, 0%, 100%, 0.4);
+  --accentColor: #fff;
+  --knockoutColor: #fff;
+  --textColor: #fff;
+  --guideSolidColor: rgba(66, 71, 112, 0.06);
+  --guideDashedColor: rgba(66, 71, 112, 0.09);
+  --titleColor: #fff;
+  --navColor: #fff;
+  --navHoverColor: #fff;
+  --stripeColor: #fff;
+}
+.flavor--Sunburst {
+  --blendBackground: #ffd848;
+  --blendIntersection: #ff7600;
+  --blendForeground: #fb0;
+  --gradientColorZero: #ff9a15;
+  --gradientColorOne: #ff7600;
+  --gradientColorTwo: #ffa829;
+  --gradientColorThree: #ffdf56;
+  --gradientColorZeroTransparent: rgba(255, 154, 21, 0);
+  --gradientColorOneTransparent: rgba(255, 118, 0, 0);
+  --gradientColorTwoTransparent: rgba(255, 168, 41, 0);
+  --gradientColorThreeTransparent: rgba(255, 223, 86, 0);
+}
+.flavor--Sunburst.theme--Dark,
+.flavor--Sunburst .theme--Dark {
+  --blendBackground: #f70;
+  --blendIntersection: #ffea9e;
+  --blendForeground: #fb0;
+}
+.flavor--Sunburst.accent--Yellow,
+.flavor--Sunburst .accent--Yellow {
+  --accentColor: #fab000;
+}
+.flavor--Sunburst.theme--Dark.accent--Yellow,
+.flavor--Sunburst.theme--Dark .accent--Yellow {
+  --accentColor: #ffce48;
+}
+.flavor--Sunburst.accent--Orange,
+.flavor--Sunburst .accent--Orange {
+  --accentColor: #ff7600;
+}
+.flavor--Sunburst.theme--Dark.accent--Orange,
+.flavor--Sunburst.theme--Dark .accent--Orange {
+  --accentColor: #ff7c0c;
+}
+.HeroEmailInput .HeroEmailInput__form .EmailInput input::-moz-placeholder {
+  color: #3f4b66;
+}
+.HeroEmailInput .HeroEmailInput__form .EmailInput input::placeholder {
+  color: #3f4b66;
+}
+.HeroEmailInput .HeroEmailInput__form .EmailInput__input {
+  background-color: #f6f9fb;
+  border: 1px solid rgba(171, 181, 197, 0.30196078431372547);
+}
+.HeroEmailInput .HeroEmailInput__form .HeroEmailInput__button--blurple {
+  background-color: var(--shadeFourColor);
+}
+.HubPage .ColumnLayout {
+  -moz-column-gap: var(--gridColumnGap);
+  column-gap: var(--gridColumnGap);
+}
+.Guides__guide {
+  background: linear-gradient(
+    180deg,
+    var(--guideDashedColor),
+    var(--guideDashedColor) 50%,
+    transparent 0,
+    transparent
+  );
+}
+.Guides__guide:first-of-type,
+.Guides__guide:last-of-type {
+  background: var(--guideSolidColor);
+}
+.flavor--Overcast {
+  --blendBackground: #11efe3;
+  --blendIntersection: #00299c;
+  --blendForeground: #0073e6;
+  --gradientColorZero: #0073e6;
+  --gradientColorOne: #00a8ff;
+  --gradientColorTwo: #021b9c;
+  --gradientColorThree: #11efe3;
+  --gradientColorZeroTransparent: rgba(0, 115, 230, 0);
+  --gradientColorOneTransparent: rgba(0, 168, 255, 0);
+  --gradientColorTwoTransparent: rgba(2, 27, 156, 0);
+  --gradientColorThreeTransparent: rgba(47, 229, 229, 0);
+  --shadeFourColor: #002c59;
+}
+.flavor--Overcast.theme--Dark,
+.flavor--Overcast .theme--Dark {
+  --blendBackground: #11efe3;
+  --blendIntersection: #b3ffff;
+  --blendForeground: #0073e6;
+}
+.flavor--Overcast.accent--Blue,
+.flavor--Overcast .accent--Blue {
+  --accentColor: #0073e6;
+}
+.flavor--Overcast.accent--Cyan,
+.flavor--Overcast .accent--Cyan,
+.flavor--Overcast.theme--Dark.accent--Cyan,
+.flavor--Overcast.theme--Dark .accent--Cyan {
+  --accentColor: #02bcf5;
+}
+.flavor--Overcast.accent--Teal,
+.flavor--Overcast .accent--Teal {
+  --accentColor: #00c4c4;
+}
+.flavor--Overcast.theme--Dark.accent--Teal,
+.flavor--Overcast.theme--Dark .accent--Teal {
+  --accentColor: #0de4e4;
+}
+.SiteNavItem__link {
+  color: #0a2540;
+  outline: none;
+}
+.keyboard-navigation .SiteNavItem__link:focus {
+  box-shadow: var(--focusBoxShadow);
+}
+.SiteNavItem__iconContainer svg {
+  width: inherit;
+  height: inherit;
+}
+.SiteNavItem__label {
+  color: inherit;
+}
+.SiteNavItem__body {
+  color: inherit;
+  line-height: var(--siteNavIconBodyLineHeight, inherit);
+}
+.SiteHeaderArrow {
+  --siteHeaderArrowBackgroundColor: var(--cardBackground);
+  background-color: var(--siteHeaderArrowBackgroundColor);
+  box-shadow: -3px -3px 5px rgba(82, 95, 127, 0.04);
+}
+.SiteHeaderArrow.SiteHeaderArrow--themeLight {
+  --siteHeaderArrowBackgroundColor: #f0f3f6;
+}
+.Copy--accented {
+  --titleColor: var(--accentColor);
+}
+.Copy.variant--Detail,
+.Copy.variant--Stat {
+  --titleBorderColor: var(--accentColor);
+}
+.Copy__caption {
+  color: var(--accentColor);
+}
+.Copy__title {
+  color: var(--titleColor);
+}
+.Copy__title:before {
+  background-color: var(--titleBorderColor, transparent);
+}
+.Copy__body {
+  color: var(--textColor);
+}
+.theme--White {
+  --backgroundColor: #fff;
+  --linkColor: var(--accentColor);
+  --linkHoverColor: #0a2540;
+  --buttonColor: var(--accentColor);
+  --buttonHoverColor: #0a2540;
+  --knockoutColor: #fff;
+  --guideSolidColor: rgba(66, 71, 112, 0.06);
+  --guideDashedColor: rgba(66, 71, 112, 0.09);
+  --titleColor: #0a2540;
+  --textColor: #425466;
+  --inputBackground: #f6f9fc;
+  --inputPlaceholderColor: #727f96;
+  --inputTextColor: #0a2540;
+  --inputErrorAccentColor: #ff5996;
+  --navColor: #0a2540;
+  --navHoverColor: #0a2540;
+  --footerColor: #0a2540;
+  --cardBorderColor: #cbd6e0;
+  --cardBackground: #fff;
+  --stripeAccentDark: #0a2540;
+}
+.theme--White.accent--Slate {
+  --accentColor: #0a2540;
+}
+.flavor--Slate {
+  --blendBackground: #a4bdd2;
+  --blendIntersection: #415465;
+  --blendForeground: #657d92;
+}
+.flavor--Slate.theme--Dark,
+.flavor--Slate .theme--Dark {
+  --blendBackground: #b4d2eb;
+  --blendIntersection: #ecf6ff;
+  --blendForeground: #7995ac;
+}
+.flavor--Slate.accent--Slate,
+.flavor--Slate .accent--Slate {
+  --accentColor: #657d92;
+}
+.flavor--Slate.theme--Dark.accent--Slate,
+.flavor--Slate.theme--Dark .accent--Slate {
+  --accentColor: #b4d2eb;
+}
+.SiteSolutionsNav {
+  background-color: #f6f9fb;
+}
+.SiteSolutionsNav__group {
+  background-color: #fff;
+}
+.SiteSolutionsNav__groupTitle {
+  color: #0a2540;
+}
+.theme--LegacyDark {
+  --backgroundColor: #0a2540;
+  --linkColor: var(--accentColor);
+  --linkHoverColor: #fff;
+  --buttonColor: none;
+  --buttonHoverColor: none;
+  --knockoutColor: #fff;
+  --guideSolidColor: rgba(66, 71, 112, 0.3);
+  --guideDashedColor: rgba(66, 71, 112, 0.3);
+  --titleColor: #fff;
+  --textColor: #adbdcc;
+  --inputBackground: #0c2e4e;
+  --inputPlaceholderColor: #b6c2cd;
+  --navColor: #fff;
+  --navHoverColor: #fff;
+  --footerColor: #fff;
+  --cardBorderColor: #0f395e;
+  --cardBackground: #0c2e4e;
+  --stripeColor: #fff;
+}
+.theme--LegacyDark.accent--Slate,
+.theme--LegacyDark.flavor--Slate.accent--Slate {
+  --accentColor: #fff;
+}
+.SiteHeader:not(.SiteHeader--isStuck) .NavCtaGradient {
+  --buttonColor: #fff;
+  --buttonHoverColor: hsla(0, 0%, 100%, 0.9);
+  --initialGradientColor: linear-gradient(90deg, #e18638, #e17a38);
+}
+.SiteHeader:not(.SiteHeader--isStuck)
+  .NavCtaGradient
+  .CtaButton.variant--Button
+  .NavCta__label {
+  background: var(--initialGradientColor);
+  -webkit-text-fill-color: transparent !important;
+}
+.SiteHeader:not(.SiteHeader--isStuck)
+  .NavCtaGradient
+  .CtaButton.variant--Button
+  .HoverArrow {
+  stroke: #e17a38;
+}
+.SiteHeader--isStuck .NavCtaGradient .CtaButton.variant--Button .NavCta__label {
+  background: none !important;
+}
+.SiteHeader--isStuck .NavCtaGradient .HoverArrow {
+  stroke: #fff !important;
+}
+.flavor--Tropical {
+  --blendBackground: #80e9ff;
+  --blendIntersection: #0048e5;
+  --blendForeground: #7a73ff;
+  --gradientColorZero: #746dff;
+  --gradientColorOne: #8cf9fb;
+  --gradientColorTwo: #fecc69;
+  --gradientColorThree: #fb80fd;
+  --gradientColorZeroTransparent: rgba(169, 96, 238, 0);
+  --gradientColorOneTransparent: rgba(255, 51, 61, 0);
+  --gradientColorTwoTransparent: rgba(144, 224, 255, 0);
+  --gradientColorThreeTransparent: rgba(255, 203, 87, 0);
+  --shadeFourColor: #635bff;
+}
+.flavor--Tropical.theme--Dark,
+.flavor--Tropical .theme--Dark {
+  --blendForeground: #7a73ff;
+  --blendIntersection: #cff;
+  --blendBackground: #00d4ff;
+}
+.flavor--Tropical.accent--Cyan,
+.flavor--Tropical .accent--Cyan {
+  --accentColor: #02bcf5;
+}
+.flavor--Tropical.theme--Dark.accent--Cyan,
+.flavor--Tropical.theme--Dark .accent--Cyan,
+.flavor--Tropical .theme--Dark.accent--Cyan {
+  --accentColor: #00d4ff;
+}
+.flavor--Tropical.accent--Blurple,
+.flavor--Tropical .accent--Blurple {
+  --accentColor: #635bff;
+}
+.flavor--Tropical.theme--Dark.accent--Blurple,
+.flavor--Tropical.theme--Dark .accent--Blurple {
+  --accentColor: #7a73ff;
+}
+.flavor--Tropical.accent--Blue,
+.flavor--Tropical .accent--Blue {
+  --accentColor: #0073e6;
+}
+.flavor--Tropical.accent--Slate,
+.flavor--Tropical .accent--Slate {
+  --accentColor: #0a2540;
+}
+.flavor--Tropical.theme--Dark.accent--Slate,
+.flavor--Tropical.theme--Dark .accent--Slate,
+.flavor--Tropical .theme--Dark.accent--Slate {
+  --accentColor: #fff;
+}
+.Section {
+  color: var(--textColor);
+}
+.Section--hasBorderTop .Section__background {
+  border-top: 1px solid rgba(230, 235, 241, 0.52);
+}
+.Section__background {
+  background: var(--backgroundColor);
+}
+.Section__background--isTransparent {
+  background: hsla(0, 0%, 100%, 0.2);
+}
+.Section__container {
+  min-height: var(--sectionMinHeight);
+}
+.MenuButton {
+  background-color: var(--buttonColor);
+  color: var(--knockoutColor);
+}
+@media (pointer: fine) {
+  .MenuButton:hover {
+    background-color: var(--buttonHoverColor, var(--buttonColor));
+  }
+}
+@media (pointer: coarse) {
+  .MenuButton:active {
+    background-color: var(--buttonHoverColor, var(--buttonColor));
+  }
+}
+.CheckoutPhoneGraphic {
+  --checkoutPhonePayButtonColor: #0a2540;
+}
+.CheckoutPhoneGraphic {
+  background: #fff;
+}
+.CheckoutPhoneGraphic__description {
+  color: #0a2540;
+}
+.CheckoutPhoneGraphic__button {
+  color: #fff;
+  background: var(--checkoutPhonePayButtonColor);
+  box-shadow:
+    0 2px 4px -1px rgba(50, 50, 93, 0.25),
+    0 1px 3px -1px rgba(0, 0, 0, 0.3);
+}
+.CheckoutPhoneGraphic__button--white {
+  background-color: #f6f9fb;
+  color: #0a2540;
+  box-shadow: none;
+}
+.CheckoutPhoneGraphic__button--white.CheckoutPhoneGraphic__applePayButton {
+  border: 1px solid #000;
+  background-color: #fff;
+}
+.CheckoutPhoneGraphic__button--white.CheckoutPhoneGraphic__applePayButton
+  svg
+  > path {
+  fill: #000;
+}
+.CheckoutPhoneGraphic__linkButton {
+  background-color: #00d66f;
+}
+.CheckoutPhoneGraphic__separator {
+  background: linear-gradient(#e6ebf1, #e6ebf1) no-repeat 0 50%/100% 1px;
+}
+.CheckoutPhoneGraphic__separatorTitle {
+  background: #fff;
+}
+.CheckoutPhoneGraphic__input {
+  color: #62788d;
+  box-shadow:
+    0 0 0 1px rgba(50, 50, 93, 0.07),
+    0 2px 3px -1px rgba(50, 50, 93, 0.12),
+    0 1px 3px -1px rgba(0, 0, 0, 0.12);
+}
+.CheckoutPhoneGraphic__placeholder--number {
+  border-bottom: 1px solid #e6ebf1;
+}
+.CheckoutPhoneGraphic__placeholder--cvc {
+  border-left: 1px solid #e6ebf1;
+}
+.CheckoutPhoneGraphic__placeholder--country {
+  border-bottom: 1px solid #e6ebf1;
+}
+.SiteProductsNavIcon {
+  background: #f6f9fb;
+}
+.theme--SemiDark {
+  --backgroundColor: #0d2e4f;
+  --linkColor: var(--accentColor);
+  --linkHoverColor: #fff;
+  --buttonColor: var(--accentColor);
+  --buttonHoverColor: #fff;
+  --knockoutColor: #0a2540;
+  --guideSolidColor: rgba(66, 71, 112, 0.3);
+  --guideDashedColor: rgba(66, 71, 112, 0.3);
+  --titleColor: #fff;
+  --textColor: #adbdcc;
+  --inputBackground: #0c2e4e;
+  --inputPlaceholderColor: #b6c2cd;
+  --inputTextColor: #fff;
+  --inputErrorAccentColor: #ff5996;
+  --navColor: #fff;
+  --navHoverColor: #fff;
+  --footerColor: #fff;
+  --cardBorderColor: #0f395e;
+  --cardBackground: #0c2e4e;
+  --stripeAccentDark: #0c2e4e;
+}
+.theme--SemiDark.accent--Slate,
+.theme--SemiDark .accent--Slate {
+  --accentColor: #fff;
+}
+@media (max-width: 899px) {
+  .SiteMenuSection:before {
+    background: linear-gradient(
+      90deg,
+      var(--guideDashedColor),
+      var(--guideDashedColor) 50%,
+      transparent 0,
+      transparent
+    );
+  }
+}
+.SiteMenuSection__body {
+  padding: var(
+    --siteMenuSectionBodyPadding,
+    var(--siteMenuSpacing) var(--siteMenuSpacing)
+      calc(var(--siteMenuSpacing) - 11px)
+  );
+}
+.SiteMenuSection:only-child .SiteMenuSection__body {
+  padding: var(
+    --siteMenuSectionBodyPadding,
+    var(--siteMenuSpacing) var(--siteMenuSpacing)
+      calc(var(--siteMenuSpacing) - 8px)
+  );
+}
+.SiteMenuSection + .SiteMenuSection .SiteMenuSection__body {
+  padding-top: var(
+    --siteMenuSectionBodyPadding,
+    calc(var(--siteMenuSpacing) - 12px)
+  );
+}
+.SiteMenuSection + .SiteMenuSection:before {
+  background: linear-gradient(
+    90deg,
+    var(--guideDashedColor),
+    var(--guideDashedColor) 50%,
+    transparent 0,
+    transparent
+  );
+}
+.SiteMenuSection__footer {
+  background-color: #eff3f9;
+}
+.PhoneGraphic {
+  --phoneGraphicShadow:
+    0 50px 100px -20px rgba(50, 50, 93, 0.25),
+    0 30px 60px -30px rgba(0, 0, 0, 0.3),
+    inset 0 -2px 6px 0 rgba(10, 37, 64, 0.35);
+  background: #f6f9fc;
+  box-shadow: var(--phoneGraphicShadow);
+}
+.HubPage .PhoneGraphic {
+  --phoneGraphicShadow:
+    0px 20px 39px -20px rgba(0, 0, 0, 0.3),
+    0px 32px 66px -13px rgba(50, 50, 93, 0.25),
+    0px -1px 3px 0px rgba(10, 37, 64, 0.35) inset;
+}
+.PhoneGraphic__screen {
+  -webkit-mask-image: -webkit-radial-gradient(#fff, #000);
+  background: #fff;
+}
+.flavor--Pomegranate {
+  --blendBackground: #ff5996;
+  --blendIntersection: #6e00f5;
+  --blendForeground: #96f;
+  --gradientColorZero: #a54ddd;
+  --gradientColorOne: #ff80ff;
+  --gradientColorTwo: #ffb422;
+  --gradientColorThree: #fe94d4;
+  --gradientColorZeroTransparent: rgba(255, 89, 150, 0);
+  --gradientColorOneTransparent: rgba(255, 128, 255, 0);
+  --gradientColorTwoTransparent: rgba(255, 180, 34, 0);
+  --gradientColorThreeTransparent: rgba(254, 148, 212, 0);
+  --shadeFourColor: #0a2540;
+}
+.flavor--Pomegranate.theme--Dark,
+.flavor--Pomegranate .theme--Dark {
+  --blendBackground: #ff5996;
+  --blendIntersection: #ffdcf2;
+  --blendForeground: #96f;
+  --accentColor: #ff5996;
+}
+.flavor--Pomegranate.accent--Raspberry,
+.flavor--Pomegranate .accent--Raspberry {
+  --accentColor: #ff5996;
+}
+.flavor--Pomegranate.accent--Purple,
+.flavor--Pomegranate .accent--Purple {
+  --accentColor: #96f;
+}
+.HomepageDashboardGraphic {
+  background: linear-gradient(
+    hsla(0, 0%, 100%, 0.4),
+    hsla(0, 0%, 100%, 0.3) 25%,
+    rgba(246, 249, 252, 0.3) 50%,
+    #f6f9fc 60%
+  );
+  box-shadow:
+    inset 0 1px 1px 0 hsla(0, 0%, 100%, 0.1),
+    0 50px 100px -20px rgba(50, 50, 93, 0.25),
+    0 30px 60px -30px rgba(0, 0, 0, 0.3);
+  color: #425466;
+}
+.HomepageDashboardGraphic__company {
+  color: #fff;
+}
+.HomepageDashboardGraphic__searchBar {
+  background: #fff;
+  color: #62788d;
+}
+.HomepageDashboardGraphic__topSection {
+  background: #fff;
+}
+.HomepageDashboardGraphic__title {
+  color: #414552;
+  border-bottom: 1px solid #ebeef1;
+}
+.HomepageDashboardGraphic__copy--XSmall {
+  color: #727f96;
+}
+.HomepageDashboardGraphic__copy--XSmall b {
+  color: #15be53;
+}
+.HomepageDashboardGraphic__copy--XSmallFancy {
+  color: #635bff;
+}
+.HomepageDashboardGraphic__copy--small {
+  color: #727f96;
+}
+.HomepageDashboardGraphic__copy--small b {
+  color: #0a2540;
+}
+.HomepageDashboardGraphic__copy--smallInvoices {
+  color: #0a2540;
+}
+.HomepageDashboardGraphic__copy--smallHeaderFancy {
+  color: #635bff;
+}
+.HomepageDashboardGraphic__copy--medium {
+  color: #727f96;
+}
+.HomepageDashboardGraphic__copy--medium b {
+  color: #0a2540;
+}
+.HomepageDashboardGraphic__copy--large,
+.HomepageDashboardGraphic__copy--large b {
+  color: #0a2540;
+}
+.HomepageDashboardGraphic__separator {
+  background: #ebeef1;
+}
+.HomepageDashboardGraphic__column {
+  background: #fff;
+}
+.HomepageDashboardGraphic__lineItem {
+  border-bottom: 1px solid #ebeef1;
+}
+.HomepageDashboardGraphic__block {
+  background: #96f;
+}
+.HomepageDashboardGraphic__block--blue {
+  background: #0073e6;
+}
+.HomepageDashboardGraphic__block--teal {
+  background: #00c4c4;
+}
+.HomepageDashboardGraphic__paymentsBar--purple {
+  background: #96f;
+}
+.HomepageDashboardGraphic__paymentsBar--blue {
+  background: #0073e6;
+}
+.HomepageDashboardGraphic__paymentsBar--teal {
+  background: #00c4c4;
+}
+.SiteProductsNavCollapsedItem__link {
+  outline: none;
+}
+.keyboard-navigation .SiteProductsNavCollapsedItem__link:focus {
+  box-shadow: var(--focusBoxShadow);
+}
+.SiteProductsNavCollapsedItem__label {
+  color: #0a2540;
+}
+.SiteProductsNavCollapsedItem__body {
+  color: #727f96;
+}
+.SiteMobileProductsNav {
+  background-color: #fff;
+}
+.SiteMobileProductsNav__moreGroupTitle {
+  color: #0a2540;
+}
+.SiteHeader {
+  --siteMenuArrowSpacing: 13px;
+  background-color: var(--backgroundColor);
+}
+.SiteHeader.variant--Overlay {
+  background: none;
+}
+.SiteHeader--hasGuides:after {
+  border: none;
+  background: linear-gradient(
+    90deg,
+    var(--guideDashedColor),
+    var(--guideDashedColor) 50%,
+    transparent 0,
+    transparent
+  );
+}
+@media (pointer: fine) {
+  .SiteHeader__logo:hover {
+    color: var(--navHoverColor);
+  }
+}
+.SiteHeader__logoLink {
+  outline: none;
+}
+.keyboard-navigation .SiteHeader__logoLink:focus {
+  box-shadow: var(--focusBoxShadow);
+}
+.SiteHeader__tabletOverlay {
+  background-color: rgba(10, 37, 64, 0.05);
+}
+.SiteHeader--hasContactSales .SiteHeader__ctaNav .variant--Link {
+  color: var(--linkColor);
+}
+@media (min-width: 900px) {
+  .MktRoot .SiteHeader--isSticky .SiteHeader__stickyShadow {
+    box-shadow: 0 0 60px rgba(50, 50, 93, 0.18);
+  }
+  .MktRoot .SiteHeader--isSticky.SiteHeader--opaque {
+    --accentColor: #96f;
+    --navColor: #0a2540;
+    --navHoverColor: #0a2540;
+    --linkColor: #0a2540;
+    --linkHoverColor: #0a2540;
+    --buttonColor: #635bff;
+    --menuBgColor: #eff3f9;
+  }
+  .MktRoot
+    .SiteHeader--isSticky.SiteHeader--opaque
+    .SiteHeader__stickyContainer {
+    background: #fff;
+  }
+  .MktRoot .SiteHeader--isSticky.SiteHeader--opaque .SiteMenu__card.Card {
+    box-shadow: 0 20px 60px rgba(50, 50, 93, 0.18);
+  }
+  .MktRoot
+    .SiteHeader--isSticky.SiteHeader--opaque
+    .SiteHeader__ctaNav
+    .variant--Button {
+    color: var(--textColor);
+    background-color: var(--buttonColor);
+  }
+  .MktRoot
+    .SiteHeader--isSticky.SiteHeader--opaque
+    .SiteHeader__ctaNav
+    .variant--Button:hover {
+    background-color: var(--linkColor);
+  }
+  .MktRoot
+    .SiteHeader--isSticky.SiteHeader--opaque
+    .SiteHeader__ctaNav
+    .variant--Link {
+    color: var(--linkColor);
+  }
+  .MktRoot .SiteHeader--isSticky.SiteHeader--opaque .SiteMenu {
+    height: calc(var(--siteMenuHeight));
+  }
+  .MktRoot .SiteHeader--isSticky.SiteHeader--opaque .SiteMenu__card.Card {
+    --cardBackground: var(--menuBgColor);
+  }
+  .MktRoot .SiteHeader--isSticky.SiteHeader--opaque .SiteMenuSection__body {
+    background: #fff;
+  }
+  .MktRoot .SiteHeader--isSticky.SiteHeader--opaque .SiteMenuSection__footer {
+    background: var(--menuBgColor);
+  }
+  .MktRoot .SiteHeader--isSticky.SiteHeader--opaque .SiteHeaderArrow {
+    box-shadow: none;
+    --siteHeaderArrowBackgroundColor: var(--menuBgColor);
+  }
+  .MktRoot .SiteHeader--isSticky.SiteHeader--opaque .SiteSolutionsNav {
+    background-color: var(--menuBgColor);
+  }
+  .MktRoot .SiteHeader--isSticky.SiteHeader--opaque .SiteProductsNav {
+    background-color: var(--menuBgColor);
+  }
+}
+.SiteProductsNavSubItem {
+  background-color: #f6f9fc;
+}
+@media (min-width: 900px) {
+  .SiteProductsNavSubItem {
+    border: 1px solid #fff;
+  }
+}
+.SiteProductsNavSubItem__link {
+  color: #0a2540;
+  outline: none;
+}
+.keyboard-navigation .SiteProductsNavSubItem__link:focus {
+  box-shadow: var(--focusBoxShadow);
+}
+.theme--Light {
+  --backgroundColor: #f6f9fc;
+  --linkColor: var(--accentColor);
+  --linkHoverColor: #0a2540;
+  --buttonColor: var(--accentColor);
+  --buttonHoverColor: #0a2540;
+  --knockoutColor: #fff;
+  --guideSolidColor: rgba(66, 71, 112, 0.06);
+  --guideDashedColor: rgba(66, 71, 112, 0.09);
+  --titleColor: #0a2540;
+  --textColor: #425466;
+  --inputBackground: #f6f9fc;
+  --inputPlaceholderColor: #727f96;
+  --inputTextColor: #0a2540;
+  --inputErrorAccentColor: #ff5996;
+  --navColor: #0a2540;
+  --navHoverColor: #0a2540;
+  --footerColor: #0a2540;
+  --cardBorderColor: #cbd6e0;
+  --cardBackground: #fff;
+  --stripeAccentDark: #0a2540;
+}
+.theme--Light.accent--Slate {
+  --accentColor: #0a2540;
+}
+.flavor--Wintergreen {
+  --blendBackground: #1df5e9;
+  --blendIntersection: #00a600;
+  --blendForeground: #00d924;
+  --gradientColorZero: #20d261;
+  --gradientColorOne: #1df5e9;
+  --gradientColorTwo: #00ff91;
+  --gradientColorThree: #1df5e9;
+  --gradientColorZeroTransparent: rgba(68, 54, 255, 0);
+  --gradientColorOneTransparent: rgba(85, 102, 255, 0);
+  --gradientColorTwoTransparent: rgba(214, 121, 255, 0);
+  --gradientColorThreeTransparent: rgba(4, 255, 255, 0);
+  --shadeFourColor: #1959e6;
+}
+.flavor--Wintergreen.theme--Dark,
+.flavor--Wintergreen .theme--Dark {
+  --blendBackground: #00d924;
+  --blendIntersection: #cbffef;
+  --blendForeground: #1df5e9;
+}
+.flavor--Wintergreen.accent--Green,
+.flavor--Wintergreen .accent--Green {
+  --accentColor: #15be53;
+}
+.flavor--Wintergreen.theme--Dark.accent--Green,
+.flavor--Wintergreen.theme--Dark .accent--Green {
+  --accentColor: #14d433;
+}
+.flavor--Wintergreen.accent--Teal,
+.flavor--Wintergreen .accent--Teal {
+  --accentColor: #00c4c4;
+}
+.flavor--Wintergreen.accent--Teal .theme--Dark,
+.flavor--Wintergreen.theme--Dark.accent--Teal,
+.flavor--Wintergreen.theme--Dark .accent--Teal {
+  --accentColor: #0de4e4;
+}
+.SiteMenu {
+  height: calc(var(--siteMenuHeight) + var(--siteMenuArrowSpacing));
+}
+.SiteMenu__card.Card {
+  --cardShadow: var(--cardShadowXLarge);
+}
+.SiteMenu__section .SiteNavList__title {
+  color: #0a2540;
+}
+.Link {
+  color: var(--linkColor);
+  opacity: var(--linkOpacity, 1);
+  outline: none;
+}
+@media (pointer: fine) {
+  .Link:hover {
+    color: var(--linkHoverColor, var(--linkColor));
+  }
+}
+@media (pointer: coarse) {
+  .Link:active {
+    color: var(--linkHoverColor, var(--linkColor));
+  }
+}
+.keyboard-navigation .Link:focus {
+  box-shadow: var(--focusBoxShadow);
+}
+.UniversalChatCtaButtonLarge {
+  background: #fff;
+  border: none;
+  outline: none;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1);
+}
+@media (prefers-reduced-motion: no-preference) {
+  @media (pointer: fine) {
+    .UniversalChatCtaButtonLarge:hover {
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    }
+  }
+}
+.UniversalChatCtaButtonLarge__icon {
+  background: #e7ecf1;
+  border: none;
+  outline: none;
+}
+.UniversalChatCtaButtonLarge.variant--VisualTreatment {
+  background: #0a2540;
+  color: #fff;
+  text-decoration: none;
+  box-shadow:
+    0 0 0 0 transparent,
+    0 0 0 0 transparent,
+    0 0 0 0 transparent,
+    0 0 0 0 transparent,
+    0 0 0 1px oklch(0.7703 0.0254 259.82/0.2);
+}
+.UniversalChatCtaButtonLarge__salesReps {
+  color: var(--stripeAccentDark);
+}
+.UniversalChatCtaButtonLarge__salesReps__content:after {
+  background-color: #fff;
+  box-shadow:
+    0 0 0 0 transparent,
+    0 0 0 0 transparent,
+    0 0 0 0 transparent,
+    0 0 0 0 transparent,
+    0 0 2px 0 oklch(0.2599 0.0604 251.32/0.12),
+    0 4px 8px -2px oklch(0.2599 0.0604 251.32/0.2);
+}
+@media (prefers-reduced-motion: no-preference) {
+  .UniversalChatCtaButtonLarge__salesReps__content:hover:after {
+    box-shadow:
+      0 0 0 0 transparent,
+      0 0 0 0 transparent,
+      0 0 0 0 transparent,
+      0 0 0 0 transparent,
+      0 4px 8px 0 oklch(0.2599 0.0604 251.32/0.06),
+      0 8px 32px -2px oklch(0.2599 0.0604 251.32/0.15);
+  }
+}
+.UniversalChatCtaButtonLarge__salesReps__close {
+  background: none;
+  border: none;
+}
+.UniversalChatCtaButtonLarge__salesReps__close:hover path {
+  fill: #3f4b66;
+}
+.UniversalChatCtaButtonLarge__salesReps__description {
+  color: #3f4b66;
+}
+.UniversalChatCtaButtonLarge__salesReps__title__text:before {
+  background: #15be53;
+}
+.UniversalChatCtaButtonLarge__salesReps__title__text:after {
+  background: #15be53;
+}
+.UniversalChatCtaButtonLarge__salesReps__title__images__image {
+  border: 2px solid #fff;
+}
+.MktRoot {
+  --cardShadowXLarge:
+    0 50px 100px -20px rgba(50, 50, 93, 0.25),
+    0 30px 60px -30px rgba(0, 0, 0, 0.3);
+  --focusBoxShadow: 0 0 0 2px #4d90fe, inset 0 0 0 2px hsla(0, 0%, 100%, 0.9);
+  color-scheme: only light;
+}
+.MktBody {
+  color: var(--textColor);
+  background: var(--backgroundColor);
+}
+a {
+  text-decoration: none;
+}
+.flavor--Chroma {
+  --blendBackground: #80e9ff;
+  --blendIntersection: #0048e5;
+  --blendForeground: #7a73ff;
+  --gradientColorZero: #a960ee;
+  --gradientColorOne: #ff333d;
+  --gradientColorTwo: #90e0ff;
+  --gradientColorThree: #ffcb57;
+  --gradientColorZeroTransparent: rgba(169, 96, 238, 0);
+  --gradientColorOneTransparent: rgba(255, 51, 61, 0);
+  --gradientColorTwoTransparent: rgba(144, 224, 255, 0);
+  --gradientColorThreeTransparent: rgba(255, 203, 87, 0);
+  --shadeFourColor: #635bff;
+}
+.flavor--Chroma.theme--Dark,
+.flavor--Chroma .theme--Dark {
+  --blendForeground: #7a73ff;
+  --blendIntersection: #cff;
+  --blendBackground: #00d4ff;
+}
+.flavor--Chroma.theme--Dark .theme--Light,
+.flavor--Chroma.theme--Dark .theme--White {
+  --blendForeground: #80e9ff;
+  --blendIntersection: #0048e5;
+  --blendBackground: #7a73ff;
+}
+.flavor--Chroma.accent--Cyan,
+.flavor--Chroma .accent--Cyan {
+  --accentColor: #02bcf5;
+}
+.flavor--Chroma.theme--Dark.accent--Cyan,
+.flavor--Chroma.theme--Dark .accent--Cyan,
+.flavor--Chroma .theme--Dark.accent--Cyan {
+  --accentColor: #00d4ff;
+}
+.flavor--Chroma.accent--Blurple,
+.flavor--Chroma .accent--Blurple {
+  --accentColor: #635bff;
+}
+.flavor--Chroma.theme--Dark.accent--Blurple,
+.flavor--Chroma.theme--Dark .accent--Blurple {
+  --accentColor: #7a73ff;
+}
+.flavor--Chroma.accent--Blue,
+.flavor--Chroma .accent--Blue {
+  --accentColor: #0073e6;
+}
+.flavor--Chroma.accent--Orange,
+.flavor--Chroma .accent--Orange {
+  --accentColor: #ff7600;
+}
+.flavor--Chroma.accent--Slate,
+.flavor--Chroma .accent--Slate {
+  --accentColor: #0a2540;
+}
+.flavor--Chroma.theme--Dark.accent--Slate,
+.flavor--Chroma.theme--Dark .accent--Slate,
+.flavor--Chroma .theme--Dark.accent--Slate {
+  --accentColor: #fff;
+}
+.CtaButton {
+  color: var(--buttonColor);
+  outline: none;
+}
+.keyboard-navigation .CtaButton:focus {
+  box-shadow: var(--focusBoxShadow);
+}
+@media (pointer: fine) {
+  .CtaButton.variant--Link:hover {
+    color: var(--linkHoverColor, var(--linkColor));
+  }
+}
+@media (pointer: coarse) {
+  .CtaButton.variant--Link:active {
+    color: var(--linkHoverColor, var(--linkColor));
+  }
+}
+.CtaButton.variant--Button {
+  background-color: var(--buttonColor);
+  color: var(--knockoutColor);
+}
+@media (pointer: fine) {
+  .CtaButton.variant--Button:hover {
+    background-color: var(--buttonHoverColor, var(--buttonColor));
+  }
+}
+@media (pointer: coarse) {
+  .CtaButton.variant--Button:active {
+    background-color: var(--buttonHoverColor, var(--buttonColor));
+  }
+}
+.CtaButton.variant--Google {
+  background-color: #fff;
+  color: var(--buttonColor);
+  border: 1px solid #e7ecf1;
+}
+@media (pointer: fine) {
+  .CtaButton.variant--Google:hover {
+    background-color: #f6f9fc;
+  }
+}
+@media (pointer: coarse) {
+  .CtaButton.variant--Google:active {
+    background-color: #f6f9fc;
+  }
+}
+.UniversalChatCtaButton {
+  background: #0a2540;
+  border: none;
+  outline: none;
+}
+.UniversalChatCtaButton:before {
+  box-shadow: var(--focusBoxShadow);
+}
+.UniversalChatCtaButton:focus-visible {
+  outline: none;
+}
+.HoverArrow {
+  top: var(--arrowTop, 1px);
+  fill: none;
+  stroke: currentColor;
+}
+.Card {
+  --cardShadow: none;
+  max-width: var(--cardMaxWidth, none);
+  margin-bottom: calc(var(--cardBleedBottom, 0) * -1);
+  background: var(--cardBackground);
+  box-shadow: var(--cardShadow);
+}
+@media (min-width: 600px) {
+  .Card {
+    max-width: var(--cardMaxWidthTablet, var(--cardMaxWidth));
+  }
+}
+.Card--border {
+  border: 1px solid var(--cardBorderColor);
+}
+.Card--border.Card--borderSoft {
+  --cardBorderColor: var(--cardBorderColorSoft);
+}
+.Card--accented:before {
+  background: var(--cardAccentColor);
+}
+.Card--shadowXSmall {
+  --cardShadow: var(--cardShadowXSmall);
+}
+.Card--shadowSmall {
+  --cardShadow: var(--cardShadowSmall);
+}
+.Card--shadowMedium {
+  --cardShadow: var(--cardShadowMedium);
+}
+.Card--shadowLarge {
+  --cardShadow: var(--cardShadowLarge);
+}
+.Card--shadowXLarge {
+  --cardShadow: var(--cardShadowXLarge);
+}
+.flavor--Sunset {
+  --blendBackground: #fb0;
+  --blendIntersection: #ad4ffb;
+  --blendForeground: #ff80ff;
+}
+.flavor--Sunset.theme--Dark,
+.flavor--Sunset .theme--Dark {
+  --blendBackground: #ff80ff;
+  --blendIntersection: #ffeeb2;
+  --blendForeground: #fb0;
+}
+.flavor--Sunset.accent--Pink,
+.flavor--Sunset .accent--Pink {
+  --accentColor: #f363f3;
+}
+.flavor--Sunset.theme--Dark.accent--Pink,
+.flavor--Sunset.theme--Dark .accent--Pink {
+  --accentColor: #ff83ff;
+}
+.flavor--Sunset.accent--Yellow,
+.flavor--Sunset .accent--Yellow {
+  --accentColor: #fab000;
+}
+.flavor--Sunset.theme--Dark.accent--Yellow,
+.flavor--Sunset.theme--Dark .accent--Yellow {
+  --accentColor: #ffce48;
+}
+.MobileMenu {
+  background: #f6f9fb;
+  overflow-y: var(--siteMobileMenuOverflowY);
+}
+.MobileMenu__header {
+  background-color: #fff;
+}
+.MobileMenu__header:before {
+  border: solid #f6f9fb;
+  border-bottom: 0 solid #f6f9fb;
+}
+.MobileMenu__header:after {
+  background: linear-gradient(
+    90deg,
+    var(--guideDashedColor),
+    var(--guideDashedColor) 50%,
+    transparent 0,
+    transparent
+  );
+}
+.MobileMenu__logo {
+  -webkit-tap-highlight-color: transparent;
+}
+.MobileMenu__backButton {
+  color: var(--accentColor);
+  border: none;
+  outline: none;
+  background: none;
+  -webkit-tap-highlight-color: transparent;
+}
+.keyboard-navigation .MobileMenu__backButton:focus {
+  box-shadow: var(--focusBoxShadow);
+}
+.MobileMenu__closeButton {
+  border: none;
+  outline: none;
+  background: none;
+  -webkit-tap-highlight-color: transparent;
+}
+.keyboard-navigation .MobileMenu__closeButton:focus {
+  box-shadow: var(--focusBoxShadow);
+}
+.MobileMenu__closeButton--treatment {
+  background-color: var(--buttonColor);
+  color: var(--knockoutColor);
+  border: none;
+}
+@media (pointer: fine) {
+  .MobileMenu__closeButton--treatment:hover {
+    background-color: var(--buttonHoverColor, var(--buttonColor));
+  }
+}
+@media (pointer: coarse) {
+  .MobileMenu__closeButton--treatment:active {
+    background-color: var(--buttonHoverColor, var(--buttonColor));
+  }
+}
+.MobileMenu__nav {
+  background-color: #fff;
+}
+.MobileMenu__sections {
+  background: #f6f9fb;
+}
+.MobileMenu__sections:before {
+  background: linear-gradient(
+    270deg,
+    rgba(107, 124, 147, 0.07),
+    rgba(107, 124, 147, 0)
+  );
+}
+.MobileMenu__footer {
+  background:
+    radial-gradient(
+      66.35% 66.35%at 50% 50%,
+      hsla(0, 0%, 100%, 0.9) 0,
+      hsla(0, 0%, 100%, 0) 100%
+    ),
+    hsla(0, 0%, 100%, 0.8);
+}
+.MobileMenu__footer:after {
+  border: solid #f6f9fb;
+  border-top: 0 solid #f6f9fb;
+}
+.SiteProductsNav {
+  background-color: #f6f9fb;
+}
+.SiteProductsNav__group {
+  background-color: #fff;
+}
+.SiteProductsNav__groupTitle {
+  color: #0a2540;
+}
+.SiteProductsNav__asideTitle {
+  color: #0a2540;
+}
+.HomepageHeroGradient {
+  --gradientColorZero: #a960ee;
+  --gradientColorOne: #ff333d;
+  --gradientColorTwo: #90e0ff;
+  --gradientColorThree: #ffcb57;
+  --gradientColorZeroTransparent: rgba(169, 96, 238, 0);
+  --gradientColorOneTransparent: rgba(255, 51, 61, 0);
+  --gradientColorTwoTransparent: rgba(144, 224, 255, 0);
+  --gradientColorThreeTransparent: rgba(255, 203, 87, 0);
+  border: none;
+}
+.EmailInput__input {
+  background: var(--inputBackground);
+  border: none;
+  outline: none;
+  color: var(--inputTextColor);
+}
+.EmailInput__input::-moz-placeholder {
+  color: var(--inputPlaceholderColor);
+}
+.EmailInput__input::placeholder {
+  color: var(--inputPlaceholderColor);
+}
+.EmailInput__input--touched:invalid:not(:focus) {
+  box-shadow: 0 0 0 1px var(--inputErrorAccentColor);
+}
+.EmailInput__input:focus-visible {
+  box-shadow: var(--focusBoxShadow);
+}
+.EmailInput__error {
+  background: var(--inputBackground);
+}
+.Gradient__canvas {
+  width: inherit;
+}
+.Gradient__guides {
+  --guideDashedColor: rgba(0, 0, 0, 0.3);
+  --guideSolidColor: rgba(0, 0, 0, 0.2);
+}
+.Gradient:after {
+  background:
+    radial-gradient(
+        var(--gradientColorZero) 40%,
+        var(--gradientColorTwoTransparent) 60%
+      ) -620px -180px
+      no-repeat,
+    radial-gradient(
+        var(--gradientColorThree) 33%,
+        var(--gradientColorThreeTransparent) 67%
+      ) -120px -24px
+      no-repeat,
+    radial-gradient(
+        var(--gradientColorTwo) 40%,
+        var(--gradientColorTwoTransparent) 70%
+      ) -470px
+      150px no-repeat,
+    var(--gradientColorZero);
+}
+@media (min-width: 600px) {
+  .Gradient:after {
+    background:
+      radial-gradient(
+          var(--gradientColorZero) 40%,
+          var(--gradientColorTwoTransparent) 60%
+        ) -420px -180px
+        no-repeat,
+      radial-gradient(
+          var(--gradientColorThree) 23%,
+          var(--gradientColorThreeTransparent) 70%
+        )
+        240px -24px no-repeat,
+      radial-gradient(
+          var(--gradientColorTwo) 30%,
+          var(--gradientColorTwoTransparent) 70%
+        ) -270px
+        220px no-repeat,
+      var(--gradientColorZero);
+  }
+}
+@media (min-width: 900px) {
+  .Gradient:after {
+    background:
+      radial-gradient(
+          var(--gradientColorThree) 23%,
+          var(--gradientColorThreeTransparent) 67% 100%
+        )
+        385px -24px,
+      radial-gradient(
+          var(--gradientColorOne) 0,
+          var(--gradientColorOneTransparent) 60% 100%
+        ) -940px
+        290px,
+      radial-gradient(
+          var(--gradientColorTwo) 10%,
+          var(--gradientColorTwoTransparent) 60% 100%
+        ) -120px
+        250px,
+      radial-gradient(
+          var(--gradientColorOne) 40%,
+          var(--gradientColorOneTransparent) 57% 100%
+        )
+        495px -44px,
+      radial-gradient(
+          var(--gradientColorZero) 30%,
+          var(--gradientColorZeroTransparent) 67% 100%
+        )
+        122px -120px,
+      radial-gradient(
+          var(--gradientColorZero) 10%,
+          var(--gradientColorZeroTransparent) 60% 100%
+        ) -420px
+        120px,
+      radial-gradient(
+          var(--gradientColorTwo) 15%,
+          var(--gradientColorTwoTransparent) 50% 100%
+        ) -620px
+        0,
+      radial-gradient(
+          var(--gradientColorTwo) 25%,
+          var(--gradientColorTwoTransparent) 50% 100%
+        )
+        520px -250px,
+      var(--gradientColorZero);
+  }
+}
+.Face path {
+  stroke: #999;
+  fill: none;
+}
+.Face.is-active path,
+.Face.is-active rect {
+  stroke: #0278fc;
+}
+.Face path.Face__phoneGlare {
+  fill: #e7f0f9;
+  stroke: none;
+}
+.Face__text {
+  color: var(--slate5);
+}
+.theme--LegacyLight {
+  --backgroundColor: #f6f9fc;
+  --linkColor: var(--accentColor);
+  --linkHoverColor: #0a2540;
+  --buttonColor: none;
+  --buttonHoverColor: none;
+  --knockoutColor: #32325d;
+  --guideSolidColor: rgba(66, 71, 112, 0.06);
+  --guideDashedColor: rgba(66, 71, 112, 0.09);
+  --titleColor: #0a2540;
+  --textColor: #425466;
+  --inputBackground: #fff;
+  --inputPlaceholderColor: #acb9c5;
+  --navColor: #32325d;
+  --navHoverColor: #32325d;
+  --footerColor: #0a2540;
+  --cardBorderColor: #cbd6e0;
+  --cardBackground: #fff;
+  --stripeColor: #0a2540;
+}
+.theme--LegacyLight.accent--Slate {
+  --accentColor: #0a2540;
+}
+.flavor--LemonLime {
+  --blendBackground: #ffd848;
+  --blendIntersection: #00a600;
+  --blendForeground: #00d924;
+  --gradientColorZero: #1dcb5d;
+  --gradientColorOne: #ffa832;
+  --gradientColorTwo: #ffa832;
+  --gradientColorThree: #ffe85e;
+  --gradientColorZeroTransparent: rgba(29, 203, 93, 0);
+  --gradientColorOneTransparent: rgba(255, 168, 50, 0);
+  --gradientColorTwoTransparent: rgba(255, 168, 50, 0);
+  --gradientColorThreeTransparent: rgba(255, 232, 94, 0);
+  --shadeFourColor: #008431;
+}
+.flavor--LemonLime.theme--Dark,
+.flavor--LemonLime .theme--Dark {
+  --blendBackground: #00d924;
+  --blendIntersection: #fff5ad;
+  --blendForeground: #ffd848;
+}
+.flavor--LemonLime.accent--Green,
+.flavor--LemonLime .accent--Green {
+  --accentColor: #15be53;
+}
+.flavor--LemonLime.theme--Dark.accent--Green,
+.flavor--LemonLime.theme--Dark .accent--Green {
+  --accentColor: #14d433;
+}
+.flavor--LemonLime.accent--Yellow,
+.flavor--LemonLime .accent--Yellow {
+  --accentColor: #eea800;
+}
+.flavor--LemonLime.theme--Dark.accent--Yellow,
+.flavor--LemonLime.theme--Dark .accent--Yellow,
+.flavor--LemonLime .theme--Dark.accent--Yellow {
+  --accentColor: #ffce48;
+}
+.GradientLegend {
+  background: #f6f9fc;
+  color: #0b2540;
+}
+.GradientLegend code {
+  color: #0b2540;
+}
+.SiteHeaderNavItem__link,
+.SiteHeaderNavItem__link.Link {
+  --linkColor: var(--navColor);
+  --linkHoverColor: var(--navHoverColor);
+  color: var(--navColor);
+  background-color: transparent;
+  border: none;
+  outline: none;
+}
+.SiteHeaderNavItem__link.Link[aria-expanded="true"],
+.SiteHeaderNavItem__link[aria-expanded="true"] {
+  color: var(--linkHoverColor);
+}
+.keyboard-navigation .SiteHeaderNavItem__link.Link:focus,
+.keyboard-navigation .SiteHeaderNavItem__link:focus {
+  box-shadow: var(--focusBoxShadow);
+}
+.theme--HubDark {
+  --linkColor: #fff;
+  --linkHoverColor: var(--linkColor);
+  --buttonColor: #fff;
+  --buttonHoverColor: hsla(0, 0%, 100%, 0.9);
+  --knockoutColor: #0a2540;
+  --textColor: #fff;
+  --titleColor: #fff;
+}
+.theme--HubDark,
+.theme--HubLight {
+  --backgroundColor: none;
+  --accentColor: #fff;
+  --navColor: #fff;
+  --navHoverColor: #fff;
+  --stripeColor: #fff;
+}
+.theme--HubLight {
+  --linkColor: #635bff;
+  --linkHoverColor: #0a2540;
+  --buttonColor: #635bff;
+  --buttonHoverColor: #0a2540;
+  --knockoutColor: #fff;
+  --textColor: #0a2540;
+  --titleColor: #0a2540;
+}
+.HomepageHeroHeader__title {
+  color: #bdc6d2;
+}
+.HomepageHeroHeader__title--overlay {
+  color: #3a3a3a;
+}
+.SiteNavItem--isTruncated .SiteNavItem__bodyLabel:after {
+  background: #fff;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+.SiteMobileMenuNavItem {
+  --linkColor: #3f4b66;
+}
+.SiteMobileMenuNavItem:not(.SiteMobileMenuNavItem--hasDescription):before {
+  background: linear-gradient(
+    90deg,
+    var(--guideDashedColor),
+    var(--guideDashedColor) 50%,
+    transparent 0,
+    transparent
+  );
+}
+.SiteMobileMenuNavItem__link {
+  border: none;
+  outline: none;
+  background-color: transparent;
+  color: #3f4b66;
+  -webkit-tap-highlight-color: transparent;
+}
+.keyboard-navigation .SiteMobileMenuNavItem__link:focus {
+  box-shadow: var(--focusBoxShadow);
+}
+.SiteMobileMenuNavItem__label:not(:only-child) {
+  color: #0a2540;
+}
+.SiteMobileProductsNavGroup {
+  background-color: #fff;
+}
+.SiteMobileProductsNavGroup__title {
+  color: #0a2540;
+}
+.HomepageFrontdoor__copyCaption {
+  color: #2e3a55;
+}
+@media (min-width: 900px) {
+  .DomGraphic {
+    max-width: var(--maxWidthDesktop, var(--maxWidth));
+  }
+}
+.HomepageFrontdoorGraphicImage__shadow {
+  box-shadow: var(--cardShadowXLarge);
+}
+.HomepageFrontdoorPaymentsGraphic__title {
+  color: #727f96;
+}
+.HomepageFrontdoorPaymentsGraphic__priceTrackContainer {
+  -webkit-mask-image: linear-gradient(
+    180deg,
+    transparent 0,
+    #000 9px,
+    #000 calc(100% - 9px),
+    transparent
+  );
+  mask-image: linear-gradient(
+    180deg,
+    transparent 0,
+    #000 9px,
+    #000 calc(100% - 9px),
+    transparent
+  );
+}
+.HomepageFrontdoorPaymentsGraphic__price {
+  color: #0a2540;
+}
+.HomepageFrontdoorPaymentsGraphic__buttonPriceTrackContainer {
+  -webkit-mask-image: linear-gradient(
+    180deg,
+    transparent 0,
+    #000 8px,
+    #000 calc(100% - 8px),
+    transparent
+  );
+  mask-image: linear-gradient(
+    180deg,
+    transparent 0,
+    #000 8px,
+    #000 calc(100% - 8px),
+    transparent
+  );
+}
+.HomepageFrontdoorPaymentsGraphic__buttonPrice {
+  color: #fff;
+}
+.HomepageFrontdoorPaymentsGraphic__trackContainer {
+  -webkit-mask-image: linear-gradient(
+    90deg,
+    transparent 10px,
+    #000 28px,
+    #000 calc(100% - 28px),
+    transparent calc(100% - 10px)
+  );
+  mask-image: linear-gradient(
+    90deg,
+    transparent 10px,
+    #000 28px,
+    #000 calc(100% - 28px),
+    transparent calc(100% - 10px)
+  );
+}
+.AccentedCardCarousel__button {
+  border: 1px solid transparent;
+  outline: none;
+  background-color: transparent;
+}
+.AccentedCardCarousel__button:after {
+  background-color: var(--accentColor);
+}
+.AccentedCardCarousel__button:before {
+  box-shadow: var(--focusBoxShadow);
+}
+.AccentedCardCarousel__button:focus-visible {
+  outline: none;
+}
+.AccentedCardCarousel__button > svg {
+  stroke: var(--accentColor, #635bff);
+}
+.AccentedCardCarousel__button.AccentedCardCarousel__button--inactive {
+  border-color: var(--monochrome-slate-6, #e7ecf1);
+  background-color: transparent;
+}
+.AccentedCardCarousel__button.AccentedCardCarousel__button--inactive > svg {
+  stroke: #727f96;
+}
+.AccentedCardCarousel__button.AccentedCardCarousel__button--inactive:after {
+  background-color: transparent;
+}
+.AccentedCardCarousel__mobilePaginationTrack {
+  background-color: #c4ccd8;
+}
+.AccentedCardCarousel__mobilePaginationIndicator {
+  background-color: var(--accentColor, #635bff);
+}
+.HomepageFrontdoorConnectGraphic__title {
+  color: #0a2540;
+}
+.HomepageFrontdoorConnectGraphic__date {
+  color: #727f96;
+}
+.HomepageFrontdoorConnectGraphic__footerLabel {
+  color: #3f4b66;
+}
+.HomepageFrontdoorConnectGraphic__footerBackground {
+  background-color: #fff;
+  border-top: 1px solid #e7ecf1;
+}
+.AccentedCard {
+  max-width: var(--accentedCardMaxWidth, none);
+  margin-right: calc(var(--cardBleedRight, 0) * -1);
+  margin-bottom: calc(var(--cardBleedBottom, 0) * -1);
+}
+@media (min-width: 600px) {
+  .AccentedCard {
+    max-width: var(--accentedCardMaxWidthTablet, var(--accentedCardMaxWidth));
+  }
+}
+.AccentedCard__shadow,
+.AccentedCard__shadow--hovered {
+  box-shadow: var(--accentedCardShadow);
+}
+.AccentedCard__shadow--hovered {
+  box-shadow: var(
+    --cardShadowHover,
+    0 100px 60px -40px rgba(0, 0, 0, 0.06),
+    0 60px 100px 0 rgba(50, 50, 93, 0.15)
+  );
+}
+.AccentedCard__background {
+  background: var(--cardBackground);
+}
+.AccentedCard__background:after {
+  background: var(--accentColor, var(--accentedCardAccentColor));
+}
+.AccentedCard--border {
+  border: 1px solid var(--cardBorderColor);
+}
+.AccentedCard--shadowXSmall {
+  --accentedCardShadow: var(--cardShadowXSmall);
+}
+.AccentedCard--shadowSmall {
+  --accentedCardShadow: var(--cardShadowSmall);
+}
+.AccentedCard--shadowMedium {
+  --accentedCardShadow: var(--cardShadowMedium);
+}
+.AccentedCard--shadowLarge {
+  --accentedCardShadow: var(--cardShadowLarge);
+}
+.AccentedCard--shadowXLarge {
+  --accentedCardShadow: var(--cardShadowXLarge);
+}
+.FrontdoorConnectFlowDiagram__card.Card {
+  --cardBackground: 0 0/8px 8px #fff
+    radial-gradient(rgba(203, 214, 224, 0.35) 18.75%, transparent 0);
+  --cardBorderColor: #c4ccd8;
+}
+.FrontdoorConnectFlowDiagram__node {
+  border: 1px dashed #cfd7df;
+}
+.FrontdoorConnectFlowDiagram__node:before {
+  background-color: var(--nodeColor);
+}
+.FrontdoorConnectFlowDiagram__node.FrontdoorConnectFlowDiagram__node--buyers {
+  --nodeColor: #0073e6;
+}
+.FrontdoorConnectFlowDiagram__node.FrontdoorConnectFlowDiagram__node--platform {
+  --nodeColor: #3dc9c9;
+}
+.FrontdoorConnectFlowDiagram__node.FrontdoorConnectFlowDiagram__node--sellers {
+  --nodeColor: #0cc2ff;
+}
+.FrontdoorConnectFlowDiagram__nodeLabel {
+  color: #fff;
+}
+.FrontdoorConnectFlowDiagram__nodePrice {
+  color: #0a2540;
+  background-color: #fff;
+  box-shadow:
+    0 6.3px 11.5px -3.5px rgba(50, 50, 93, 0.25),
+    0 3.8px 7.5px -3.7px rgba(0, 0, 0, 0.1);
+}
+.FrontdoorConnectFlowDiagram__arrowAnimation.FrontdoorConnectFlowDiagram__arrowAnimation--top {
+  background: linear-gradient(90deg, #0073e6 -50%, #3dc9c9);
+}
+.FrontdoorConnectFlowDiagram__arrowAnimation.FrontdoorConnectFlowDiagram__arrowAnimation--bottom {
+  background: linear-gradient(90deg, #3dc9c9 -50%, #0cc2ff);
+}
+.CopyTitle {
+  color: var(--titleColor);
+}
+.CopyTitle--accented {
+  --titleColor: var(--accentColor);
+}
+.CopyTitle--anchored {
+  --titleBorderColor: var(--accentColor);
+}
+.CopyTitle--variantDetail,
+.CopyTitle--variantStat {
+  --titleBorderColor: var(--accentColor);
+}
+.CopyTitle:before {
+  background-color: var(--titleBorderColor, transparent);
+}
+.HomepageFrontdoorIssuingCard__shadow {
+  box-shadow: var(--cardShadowXLarge);
+}
+.AccentedCardCarouselItem__userLogoGrid:before {
+  background-color: #e7ecf1;
+}
+.HomepageFrontdoorBillingGraphic {
+  color: #3f4b66;
+}
+.HomepageFrontdoorBillingGraphic__header {
+  border-bottom: 1px solid #e7ecf1;
+}
+.HomepageFrontdoorBillingGraphic__logoContainer {
+  -webkit-mask-image: linear-gradient(
+    0deg,
+    transparent 10%,
+    #000 calc(50% - 11px),
+    #000 calc(50% + 11px),
+    transparent 90%
+  );
+  mask-image: linear-gradient(
+    0deg,
+    transparent 10%,
+    #000 calc(50% - 11px),
+    #000 calc(50% + 11px),
+    transparent 90%
+  );
+}
+.HomepageFrontdoorBillingGraphic__logoIcon {
+  background: var(--accentColor);
+}
+.HomepageFrontdoorBillingGraphic__tierList--accentPurple {
+  --accentColor: #96f;
+}
+.HomepageFrontdoorBillingGraphic__tierList--accentBlurple {
+  --accentColor: #635bff;
+}
+.HomepageFrontdoorBillingGraphic__tierList--accentGreen {
+  --accentColor: #15be53;
+}
+@media (min-width: 900px) {
+  .CustomersCaseStudyCarouselNavTrack:after {
+    border: none;
+    background: linear-gradient(
+      90deg,
+      var(--guideDashedColor),
+      var(--guideDashedColor) 50%,
+      transparent 0,
+      transparent
+    );
+  }
+}
+.FrontdoorConnectFlowDiagramOrderNotification__card.Card {
+  --cardBackground: #fff;
+}
+.FrontdoorConnectFlowDiagramOrderNotification__orderNumber {
+  color: #3f4b66;
+}
+.FrontdoorConnectFlowDiagramOrderNotification__orderName {
+  color: #727f96;
+}
+.FrontdoorConnectFlowDiagramOrderNotification__statusBadge {
+  color: #0a2540;
+}
+.FrontdoorConnectFlowDiagramOrderNotification__statusBackground.FrontdoorConnectFlowDiagramOrderNotification__statusBackground--processing {
+  background-color: rgba(21, 190, 83, 0.3);
+}
+.FrontdoorConnectFlowDiagramOrderNotification__statusBackground.FrontdoorConnectFlowDiagramOrderNotification__statusBackground--completed {
+  background-color: rgba(99, 91, 255, 0.3);
+}
+.FrontdoorConnectFlowDiagramOrderNotification__price {
+  color: #3f4b66;
+}
+.CustomersCaseStudyCard {
+  --cardShadow: var(--cardShadowMedium);
+  box-shadow: var(--cardShadow);
+  color: #fff;
+}
+.CustomersCaseStudyCard__content {
+  border-radius: inherit;
+  -webkit-mask-image: -webkit-radial-gradient(#fff, #000);
+}
+.HomepageProductListing__link.Link {
+  --linkColor: var(--accentColor);
+}
+.List {
+  --listSpacing: 4px;
+}
+.List__title.CopyTitle {
+  --linkColor: currentColor;
+  color: var(--titleColor);
+}
+.List--hasTitle .List__list {
+  --linkColor: currentColor;
+}
+.HubPage .List[data-column-count] .List__list {
+  gap: var(--listSpacing) var(--gridColumnGap);
+}
+.HomepageFrontdoorBillingGraphicTier--isHighlighted {
+  background: #f6f9fc;
+}
+.HomepageFrontdoorBillingGraphicTier--isOutlined {
+  border: 1px solid #e7ecf1;
+}
+.HomepageFrontdoorBillingGraphicTier__pill {
+  color: var(--accentColor);
+}
+.HomepageFrontdoorBillingGraphicTier__pill:before {
+  background: var(--accentColor);
+}
+.HomepageFrontdoorBillingGraphicTier__button {
+  color: #fff;
+  background: var(--accentColor);
+}
+.CustomersCaseStudyCardOverlay {
+  -webkit-mask-image: linear-gradient(
+    0deg,
+    #000 15%,
+    rgba(0, 0, 0, 0.5) 54.75%
+  );
+  mask-image: linear-gradient(0deg, #000 15%, rgba(0, 0, 0, 0.5) 54.75%);
+}
+.HomepageFrontdoorConnectGraphicCell__number {
+  color: #3f4b66;
+}
+.HomepageFrontdoorConnectGraphicCell__name {
+  color: #727f96;
+}
+.HomepageFrontdoorConnectGraphicCell__statusBadge {
+  background: rgba(21, 190, 83, 0.3);
+  color: #0a2540;
+}
+.HomepageFrontdoorConnectGraphicCell__statusBadge.HomepageFrontdoorConnectGraphicCell__statusBadge--completed {
+  background-color: #e7ecf1;
+}
+.HomepageFrontdoorConnectGraphicCell__statusBadge.HomepageFrontdoorConnectGraphicCell__statusBadge--onHold {
+  background-color: rgba(99, 91, 255, 0.3);
+}
+.HomepageFrontdoorConnectGraphicCell__price {
+  color: #3f4b66;
+}
+.CustomersCaseStudyCardBackground {
+  -webkit-mask-image: -webkit-radial-gradient(#fff, #000);
+}
+.CustomersCaseStudyCardBackground__imageContainer--tinted {
+  background-color: #fff;
+}
+.CustomersCaseStudyCarouselNavItem__button {
+  outline: none;
+  background-color: transparent;
+  border: none;
+}
+.CustomersCaseStudyCarouselNavItem__countdownContainer {
+  background-color: hsla(0, 0%, 100%, 0.8);
+}
+.CustomersCaseStudyCarouselNavItem__indicator {
+  background-color: rgba(0.52, 0.67, 0.86, 0.3);
+}
+.CustomersCaseStudyCarouselNavItem__indicator--active {
+  background-color: var(--accentColor);
+}
+.GraphicFormFieldInput {
+  border: 1px solid var(--formFieldBorderColor);
+  background: var(--formFieldBackground);
+  box-shadow: var(--formFieldShadow, var(--formElementShadow));
+}
+.GraphicFormFieldInput--focused {
+  box-shadow:
+    0 0 0 1px rgba(50, 151, 211, 0.3),
+    0 1px 1px 0 rgba(0, 0, 0, 0.07),
+    0 0 0 4px rgba(50, 151, 211, 0.3);
+}
+.GraphicFormFieldInput--positionTop {
+  border-bottom: var(--graphicFormFieldInputPositionTopBorderBottom, none);
+}
+.GraphicFormFieldInput--positionMiddle {
+  border-bottom: none;
+}
+.GraphicFormFieldInput--positionMiddleLeft {
+  border-right: none;
+}
+.GraphicFormFieldInput--positionMiddleLeft,
+.GraphicFormFieldInput--positionMiddleRight {
+  border-bottom: none;
+}
+.GraphicFormFieldInput--positionBottomLeft {
+  border-right: var(--graphicFormFieldInputPositionBottomLeftBorderRight, none);
+}
+.GraphicFormFieldInput__autoFillHighlight {
+  background-color: #3297d3;
+}
+.GraphicFormFieldInput__value {
+  color: var(--formFieldTextColor);
+}
+.GraphicFormFieldInput__placeholder {
+  color: var(--formFieldPlaceholderColor);
+}
+.CheckoutCardField--SpacedOutRounded {
+  --graphicFormFieldInputPositionTopBorderBottom: 1px solid
+    var(--formFieldBorderColor);
+  --graphicFormFieldInputPositionBottomLeftBorderRight: 1px solid
+    var(--formFieldBorderColor);
+}
+.ProductFeatureCard.Card {
+  --productFeatureGraphicBackgroundColor: #f6f9fc;
+  --cardShadow:
+    0px 18px 36px -18px rgba(0, 0, 0, 0.1),
+    0px 30px 45px -30px rgba(50, 50, 93, 0.25);
+}
+.ProductFeatureCard__graphic:after {
+  background: var(--productFeatureGraphicBackgroundColor);
+}
+.ProductFeatureCard__graphicOverlay {
+  background: linear-gradient(rgba(190, 201, 220, 0), rgba(190, 201, 220, 0.4));
+}
+.HorizontalOverflowContainer {
+  --maskSpacing: 16px;
+  -webkit-mask-image: linear-gradient(
+    90deg,
+    transparent,
+    #000 var(--maskSpacing),
+    #000 calc(100% - var(--maskSpacing)),
+    transparent
+  );
+  mask-image: linear-gradient(
+    90deg,
+    transparent,
+    #000 var(--maskSpacing),
+    #000 calc(100% - var(--maskSpacing)),
+    transparent
+  );
+}
+.GraphicFormFieldList__label {
+  color: var(--formFieldLabelColor);
+}
+.CodeSyntax {
+  font: inherit;
+}
+.CodeSyntax .token.keyword {
+  color: #8095ff;
+}
+.CodeSyntax .token.tag {
+  color: #ff333d;
+}
+.CodeSyntax .token.string {
+  color: #ffa956;
+}
+.CodeSyntax .token.function {
+  color: #00d4ff;
+}
+.CodeSyntax .token.number {
+  color: #ffd96a;
+}
+.CodeSyntax .token.comment {
+  color: #a9bcce;
+}
+.CodeSyntax .token.property {
+  color: #1abdc0;
+}
+.CodeSyntax .token.class-name {
+  color: #00d924;
+}
+.CodeEditor[data-js-language-mode="html"] .CodeSyntax .token.tag,
+.CodeEditor[data-js-language-mode="jsx"] .CodeSyntax .token.tag {
+  color: #8095ff;
+}
+.CodeEditor[data-js-language-mode="html"] .CodeSyntax .token.attr-name,
+.CodeEditor[data-js-language-mode="jsx"] .CodeSyntax .token.attr-name {
+  color: #00d4ff;
+}
+.CodeEditor[data-js-language-mode="html"] .CodeSyntax .token.attr-value,
+.CodeEditor[data-js-language-mode="jsx"] .CodeSyntax .token.attr-value {
+  color: #ffa956;
+}
+.CodeEditor[data-js-language-mode="html"] .CodeSyntax .token.class-name,
+.CodeEditor[data-js-language-mode="jsx"] .CodeSyntax .token.class-name {
+  color: #00d4ff;
+}
+.CodeEditor[data-js-language-mode="html"] .CodeSyntax .token.punctuation,
+.CodeEditor[data-js-language-mode="jsx"] .CodeSyntax .token.punctuation {
+  color: #a9bcce;
+}
+.CodeEditor[data-js-language-mode="html"] .CodeSyntax .token.script,
+.CodeEditor[data-js-language-mode="jsx"] .CodeSyntax .token.script {
+  color: #fff;
+}
+.CodeEditor[data-js-language-mode="markdoc"] .CodeSyntax .token.tag {
+  color: #8095ff;
+}
+.CodeEditor[data-js-language-mode="markdoc"]
+  .CodeSyntax
+  .token.tag
+  > .token.punctuation {
+  color: #a9bcce;
+}
+.CodeEditor[data-js-language-mode="markdoc"]
+  .CodeSyntax
+  .token.tag
+  > .token.variable {
+  color: #ffa956;
+}
+.CheckoutForm.GraphicForm {
+  --formBackground: #fff;
+}
+.GraphicForm {
+  --formBackground: transparent;
+  --formFieldBorderColor: #e6ebf1;
+  --formFieldBackground: #fff;
+  --formFieldLabelColor: #0a2540;
+  --formFieldTextColor: #425466;
+  --formFieldPlaceholderColor: #8f9cb2;
+  background-color: var(--formBackground);
+}
+.GraphicForm__content {
+  gap: var(--formGap, 24px) 0;
+}
+.UsageBasedBillingFeatureGraphic__card {
+  background-color: #fff;
+}
+.UsageBasedBillingFeatureGraphic__title {
+  color: var(--titleColor);
+}
+.UsageBasedBillingFeatureGraphic__subSections {
+  --subSectionTitleColor: #4f5b76;
+}
+.UsageBasedBillingFeatureGraphic__subSection:last-child {
+  border-left: 1px solid #e7ecf1;
+}
+.UsageBasedBillingFeatureGraphic__subSectionTitle {
+  color: var(--subSectionTitleColor);
+}
+.UsageBasedBillingFeatureGraphic__subSectionCount {
+  color: var(--titleColor);
+}
+.UsageBasedBillingFeatureGraphic__graphXDividerLine {
+  background-color: #e7ecf1;
+}
+.UsageBasedBillingFeatureGraphic__graphXAxis {
+  border-top: 1px solid #abb5c5;
+}
+.UsageBasedBillingFeatureGraphic__graphXAxisLabel {
+  color: #4f5b76;
+}
+.UsageBasedBillingFeatureGraphic__graphXAxisLabel:before {
+  background-color: #727f96;
+}
+.UsageBasedBillingFeatureGraphic__graphBar {
+  background-color: #15be53;
+}
+.CodeEditorStatusBar {
+  --statusBarAccentColor: var(--codeEditorAccentColor);
+  --statusBarBackgroundColor: #0a2540;
+  --statusBarTextColor: #55718d;
+  background-color: var(--statusBarBackgroundColor);
+  color: var(--statusBarTextColor);
+}
+.CodeEditor--insertMode .CodeEditorStatusBar {
+  --statusBarAccentColor: var(--statusBarAltAccentColor);
+}
+.CodeEditorStatusBar__editingMode {
+  --editingModeArrowWidth: 9px;
+  background-color: var(--statusBarAccentColor);
+  color: #06182c;
+}
+.CodeEditorStatusBar__editingMode:after {
+  border-left: var(--editingModeArrowWidth) solid var(--statusBarAccentColor);
+  border-bottom: calc(var(--statusBarHeight) / 2) solid transparent;
+  border-right: 0 solid transparent;
+  border-top: calc(var(--statusBarHeight) / 2) solid transparent;
+}
+.CodeEditorStatusBar__prompt {
+  color: var(--statusBarAccentColor);
+}
+.CodeEditorCursor {
+  border: 1px solid var(--codeEditorBaseColor);
+}
+.CodeEditor--focused .CodeEditorCursor {
+  background-color: var(--codeEditorBaseColor);
+  border: none;
+}
+.PaymentLinksFeatureGraphic__chatMessage {
+  background: #e7ecf1;
+  color: #0a2540;
+}
+.PaymentLinksFeatureGraphic__chatMessage.PaymentLinksFeatureGraphic__chatMessage--sender {
+  background: rgba(1, 150, 136, 0.2);
+  color: #03655c;
+}
+.PaymentLinksFeatureGraphic__chatMessageLink {
+  text-decoration: underline;
+  color: #019688;
+}
+.PaymentLinksFeatureGraphic__qrCodePrice {
+  color: #0a2540;
+}
+.PaymentLinksFeatureGraphic__qrCodePriceLabel {
+  color: #0a2540;
+}
+.PaymentLinksFeatureGraphic__qrCode {
+  background: #1a344e;
+}
+.PaymentLinksFeatureGraphic__qrCodeGraphic {
+  background: #fff;
+}
+. {
+  color: #fff;
+}
+.CodeEditorAutocomplete {
+  --autocompleteBackgroundColor: #194369;
+  --autocompleteHighlightColor: #265784;
+  background-color: var(--autocompleteBackgroundColor);
+}
+.CodeEditorAutocomplete__listItem--highlighted {
+  background-color: var(--autocompleteHighlightColor);
+}
+.CodeEditorLineNumbers {
+  background-color: var(--cardBackground);
+}
+.CodeEditorLineNumbers__lineNumbersContainer {
+  color: #55718d;
+}
+.StripeProductUsedList {
+  grid-template-columns: var(--stripeProductUsedListGridTemplateColumns, none);
+  margin: var(--stripeProductUsedListMargin, 16px 0 0);
+  gap: var(--stripeProductUsedListGap, 12px 0);
+}
+.HomepageBrandModalGraphic.Card {
+  --cardShadow: none;
+}
+.ProductBadge {
+  --productBadgeBackground: #f6f9fc;
+  background: var(--productBadgeBackground);
+}
+.ProductBadge__label {
+  color: #2e3a55;
+}
+.Stripe {
+  --stripeIntersectionBackground: var(--blendIntersection);
+  background: var(--stripeColor);
+}
+.Stripe--variantOutline {
+  background: none;
+  border: 1px solid var(--stripeColor);
+}
+.Stripe--accentPrimary {
+  --stripeColor: var(--blendForeground);
+}
+.Stripe--accentSecondary {
+  --stripeColor: var(--blendBackground);
+}
+.Stripe--accentWhite {
+  --stripeColor: var(--stripeAccentWhite);
+}
+.Stripe--accentLight {
+  --stripeColor: var(--stripeAccentLight);
+}
+.Stripe--accentDark {
+  --stripeColor: var(--stripeAccentDark);
+  --stripeIntersectionBackground: #0055b3;
+}
+.Stripe--accentNone:first-of-type {
+  --stripeColor: var(--blendBackground);
+}
+.Stripe:nth-of-type(2).Stripe--accentNone {
+  --stripeColor: var(--blendForeground);
+}
+.Stripe:nth-of-type(3) {
+  --stripeColor: transparent;
+}
+.Stripe__intersection {
+  background: var(--stripeIntersectionBackground);
+}
+.CodeTerminal {
+  --codeTerminalBackgroundColor: #06182c;
+  --codeTerminalBaseColor: #fff;
+  --codeTerminalMetaColor: #55718d;
+  --codeTerminalHighlightColor: #00d4ff;
+  --codeTerminalPromptColor: #8095ff;
+  --codeTerminalBorderColor: #0f395e;
+  border: 1px solid var(--codeTerminalBorderColor);
+  background-color: var(--codeTerminalBackgroundColor);
+  color: var(--codeTerminalBaseColor);
+}
+.CodeTerminal code,
+.CodeTerminal pre {
+  font: inherit;
+  color: var(--codeTerminalBaseColor);
+}
+.CodeTerminal__promptSign {
+  color: var(--codeTerminalPromptColor);
+}
+.CodeTerminal__cursor {
+  border: 1px solid var(--codeTerminalBaseColor);
+}
+.CodeTerminal--focused .CodeTerminal__cursor {
+  background-color: var(--codeTerminalBaseColor);
+  border: none;
+}
+.CodeTerminal__bufferPiece--meta {
+  color: var(--codeTerminalMetaColor);
+}
+.CodeTerminal__bufferPiece--highlighted {
+  color: var(--codeTerminalHighlightColor);
+}
+.GraphicFormField__label {
+  color: var(--formFieldLabelColor);
+}
+.CustomersCaseStudyCarousel__mask {
+  -webkit-mask-image: -webkit-radial-gradient(#fff, #000);
+}
+.CustomersCaseStudyCarousel__track {
+  -webkit-mask-image: -webkit-radial-gradient(#fff, #000);
+}
+.CustomersCaseStudyCarousel__track .CustomersCaseStudyCard {
+  --cardShadow: none;
+}
+.CustomerCaseStudyCarousel__overlay {
+  -webkit-mask-image: linear-gradient(180deg, rgba(0, 0, 0, 0.3), #000);
+  mask-image: linear-gradient(180deg, rgba(0, 0, 0, 0.3), #000);
+}
+.CodeEditor {
+  --codeEditorBaseColor: #55718d;
+  --codeEditorHorizontalPadding: 20px;
+  --codeEditorVerticalPadding: 16px;
+  --codeEditorLineSpacing: 24px;
+  --codeEditorLineNumbersWidth: 0px;
+  --codeEditorAccentColor: #8095ff;
+  --statusBarHeight: 0px;
+}
+.CodeEditor code,
+.CodeEditor pre {
+  font: inherit;
+  color: var(--codeEditorBaseColor);
+}
+.CodeEditor ::-moz-selection {
+  background: rgba(15, 57, 94, 0.99);
+}
+.CodeEditor ::selection {
+  background: rgba(15, 57, 94, 0.99);
+}
+.CodeEditor--hasStatusBar {
+  --statusBarHeight: 25px;
+}
+.theme--Dark .CodeEditor {
+  --codeEditorBaseColor: #fff;
+}
+.theme--Dark .CodeEditor .hljs-comment {
+  color: #55718d;
+}
+.CodeEditor__scrollContainer {
+  -webkit-mask-image: linear-gradient(
+    90deg,
+    #000,
+    #000 var(--codeEditorLineNumbersWidth),
+    transparent var(--codeEditorLineNumbersWidth),
+    #000
+      calc(
+        var(--codeEditorLineNumbersWidth) + var(--codeEditorHorizontalPadding)
+      ),
+    #000 calc(100% - var(--codeEditorHorizontalPadding)),
+    transparent
+  );
+  mask-image: linear-gradient(
+    90deg,
+    #000,
+    #000 var(--codeEditorLineNumbersWidth),
+    transparent var(--codeEditorLineNumbersWidth),
+    #000
+      calc(
+        var(--codeEditorLineNumbersWidth) + var(--codeEditorHorizontalPadding)
+      ),
+    #000 calc(100% - var(--codeEditorHorizontalPadding)),
+    transparent
+  );
+}
+.CodeEditor__highlightedLine {
+  top: calc(
+    var(--codeEditorVerticalPadding) +
+      (var(--codeEditorHighlightedLineNumber) - 1) *
+      var(--codeEditorLineSpacing)
+  );
+  background-color: #0e3f69;
+}
+.CodeEditor__hiddenLines {
+  color: var(--codeEditorAccentColor);
+  background-color: rgba(99, 91, 255, 0.1);
+}
+.CodeEditor__footer {
+  --codeEditorFooterBackgroundColor: transparent;
+  background-color: var(--codeEditorFooterBackgroundColor);
+}
+.CodeEditor__footer:before {
+  background-color: var(--cardBorderColor);
+}
+.LocaleControl {
+  --localeControlArrowColor: #fff;
+}
+.LocaleControl__trigger {
+  outline: none;
+  background-color: transparent;
+  border: none;
+  color: var(--accentColor);
+}
+.keyboard-navigation .LocaleControl__trigger:focus {
+  box-shadow: var(--focusBoxShadow);
+}
+.LocaleControl__popup {
+  background: #fff;
+  box-shadow: var(--cardShadowXLarge);
+}
+.LocaleControl__popup:after {
+  border: 12px solid transparent;
+  border-top: 12px solid var(--localeControlArrowColor);
+}
+.BrandModal {
+  --borderColor: #e3e8ee;
+}
+.BrandModal__track {
+  width: calc(var(--brandCount, 1) * 100%);
+  transition: var(--brandTransition);
+  transform: translate(
+    calc(var(--brandIndex, 0) * -100% / var(--brandCount, 1))
+  );
+}
+.BrandModal__section + .BrandModal__section {
+  border-top: 1px solid var(--borderColor);
+}
+.BrandModal__title {
+  color: var(--titleColor);
+}
+.BrandModal__body {
+  color: var(--textColor);
+}
+.BrandModal__label {
+  color: var(--titleColor);
+}
+.BrandModal__color,
+.BrandModal__logo {
+  border: 1px solid var(--borderColor);
+}
+.BrandModal__colorSwatch {
+  border-right: 1px solid var(--borderColor);
+}
+.BrandModal__colorHex {
+  color: var(--textColor);
+}
+.BrandModal__colorHex:before {
+  color: #8792a2;
+}
+.GlobalizationPicker__countryLanguageListItem
+  > .GlobalizationPicker__countryLanguage {
+  --linkColor: #727f96;
+}
+.GlobalizationPicker__countryLanguageListItem--active
+  > .GlobalizationPicker__countryLanguage {
+  --linkColor: var(--linkHoverColor);
+}
+.GridLayout {
+  align-items: var(--gridAlignItems, start);
+  justify-items: var(--gridJustifyItems);
+}
+.SiteFooterSection {
+  color: var(--footerColor);
+}
+.HubPage .SiteFooterSection__layout {
+  -moz-column-gap: var(--gridColumnGap);
+  column-gap: var(--gridColumnGap);
+}
+@media (pointer: fine) {
+  .SiteFooterSection__logo:hover {
+    color: var(--navHoverColor);
+  }
+}
+.SiteFooterSection__copyright {
+  color: #364657;
+}
+@media (max-width: 599px) {
+  .SiteFooterSection__column--isMobileFooterLayout {
+    grid: inherit;
+  }
+  .HubPage .SiteFooterSection__column--isMobileFooterLayout {
+    -moz-column-gap: var(--gridColumnGap);
+    column-gap: var(--gridColumnGap);
+  }
+}
+.MobileStickyNav {
+  background-color: var(--cardBackground);
+  box-shadow:
+    0-16px 32px -12px rgba(0, 0, 0, 0.06),
+    0-8px 16px 0 rgba(0, 0, 0, 0.04);
+}
+div#MktContent
+  > section:nth-of-type(6)
+  > div
+  > div:nth-of-type(2)
+  > div
+  > div
+  > div
+  > div:nth-of-type(2)
+  > div
+  > div:nth-of-type(2)
+  > div
+  > div
+  > div
+  > div {
+  background-color: rgb(0, 67, 119);
+}
+div#MktContent
+  > section:nth-of-type(6)
+  > div
+  > div:nth-of-type(2)
+  > div
+  > div
+  > div
+  > div:nth-of-type(2)
+  > div
+  > div:nth-of-type(2)
+  > div
+  > div
+  > div:nth-of-type(2)
+  > div {
+  background-color: rgb(239, 168, 46);
+}
+div#MktContent
+  > section:nth-of-type(6)
+  > div
+  > div:nth-of-type(2)
+  > div
+  > div
+  > div
+  > div:nth-of-type(2)
+  > div
+  > div:nth-of-type(2)
+  > div
+  > div
+  > div:nth-of-type(3)
+  > div {
+  background-color: rgb(66, 176, 213);
+}
+div#MktContent
+  > section:nth-of-type(6)
+  > div
+  > div:nth-of-type(2)
+  > div
+  > div
+  > div
+  > div:nth-of-type(2)
+  > div
+  > div:nth-of-type(2)
+  > div
+  > div
+  > div:nth-of-type(4)
+  > div {
+  background-color: rgb(197, 70, 71);
+}
+div#MktContent
+  > section:nth-of-type(6)
+  > div
+  > div:nth-of-type(2)
+  > div
+  > div
+  > div
+  > div:nth-of-type(2)
+  > div
+  > div:nth-of-type(2)
+  > div
+  > div:nth-of-type(2) {
+  background-color: rgb(0, 67, 119);
+}
+div#MktContent
+  > section:nth-of-type(6)
+  > div
+  > div:nth-of-type(2)
+  > div
+  > div
+  > div
+  > div:nth-of-type(2)
+  > div
+  > div:nth-of-type(2)
+  > div
+  > div:nth-of-type(3)
+  > a
+  > div
+  > div {
+  background-color: rgb(0, 102, 177);
+}
+div#MktContent
+  > section:nth-of-type(6)
+  > div
+  > div:nth-of-type(2)
+  > div
+  > div
+  > div
+  > div:nth-of-type(2)
+  > div
+  > div:nth-of-type(2)
+  > div
+  > div:nth-of-type(3)
+  > a:nth-of-type(2)
+  > div
+  > div {
+  background-color: rgb(239, 168, 46);
+}
+div#MktContent
+  > section:nth-of-type(6)
+  > div
+  > div:nth-of-type(2)
+  > div
+  > div
+  > div
+  > div:nth-of-type(2)
+  > div
+  > div:nth-of-type(2)
+  > div
+  > div:nth-of-type(3)
+  > a:nth-of-type(3)
+  > div
+  > div {
+  background-color: rgb(66, 176, 213);
+}
+div#MktContent
+  > section:nth-of-type(6)
+  > div
+  > div:nth-of-type(2)
+  > div
+  > div
+  > div
+  > div:nth-of-type(2)
+  > div
+  > div:nth-of-type(2)
+  > div
+  > div:nth-of-type(3)
+  > a:nth-of-type(4)
+  > div
+  > div {
+  background-color: rgb(197, 70, 71);
+}
+div#MktContent
+  > section:nth-of-type(6)
+  > div
+  > div:nth-of-type(2)
+  > div
+  > div
+  > div
+  > div:nth-of-type(2)
+  > div:nth-of-type(2)
+  > div
+  > div
+  > div
+  > div
+  > div
+  > div {
+  background-color: rgb(0, 102, 177);
+}
+div#MktContent
+  > section:nth-of-type(6)
+  > div
+  > div:nth-of-type(2)
+  > div
+  > div
+  > div
+  > div:nth-of-type(2)
+  > div:nth-of-type(2)
+  > div
+  > div
+  > div
+  > div
+  > div
+  > div:nth-of-type(2) {
+  background-color: rgb(239, 168, 46);
+}
+div#MktContent
+  > section:nth-of-type(6)
+  > div
+  > div:nth-of-type(2)
+  > div
+  > div
+  > div
+  > div:nth-of-type(2)
+  > div:nth-of-type(2)
+  > div
+  > div
+  > div
+  > div
+  > div
+  > div:nth-of-type(3) {
+  background-color: rgb(66, 176, 213);
+}
+div#MktContent
+  > section:nth-of-type(6)
+  > div
+  > div:nth-of-type(2)
+  > div
+  > div
+  > div
+  > div:nth-of-type(2)
+  > div:nth-of-type(2)
+  > div
+  > div
+  > div
+  > div
+  > div
+  > div:nth-of-type(4) {
+  background-color: rgb(197, 70, 71);
+}
+div#MktContent
+  > section:nth-of-type(6)
+  > div
+  > div:nth-of-type(2)
+  > div
+  > div
+  > div
+  > div:nth-of-type(2)
+  > div:nth-of-type(2)
+  > div
+  > div
+  > div
+  > div
+  > ul
+  > li
+  > div
+  > div {
+  background-color: rgb(0, 102, 177);
+}
+div#MktContent
+  > section:nth-of-type(6)
+  > div
+  > div:nth-of-type(2)
+  > div
+  > div
+  > div
+  > div:nth-of-type(2)
+  > div:nth-of-type(2)
+  > div
+  > div
+  > div
+  > div
+  > ul
+  > li:nth-of-type(2)
+  > div
+  > div {
+  background-color: rgb(239, 168, 46);
+}
+div#MktContent
+  > section:nth-of-type(6)
+  > div
+  > div:nth-of-type(2)
+  > div
+  > div
+  > div
+  > div:nth-of-type(2)
+  > div:nth-of-type(2)
+  > div
+  > div
+  > div
+  > div
+  > ul
+  > li:nth-of-type(3)
+  > div
+  > div {
+  background-color: rgb(66, 176, 213);
+}
+div#MktContent
+  > section:nth-of-type(6)
+  > div
+  > div:nth-of-type(2)
+  > div
+  > div
+  > div
+  > div:nth-of-type(2)
+  > div:nth-of-type(2)
+  > div
+  > div
+  > div
+  > div
+  > ul
+  > li:nth-of-type(4)
+  > div
+  > div {
+  background-color: rgb(197, 70, 71);
+}
+clippath#GlobeWithTerminalIconClipPath--a > path {
+  fill: var(--blendBackground);
+}
+div#MktContent
+  > section:nth-of-type(8)
+  > div
+  > div:nth-of-type(2)
+  > div
+  > div
+  > div
+  > div:nth-of-type(2)
+  > div
+  > section:nth-of-type(2)
+  > header
+  > div
+  > svg
+  > path {
+  fill: var(--blendBackground);
+}
+div#MktContent
+  > section:nth-of-type(8)
+  > div
+  > div:nth-of-type(2)
+  > div
+  > div
+  > div
+  > div:nth-of-type(2)
+  > div
+  > section:nth-of-type(2)
+  > header
+  > div
+  > svg
+  > path:nth-of-type(2) {
+  fill: var(--blendForeground);
+}
+div#MktContent
+  > section:nth-of-type(8)
+  > div
+  > div:nth-of-type(2)
+  > div
+  > div
+  > div
+  > div:nth-of-type(2)
+  > div
+  > section:nth-of-type(2)
+  > header
+  > div
+  > svg
+  > g
+  > path {
+  fill: var(--blendIntersection);
+}
+clippath#BrowserWithCodeIconClipPath- > path {
+  fill: var(--blendBackground);
+}
+div#MktContent
+  > section:nth-of-type(8)
+  > div
+  > div:nth-of-type(2)
+  > div
+  > div
+  > div
+  > div:nth-of-type(2)
+  > div
+  > section:nth-of-type(4)
+  > header
+  > div
+  > svg
+  > path {
+  fill: var(--blendBackground);
+}
+div#MktContent
+  > section:nth-of-type(8)
+  > div
+  > div:nth-of-type(2)
+  > div
+  > div
+  > div
+  > div:nth-of-type(2)
+  > div
+  > section:nth-of-type(4)
+  > header
+  > div
+  > svg
+  > path:nth-of-type(2) {
+  fill: var(--blendForeground);
+}
+div#MktContent
+  > section:nth-of-type(8)
+  > div
+  > div:nth-of-type(2)
+  > div
+  > div
+  > div
+  > div:nth-of-type(2)
+  > div
+  > section:nth-of-type(4)
+  > header
+  > div
+  > svg
+  > g
+  > path {
+  fill: var(--blendIntersection);
+}
+div#MktContent
+  > section:nth-of-type(9)
+  > div
+  > div:nth-of-type(2)
+  > div
+  > div
+  > div:nth-of-type(2)
+  > div
+  > div:nth-of-type(3)
+  > div
+  > div
+  > div
+  > figure
+  > div
+  > div
+  > div
+  > div
+  > div
+  > div:nth-of-type(3)
+  > div
+  > div
+  > span {
+  background-color: rgb(245, 240, 234);
+}
+div#MktContent
+  > section:nth-of-type(9)
+  > div
+  > div:nth-of-type(2)
+  > div
+  > div
+  > div:nth-of-type(2)
+  > div
+  > div:nth-of-type(3)
+  > div
+  > div
+  > div
+  > figure
+  > div
+  > div
+  > div
+  > div
+  > div
+  > div:nth-of-type(3)
+  > div:nth-of-type(2)
+  > div
+  > span {
+  background-color: rgb(38, 38, 39);
+}

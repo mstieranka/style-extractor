@@ -1,0 +1,82 @@
+[
+  {
+    "color": {
+      "background": "#f6f4ef",
+      "surface": "#f5f4ef",
+      "text": "#4c5461",
+      "muted": "#818b9c",
+      "primary": "#0751cf",
+      "primaryVariant": "oklch(48.8% 0.243 264.376)",
+      "border": "oklch(92.8% 0.006 264.531)",
+      "danger": "oklch(63.7% 0.237 25.331)",
+      "dangerVariant": "oklch(50.5% 0.213 27.518)",
+      "link": "#0751cf",
+      "linkVariant": "oklch(48.8% 0.243 264.376)",
+      "ring": null
+    }
+  },
+  {
+    "color": {
+      "background": "#f7f7f2",
+      "surface": null,
+      "text": "#4c5461",
+      "muted": "#5a6372",
+      "primary": "#0751cf",
+      "primaryVariant": "oklch(48.8% 0.243 264.376)",
+      "border": null,
+      "danger": "oklch(63.7% 0.237 25.331)",
+      "dangerVariant": "oklch(50.5% 0.213 27.518)",
+      "link": "oklch(62.3% 0.214 259.815)",
+      "linkVariant": "oklch(48.8% 0.243 264.376)",
+      "ring": null
+    }
+  },
+  {
+    "color": {
+      "background": "#f6f4ef",
+      "surface": "#f5f4ef",
+      "text": "#4c5461",
+      "muted": "#6c7689",
+      "primary": "#0751cf",
+      "primaryVariant": null,
+      "border": "oklch(92.8% 0.006 264.531)",
+      "danger": "oklch(63.7% 0.237 25.331)",
+      "dangerVariant": "oklch(50.5% 0.213 27.518)",
+      "link": "#4c5461",
+      "linkVariant": null,
+      "ring": null
+    }
+  },
+  {
+    "color": {
+      "background": "#f6f4ef",
+      "surface": "#f5f4ef",
+      "text": "#4c5461",
+      "muted": "#818b9c",
+      "primary": "#0751cf",
+      "primaryVariant": "oklch(48.8% 0.243 264.376)",
+      "border": "oklch(92.8% 0.006 264.531)",
+      "danger": "oklch(63.7% 0.237 25.331)",
+      "dangerVariant": "oklch(50.5% 0.213 27.518)",
+      "link": "#0751cf",
+      "linkVariant": "oklch(48.8% 0.243 264.376)",
+      "ring": null
+    }
+  },
+  {
+    "color": {
+      "background": "#f7f7f2",
+      "surface": null,
+      "text": "#4c5461",
+      "muted": "#5a6372",
+      "primary": "#0751cf",
+      "primaryVariant": "oklch(48.8% 0.243 264.376)",
+      "border": null,
+      "danger": "oklch(63.7% 0.237 25.331)",
+      "dangerVariant": "oklch(50.5% 0.213 27.518)",
+      "link": "oklch(62.3% 0.214 259.815)",
+      "linkVariant": "oklch(48.8% 0.243 264.376)",
+      "ring": null
+    }
+  }
+]

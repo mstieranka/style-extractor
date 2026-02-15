@@ -1,0 +1,7426 @@
+[data-print-layout="hide"] {
+  color: #000000;
+}
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+menu,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+main,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  border: 0;
+  font: inherit;
+}
+body {
+  background-color: #ffffff;
+  color: #121212;
+}
+.cover-drop-thrasher-utax2i-Component {
+  background: linear-gradient(90deg, #ffe500, #e4e5e8 60%);
+}
+.cover-drop-thrasher-1wet8if-Component {
+  background: linear-gradient(90deg, #ffe500, #e4e5e8 60%);
+}
+.cover-drop-thrasher-8qdcu2-Container {
+  border-color: #dcdcdc;
+}
+.cover-drop-thrasher-13rensg-Component {
+  text-decoration-color: #1a1a1a;
+}
+.cover-drop-thrasher-13rensg-Component:hover #coverdrop-thrasher-cta-button {
+  background-color: #f3c100;
+}
+:root {
+  --ad-background: #f6f6f6;
+  --ad-border: #dcdcdc;
+  --ad-labels-text: #707070;
+  --article-border: #dcdcdc;
+  --article-section-background: #ffffff;
+  --article-section-border: #dcdcdc;
+  --article-section-secondary-title: #333333;
+  --article-section-title: #121212;
+  --article-section-title-culture: #866d50;
+  --article-section-title-lifestyle: #bb3b80;
+  --article-section-title-news: #121212;
+  --article-section-title-opinion: #c74600;
+  --article-section-title-sport: #0077b6;
+  --article-text: #121212;
+  --avatar-background: #ededed;
+  --card-background: transparent;
+  --card-background-hover: rgba(18, 18, 18, 0.1);
+  --card-border-supporting: #dcdcdc;
+  --card-border-top: #bababa;
+  --card-footer-text: #707070;
+  --card-headline: #121212;
+  --card-kicker-text: #c70000;
+  --card-media-background: #f6f6f6;
+  --card-quote-icon: #c70000;
+  --card-sublinks-background: #f6f6f6;
+  --card-trail-text: #707070;
+  --carousel-chevron: #121212;
+  --carousel-chevron-border: #bababa;
+  --carousel-chevron-border-disabled: rgba(186, 186, 186, 0.32);
+  --carousel-chevron-disabled: rgba(18, 18, 18, 0.32);
+  --carousel-chevron-hover: rgba(186, 186, 186, 0.2);
+  --feature-card-background: #ededed;
+  --feature-card-footer-text: #dcdcdc;
+  --feature-card-headline: #f6f6f6;
+  --feature-card-kicker-text: #fff4f2;
+  --feature-card-trail-text: #dcdcdc;
+  --front-container-background: #ffffff;
+  --headline-colour: #121212;
+  --highlights-card-background: #fff4f2;
+  --highlights-card-headline: #c70000;
+  --highlights-card-kicker-text: #121212;
+  --highlights-card-quote-icon: #c70000;
+  --highlights-container-background: #ffffff;
+  --highlights-container-end-fade: rgba(255, 255, 255, 0);
+  --highlights-container-mid-fade: rgba(255, 255, 255, 0.6);
+  --highlights-container-separator: #dcdcdc;
+  --highlights-container-start-fade: #ffffff;
+  --kicker-background-live: #c70000;
+  --kicker-pulsing-dot-live: rgba(246, 246, 246, 0.75);
+  --kicker-text-live: #f6f6f6;
+  --link-kicker-text: #c70000;
+  --masthead-nav-background: #052962;
+  --masthead-nav-border: #506991;
+  --masthead-nav-lines: #506991;
+  --masthead-nav-link-text: #ffffff;
+  --masthead-nav-link-text-hover: #ffe500;
+  --masthead-top-bar-background: #041f4a;
+  --masthead-top-bar-link-text: #ffffff;
+  --masthead-top-bar-vertical-divider: #506991;
+  --masthead-veggie-burger-background: #ffe500;
+  --masthead-veggie-burger-background-hover: #ffd900;
+  --most-viewed-description: #707070;
+  --most-viewed-footer-hover: #f6f6f6;
+  --narrow-play-icon-background: rgba(18, 18, 18, 0.7);
+  --narrow-play-icon-border: #999999;
+  --narrow-play-icon-fill: #ffffff;
+  --nav-reader-revenue-link-text: #ffe500;
+  --nav-search-bar-background: rgba(255, 255, 255, 0.1);
+  --nav-search-bar-icon: #ffffff;
+  --nav-search-bar-text: #ffffff;
+  --pill-background: rgba(18, 18, 18, 0.7);
+  --pill-divider: rgba(255, 255, 255, 0.5);
+  --pill-text: #ffffff;
+  --section-border: #dcdcdc;
+  --section-border-culture: #866d50;
+  --section-border-lifestyle: #bb3b80;
+  --section-border-opinion: #e05e00;
+  --section-border-primary: #333333;
+  --section-border-secondary: #bababa;
+  --section-border-sport: #0077b6;
+  --section-toggle-button: #707070;
+  --section-toggle-button-hover: #121212;
+  --slideshow-caption: #ffffff;
+  --slideshow-navigation-background: #f6f6f6;
+  --slideshow-pagination-dot: rgba(18, 18, 18, 0.2);
+  --slideshow-pagination-dot-active: #121212;
+  --stuck-background: #ffffff;
+  --sub-nav-link-hover: #c70000;
+  --trending-topics-background: #ffffff;
+  --trending-topics-separator: #dcdcdc;
+  --trending-topics-text: #333333;
+  -webkit-print-color-scheme: light;
+  color-scheme: light;
+}
+:root body {
+  color: #121212;
+}
+*:focus {
+  outline: 0;
+}
+html:not(.src-focus-disabled) *:focus {
+  box-shadow: 0 0 0 3px #0077b6;
+}
+::selection {
+  background: #ffe500;
+  color: #121212;
+}
+.ad-slot[data-label-show="true"]::before {
+  background-color: var(--ad-background);
+  border-top: 1px solid var(--ad-border);
+  color: var(--ad-labels-text);
+}
+.ad-slot__adtest-cookie-clear-link {
+  border: 0;
+}
+.cover-drop-thrasher-1vkcwdq-Component {
+  color: #1a1a1a;
+}
+.dcr-1gpubb {
+  background: #ffffff;
+  text-decoration: none;
+  color: #000000;
+}
+.dcr-1gpubb:focus,
+.dcr-1gpubb:active {
+  border: 5px solid #0077b6;
+}
+.dcr-1gpubb:visited,
+.dcr-1gpubb:active {
+  color: #000000;
+}
+.dcr-11e3tdy {
+  background-color: var(--stuck-background);
+}
+.dcr-521dej {
+  background-color: var(--ad-background);
+  border-bottom: 1px solid var(--ad-border);
+}
+.dcr-pk9vk9:not([top-above-nav-ad-rendered="true"])::before {
+  background-color: #ededed;
+}
+.dcr-kohrs2 {
+  background-color: var(--masthead-top-bar-background);
+}
+@media (min-width: 980px) {
+  .dcr-1m16xt4::before {
+    border-left: 1px solid var(--masthead-top-bar-vertical-divider);
+  }
+}
+.dcr-vxblrw {
+  color: var(--masthead-top-bar-link-text);
+  text-decoration: none;
+}
+.dcr-vxblrw:hover,
+.dcr-vxblrw:focus {
+  text-decoration: underline;
+}
+.dcr-vxblrw svg {
+  fill: currentColor;
+}
+.dcr-1hsyf0n {
+  color: var(--masthead-top-bar-link-text);
+  text-decoration: none;
+}
+.dcr-1hsyf0n:hover,
+.dcr-1hsyf0n:focus {
+  text-decoration: underline;
+}
+.dcr-1hsyf0n svg {
+  fill: currentColor;
+}
+@media (min-width: 740px) {
+  .dcr-150126u:not(:first-child)::before {
+    background-color: var(--highlights-container-separator);
+  }
+}
+.dcr-12a0bhm {
+  --ad-background: #f6f6f6;
+  --ad-border: #dcdcdc;
+  --ad-labels-text: #707070;
+  --article-border: #dcdcdc;
+  --article-section-background: #ffffff;
+  --article-section-border: #dcdcdc;
+  --article-section-secondary-title: #333333;
+  --article-section-title: #121212;
+  --article-section-title-culture: #866d50;
+  --article-section-title-lifestyle: #bb3b80;
+  --article-section-title-news: #121212;
+  --article-section-title-opinion: #c74600;
+  --article-section-title-sport: #0077b6;
+  --article-text: #121212;
+  --avatar-background: #ededed;
+  --card-background: transparent;
+  --card-background-hover: rgba(18, 18, 18, 0.1);
+  --card-border-supporting: #dcdcdc;
+  --card-border-top: #bababa;
+  --card-footer-text: #707070;
+  --card-headline: #121212;
+  --card-kicker-text: #866d50;
+  --card-media-background: #f6f6f6;
+  --card-quote-icon: #866d50;
+  --card-sublinks-background: #f6f6f6;
+  --card-trail-text: #707070;
+  --carousel-chevron: #121212;
+  --carousel-chevron-border: #bababa;
+  --carousel-chevron-border-disabled: rgba(186, 186, 186, 0.32);
+  --carousel-chevron-disabled: rgba(18, 18, 18, 0.32);
+  --carousel-chevron-hover: rgba(186, 186, 186, 0.2);
+  --feature-card-background: #ededed;
+  --feature-card-footer-text: #dcdcdc;
+  --feature-card-headline: #f6f6f6;
+  --feature-card-kicker-text: #e7d4b9;
+  --feature-card-trail-text: #dcdcdc;
+  --front-container-background: #ffffff;
+  --headline-colour: #121212;
+  --highlights-card-background: #fbf6ef;
+  --highlights-card-headline: #866d50;
+  --highlights-card-kicker-text: #121212;
+  --highlights-card-quote-icon: #866d50;
+  --highlights-container-background: #ffffff;
+  --highlights-container-end-fade: rgba(255, 255, 255, 0);
+  --highlights-container-mid-fade: rgba(255, 255, 255, 0.6);
+  --highlights-container-separator: #dcdcdc;
+  --highlights-container-start-fade: #ffffff;
+  --kicker-background-live: #866d50;
+  --kicker-pulsing-dot-live: rgba(246, 246, 246, 0.75);
+  --kicker-text-live: #f6f6f6;
+  --link-kicker-text: #866d50;
+  --masthead-nav-background: #052962;
+  --masthead-nav-border: #506991;
+  --masthead-nav-lines: #506991;
+  --masthead-nav-link-text: #ffffff;
+  --masthead-nav-link-text-hover: #ffe500;
+  --masthead-top-bar-background: #041f4a;
+  --masthead-top-bar-link-text: #ffffff;
+  --masthead-top-bar-vertical-divider: #506991;
+  --masthead-veggie-burger-background: #ffe500;
+  --masthead-veggie-burger-background-hover: #ffd900;
+  --most-viewed-description: #707070;
+  --most-viewed-footer-hover: #f6f6f6;
+  --narrow-play-icon-background: rgba(18, 18, 18, 0.7);
+  --narrow-play-icon-border: #999999;
+  --narrow-play-icon-fill: #ffffff;
+  --nav-reader-revenue-link-text: #ffe500;
+  --nav-search-bar-background: rgba(255, 255, 255, 0.1);
+  --nav-search-bar-icon: #ffffff;
+  --nav-search-bar-text: #ffffff;
+  --pill-background: rgba(18, 18, 18, 0.7);
+  --pill-divider: rgba(255, 255, 255, 0.5);
+  --pill-text: #ffffff;
+  --section-border: #dcdcdc;
+  --section-border-culture: #866d50;
+  --section-border-lifestyle: #bb3b80;
+  --section-border-opinion: #e05e00;
+  --section-border-primary: #333333;
+  --section-border-secondary: #bababa;
+  --section-border-sport: #0077b6;
+  --section-toggle-button: #707070;
+  --section-toggle-button-hover: #121212;
+  --slideshow-caption: #ffffff;
+  --slideshow-navigation-background: #f6f6f6;
+  --slideshow-pagination-dot: rgba(18, 18, 18, 0.2);
+  --slideshow-pagination-dot-active: #121212;
+  --stuck-background: #ffffff;
+  --sub-nav-link-hover: #866d50;
+  --trending-topics-background: #ffffff;
+  --trending-topics-separator: #dcdcdc;
+  --trending-topics-text: #333333;
+}
+.dcr-u3dgyv {
+  background-color: var(--highlights-card-background);
+}
+.dcr-u3dgyv:hover .media-overlay {
+  background-color: var(--card-background-hover);
+}
+.dcr-u3dgyv:hover .card-headline .show-underline {
+  text-decoration: underline;
+}
+.dcr-2yd10d {
+  background-color: transparent;
+}
+.dcr-2yd10d:focus {
+  outline: 0;
+}
+html:not(.src-focus-disabled) .dcr-2yd10d:focus {
+  box-shadow: 0 0 0 3px #0077b6;
+}
+.dcr-jlpcus {
+  color: var(--highlights-card-headline);
+}
+.dcr-axnaw1 {
+  --ad-background: #f6f6f6;
+  --ad-border: #dcdcdc;
+  --ad-labels-text: #707070;
+  --article-border: #dcdcdc;
+  --article-section-background: #ffffff;
+  --article-section-border: #dcdcdc;
+  --article-section-secondary-title: #333333;
+  --article-section-title: #121212;
+  --article-section-title-culture: #866d50;
+  --article-section-title-lifestyle: #bb3b80;
+  --article-section-title-news: #121212;
+  --article-section-title-opinion: #c74600;
+  --article-section-title-sport: #0077b6;
+  --article-text: #121212;
+  --avatar-background: #ededed;
+  --card-background: transparent;
+  --card-background-hover: rgba(18, 18, 18, 0.1);
+  --card-border-supporting: #dcdcdc;
+  --card-border-top: #bababa;
+  --card-footer-text: #707070;
+  --card-headline: #121212;
+  --card-kicker-text: #866d50;
+  --card-media-background: #f6f6f6;
+  --card-quote-icon: #866d50;
+  --card-sublinks-background: #f6f6f6;
+  --card-trail-text: #707070;
+  --carousel-chevron: #121212;
+  --carousel-chevron-border: #bababa;
+  --carousel-chevron-border-disabled: rgba(186, 186, 186, 0.32);
+  --carousel-chevron-disabled: rgba(18, 18, 18, 0.32);
+  --carousel-chevron-hover: rgba(186, 186, 186, 0.2);
+  --feature-card-background: #ededed;
+  --feature-card-footer-text: #dcdcdc;
+  --feature-card-headline: #f6f6f6;
+  --feature-card-kicker-text: #e7d4b9;
+  --feature-card-trail-text: #dcdcdc;
+  --front-container-background: #ffffff;
+  --headline-colour: #f6f6f6;
+  --highlights-card-background: #fbf6ef;
+  --highlights-card-headline: #866d50;
+  --highlights-card-kicker-text: #121212;
+  --highlights-card-quote-icon: #866d50;
+  --highlights-container-background: #ffffff;
+  --highlights-container-end-fade: rgba(255, 255, 255, 0);
+  --highlights-container-mid-fade: rgba(255, 255, 255, 0.6);
+  --highlights-container-separator: #dcdcdc;
+  --highlights-container-start-fade: #ffffff;
+  --kicker-background-live: #866d50;
+  --kicker-pulsing-dot-live: rgba(246, 246, 246, 0.75);
+  --kicker-text-live: #f6f6f6;
+  --link-kicker-text: #866d50;
+  --masthead-nav-background: #052962;
+  --masthead-nav-border: #506991;
+  --masthead-nav-lines: #506991;
+  --masthead-nav-link-text: #ffffff;
+  --masthead-nav-link-text-hover: #ffe500;
+  --masthead-top-bar-background: #041f4a;
+  --masthead-top-bar-link-text: #ffffff;
+  --masthead-top-bar-vertical-divider: #506991;
+  --masthead-veggie-burger-background: #ffe500;
+  --masthead-veggie-burger-background-hover: #ffd900;
+  --most-viewed-description: #707070;
+  --most-viewed-footer-hover: #f6f6f6;
+  --narrow-play-icon-background: rgba(18, 18, 18, 0.7);
+  --narrow-play-icon-border: #999999;
+  --narrow-play-icon-fill: #ffffff;
+  --nav-reader-revenue-link-text: #ffe500;
+  --nav-search-bar-background: rgba(255, 255, 255, 0.1);
+  --nav-search-bar-icon: #ffffff;
+  --nav-search-bar-text: #ffffff;
+  --pill-background: rgba(18, 18, 18, 0.7);
+  --pill-divider: rgba(255, 255, 255, 0.5);
+  --pill-text: #ffffff;
+  --section-border: #dcdcdc;
+  --section-border-culture: #866d50;
+  --section-border-lifestyle: #bb3b80;
+  --section-border-opinion: #e05e00;
+  --section-border-primary: #333333;
+  --section-border-secondary: #bababa;
+  --section-border-sport: #0077b6;
+  --section-toggle-button: #707070;
+  --section-toggle-button-hover: #121212;
+  --slideshow-caption: #ffffff;
+  --slideshow-navigation-background: #f6f6f6;
+  --slideshow-pagination-dot: rgba(18, 18, 18, 0.2);
+  --slideshow-pagination-dot-active: #121212;
+  --stuck-background: #ffffff;
+  --sub-nav-link-hover: #6b5840;
+  --trending-topics-background: #ffffff;
+  --trending-topics-separator: #dcdcdc;
+  --trending-topics-text: #333333;
+}
+.dcr-ofuny8 {
+  --ad-background: #f6f6f6;
+  --ad-border: #dcdcdc;
+  --ad-labels-text: #707070;
+  --article-border: #dcdcdc;
+  --article-section-background: #ffffff;
+  --article-section-border: #dcdcdc;
+  --article-section-secondary-title: #333333;
+  --article-section-title: #121212;
+  --article-section-title-culture: #866d50;
+  --article-section-title-lifestyle: #bb3b80;
+  --article-section-title-news: #121212;
+  --article-section-title-opinion: #c74600;
+  --article-section-title-sport: #0077b6;
+  --article-text: #121212;
+  --avatar-background: #ededed;
+  --card-background: transparent;
+  --card-background-hover: rgba(18, 18, 18, 0.1);
+  --card-border-supporting: #dcdcdc;
+  --card-border-top: #bababa;
+  --card-footer-text: #707070;
+  --card-headline: #121212;
+  --card-kicker-text: #0077b6;
+  --card-media-background: #f6f6f6;
+  --card-quote-icon: #0077b6;
+  --card-sublinks-background: #f6f6f6;
+  --card-trail-text: #707070;
+  --carousel-chevron: #121212;
+  --carousel-chevron-border: #bababa;
+  --carousel-chevron-border-disabled: rgba(186, 186, 186, 0.32);
+  --carousel-chevron-disabled: rgba(18, 18, 18, 0.32);
+  --carousel-chevron-hover: rgba(186, 186, 186, 0.2);
+  --feature-card-background: #ededed;
+  --feature-card-footer-text: #dcdcdc;
+  --feature-card-headline: #f6f6f6;
+  --feature-card-kicker-text: #90dcff;
+  --feature-card-trail-text: #dcdcdc;
+  --front-container-background: #ffffff;
+  --headline-colour: #004e7c;
+  --highlights-card-background: #f1f8fc;
+  --highlights-card-headline: #0077b6;
+  --highlights-card-kicker-text: #121212;
+  --highlights-card-quote-icon: #0077b6;
+  --highlights-container-background: #ffffff;
+  --highlights-container-end-fade: rgba(255, 255, 255, 0);
+  --highlights-container-mid-fade: rgba(255, 255, 255, 0.6);
+  --highlights-container-separator: #dcdcdc;
+  --highlights-container-start-fade: #ffffff;
+  --kicker-background-live: #0077b6;
+  --kicker-pulsing-dot-live: rgba(246, 246, 246, 0.75);
+  --kicker-text-live: #f6f6f6;
+  --link-kicker-text: #0077b6;
+  --masthead-nav-background: #052962;
+  --masthead-nav-border: #506991;
+  --masthead-nav-lines: #506991;
+  --masthead-nav-link-text: #ffffff;
+  --masthead-nav-link-text-hover: #ffe500;
+  --masthead-top-bar-background: #041f4a;
+  --masthead-top-bar-link-text: #ffffff;
+  --masthead-top-bar-vertical-divider: #506991;
+  --masthead-veggie-burger-background: #ffe500;
+  --masthead-veggie-burger-background-hover: #ffd900;
+  --most-viewed-description: #707070;
+  --most-viewed-footer-hover: #f6f6f6;
+  --narrow-play-icon-background: rgba(18, 18, 18, 0.7);
+  --narrow-play-icon-border: #999999;
+  --narrow-play-icon-fill: #ffffff;
+  --nav-reader-revenue-link-text: #ffe500;
+  --nav-search-bar-background: rgba(255, 255, 255, 0.1);
+  --nav-search-bar-icon: #ffffff;
+  --nav-search-bar-text: #ffffff;
+  --pill-background: rgba(18, 18, 18, 0.7);
+  --pill-divider: rgba(255, 255, 255, 0.5);
+  --pill-text: #ffffff;
+  --section-border: #dcdcdc;
+  --section-border-culture: #866d50;
+  --section-border-lifestyle: #bb3b80;
+  --section-border-opinion: #e05e00;
+  --section-border-primary: #333333;
+  --section-border-secondary: #bababa;
+  --section-border-sport: #0077b6;
+  --section-toggle-button: #707070;
+  --section-toggle-button-hover: #121212;
+  --slideshow-caption: #ffffff;
+  --slideshow-navigation-background: #f6f6f6;
+  --slideshow-pagination-dot: rgba(18, 18, 18, 0.2);
+  --slideshow-pagination-dot-active: #121212;
+  --stuck-background: #ffffff;
+  --sub-nav-link-hover: #0077b6;
+  --trending-topics-background: #ffffff;
+  --trending-topics-separator: #dcdcdc;
+  --trending-topics-text: #333333;
+}
+.dcr-11qany9 {
+  --ad-background: #f6f6f6;
+  --ad-border: #dcdcdc;
+  --ad-labels-text: #707070;
+  --article-border: #dcdcdc;
+  --article-section-background: #ffffff;
+  --article-section-border: #dcdcdc;
+  --article-section-secondary-title: #333333;
+  --article-section-title: #121212;
+  --article-section-title-culture: #866d50;
+  --article-section-title-lifestyle: #bb3b80;
+  --article-section-title-news: #121212;
+  --article-section-title-opinion: #c74600;
+  --article-section-title-sport: #0077b6;
+  --article-text: #121212;
+  --avatar-background: #ededed;
+  --card-background: transparent;
+  --card-background-hover: rgba(18, 18, 18, 0.1);
+  --card-border-supporting: #dcdcdc;
+  --card-border-top: #bababa;
+  --card-footer-text: #707070;
+  --card-headline: #121212;
+  --card-kicker-text: #c74600;
+  --card-media-background: #f6f6f6;
+  --card-quote-icon: #c74600;
+  --card-sublinks-background: #f6f6f6;
+  --card-trail-text: #707070;
+  --carousel-chevron: #121212;
+  --carousel-chevron-border: #bababa;
+  --carousel-chevron-border-disabled: rgba(186, 186, 186, 0.32);
+  --carousel-chevron-disabled: rgba(18, 18, 18, 0.32);
+  --carousel-chevron-hover: rgba(186, 186, 186, 0.2);
+  --feature-card-background: #ededed;
+  --feature-card-footer-text: #dcdcdc;
+  --feature-card-headline: #f6f6f6;
+  --feature-card-kicker-text: #f9b376;
+  --feature-card-trail-text: #dcdcdc;
+  --front-container-background: #ffffff;
+  --headline-colour: #121212;
+  --highlights-card-background: #fef9f5;
+  --highlights-card-headline: #c74600;
+  --highlights-card-kicker-text: #121212;
+  --highlights-card-quote-icon: #c74600;
+  --highlights-container-background: #ffffff;
+  --highlights-container-end-fade: rgba(255, 255, 255, 0);
+  --highlights-container-mid-fade: rgba(255, 255, 255, 0.6);
+  --highlights-container-separator: #dcdcdc;
+  --highlights-container-start-fade: #ffffff;
+  --kicker-background-live: #c74600;
+  --kicker-pulsing-dot-live: rgba(246, 246, 246, 0.75);
+  --kicker-text-live: #f6f6f6;
+  --link-kicker-text: #c74600;
+  --masthead-nav-background: #052962;
+  --masthead-nav-border: #506991;
+  --masthead-nav-lines: #506991;
+  --masthead-nav-link-text: #ffffff;
+  --masthead-nav-link-text-hover: #ffe500;
+  --masthead-top-bar-background: #041f4a;
+  --masthead-top-bar-link-text: #ffffff;
+  --masthead-top-bar-vertical-divider: #506991;
+  --masthead-veggie-burger-background: #ffe500;
+  --masthead-veggie-burger-background-hover: #ffd900;
+  --most-viewed-description: #707070;
+  --most-viewed-footer-hover: #f6f6f6;
+  --narrow-play-icon-background: rgba(18, 18, 18, 0.7);
+  --narrow-play-icon-border: #999999;
+  --narrow-play-icon-fill: #ffffff;
+  --nav-reader-revenue-link-text: #ffe500;
+  --nav-search-bar-background: rgba(255, 255, 255, 0.1);
+  --nav-search-bar-icon: #ffffff;
+  --nav-search-bar-text: #ffffff;
+  --pill-background: rgba(18, 18, 18, 0.7);
+  --pill-divider: rgba(255, 255, 255, 0.5);
+  --pill-text: #ffffff;
+  --section-border: #dcdcdc;
+  --section-border-culture: #866d50;
+  --section-border-lifestyle: #bb3b80;
+  --section-border-opinion: #e05e00;
+  --section-border-primary: #333333;
+  --section-border-secondary: #bababa;
+  --section-border-sport: #0077b6;
+  --section-toggle-button: #707070;
+  --section-toggle-button-hover: #121212;
+  --slideshow-caption: #ffffff;
+  --slideshow-navigation-background: #f6f6f6;
+  --slideshow-pagination-dot: rgba(18, 18, 18, 0.2);
+  --slideshow-pagination-dot-active: #121212;
+  --stuck-background: #ffffff;
+  --sub-nav-link-hover: #c74600;
+  --trending-topics-background: #ffffff;
+  --trending-topics-separator: #dcdcdc;
+  --trending-topics-text: #333333;
+}
+.dcr-ncdfe4 {
+  --ad-background: #f6f6f6;
+  --ad-border: #dcdcdc;
+  --ad-labels-text: #707070;
+  --article-border: #dcdcdc;
+  --article-section-background: #ffffff;
+  --article-section-border: #dcdcdc;
+  --article-section-secondary-title: #333333;
+  --article-section-title: #121212;
+  --article-section-title-culture: #866d50;
+  --article-section-title-lifestyle: #bb3b80;
+  --article-section-title-news: #121212;
+  --article-section-title-opinion: #c74600;
+  --article-section-title-sport: #0077b6;
+  --article-text: #121212;
+  --avatar-background: #ededed;
+  --card-background: transparent;
+  --card-background-hover: rgba(18, 18, 18, 0.1);
+  --card-border-supporting: #dcdcdc;
+  --card-border-top: #bababa;
+  --card-footer-text: #707070;
+  --card-headline: #121212;
+  --card-kicker-text: #bb3b80;
+  --card-media-background: #f6f6f6;
+  --card-quote-icon: #bb3b80;
+  --card-sublinks-background: #f6f6f6;
+  --card-trail-text: #707070;
+  --carousel-chevron: #121212;
+  --carousel-chevron-border: #bababa;
+  --carousel-chevron-border-disabled: rgba(186, 186, 186, 0.32);
+  --carousel-chevron-disabled: rgba(18, 18, 18, 0.32);
+  --carousel-chevron-hover: rgba(186, 186, 186, 0.2);
+  --feature-card-background: #ededed;
+  --feature-card-footer-text: #dcdcdc;
+  --feature-card-headline: #f6f6f6;
+  --feature-card-kicker-text: #fec8d3;
+  --feature-card-trail-text: #dcdcdc;
+  --front-container-background: #ffffff;
+  --headline-colour: #650054;
+  --highlights-card-background: #fef1f8;
+  --highlights-card-headline: #bb3b80;
+  --highlights-card-kicker-text: #121212;
+  --highlights-card-quote-icon: #bb3b80;
+  --highlights-container-background: #ffffff;
+  --highlights-container-end-fade: rgba(255, 255, 255, 0);
+  --highlights-container-mid-fade: rgba(255, 255, 255, 0.6);
+  --highlights-container-separator: #dcdcdc;
+  --highlights-container-start-fade: #ffffff;
+  --kicker-background-live: #bb3b80;
+  --kicker-pulsing-dot-live: rgba(246, 246, 246, 0.75);
+  --kicker-text-live: #f6f6f6;
+  --link-kicker-text: #bb3b80;
+  --masthead-nav-background: #052962;
+  --masthead-nav-border: #506991;
+  --masthead-nav-lines: #506991;
+  --masthead-nav-link-text: #ffffff;
+  --masthead-nav-link-text-hover: #ffe500;
+  --masthead-top-bar-background: #041f4a;
+  --masthead-top-bar-link-text: #ffffff;
+  --masthead-top-bar-vertical-divider: #506991;
+  --masthead-veggie-burger-background: #ffe500;
+  --masthead-veggie-burger-background-hover: #ffd900;
+  --most-viewed-description: #707070;
+  --most-viewed-footer-hover: #f6f6f6;
+  --narrow-play-icon-background: rgba(18, 18, 18, 0.7);
+  --narrow-play-icon-border: #999999;
+  --narrow-play-icon-fill: #ffffff;
+  --nav-reader-revenue-link-text: #ffe500;
+  --nav-search-bar-background: rgba(255, 255, 255, 0.1);
+  --nav-search-bar-icon: #ffffff;
+  --nav-search-bar-text: #ffffff;
+  --pill-background: rgba(18, 18, 18, 0.7);
+  --pill-divider: rgba(255, 255, 255, 0.5);
+  --pill-text: #ffffff;
+  --section-border: #dcdcdc;
+  --section-border-culture: #866d50;
+  --section-border-lifestyle: #bb3b80;
+  --section-border-opinion: #e05e00;
+  --section-border-primary: #333333;
+  --section-border-secondary: #bababa;
+  --section-border-sport: #0077b6;
+  --section-toggle-button: #707070;
+  --section-toggle-button-hover: #121212;
+  --slideshow-caption: #ffffff;
+  --slideshow-navigation-background: #f6f6f6;
+  --slideshow-pagination-dot: rgba(18, 18, 18, 0.2);
+  --slideshow-pagination-dot-active: #121212;
+  --stuck-background: #ffffff;
+  --sub-nav-link-hover: #bb3b80;
+  --trending-topics-background: #ffffff;
+  --trending-topics-separator: #dcdcdc;
+  --trending-topics-text: #333333;
+}
+.dcr-1lfiz6p {
+  background: linear-gradient(
+    to left,
+    var(--highlights-container-start-fade) 0px,
+    var(--highlights-container-mid-fade) 60%,
+    var(--highlights-container-end-fade) 100%
+  );
+}
+.dcr-fq58ld {
+  border: none;
+  background: transparent;
+  text-decoration: none;
+  background-color: #052962;
+  color: #ffffff;
+}
+.dcr-fq58ld:focus {
+  outline: 0;
+}
+html:not(.src-focus-disabled) .dcr-fq58ld:focus {
+  outline: 5px solid #0077b6;
+}
+.dcr-fq58ld:hover {
+  background-color: #03183a;
+}
+.dcr-fq58ld svg {
+  fill: currentColor;
+}
+.dcr-sy54ny {
+  border: 0;
+}
+.dcr-7pvzhg {
+  color: var(--masthead-nav-link-text);
+}
+.dcr-7pvzhg ul {
+  right: unset;
+  max-height: unset;
+}
+@media (min-width: 375px) {
+  .dcr-7pvzhg ul {
+    left: unset;
+  }
+}
+.dcr-1kbi9ft #checkbox-id-masthead-edition {
+  border: 0;
+}
+.dcr-chf208 {
+  background: none;
+  border: none;
+  color: #ffffff;
+  text-decoration: none;
+  color: var(--masthead-nav-link-text);
+}
+.dcr-chf208:hover {
+  color: #ffe500;
+}
+.dcr-chf208::after {
+  border: 1px solid currentColor;
+  border-left: transparent;
+  border-top: transparent;
+}
+.dcr-chf208:not(ul):hover {
+  color: var(--masthead-nav-link-text);
+  text-decoration: underline;
+}
+.dcr-qanyx8 {
+  background-color: white;
+  box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.1);
+  color: var(--masthead-nav-link-text);
+}
+.dcr-qanyx8:not(ul):hover {
+  color: var(--masthead-nav-link-text);
+  text-decoration: underline;
+}
+.dcr-nvrwln {
+  color: #121212;
+  text-decoration: none;
+}
+.dcr-nvrwln:hover {
+  background-color: #ededed;
+  text-decoration: none;
+}
+.dcr-nvrwln:focus {
+  text-decoration: underline;
+}
+.dcr-nvrwln::before {
+  border-top: 1px solid #dcdcdc;
+}
+.dcr-nvrwln::after {
+  border: 2px solid #c70000;
+  border-top: 0px;
+  border-right: 0px;
+}
+.dcr-2hhtc4 {
+  color: #121212;
+  text-decoration: none;
+}
+.dcr-2hhtc4:hover {
+  background-color: #ededed;
+  text-decoration: none;
+}
+.dcr-2hhtc4:focus {
+  text-decoration: underline;
+}
+.dcr-2hhtc4::before {
+  border-top: 1px solid #dcdcdc;
+}
+.dcr-zramh4 {
+  border: 0;
+}
+.dcr-1p0hins {
+  border: 0;
+}
+.dcr-1acea34 {
+  border: 0;
+}
+@media (min-width: 980px) {
+  .dcr-18nbak li:last-of-type::after {
+    border-left: 1px solid var(--masthead-nav-lines);
+  }
+}
+.dcr-18nbak::after {
+  border-bottom: 1px solid var(--masthead-nav-lines);
+}
+.dcr-1x36b2n::after {
+  border-left: 1px solid var(--masthead-nav-lines);
+}
+.dcr-17fanw1 {
+  text-decoration: none;
+  background-color: var(--masthead-nav-background);
+  color: var(--masthead-nav-link-text);
+}
+.dcr-17fanw1:hover {
+  text-decoration: none;
+}
+.dcr-17fanw1::after {
+  background-color: var(--pillar-underline);
+}
+.dcr-17fanw1:hover {
+  text-decoration: none;
+}
+.dcr-1gcso2u::after {
+  border-left: 1px solid var(--masthead-nav-lines);
+}
+.dcr-9ucpkb {
+  text-decoration: none;
+  background-color: var(--masthead-nav-background);
+  color: var(--masthead-nav-link-text);
+}
+.dcr-9ucpkb:hover {
+  text-decoration: none;
+}
+.dcr-9ucpkb::after {
+  background-color: var(--pillar-underline);
+}
+.dcr-b3mn8w {
+  background-color: var(--masthead-veggie-burger-background);
+}
+.dcr-b3mn8w:hover {
+  background-color: var(--masthead-veggie-burger-background-hover);
+}
+.dcr-b3mn8w:focus {
+  outline: none;
+}
+.dcr-1nvgr5i {
+  border: 0;
+}
+.dcr-li5n90 {
+  background-color: var(--masthead-veggie-burger-background);
+}
+.dcr-li5n90:hover {
+  background-color: var(--masthead-veggie-burger-background-hover);
+}
+.dcr-li5n90:focus {
+  outline: none;
+}
+.dcr-1ndqjmr {
+  background-color: var(--masthead-nav-background);
+  box-shadow: 28px 0 rgba(0, 0, 0, 0.4);
+}
+@media (min-width: 480px) {
+  .dcr-1ndqjmr {
+    box-shadow: 40px 0 rgba(0, 0, 0, 0.4);
+  }
+}
+@media (min-width: 740px) {
+  .dcr-1ndqjmr {
+    box-shadow: 100px 0 rgba(0, 0, 0, 0.4);
+  }
+}
+@media (min-width: 980px) {
+  .dcr-1ndqjmr {
+    box-shadow: none;
+  }
+}
+@media (min-width: 980px) {
+  .dcr-6sl420 {
+    border-right: 1px solid var(--masthead-nav-lines);
+    border-top: 1px solid var(--masthead-nav-lines);
+  }
+  .dcr-6sl420:first-of-type {
+    border-left: 1px solid var(--masthead-nav-lines);
+  }
+}
+@media (min-width: 980px) {
+  .dcr-1b0pb7e {
+    border-left: 1px solid var(--masthead-nav-lines);
+  }
+  .dcr-1b0pb7e:first-of-type {
+    border-left: none;
+  }
+}
+@media (min-width: 980px) {
+  .dcr-1b0pb7e::before {
+    background-color: var(--masthead-nav-lines);
+  }
+}
+.dcr-a0iy9i {
+  border: 0;
+  outline: none;
+  color: var(--masthead-nav-link-text);
+  text-decoration: none;
+}
+.dcr-a0iy9i:hover,
+.dcr-a0iy9i:focus {
+  color: var(--masthead-nav-link-text-hover);
+}
+.dcr-a0iy9i::before {
+  border: 2px solid currentColor;
+  border-top: 0;
+  border-left: 0;
+}
+@media (max-width: 739.9px) {
+  .dcr-11vt4tq {
+    background: var(--masthead-nav-background);
+  }
+}
+@media (max-width: 739.9px) {
+  .dcr-11vt4tq {
+    background: var(--masthead-nav-background);
+  }
+}
+.dcr-1julzi7 {
+  border: 0;
+  outline: none;
+  color: var(--masthead-nav-link-text);
+  text-decoration: none;
+}
+.dcr-1julzi7:hover,
+.dcr-1julzi7:focus {
+  color: var(--masthead-nav-link-text-hover);
+}
+.dcr-1julzi7:hover,
+.dcr-1julzi7:focus {
+  text-decoration: underline;
+}
+.dcr-1tnoaxa {
+  background-color: var(--masthead-nav-border);
+}
+.dcr-fulupp {
+  border: 0;
+  outline: none;
+  color: var(--masthead-nav-link-text);
+  text-decoration: none;
+}
+.dcr-fulupp:hover,
+.dcr-fulupp:focus {
+  color: var(--masthead-nav-link-text-hover);
+}
+.dcr-fulupp::before {
+  border: 2px solid currentColor;
+  border-top: 0;
+  border-left: 0;
+}
+@media (max-width: 739.9px) {
+  .dcr-v7ibvm {
+    background: var(--masthead-nav-background);
+  }
+}
+.dcr-1j2dgzz {
+  background-color: var(--masthead-nav-border);
+}
+.dcr-fscpiz {
+  border: 0;
+  outline: none;
+  color: var(--masthead-nav-link-text);
+  text-decoration: none;
+}
+.dcr-fscpiz:hover,
+.dcr-fscpiz:focus {
+  color: var(--masthead-nav-link-text-hover);
+}
+.dcr-fscpiz::before {
+  border: 2px solid currentColor;
+  border-top: 0;
+  border-left: 0;
+}
+@media (max-width: 739.9px) {
+  .dcr-wp8bgr {
+    background: var(--masthead-nav-background);
+  }
+}
+.dcr-16q8bto {
+  background-color: var(--masthead-nav-border);
+}
+.dcr-1xg25rp {
+  border: 0;
+  outline: none;
+  color: var(--masthead-nav-link-text);
+  text-decoration: none;
+}
+.dcr-1xg25rp:hover,
+.dcr-1xg25rp:focus {
+  color: var(--masthead-nav-link-text-hover);
+}
+.dcr-1xg25rp::before {
+  border: 2px solid currentColor;
+  border-top: 0;
+  border-left: 0;
+}
+@media (max-width: 739.9px) {
+  .dcr-1yytfii {
+    background: var(--masthead-nav-background);
+  }
+}
+.dcr-6zq80y {
+  background-color: var(--masthead-nav-border);
+}
+.dcr-6mptkg {
+  border: 0;
+  outline: none;
+  color: var(--masthead-nav-link-text);
+  text-decoration: none;
+}
+.dcr-6mptkg:hover,
+.dcr-6mptkg:focus {
+  color: var(--masthead-nav-link-text-hover);
+}
+.dcr-6mptkg::before {
+  border: 2px solid currentColor;
+  border-top: 0;
+  border-left: 0;
+}
+@media (max-width: 739.9px) {
+  .dcr-1utnfys {
+    background: var(--masthead-nav-background);
+  }
+}
+.dcr-6v110l {
+  color: #121212;
+  border: 0;
+}
+.dcr-qcy5wo {
+  color: #121212;
+  background-color: #ffffff;
+  border: 1px solid #707070;
+  background-color: var(--nav-search-bar-background);
+  border: 0;
+  color: var(--nav-search-bar-text);
+}
+.dcr-qcy5wo:focus {
+  outline: 0;
+}
+html:not(.src-focus-disabled) .dcr-qcy5wo:focus {
+  box-shadow: 0 0 0 3px #0077b6;
+}
+.dcr-qcy5wo:invalid {
+  box-shadow: none;
+}
+.dcr-qcy5wo:invalid[value]:not([value=""]) {
+  border: 2px solid #c70000;
+  color: #121212;
+}
+.dcr-qcy5wo::-webkit-input-placeholder {
+  color: var(--nav-search-bar-text);
+}
+.dcr-qcy5wo::-moz-placeholder {
+  color: var(--nav-search-bar-text);
+}
+.dcr-qcy5wo:-ms-input-placeholder {
+  color: var(--nav-search-bar-text);
+}
+.dcr-qcy5wo::placeholder {
+  color: var(--nav-search-bar-text);
+}
+.dcr-qcy5wo:focus ~ button {
+  background-color: transparent;
+}
+.dcr-radnun {
+  fill: var(--nav-search-bar-icon);
+}
+.dcr-1ykqw76 {
+  border: none;
+  background: transparent;
+  text-decoration: none;
+  background-color: #052962;
+  color: #ffffff;
+  background: transparent;
+  border: 0;
+  fill: var(--nav-search-bar-icon);
+}
+.dcr-1ykqw76:focus {
+  outline: 0;
+}
+html:not(.src-focus-disabled) .dcr-1ykqw76:focus {
+  outline: 5px solid #0077b6;
+}
+.dcr-1ykqw76:hover {
+  background-color: #03183a;
+}
+.dcr-1ykqw76 svg {
+  fill: currentColor;
+}
+.dcr-1ykqw76::after {
+  border-right: 0;
+}
+.dcr-1q09wwq {
+  background-color: var(--masthead-nav-border);
+}
+.dcr-1rg7stg {
+  border: 0;
+  outline: none;
+  color: var(--masthead-nav-link-text);
+  text-decoration: none;
+  color: var(--nav-reader-revenue-link-text);
+}
+.dcr-1rg7stg:hover,
+.dcr-1rg7stg:focus {
+  color: var(--masthead-nav-link-text-hover);
+}
+.dcr-1rg7stg:hover,
+.dcr-1rg7stg:focus {
+  text-decoration: underline;
+}
+@media (min-width: 980px) {
+  .dcr-1u7lyjq::before {
+    background-color: var(--masthead-nav-lines);
+  }
+}
+@media (min-width: 980px) {
+  .dcr-1u7lyjq::after {
+    background-color: var(--masthead-nav-lines);
+  }
+}
+.dcr-a1su5g {
+  border: 0;
+  outline: none;
+  color: var(--masthead-nav-link-text);
+  text-decoration: none;
+}
+.dcr-a1su5g:hover,
+.dcr-a1su5g:focus {
+  color: var(--masthead-nav-link-text-hover);
+}
+.dcr-a1su5g:hover,
+.dcr-a1su5g:focus {
+  text-decoration: underline;
+}
+.dcr-e3rvah {
+  border: 0;
+  outline: none;
+  color: var(--masthead-nav-link-text);
+  text-decoration: none;
+  text-decoration: none;
+}
+.dcr-e3rvah:hover,
+.dcr-e3rvah:focus {
+  color: var(--masthead-nav-link-text-hover);
+}
+@media (min-width: 740px) {
+  .dcr-va4f9e::before {
+    border-left: 1px solid var(--masthead-nav-lines);
+  }
+  .dcr-va4f9e::after {
+    border-left: 1px solid var(--masthead-nav-lines);
+  }
+}
+.dcr-12t3ay9 {
+  color: inherit;
+}
+.dcr-15o3dy0 {
+  color: var(--masthead-nav-link-text);
+  text-decoration: none;
+}
+.dcr-15o3dy0:hover {
+  text-decoration: underline;
+  color: var(--masthead-nav-link-text-hover);
+}
+.dcr-1ikn05z {
+  background: linear-gradient(
+    to right,
+    transparent 0%,
+    var(--masthead-nav-background) 100%
+  );
+}
+.dcr-eekrbe {
+  border-color: var(--section-border);
+}
+.dcr-1j7cczu {
+  text-decoration: underline;
+  border: none;
+  background: transparent;
+  color: var(--section-toggle-button);
+  text-decoration: none;
+}
+.dcr-1j7cczu:focus {
+  outline: 0;
+}
+html:not(.src-focus-disabled) .dcr-1j7cczu:focus {
+  box-shadow: 0 0 0 3px #0077b6;
+}
+.dcr-1j7cczu:hover {
+  color: var(--section-toggle-button-hover);
+}
+@media (min-width: 1140px) {
+  .dcr-1555ajk::before {
+    border-left: 1px solid var(--section-border);
+  }
+}
+.dcr-101kwpl {
+  --ad-background: #f6f6f6;
+  --ad-border: #dcdcdc;
+  --ad-labels-text: #707070;
+  --article-border: #dcdcdc;
+  --article-section-background: #ffffff;
+  --article-section-border: #dcdcdc;
+  --article-section-secondary-title: #333333;
+  --article-section-title: #121212;
+  --article-section-title-culture: #866d50;
+  --article-section-title-lifestyle: #bb3b80;
+  --article-section-title-news: #121212;
+  --article-section-title-opinion: #c74600;
+  --article-section-title-sport: #0077b6;
+  --article-text: #121212;
+  --avatar-background: #ededed;
+  --card-background: transparent;
+  --card-background-hover: rgba(18, 18, 18, 0.1);
+  --card-border-supporting: #dcdcdc;
+  --card-border-top: #bababa;
+  --card-footer-text: #707070;
+  --card-headline: #121212;
+  --card-kicker-text: #c70000;
+  --card-media-background: #f6f6f6;
+  --card-quote-icon: #c70000;
+  --card-sublinks-background: #f6f6f6;
+  --card-trail-text: #707070;
+  --carousel-chevron: #121212;
+  --carousel-chevron-border: #bababa;
+  --carousel-chevron-border-disabled: rgba(186, 186, 186, 0.32);
+  --carousel-chevron-disabled: rgba(18, 18, 18, 0.32);
+  --carousel-chevron-hover: rgba(186, 186, 186, 0.2);
+  --feature-card-background: #ededed;
+  --feature-card-footer-text: #dcdcdc;
+  --feature-card-headline: #f6f6f6;
+  --feature-card-kicker-text: #fff4f2;
+  --feature-card-trail-text: #dcdcdc;
+  --front-container-background: #ffffff;
+  --headline-colour: #121212;
+  --highlights-card-background: #fff4f2;
+  --highlights-card-headline: #c70000;
+  --highlights-card-kicker-text: #121212;
+  --highlights-card-quote-icon: #c70000;
+  --highlights-container-background: #ffffff;
+  --highlights-container-end-fade: rgba(255, 255, 255, 0);
+  --highlights-container-mid-fade: rgba(255, 255, 255, 0.6);
+  --highlights-container-separator: #dcdcdc;
+  --highlights-container-start-fade: #ffffff;
+  --kicker-background-live: #c70000;
+  --kicker-pulsing-dot-live: rgba(246, 246, 246, 0.75);
+  --kicker-text-live: #f6f6f6;
+  --link-kicker-text: #c70000;
+  --masthead-nav-background: #052962;
+  --masthead-nav-border: #506991;
+  --masthead-nav-lines: #506991;
+  --masthead-nav-link-text: #ffffff;
+  --masthead-nav-link-text-hover: #ffe500;
+  --masthead-top-bar-background: #041f4a;
+  --masthead-top-bar-link-text: #ffffff;
+  --masthead-top-bar-vertical-divider: #506991;
+  --masthead-veggie-burger-background: #ffe500;
+  --masthead-veggie-burger-background-hover: #ffd900;
+  --most-viewed-description: #707070;
+  --most-viewed-footer-hover: #f6f6f6;
+  --narrow-play-icon-background: rgba(18, 18, 18, 0.7);
+  --narrow-play-icon-border: #999999;
+  --narrow-play-icon-fill: #ffffff;
+  --nav-reader-revenue-link-text: #ffe500;
+  --nav-search-bar-background: rgba(255, 255, 255, 0.1);
+  --nav-search-bar-icon: #ffffff;
+  --nav-search-bar-text: #ffffff;
+  --pill-background: rgba(18, 18, 18, 0.7);
+  --pill-divider: rgba(255, 255, 255, 0.5);
+  --pill-text: #ffffff;
+  --section-border: #dcdcdc;
+  --section-border-culture: #866d50;
+  --section-border-lifestyle: #bb3b80;
+  --section-border-opinion: #e05e00;
+  --section-border-primary: #333333;
+  --section-border-secondary: #bababa;
+  --section-border-sport: #0077b6;
+  --section-toggle-button: #707070;
+  --section-toggle-button-hover: #121212;
+  --slideshow-caption: #ffffff;
+  --slideshow-navigation-background: #f6f6f6;
+  --slideshow-pagination-dot: rgba(18, 18, 18, 0.2);
+  --slideshow-pagination-dot-active: #121212;
+  --stuck-background: #ffffff;
+  --sub-nav-link-hover: #c70000;
+  --trending-topics-background: #ffffff;
+  --trending-topics-separator: #dcdcdc;
+  --trending-topics-text: #333333;
+}
+.dcr-mwwxk {
+  color: inherit;
+  text-decoration: none;
+}
+.dcr-mwwxk:hover .media-overlay {
+  background-color: var(--card-background-hover);
+}
+.dcr-mwwxk:hover .card-headline .show-underline {
+  text-decoration: underline;
+}
+.dcr-mwwxk:has(
+    ul.sublinks:hover,
+    .video-container:not(.cinemagraph):hover,
+    .slideshow-carousel-footer:hover,
+    .branding-logo:hover
+  )
+  .card-headline
+  .show-underline {
+  text-decoration: none;
+}
+.dcr-mwwxk:has(
+    ul.sublinks:hover,
+    .video-container:not(.cinemagraph):hover,
+    .slideshow-carousel-footer:hover,
+    .branding-logo:hover
+  )
+  .media-overlay {
+  background-color: transparent;
+}
+@media (max-width: 739.9px) {
+  .dcr-mwwxk::before {
+    border-top: 1px solid var(--card-border-top);
+    background-color: unset;
+  }
+}
+.dcr-cxsvzt {
+  color: var(--slideshow-caption);
+  background: linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 0) 0%,
+    rgba(0, 0, 0, 0.8) 100%
+  );
+}
+@media (max-width: 739.9px) {
+  .dcr-1cjveok {
+    background-color: var(--slideshow-navigation-background);
+  }
+}
+.dcr-1htbl0j {
+  background-color: var(--slideshow-pagination-dot);
+  background-color: var(--slideshow-pagination-dot-active);
+}
+.dcr-2gt1ox {
+  background-color: var(--slideshow-pagination-dot);
+}
+.dcr-86v3ew {
+  background-color: var(--slideshow-pagination-dot);
+}
+.dcr-8jkbi7 {
+  border: none;
+  background: transparent;
+  text-decoration: none;
+  background-color: transparent;
+  color: var(--carousel-chevron-disabled);
+  border: 1px solid var(--carousel-chevron-border-disabled);
+}
+.dcr-8jkbi7:focus {
+  outline: 0;
+}
+html:not(.src-focus-disabled) .dcr-8jkbi7:focus {
+  outline: 5px solid #0077b6;
+}
+.dcr-8jkbi7:hover {
+  background-color: transparent;
+}
+.dcr-8jkbi7 svg {
+  fill: currentColor;
+}
+.dcr-1jixt7l {
+  border: none;
+  background: transparent;
+  text-decoration: none;
+  background-color: transparent;
+  color: var(--carousel-chevron);
+  border: 1px solid var(--carousel-chevron-border);
+}
+.dcr-1jixt7l:focus {
+  outline: 0;
+}
+html:not(.src-focus-disabled) .dcr-1jixt7l:focus {
+  outline: 5px solid #0077b6;
+}
+.dcr-1jixt7l:hover {
+  background-color: var(--carousel-chevron-hover);
+}
+.dcr-1jixt7l svg {
+  fill: currentColor;
+}
+.dcr-uyefka {
+  color: var(--card-headline);
+}
+.dcr-oi4shr {
+  color: var(--card-trail-text);
+}
+.dcr-vfsw4m > :nth-child(2)::before {
+  background-color: #999999;
+}
+.dcr-8fifzy {
+  color: var(--card-footer-text);
+}
+.dcr-8fifzy svg {
+  fill: var(--card-footer-text);
+}
+@media (min-width: 740px) {
+  .dcr-1ibvfh6 {
+    border-top: 1px solid var(--card-border-top);
+  }
+}
+@media (min-width: 740px) {
+  .dcr-9zixcl {
+    background-color: var(--card-background);
+  }
+}
+@media (max-width: 739.9px) {
+  .dcr-fbifpe {
+    background-color: var(--card-sublinks-background);
+  }
+}
+@media (max-width: 739.9px) {
+  .dcr-1sbq4gd::before {
+    border-top: 1px solid var(--card-border-top);
+  }
+}
+@media (min-width: 740px) {
+  .dcr-1sbq4gd:not(:last-child)::after {
+    background-color: var(--card-border-supporting);
+  }
+}
+.dcr-1gm0ekc {
+  --ad-background: #f6f6f6;
+  --ad-border: #dcdcdc;
+  --ad-labels-text: #707070;
+  --article-border: #dcdcdc;
+  --article-section-background: #ffffff;
+  --article-section-border: #dcdcdc;
+  --article-section-secondary-title: #333333;
+  --article-section-title: #121212;
+  --article-section-title-culture: #866d50;
+  --article-section-title-lifestyle: #bb3b80;
+  --article-section-title-news: #121212;
+  --article-section-title-opinion: #c74600;
+  --article-section-title-sport: #0077b6;
+  --article-text: #121212;
+  --avatar-background: #ededed;
+  --card-background: transparent;
+  --card-background-hover: rgba(18, 18, 18, 0.1);
+  --card-border-supporting: #dcdcdc;
+  --card-border-top: #bababa;
+  --card-footer-text: #707070;
+  --card-headline: #121212;
+  --card-kicker-text: #c70000;
+  --card-media-background: #f6f6f6;
+  --card-quote-icon: #c70000;
+  --card-sublinks-background: #f6f6f6;
+  --card-trail-text: #707070;
+  --carousel-chevron: #121212;
+  --carousel-chevron-border: #bababa;
+  --carousel-chevron-border-disabled: rgba(186, 186, 186, 0.32);
+  --carousel-chevron-disabled: rgba(18, 18, 18, 0.32);
+  --carousel-chevron-hover: rgba(186, 186, 186, 0.2);
+  --feature-card-background: #ededed;
+  --feature-card-footer-text: #dcdcdc;
+  --feature-card-headline: #f6f6f6;
+  --feature-card-kicker-text: #fff4f2;
+  --feature-card-trail-text: #dcdcdc;
+  --front-container-background: #ffffff;
+  --headline-colour: #f6f6f6;
+  --highlights-card-background: #fff4f2;
+  --highlights-card-headline: #c70000;
+  --highlights-card-kicker-text: #121212;
+  --highlights-card-quote-icon: #c70000;
+  --highlights-container-background: #ffffff;
+  --highlights-container-end-fade: rgba(255, 255, 255, 0);
+  --highlights-container-mid-fade: rgba(255, 255, 255, 0.6);
+  --highlights-container-separator: #dcdcdc;
+  --highlights-container-start-fade: #ffffff;
+  --kicker-background-live: #c70000;
+  --kicker-pulsing-dot-live: rgba(246, 246, 246, 0.75);
+  --kicker-text-live: #f6f6f6;
+  --link-kicker-text: #c70000;
+  --masthead-nav-background: #052962;
+  --masthead-nav-border: #506991;
+  --masthead-nav-lines: #506991;
+  --masthead-nav-link-text: #ffffff;
+  --masthead-nav-link-text-hover: #ffe500;
+  --masthead-top-bar-background: #041f4a;
+  --masthead-top-bar-link-text: #ffffff;
+  --masthead-top-bar-vertical-divider: #506991;
+  --masthead-veggie-burger-background: #ffe500;
+  --masthead-veggie-burger-background-hover: #ffd900;
+  --most-viewed-description: #707070;
+  --most-viewed-footer-hover: #f6f6f6;
+  --narrow-play-icon-background: rgba(18, 18, 18, 0.7);
+  --narrow-play-icon-border: #999999;
+  --narrow-play-icon-fill: #ffffff;
+  --nav-reader-revenue-link-text: #ffe500;
+  --nav-search-bar-background: rgba(255, 255, 255, 0.1);
+  --nav-search-bar-icon: #ffffff;
+  --nav-search-bar-text: #ffffff;
+  --pill-background: rgba(18, 18, 18, 0.7);
+  --pill-divider: rgba(255, 255, 255, 0.5);
+  --pill-text: #ffffff;
+  --section-border: #dcdcdc;
+  --section-border-culture: #866d50;
+  --section-border-lifestyle: #bb3b80;
+  --section-border-opinion: #e05e00;
+  --section-border-primary: #333333;
+  --section-border-secondary: #bababa;
+  --section-border-sport: #0077b6;
+  --section-toggle-button: #707070;
+  --section-toggle-button-hover: #121212;
+  --slideshow-caption: #ffffff;
+  --slideshow-navigation-background: #f6f6f6;
+  --slideshow-pagination-dot: rgba(18, 18, 18, 0.2);
+  --slideshow-pagination-dot-active: #121212;
+  --stuck-background: #ffffff;
+  --sub-nav-link-hover: #c70000;
+  --trending-topics-background: #ffffff;
+  --trending-topics-separator: #dcdcdc;
+  --trending-topics-text: #333333;
+}
+.dcr-1ij2qgb {
+  text-decoration: underline;
+  color: #0077b6;
+  color: inherit;
+  text-decoration: none;
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+}
+.dcr-1ij2qgb:focus {
+  outline: 0;
+}
+html:not(.src-focus-disabled) .dcr-1ij2qgb:focus {
+  box-shadow: 0 0 0 3px #0077b6;
+}
+.dcr-1ij2qgb:hover {
+  color: #0077b6;
+}
+.dcr-1ij2qgb:hover {
+  color: inherit;
+  text-decoration: none;
+}
+.dcr-1ij2qgb:hover .show-underline {
+  text-decoration: underline;
+}
+.dcr-1b0f48m {
+  font-size: inherit;
+  line-height: inherit;
+}
+@media (min-width: 740px) {
+  .dcr-1ecruyx::before {
+    background-color: var(--card-border-top);
+  }
+}
+@media (min-width: 740px) {
+  .dcr-1tcu2e2::before {
+    background-image: linear-gradient(
+      to right,
+      var(--card-border-top),
+      var(--card-border-top) calc(50% - 10px),
+      rgba(0, 0, 0, 0) calc(50% - 10px),
+      rgba(0, 0, 0, 0) calc(50% + 10px),
+      var(--card-border-top) calc(50% + 10px),
+      var(--card-border-top)
+    );
+  }
+}
+@media (max-width: 739.9px) {
+  .dcr-12uldny {
+    -webkit-flex-basis: unset;
+    -ms-flex-preferred-size: unset;
+    flex-basis: unset;
+  }
+}
+@media (min-width: 740px) {
+  .dcr-ixe7de::before {
+    border-left: 1px solid var(--card-border-supporting);
+  }
+}
+.dcr-1l37myd {
+  --ad-background: #f6f6f6;
+  --ad-border: #dcdcdc;
+  --ad-labels-text: #707070;
+  --article-border: #dcdcdc;
+  --article-section-background: #ffffff;
+  --article-section-border: #dcdcdc;
+  --article-section-secondary-title: #333333;
+  --article-section-title: #121212;
+  --article-section-title-culture: #866d50;
+  --article-section-title-lifestyle: #bb3b80;
+  --article-section-title-news: #121212;
+  --article-section-title-opinion: #c74600;
+  --article-section-title-sport: #0077b6;
+  --article-text: #121212;
+  --avatar-background: #ededed;
+  --card-background: transparent;
+  --card-background-hover: rgba(18, 18, 18, 0.1);
+  --card-border-supporting: #dcdcdc;
+  --card-border-top: #bababa;
+  --card-footer-text: #707070;
+  --card-headline: #121212;
+  --card-kicker-text: #0077b6;
+  --card-media-background: #f6f6f6;
+  --card-quote-icon: #0077b6;
+  --card-sublinks-background: #f6f6f6;
+  --card-trail-text: #707070;
+  --carousel-chevron: #121212;
+  --carousel-chevron-border: #bababa;
+  --carousel-chevron-border-disabled: rgba(186, 186, 186, 0.32);
+  --carousel-chevron-disabled: rgba(18, 18, 18, 0.32);
+  --carousel-chevron-hover: rgba(186, 186, 186, 0.2);
+  --feature-card-background: #ededed;
+  --feature-card-footer-text: #dcdcdc;
+  --feature-card-headline: #f6f6f6;
+  --feature-card-kicker-text: #90dcff;
+  --feature-card-trail-text: #dcdcdc;
+  --front-container-background: #ffffff;
+  --headline-colour: #121212;
+  --highlights-card-background: #f1f8fc;
+  --highlights-card-headline: #0077b6;
+  --highlights-card-kicker-text: #121212;
+  --highlights-card-quote-icon: #0077b6;
+  --highlights-container-background: #ffffff;
+  --highlights-container-end-fade: rgba(255, 255, 255, 0);
+  --highlights-container-mid-fade: rgba(255, 255, 255, 0.6);
+  --highlights-container-separator: #dcdcdc;
+  --highlights-container-start-fade: #ffffff;
+  --kicker-background-live: #0077b6;
+  --kicker-pulsing-dot-live: rgba(246, 246, 246, 0.75);
+  --kicker-text-live: #f6f6f6;
+  --link-kicker-text: #0077b6;
+  --masthead-nav-background: #052962;
+  --masthead-nav-border: #506991;
+  --masthead-nav-lines: #506991;
+  --masthead-nav-link-text: #ffffff;
+  --masthead-nav-link-text-hover: #ffe500;
+  --masthead-top-bar-background: #041f4a;
+  --masthead-top-bar-link-text: #ffffff;
+  --masthead-top-bar-vertical-divider: #506991;
+  --masthead-veggie-burger-background: #ffe500;
+  --masthead-veggie-burger-background-hover: #ffd900;
+  --most-viewed-description: #707070;
+  --most-viewed-footer-hover: #f6f6f6;
+  --narrow-play-icon-background: rgba(18, 18, 18, 0.7);
+  --narrow-play-icon-border: #999999;
+  --narrow-play-icon-fill: #ffffff;
+  --nav-reader-revenue-link-text: #ffe500;
+  --nav-search-bar-background: rgba(255, 255, 255, 0.1);
+  --nav-search-bar-icon: #ffffff;
+  --nav-search-bar-text: #ffffff;
+  --pill-background: rgba(18, 18, 18, 0.7);
+  --pill-divider: rgba(255, 255, 255, 0.5);
+  --pill-text: #ffffff;
+  --section-border: #dcdcdc;
+  --section-border-culture: #866d50;
+  --section-border-lifestyle: #bb3b80;
+  --section-border-opinion: #e05e00;
+  --section-border-primary: #333333;
+  --section-border-secondary: #bababa;
+  --section-border-sport: #0077b6;
+  --section-toggle-button: #707070;
+  --section-toggle-button-hover: #121212;
+  --slideshow-caption: #ffffff;
+  --slideshow-navigation-background: #f6f6f6;
+  --slideshow-pagination-dot: rgba(18, 18, 18, 0.2);
+  --slideshow-pagination-dot-active: #121212;
+  --stuck-background: #ffffff;
+  --sub-nav-link-hover: #0077b6;
+  --trending-topics-background: #ffffff;
+  --trending-topics-separator: #dcdcdc;
+  --trending-topics-text: #333333;
+}
+.dcr-b5asvx::before {
+  border-top: 1px solid var(--card-border-top);
+}
+@media (min-width: 740px) {
+  .dcr-b5asvx:first-child::before {
+    border-top: 1px solid var(--card-border-top);
+  }
+}
+.dcr-6lido5 {
+  --ad-background: #f6f6f6;
+  --ad-border: #dcdcdc;
+  --ad-labels-text: #707070;
+  --article-border: #dcdcdc;
+  --article-section-background: #ffffff;
+  --article-section-border: #dcdcdc;
+  --article-section-secondary-title: #333333;
+  --article-section-title: #121212;
+  --article-section-title-culture: #866d50;
+  --article-section-title-lifestyle: #bb3b80;
+  --article-section-title-news: #121212;
+  --article-section-title-opinion: #c74600;
+  --article-section-title-sport: #0077b6;
+  --article-text: #121212;
+  --avatar-background: #ededed;
+  --card-background: transparent;
+  --card-background-hover: rgba(18, 18, 18, 0.1);
+  --card-border-supporting: #dcdcdc;
+  --card-border-top: #bababa;
+  --card-footer-text: #707070;
+  --card-headline: #121212;
+  --card-kicker-text: #c70000;
+  --card-media-background: #f6f6f6;
+  --card-quote-icon: #c70000;
+  --card-sublinks-background: #f6f6f6;
+  --card-trail-text: #707070;
+  --carousel-chevron: #121212;
+  --carousel-chevron-border: #bababa;
+  --carousel-chevron-border-disabled: rgba(186, 186, 186, 0.32);
+  --carousel-chevron-disabled: rgba(18, 18, 18, 0.32);
+  --carousel-chevron-hover: rgba(186, 186, 186, 0.2);
+  --feature-card-background: #ededed;
+  --feature-card-footer-text: #dcdcdc;
+  --feature-card-headline: #f6f6f6;
+  --feature-card-kicker-text: #fff4f2;
+  --feature-card-trail-text: #dcdcdc;
+  --front-container-background: #ffffff;
+  --headline-colour: #8b0000;
+  --highlights-card-background: #fff4f2;
+  --highlights-card-headline: #c70000;
+  --highlights-card-kicker-text: #121212;
+  --highlights-card-quote-icon: #c70000;
+  --highlights-container-background: #ffffff;
+  --highlights-container-end-fade: rgba(255, 255, 255, 0);
+  --highlights-container-mid-fade: rgba(255, 255, 255, 0.6);
+  --highlights-container-separator: #dcdcdc;
+  --highlights-container-start-fade: #ffffff;
+  --kicker-background-live: #c70000;
+  --kicker-pulsing-dot-live: rgba(246, 246, 246, 0.75);
+  --kicker-text-live: #f6f6f6;
+  --link-kicker-text: #c70000;
+  --masthead-nav-background: #052962;
+  --masthead-nav-border: #506991;
+  --masthead-nav-lines: #506991;
+  --masthead-nav-link-text: #ffffff;
+  --masthead-nav-link-text-hover: #ffe500;
+  --masthead-top-bar-background: #041f4a;
+  --masthead-top-bar-link-text: #ffffff;
+  --masthead-top-bar-vertical-divider: #506991;
+  --masthead-veggie-burger-background: #ffe500;
+  --masthead-veggie-burger-background-hover: #ffd900;
+  --most-viewed-description: #707070;
+  --most-viewed-footer-hover: #f6f6f6;
+  --narrow-play-icon-background: rgba(18, 18, 18, 0.7);
+  --narrow-play-icon-border: #999999;
+  --narrow-play-icon-fill: #ffffff;
+  --nav-reader-revenue-link-text: #ffe500;
+  --nav-search-bar-background: rgba(255, 255, 255, 0.1);
+  --nav-search-bar-icon: #ffffff;
+  --nav-search-bar-text: #ffffff;
+  --pill-background: rgba(18, 18, 18, 0.7);
+  --pill-divider: rgba(255, 255, 255, 0.5);
+  --pill-text: #ffffff;
+  --section-border: #dcdcdc;
+  --section-border-culture: #866d50;
+  --section-border-lifestyle: #bb3b80;
+  --section-border-opinion: #e05e00;
+  --section-border-primary: #333333;
+  --section-border-secondary: #bababa;
+  --section-border-sport: #0077b6;
+  --section-toggle-button: #707070;
+  --section-toggle-button-hover: #121212;
+  --slideshow-caption: #ffffff;
+  --slideshow-navigation-background: #f6f6f6;
+  --slideshow-pagination-dot: rgba(18, 18, 18, 0.2);
+  --slideshow-pagination-dot-active: #121212;
+  --stuck-background: #ffffff;
+  --sub-nav-link-hover: #c70000;
+  --trending-topics-background: #ffffff;
+  --trending-topics-separator: #dcdcdc;
+  --trending-topics-text: #333333;
+}
+.dcr-ibg6ia {
+  --ad-background: #f6f6f6;
+  --ad-border: #dcdcdc;
+  --ad-labels-text: #707070;
+  --article-border: #dcdcdc;
+  --article-section-background: #ffffff;
+  --article-section-border: #dcdcdc;
+  --article-section-secondary-title: #333333;
+  --article-section-title: #121212;
+  --article-section-title-culture: #866d50;
+  --article-section-title-lifestyle: #bb3b80;
+  --article-section-title-news: #121212;
+  --article-section-title-opinion: #c74600;
+  --article-section-title-sport: #0077b6;
+  --article-text: #121212;
+  --avatar-background: #ededed;
+  --card-background: transparent;
+  --card-background-hover: rgba(18, 18, 18, 0.1);
+  --card-border-supporting: #dcdcdc;
+  --card-border-top: #bababa;
+  --card-footer-text: #707070;
+  --card-headline: #121212;
+  --card-kicker-text: #0077b6;
+  --card-media-background: #f6f6f6;
+  --card-quote-icon: #0077b6;
+  --card-sublinks-background: #f6f6f6;
+  --card-trail-text: #707070;
+  --carousel-chevron: #121212;
+  --carousel-chevron-border: #bababa;
+  --carousel-chevron-border-disabled: rgba(186, 186, 186, 0.32);
+  --carousel-chevron-disabled: rgba(18, 18, 18, 0.32);
+  --carousel-chevron-hover: rgba(186, 186, 186, 0.2);
+  --feature-card-background: #ededed;
+  --feature-card-footer-text: #dcdcdc;
+  --feature-card-headline: #f6f6f6;
+  --feature-card-kicker-text: #90dcff;
+  --feature-card-trail-text: #dcdcdc;
+  --front-container-background: #ffffff;
+  --headline-colour: #ffffff;
+  --highlights-card-background: #f1f8fc;
+  --highlights-card-headline: #0077b6;
+  --highlights-card-kicker-text: #121212;
+  --highlights-card-quote-icon: #0077b6;
+  --highlights-container-background: #ffffff;
+  --highlights-container-end-fade: rgba(255, 255, 255, 0);
+  --highlights-container-mid-fade: rgba(255, 255, 255, 0.6);
+  --highlights-container-separator: #dcdcdc;
+  --highlights-container-start-fade: #ffffff;
+  --kicker-background-live: #0077b6;
+  --kicker-pulsing-dot-live: rgba(246, 246, 246, 0.75);
+  --kicker-text-live: #f6f6f6;
+  --link-kicker-text: #0077b6;
+  --masthead-nav-background: #052962;
+  --masthead-nav-border: #506991;
+  --masthead-nav-lines: #506991;
+  --masthead-nav-link-text: #ffffff;
+  --masthead-nav-link-text-hover: #ffe500;
+  --masthead-top-bar-background: #041f4a;
+  --masthead-top-bar-link-text: #ffffff;
+  --masthead-top-bar-vertical-divider: #506991;
+  --masthead-veggie-burger-background: #ffe500;
+  --masthead-veggie-burger-background-hover: #ffd900;
+  --most-viewed-description: #707070;
+  --most-viewed-footer-hover: #f6f6f6;
+  --narrow-play-icon-background: rgba(18, 18, 18, 0.7);
+  --narrow-play-icon-border: #999999;
+  --narrow-play-icon-fill: #ffffff;
+  --nav-reader-revenue-link-text: #ffe500;
+  --nav-search-bar-background: rgba(255, 255, 255, 0.1);
+  --nav-search-bar-icon: #ffffff;
+  --nav-search-bar-text: #ffffff;
+  --pill-background: rgba(18, 18, 18, 0.7);
+  --pill-divider: rgba(255, 255, 255, 0.5);
+  --pill-text: #ffffff;
+  --section-border: #dcdcdc;
+  --section-border-culture: #866d50;
+  --section-border-lifestyle: #bb3b80;
+  --section-border-opinion: #e05e00;
+  --section-border-primary: #333333;
+  --section-border-secondary: #bababa;
+  --section-border-sport: #0077b6;
+  --section-toggle-button: #707070;
+  --section-toggle-button-hover: #121212;
+  --slideshow-caption: #ffffff;
+  --slideshow-navigation-background: #f6f6f6;
+  --slideshow-pagination-dot: rgba(18, 18, 18, 0.2);
+  --slideshow-pagination-dot-active: #121212;
+  --stuck-background: #ffffff;
+  --sub-nav-link-hover: #0077b6;
+  --trending-topics-background: #ffffff;
+  --trending-topics-separator: #dcdcdc;
+  --trending-topics-text: #333333;
+}
+.dcr-8uvliq {
+  color: var(--kicker-pulsing-dot-live);
+}
+.dcr-8uvliq::before {
+  background-color: currentColor;
+  vertical-align: initial;
+}
+@media (min-width: 740px) {
+  .dcr-wxwk4s::before {
+    background-color: var(--card-border-top);
+  }
+}
+@media (min-width: 740px) {
+  .dcr-13xs3yn {
+    background-color: var(--ad-background);
+  }
+}
+.dcr-d5yb29 {
+  border-top: 1px solid var(--section-border-secondary);
+}
+.dcr-1ja1q18 {
+  color: inherit;
+  text-decoration: none;
+}
+.dcr-1ja1q18:hover .media-overlay {
+  background-color: var(--card-background-hover);
+}
+.dcr-1ja1q18:hover .card-headline .show-underline {
+  text-decoration: underline;
+}
+.dcr-1ja1q18:has(
+    ul.sublinks:hover,
+    .video-container:not(.cinemagraph):hover,
+    .slideshow-carousel-footer:hover,
+    .branding-logo:hover
+  )
+  .card-headline
+  .show-underline {
+  text-decoration: none;
+}
+.dcr-1ja1q18:has(
+    ul.sublinks:hover,
+    .video-container:not(.cinemagraph):hover,
+    .slideshow-carousel-footer:hover,
+    .branding-logo:hover
+  )
+  .media-overlay {
+  background-color: transparent;
+}
+@media (max-width: 739.9px) {
+  .dcr-gv3v62 {
+    background-color: var(--card-sublinks-background);
+  }
+}
+@media (min-width: 740px) {
+  .dcr-1k7hoo::before {
+    background-image: linear-gradient(
+      to right,
+      var(--card-border-top),
+      var(--card-border-top) calc(50% - 10px),
+      rgba(0, 0, 0, 0) calc(50% - 10px),
+      rgba(0, 0, 0, 0) calc(50% + 10px),
+      var(--card-border-top) calc(50% + 10px),
+      var(--card-border-top)
+    );
+  }
+}
+.dcr-18lpr9p {
+  --ad-background: #f6f6f6;
+  --ad-border: #dcdcdc;
+  --ad-labels-text: #707070;
+  --article-border: #dcdcdc;
+  --article-section-background: #ffffff;
+  --article-section-border: #dcdcdc;
+  --article-section-secondary-title: #333333;
+  --article-section-title: #121212;
+  --article-section-title-culture: #866d50;
+  --article-section-title-lifestyle: #bb3b80;
+  --article-section-title-news: #121212;
+  --article-section-title-opinion: #c74600;
+  --article-section-title-sport: #0077b6;
+  --article-text: #121212;
+  --avatar-background: #ededed;
+  --card-background: transparent;
+  --card-background-hover: rgba(18, 18, 18, 0.1);
+  --card-border-supporting: #dcdcdc;
+  --card-border-top: #bababa;
+  --card-footer-text: #707070;
+  --card-headline: #121212;
+  --card-kicker-text: #c70000;
+  --card-media-background: #f6f6f6;
+  --card-quote-icon: #c70000;
+  --card-sublinks-background: #f6f6f6;
+  --card-trail-text: #707070;
+  --carousel-chevron: #121212;
+  --carousel-chevron-border: #bababa;
+  --carousel-chevron-border-disabled: rgba(186, 186, 186, 0.32);
+  --carousel-chevron-disabled: rgba(18, 18, 18, 0.32);
+  --carousel-chevron-hover: rgba(186, 186, 186, 0.2);
+  --feature-card-background: #ededed;
+  --feature-card-footer-text: #dcdcdc;
+  --feature-card-headline: #f6f6f6;
+  --feature-card-kicker-text: #fff4f2;
+  --feature-card-trail-text: #dcdcdc;
+  --front-container-background: #ffffff;
+  --headline-colour: #f6f6f6;
+  --highlights-card-background: #fff4f2;
+  --highlights-card-headline: #c70000;
+  --highlights-card-kicker-text: #121212;
+  --highlights-card-quote-icon: #c70000;
+  --highlights-container-background: #ffffff;
+  --highlights-container-end-fade: rgba(255, 255, 255, 0);
+  --highlights-container-mid-fade: rgba(255, 255, 255, 0.6);
+  --highlights-container-separator: #dcdcdc;
+  --highlights-container-start-fade: #ffffff;
+  --kicker-background-live: #c70000;
+  --kicker-pulsing-dot-live: rgba(246, 246, 246, 0.75);
+  --kicker-text-live: #f6f6f6;
+  --link-kicker-text: #c70000;
+  --masthead-nav-background: #052962;
+  --masthead-nav-border: #506991;
+  --masthead-nav-lines: #506991;
+  --masthead-nav-link-text: #ffffff;
+  --masthead-nav-link-text-hover: #ffe500;
+  --masthead-top-bar-background: #041f4a;
+  --masthead-top-bar-link-text: #ffffff;
+  --masthead-top-bar-vertical-divider: #506991;
+  --masthead-veggie-burger-background: #ffe500;
+  --masthead-veggie-burger-background-hover: #ffd900;
+  --most-viewed-description: #707070;
+  --most-viewed-footer-hover: #f6f6f6;
+  --narrow-play-icon-background: rgba(18, 18, 18, 0.7);
+  --narrow-play-icon-border: #999999;
+  --narrow-play-icon-fill: #ffffff;
+  --nav-reader-revenue-link-text: #ffe500;
+  --nav-search-bar-background: rgba(255, 255, 255, 0.1);
+  --nav-search-bar-icon: #ffffff;
+  --nav-search-bar-text: #ffffff;
+  --pill-background: rgba(18, 18, 18, 0.7);
+  --pill-divider: rgba(255, 255, 255, 0.5);
+  --pill-text: #ffffff;
+  --section-border: #dcdcdc;
+  --section-border-culture: #866d50;
+  --section-border-lifestyle: #bb3b80;
+  --section-border-opinion: #e05e00;
+  --section-border-primary: #333333;
+  --section-border-secondary: #bababa;
+  --section-border-sport: #0077b6;
+  --section-toggle-button: #707070;
+  --section-toggle-button-hover: #121212;
+  --slideshow-caption: #ffffff;
+  --slideshow-navigation-background: #f6f6f6;
+  --slideshow-pagination-dot: rgba(18, 18, 18, 0.2);
+  --slideshow-pagination-dot-active: #121212;
+  --stuck-background: #ffffff;
+  --sub-nav-link-hover: #c70000;
+  --trending-topics-background: #ffffff;
+  --trending-topics-separator: #dcdcdc;
+  --trending-topics-text: #333333;
+}
+.dcr-dd4r6t {
+  border-top: 2px solid var(--section-border-primary);
+}
+@media (min-width: 740px) {
+  .dcr-29dgtq::before {
+    border-left: 1px solid var(--section-border);
+  }
+}
+.dcr-28edg3 {
+  color: inherit;
+  text-decoration: none;
+}
+.dcr-28edg3:hover .media-overlay {
+  background-color: var(--card-background-hover);
+}
+.dcr-28edg3:hover .card-headline .show-underline {
+  text-decoration: underline;
+}
+.dcr-28edg3:has(ul.sublinks:hover, .branding-logo:hover)
+  .card-headline
+  .show-underline {
+  text-decoration: none;
+}
+.dcr-28edg3:has(ul.sublinks:hover, .branding-logo:hover) .media-overlay {
+  background-color: transparent;
+}
+.dcr-kkt25y {
+  background-color: var(--feature-card-background);
+}
+.dcr-j646ql {
+  -webkit-mask-image: linear-gradient(
+    180deg,
+    transparent 0px,
+    rgba(0, 0, 0, 0.0381) 8px,
+    rgba(0, 0, 0, 0.1464) 16px,
+    rgba(0, 0, 0, 0.3087) 24px,
+    rgba(0, 0, 0, 0.5) 32px,
+    rgba(0, 0, 0, 0.6913) 40px,
+    rgba(0, 0, 0, 0.8536) 48px,
+    rgba(0, 0, 0, 0.9619) 56px,
+    rgb(0, 0, 0) 64px
+  );
+  mask-image: linear-gradient(
+    180deg,
+    transparent 0px,
+    rgba(0, 0, 0, 0.0381) 8px,
+    rgba(0, 0, 0, 0.1464) 16px,
+    rgba(0, 0, 0, 0.3087) 24px,
+    rgba(0, 0, 0, 0.5) 32px,
+    rgba(0, 0, 0, 0.6913) 40px,
+    rgba(0, 0, 0, 0.8536) 48px,
+    rgba(0, 0, 0, 0.9619) 56px,
+    rgb(0, 0, 0) 64px
+  );
+}
+@supports not (backdrop-filter: blur(12px)) {
+  .dcr-j646ql {
+    background-color: rgba(26, 26, 26, 0.7);
+  }
+}
+.dcr-w9q6um {
+  color: var(--feature-card-headline);
+}
+.dcr-1ay0dls {
+  color: var(--feature-card-footer-text);
+}
+.dcr-1ay0dls svg {
+  fill: var(--feature-card-footer-text);
+}
+@media (max-width: 739.9px) {
+  .dcr-rhk21t {
+    -webkit-flex-basis: unset;
+    -ms-flex-preferred-size: unset;
+    flex-basis: unset;
+  }
+}
+.dcr-e1ey7b {
+  color: var(--pill-text);
+  background-color: var(--pill-background);
+}
+@media (min-width: 740px) {
+  .dcr-fduywo {
+    background-color: var(--card-media-background);
+  }
+}
+@media (min-width: 740px) {
+  .dcr-14p2yxe {
+    background-color: var(--card-sublinks-background);
+  }
+}
+.dcr-iclc5y {
+  --ad-background: #f6f6f6;
+  --ad-border: #dcdcdc;
+  --ad-labels-text: #707070;
+  --article-border: #dcdcdc;
+  --article-section-background: #ffffff;
+  --article-section-border: #dcdcdc;
+  --article-section-secondary-title: #333333;
+  --article-section-title: #121212;
+  --article-section-title-culture: #866d50;
+  --article-section-title-lifestyle: #bb3b80;
+  --article-section-title-news: #121212;
+  --article-section-title-opinion: #c74600;
+  --article-section-title-sport: #0077b6;
+  --article-text: #121212;
+  --avatar-background: #ededed;
+  --card-background: transparent;
+  --card-background-hover: rgba(18, 18, 18, 0.1);
+  --card-border-supporting: #dcdcdc;
+  --card-border-top: #bababa;
+  --card-footer-text: #707070;
+  --card-headline: #121212;
+  --card-kicker-text: #866d50;
+  --card-media-background: #f6f6f6;
+  --card-quote-icon: #866d50;
+  --card-sublinks-background: #f6f6f6;
+  --card-trail-text: #707070;
+  --carousel-chevron: #121212;
+  --carousel-chevron-border: #bababa;
+  --carousel-chevron-border-disabled: rgba(186, 186, 186, 0.32);
+  --carousel-chevron-disabled: rgba(18, 18, 18, 0.32);
+  --carousel-chevron-hover: rgba(186, 186, 186, 0.2);
+  --feature-card-background: #ededed;
+  --feature-card-footer-text: #dcdcdc;
+  --feature-card-headline: #f6f6f6;
+  --feature-card-kicker-text: #e7d4b9;
+  --feature-card-trail-text: #dcdcdc;
+  --front-container-background: #ffffff;
+  --headline-colour: #f6f6f6;
+  --highlights-card-background: #fbf6ef;
+  --highlights-card-headline: #866d50;
+  --highlights-card-kicker-text: #121212;
+  --highlights-card-quote-icon: #866d50;
+  --highlights-container-background: #ffffff;
+  --highlights-container-end-fade: rgba(255, 255, 255, 0);
+  --highlights-container-mid-fade: rgba(255, 255, 255, 0.6);
+  --highlights-container-separator: #dcdcdc;
+  --highlights-container-start-fade: #ffffff;
+  --kicker-background-live: #866d50;
+  --kicker-pulsing-dot-live: rgba(246, 246, 246, 0.75);
+  --kicker-text-live: #f6f6f6;
+  --link-kicker-text: #866d50;
+  --masthead-nav-background: #052962;
+  --masthead-nav-border: #506991;
+  --masthead-nav-lines: #506991;
+  --masthead-nav-link-text: #ffffff;
+  --masthead-nav-link-text-hover: #ffe500;
+  --masthead-top-bar-background: #041f4a;
+  --masthead-top-bar-link-text: #ffffff;
+  --masthead-top-bar-vertical-divider: #506991;
+  --masthead-veggie-burger-background: #ffe500;
+  --masthead-veggie-burger-background-hover: #ffd900;
+  --most-viewed-description: #707070;
+  --most-viewed-footer-hover: #f6f6f6;
+  --narrow-play-icon-background: rgba(18, 18, 18, 0.7);
+  --narrow-play-icon-border: #999999;
+  --narrow-play-icon-fill: #ffffff;
+  --nav-reader-revenue-link-text: #ffe500;
+  --nav-search-bar-background: rgba(255, 255, 255, 0.1);
+  --nav-search-bar-icon: #ffffff;
+  --nav-search-bar-text: #ffffff;
+  --pill-background: rgba(18, 18, 18, 0.7);
+  --pill-divider: rgba(255, 255, 255, 0.5);
+  --pill-text: #ffffff;
+  --section-border: #dcdcdc;
+  --section-border-culture: #866d50;
+  --section-border-lifestyle: #bb3b80;
+  --section-border-opinion: #e05e00;
+  --section-border-primary: #333333;
+  --section-border-secondary: #bababa;
+  --section-border-sport: #0077b6;
+  --section-toggle-button: #707070;
+  --section-toggle-button-hover: #121212;
+  --slideshow-caption: #ffffff;
+  --slideshow-navigation-background: #f6f6f6;
+  --slideshow-pagination-dot: rgba(18, 18, 18, 0.2);
+  --slideshow-pagination-dot-active: #121212;
+  --stuck-background: #ffffff;
+  --sub-nav-link-hover: #6b5840;
+  --trending-topics-background: #ffffff;
+  --trending-topics-separator: #dcdcdc;
+  --trending-topics-text: #333333;
+}
+.dcr-h86bo2 {
+  --ad-background: #f6f6f6;
+  --ad-border: #dcdcdc;
+  --ad-labels-text: #707070;
+  --article-border: #dcdcdc;
+  --article-section-background: #ffffff;
+  --article-section-border: #dcdcdc;
+  --article-section-secondary-title: #333333;
+  --article-section-title: #121212;
+  --article-section-title-culture: #866d50;
+  --article-section-title-lifestyle: #bb3b80;
+  --article-section-title-news: #121212;
+  --article-section-title-opinion: #c74600;
+  --article-section-title-sport: #0077b6;
+  --article-text: #121212;
+  --avatar-background: #ededed;
+  --card-background: transparent;
+  --card-background-hover: rgba(18, 18, 18, 0.1);
+  --card-border-supporting: #dcdcdc;
+  --card-border-top: #bababa;
+  --card-footer-text: #707070;
+  --card-headline: #121212;
+  --card-kicker-text: #866d50;
+  --card-media-background: #f6f6f6;
+  --card-quote-icon: #866d50;
+  --card-sublinks-background: #f6f6f6;
+  --card-trail-text: #707070;
+  --carousel-chevron: #121212;
+  --carousel-chevron-border: #bababa;
+  --carousel-chevron-border-disabled: rgba(186, 186, 186, 0.32);
+  --carousel-chevron-disabled: rgba(18, 18, 18, 0.32);
+  --carousel-chevron-hover: rgba(186, 186, 186, 0.2);
+  --feature-card-background: #ededed;
+  --feature-card-footer-text: #dcdcdc;
+  --feature-card-headline: #f6f6f6;
+  --feature-card-kicker-text: #e7d4b9;
+  --feature-card-trail-text: #dcdcdc;
+  --front-container-background: #ffffff;
+  --headline-colour: #574835;
+  --highlights-card-background: #fbf6ef;
+  --highlights-card-headline: #866d50;
+  --highlights-card-kicker-text: #121212;
+  --highlights-card-quote-icon: #866d50;
+  --highlights-container-background: #ffffff;
+  --highlights-container-end-fade: rgba(255, 255, 255, 0);
+  --highlights-container-mid-fade: rgba(255, 255, 255, 0.6);
+  --highlights-container-separator: #dcdcdc;
+  --highlights-container-start-fade: #ffffff;
+  --kicker-background-live: #866d50;
+  --kicker-pulsing-dot-live: rgba(246, 246, 246, 0.75);
+  --kicker-text-live: #f6f6f6;
+  --link-kicker-text: #866d50;
+  --masthead-nav-background: #052962;
+  --masthead-nav-border: #506991;
+  --masthead-nav-lines: #506991;
+  --masthead-nav-link-text: #ffffff;
+  --masthead-nav-link-text-hover: #ffe500;
+  --masthead-top-bar-background: #041f4a;
+  --masthead-top-bar-link-text: #ffffff;
+  --masthead-top-bar-vertical-divider: #506991;
+  --masthead-veggie-burger-background: #ffe500;
+  --masthead-veggie-burger-background-hover: #ffd900;
+  --most-viewed-description: #707070;
+  --most-viewed-footer-hover: #f6f6f6;
+  --narrow-play-icon-background: rgba(18, 18, 18, 0.7);
+  --narrow-play-icon-border: #999999;
+  --narrow-play-icon-fill: #ffffff;
+  --nav-reader-revenue-link-text: #ffe500;
+  --nav-search-bar-background: rgba(255, 255, 255, 0.1);
+  --nav-search-bar-icon: #ffffff;
+  --nav-search-bar-text: #ffffff;
+  --pill-background: rgba(18, 18, 18, 0.7);
+  --pill-divider: rgba(255, 255, 255, 0.5);
+  --pill-text: #ffffff;
+  --section-border: #dcdcdc;
+  --section-border-culture: #866d50;
+  --section-border-lifestyle: #bb3b80;
+  --section-border-opinion: #e05e00;
+  --section-border-primary: #333333;
+  --section-border-secondary: #bababa;
+  --section-border-sport: #0077b6;
+  --section-toggle-button: #707070;
+  --section-toggle-button-hover: #121212;
+  --slideshow-caption: #ffffff;
+  --slideshow-navigation-background: #f6f6f6;
+  --slideshow-pagination-dot: rgba(18, 18, 18, 0.2);
+  --slideshow-pagination-dot-active: #121212;
+  --stuck-background: #ffffff;
+  --sub-nav-link-hover: #6b5840;
+  --trending-topics-background: #ffffff;
+  --trending-topics-separator: #dcdcdc;
+  --trending-topics-text: #333333;
+}
+.dcr-2z2e0g {
+  text-decoration: underline;
+  color: #0077b6;
+  color: inherit;
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+  text-decoration: none;
+}
+.dcr-2z2e0g:focus {
+  outline: 0;
+}
+html:not(.src-focus-disabled) .dcr-2z2e0g:focus {
+  box-shadow: 0 0 0 3px #0077b6;
+}
+.dcr-2z2e0g:hover {
+  color: #0077b6;
+}
+.dcr-1vtfybo {
+  color: var(--card-footer-text);
+}
+.dcr-1yci2yw svg {
+  fill: var(--card-footer-text);
+}
+.dcr-194i6pr {
+  border: 0;
+}
+.dcr-5x2yv6 {
+  border-top: 2px solid var(--section-border-opinion);
+}
+.dcr-1g8nl1f {
+  text-decoration: none;
+}
+.dcr-1gvpvvi:hover {
+  text-decoration: underline;
+}
+.dcr-fbvh4p {
+  background-color: var(--avatar-background);
+}
+.dcr-11p2qfe {
+  color: var(--card-kicker-text);
+}
+.dcr-fsg6jo > :nth-child(2)::before {
+  background-color: #999999;
+}
+.dcr-1v3yego:not(:first-child)::before {
+  background-color: var(--card-border-top);
+}
+.dcr-1tmbud3 {
+  color: var(--card-kicker-text);
+}
+.dcr-a5xmd5 > :nth-child(2)::before {
+  background-color: #999999;
+}
+.dcr-1xywvba {
+  --ad-background: #f6f6f6;
+  --ad-border: #dcdcdc;
+  --ad-labels-text: #707070;
+  --article-border: #dcdcdc;
+  --article-section-background: #ffffff;
+  --article-section-border: #dcdcdc;
+  --article-section-secondary-title: #333333;
+  --article-section-title: #121212;
+  --article-section-title-culture: #866d50;
+  --article-section-title-lifestyle: #bb3b80;
+  --article-section-title-news: #121212;
+  --article-section-title-opinion: #c74600;
+  --article-section-title-sport: #0077b6;
+  --article-text: #121212;
+  --avatar-background: #ededed;
+  --card-background: transparent;
+  --card-background-hover: rgba(18, 18, 18, 0.1);
+  --card-border-supporting: #dcdcdc;
+  --card-border-top: #bababa;
+  --card-footer-text: #707070;
+  --card-headline: #121212;
+  --card-kicker-text: #bb3b80;
+  --card-media-background: #f6f6f6;
+  --card-quote-icon: #bb3b80;
+  --card-sublinks-background: #f6f6f6;
+  --card-trail-text: #707070;
+  --carousel-chevron: #121212;
+  --carousel-chevron-border: #bababa;
+  --carousel-chevron-border-disabled: rgba(186, 186, 186, 0.32);
+  --carousel-chevron-disabled: rgba(18, 18, 18, 0.32);
+  --carousel-chevron-hover: rgba(186, 186, 186, 0.2);
+  --feature-card-background: #ededed;
+  --feature-card-footer-text: #dcdcdc;
+  --feature-card-headline: #f6f6f6;
+  --feature-card-kicker-text: #fec8d3;
+  --feature-card-trail-text: #dcdcdc;
+  --front-container-background: #ffffff;
+  --headline-colour: #121212;
+  --highlights-card-background: #fef1f8;
+  --highlights-card-headline: #bb3b80;
+  --highlights-card-kicker-text: #121212;
+  --highlights-card-quote-icon: #bb3b80;
+  --highlights-container-background: #ffffff;
+  --highlights-container-end-fade: rgba(255, 255, 255, 0);
+  --highlights-container-mid-fade: rgba(255, 255, 255, 0.6);
+  --highlights-container-separator: #dcdcdc;
+  --highlights-container-start-fade: #ffffff;
+  --kicker-background-live: #bb3b80;
+  --kicker-pulsing-dot-live: rgba(246, 246, 246, 0.75);
+  --kicker-text-live: #f6f6f6;
+  --link-kicker-text: #bb3b80;
+  --masthead-nav-background: #052962;
+  --masthead-nav-border: #506991;
+  --masthead-nav-lines: #506991;
+  --masthead-nav-link-text: #ffffff;
+  --masthead-nav-link-text-hover: #ffe500;
+  --masthead-top-bar-background: #041f4a;
+  --masthead-top-bar-link-text: #ffffff;
+  --masthead-top-bar-vertical-divider: #506991;
+  --masthead-veggie-burger-background: #ffe500;
+  --masthead-veggie-burger-background-hover: #ffd900;
+  --most-viewed-description: #707070;
+  --most-viewed-footer-hover: #f6f6f6;
+  --narrow-play-icon-background: rgba(18, 18, 18, 0.7);
+  --narrow-play-icon-border: #999999;
+  --narrow-play-icon-fill: #ffffff;
+  --nav-reader-revenue-link-text: #ffe500;
+  --nav-search-bar-background: rgba(255, 255, 255, 0.1);
+  --nav-search-bar-icon: #ffffff;
+  --nav-search-bar-text: #ffffff;
+  --pill-background: rgba(18, 18, 18, 0.7);
+  --pill-divider: rgba(255, 255, 255, 0.5);
+  --pill-text: #ffffff;
+  --section-border: #dcdcdc;
+  --section-border-culture: #866d50;
+  --section-border-lifestyle: #bb3b80;
+  --section-border-opinion: #e05e00;
+  --section-border-primary: #333333;
+  --section-border-secondary: #bababa;
+  --section-border-sport: #0077b6;
+  --section-toggle-button: #707070;
+  --section-toggle-button-hover: #121212;
+  --slideshow-caption: #ffffff;
+  --slideshow-navigation-background: #f6f6f6;
+  --slideshow-pagination-dot: rgba(18, 18, 18, 0.2);
+  --slideshow-pagination-dot-active: #121212;
+  --stuck-background: #ffffff;
+  --sub-nav-link-hover: #bb3b80;
+  --trending-topics-background: #ffffff;
+  --trending-topics-separator: #dcdcdc;
+  --trending-topics-text: #333333;
+}
+.dcr-18sjrty:hover {
+  text-decoration: underline;
+}
+.dcr-ni1rcl {
+  border-top: 2px solid var(--section-border-sport);
+}
+.dcr-rvfwnd {
+  border: 0;
+}
+.dcr-15t17cn {
+  background-color: rgba(18, 18, 18, 0.6);
+}
+.dcr-8o1hz6 {
+  --ad-background: #f6f6f6;
+  --ad-border: #dcdcdc;
+  --ad-labels-text: #707070;
+  --article-border: #dcdcdc;
+  --article-section-background: #ffffff;
+  --article-section-border: #dcdcdc;
+  --article-section-secondary-title: #333333;
+  --article-section-title: #121212;
+  --article-section-title-culture: #866d50;
+  --article-section-title-lifestyle: #bb3b80;
+  --article-section-title-news: #121212;
+  --article-section-title-opinion: #c74600;
+  --article-section-title-sport: #0077b6;
+  --article-text: #121212;
+  --avatar-background: #ededed;
+  --card-background: transparent;
+  --card-background-hover: rgba(18, 18, 18, 0.1);
+  --card-border-supporting: #dcdcdc;
+  --card-border-top: #bababa;
+  --card-footer-text: #707070;
+  --card-headline: #121212;
+  --card-kicker-text: #0077b6;
+  --card-media-background: #f6f6f6;
+  --card-quote-icon: #0077b6;
+  --card-sublinks-background: #f6f6f6;
+  --card-trail-text: #707070;
+  --carousel-chevron: #121212;
+  --carousel-chevron-border: #bababa;
+  --carousel-chevron-border-disabled: rgba(186, 186, 186, 0.32);
+  --carousel-chevron-disabled: rgba(18, 18, 18, 0.32);
+  --carousel-chevron-hover: rgba(186, 186, 186, 0.2);
+  --feature-card-background: #ededed;
+  --feature-card-footer-text: #dcdcdc;
+  --feature-card-headline: #f6f6f6;
+  --feature-card-kicker-text: #90dcff;
+  --feature-card-trail-text: #dcdcdc;
+  --front-container-background: #ffffff;
+  --headline-colour: #121212;
+  --highlights-card-background: #f1f8fc;
+  --highlights-card-headline: #0077b6;
+  --highlights-card-kicker-text: #121212;
+  --highlights-card-quote-icon: #0077b6;
+  --highlights-container-background: #ffffff;
+  --highlights-container-end-fade: rgba(255, 255, 255, 0);
+  --highlights-container-mid-fade: rgba(255, 255, 255, 0.6);
+  --highlights-container-separator: #dcdcdc;
+  --highlights-container-start-fade: #ffffff;
+  --kicker-background-live: #0077b6;
+  --kicker-pulsing-dot-live: rgba(246, 246, 246, 0.75);
+  --kicker-text-live: #f6f6f6;
+  --link-kicker-text: #0077b6;
+  --masthead-nav-background: #052962;
+  --masthead-nav-border: #506991;
+  --masthead-nav-lines: #506991;
+  --masthead-nav-link-text: #ffffff;
+  --masthead-nav-link-text-hover: #ffe500;
+  --masthead-top-bar-background: #041f4a;
+  --masthead-top-bar-link-text: #ffffff;
+  --masthead-top-bar-vertical-divider: #506991;
+  --masthead-veggie-burger-background: #ffe500;
+  --masthead-veggie-burger-background-hover: #ffd900;
+  --most-viewed-description: #707070;
+  --most-viewed-footer-hover: #f6f6f6;
+  --narrow-play-icon-background: rgba(18, 18, 18, 0.7);
+  --narrow-play-icon-border: #999999;
+  --narrow-play-icon-fill: #ffffff;
+  --nav-reader-revenue-link-text: #ffe500;
+  --nav-search-bar-background: rgba(255, 255, 255, 0.1);
+  --nav-search-bar-icon: #ffffff;
+  --nav-search-bar-text: #ffffff;
+  --pill-background: rgba(18, 18, 18, 0.7);
+  --pill-divider: rgba(255, 255, 255, 0.5);
+  --pill-text: #ffffff;
+  --section-border: #dcdcdc;
+  --section-border-culture: #866d50;
+  --section-border-lifestyle: #bb3b80;
+  --section-border-opinion: #e05e00;
+  --section-border-primary: #333333;
+  --section-border-secondary: #bababa;
+  --section-border-sport: #0077b6;
+  --section-toggle-button: #707070;
+  --section-toggle-button-hover: #121212;
+  --slideshow-caption: #ffffff;
+  --slideshow-navigation-background: #f6f6f6;
+  --slideshow-pagination-dot: rgba(18, 18, 18, 0.2);
+  --slideshow-pagination-dot-active: #121212;
+  --stuck-background: #ffffff;
+  --sub-nav-link-hover: #0077b6;
+  --trending-topics-background: #ffffff;
+  --trending-topics-separator: #dcdcdc;
+  --trending-topics-text: #333333;
+}
+@media (max-width: 739.9px) {
+  .dcr-tkgy::before {
+    border-top: 1px solid var(--card-border-top);
+  }
+}
+@media (min-width: 740px) {
+  .dcr-tkgy:not(:last-child)::after {
+    background-color: var(--card-border-supporting);
+  }
+}
+.dcr-1niuy0o {
+  --ad-background: #f6f6f6;
+  --ad-border: #dcdcdc;
+  --ad-labels-text: #707070;
+  --article-border: #dcdcdc;
+  --article-section-background: #ffffff;
+  --article-section-border: #dcdcdc;
+  --article-section-secondary-title: #333333;
+  --article-section-title: #121212;
+  --article-section-title-culture: #866d50;
+  --article-section-title-lifestyle: #bb3b80;
+  --article-section-title-news: #121212;
+  --article-section-title-opinion: #c74600;
+  --article-section-title-sport: #0077b6;
+  --article-text: #121212;
+  --avatar-background: #ededed;
+  --card-background: transparent;
+  --card-background-hover: rgba(18, 18, 18, 0.1);
+  --card-border-supporting: #dcdcdc;
+  --card-border-top: #bababa;
+  --card-footer-text: #707070;
+  --card-headline: #121212;
+  --card-kicker-text: #0077b6;
+  --card-media-background: #f6f6f6;
+  --card-quote-icon: #0077b6;
+  --card-sublinks-background: #f6f6f6;
+  --card-trail-text: #707070;
+  --carousel-chevron: #121212;
+  --carousel-chevron-border: #bababa;
+  --carousel-chevron-border-disabled: rgba(186, 186, 186, 0.32);
+  --carousel-chevron-disabled: rgba(18, 18, 18, 0.32);
+  --carousel-chevron-hover: rgba(186, 186, 186, 0.2);
+  --feature-card-background: #ededed;
+  --feature-card-footer-text: #dcdcdc;
+  --feature-card-headline: #f6f6f6;
+  --feature-card-kicker-text: #90dcff;
+  --feature-card-trail-text: #dcdcdc;
+  --front-container-background: #ffffff;
+  --headline-colour: #121212;
+  --highlights-card-background: #f1f8fc;
+  --highlights-card-headline: #0077b6;
+  --highlights-card-kicker-text: #121212;
+  --highlights-card-quote-icon: #0077b6;
+  --highlights-container-background: #ffffff;
+  --highlights-container-end-fade: rgba(255, 255, 255, 0);
+  --highlights-container-mid-fade: rgba(255, 255, 255, 0.6);
+  --highlights-container-separator: #dcdcdc;
+  --highlights-container-start-fade: #ffffff;
+  --kicker-background-live: #0077b6;
+  --kicker-pulsing-dot-live: rgba(246, 246, 246, 0.75);
+  --kicker-text-live: #f6f6f6;
+  --link-kicker-text: #0077b6;
+  --masthead-nav-background: #052962;
+  --masthead-nav-border: #506991;
+  --masthead-nav-lines: #506991;
+  --masthead-nav-link-text: #ffffff;
+  --masthead-nav-link-text-hover: #ffe500;
+  --masthead-top-bar-background: #041f4a;
+  --masthead-top-bar-link-text: #ffffff;
+  --masthead-top-bar-vertical-divider: #506991;
+  --masthead-veggie-burger-background: #ffe500;
+  --masthead-veggie-burger-background-hover: #ffd900;
+  --most-viewed-description: #707070;
+  --most-viewed-footer-hover: #f6f6f6;
+  --narrow-play-icon-background: rgba(18, 18, 18, 0.7);
+  --narrow-play-icon-border: #999999;
+  --narrow-play-icon-fill: #ffffff;
+  --nav-reader-revenue-link-text: #ffe500;
+  --nav-search-bar-background: rgba(255, 255, 255, 0.1);
+  --nav-search-bar-icon: #ffffff;
+  --nav-search-bar-text: #ffffff;
+  --pill-background: rgba(18, 18, 18, 0.7);
+  --pill-divider: rgba(255, 255, 255, 0.5);
+  --pill-text: #ffffff;
+  --section-border: #dcdcdc;
+  --section-border-culture: #866d50;
+  --section-border-lifestyle: #bb3b80;
+  --section-border-opinion: #e05e00;
+  --section-border-primary: #333333;
+  --section-border-secondary: #bababa;
+  --section-border-sport: #0077b6;
+  --section-toggle-button: #707070;
+  --section-toggle-button-hover: #121212;
+  --slideshow-caption: #ffffff;
+  --slideshow-navigation-background: #f6f6f6;
+  --slideshow-pagination-dot: rgba(18, 18, 18, 0.2);
+  --slideshow-pagination-dot-active: #121212;
+  --stuck-background: #ffffff;
+  --sub-nav-link-hover: #0077b6;
+  --trending-topics-background: #ffffff;
+  --trending-topics-separator: #dcdcdc;
+  --trending-topics-text: #333333;
+}
+@media (min-width: 740px) {
+  .dcr-t238x9:not(:first-child)::before {
+    background-color: var(--card-border-top);
+  }
+}
+@media (max-width: 739.9px) {
+  .dcr-t238x9:not(:first-child):not(:nth-child(2))::before {
+    background-color: var(--card-border-top);
+  }
+}
+@media (max-width: 739.9px) {
+  .dcr-r9dy1x {
+    -webkit-flex-basis: unset;
+    -ms-flex-preferred-size: unset;
+    flex-basis: unset;
+  }
+}
+@media (min-width: 740px) {
+  .dcr-r9dy1x {
+    -webkit-flex-basis: unset;
+    -ms-flex-preferred-size: unset;
+    flex-basis: unset;
+  }
+}
+.dcr-1519sgw {
+  color: inherit;
+  text-decoration: none;
+}
+.dcr-1519sgw:hover .media-overlay {
+  background-color: var(--card-background-hover);
+}
+.dcr-1519sgw:hover .card-headline .show-underline {
+  text-decoration: underline;
+}
+.dcr-1519sgw:has(
+    ul.sublinks:hover,
+    .video-container:not(.cinemagraph):hover,
+    .slideshow-carousel-footer:hover,
+    .branding-logo:hover
+  )
+  .card-headline
+  .show-underline {
+  text-decoration: none;
+}
+.dcr-1519sgw:has(
+    ul.sublinks:hover,
+    .video-container:not(.cinemagraph):hover,
+    .slideshow-carousel-footer:hover,
+    .branding-logo:hover
+  )
+  .media-overlay {
+  background-color: transparent;
+}
+@media (min-width: 740px) {
+  .dcr-1519sgw::before {
+    border-top: 1px solid var(--card-border-top);
+    background-color: unset;
+  }
+}
+.dcr-1o2xgdn {
+  color: inherit;
+  text-decoration: none;
+}
+.dcr-1o2xgdn:hover .media-overlay {
+  background-color: var(--card-background-hover);
+}
+.dcr-1o2xgdn:hover .card-headline .show-underline {
+  text-decoration: underline;
+}
+.dcr-1o2xgdn:has(
+    ul.sublinks:hover,
+    .video-container:not(.cinemagraph):hover,
+    .slideshow-carousel-footer:hover,
+    .branding-logo:hover
+  )
+  .card-headline
+  .show-underline {
+  text-decoration: none;
+}
+.dcr-1o2xgdn:has(
+    ul.sublinks:hover,
+    .video-container:not(.cinemagraph):hover,
+    .slideshow-carousel-footer:hover,
+    .branding-logo:hover
+  )
+  .media-overlay {
+  background-color: transparent;
+}
+@media (min-width: 740px) {
+  .dcr-1o2xgdn::before {
+    border-top: 1px solid var(--card-border-top);
+    background-color: unset;
+  }
+}
+@media (max-width: 739.9px) {
+  .dcr-1o2xgdn::before {
+    border-top: 1px solid var(--card-border-top);
+    background-color: unset;
+  }
+}
+.dcr-358phf {
+  --ad-background: #f6f6f6;
+  --ad-border: #dcdcdc;
+  --ad-labels-text: #707070;
+  --article-border: #dcdcdc;
+  --article-section-background: #ffffff;
+  --article-section-border: #dcdcdc;
+  --article-section-secondary-title: #333333;
+  --article-section-title: #121212;
+  --article-section-title-culture: #866d50;
+  --article-section-title-lifestyle: #bb3b80;
+  --article-section-title-news: #121212;
+  --article-section-title-opinion: #c74600;
+  --article-section-title-sport: #0077b6;
+  --article-text: #121212;
+  --avatar-background: #ededed;
+  --card-background: transparent;
+  --card-background-hover: rgba(18, 18, 18, 0.1);
+  --card-border-supporting: #dcdcdc;
+  --card-border-top: #bababa;
+  --card-footer-text: #707070;
+  --card-headline: #121212;
+  --card-kicker-text: #866d50;
+  --card-media-background: #f6f6f6;
+  --card-quote-icon: #866d50;
+  --card-sublinks-background: #f6f6f6;
+  --card-trail-text: #707070;
+  --carousel-chevron: #121212;
+  --carousel-chevron-border: #bababa;
+  --carousel-chevron-border-disabled: rgba(186, 186, 186, 0.32);
+  --carousel-chevron-disabled: rgba(18, 18, 18, 0.32);
+  --carousel-chevron-hover: rgba(186, 186, 186, 0.2);
+  --feature-card-background: #ededed;
+  --feature-card-footer-text: #dcdcdc;
+  --feature-card-headline: #f6f6f6;
+  --feature-card-kicker-text: #e7d4b9;
+  --feature-card-trail-text: #dcdcdc;
+  --front-container-background: #ffffff;
+  --headline-colour: #121212;
+  --highlights-card-background: #fbf6ef;
+  --highlights-card-headline: #866d50;
+  --highlights-card-kicker-text: #121212;
+  --highlights-card-quote-icon: #866d50;
+  --highlights-container-background: #ffffff;
+  --highlights-container-end-fade: rgba(255, 255, 255, 0);
+  --highlights-container-mid-fade: rgba(255, 255, 255, 0.6);
+  --highlights-container-separator: #dcdcdc;
+  --highlights-container-start-fade: #ffffff;
+  --kicker-background-live: #866d50;
+  --kicker-pulsing-dot-live: rgba(246, 246, 246, 0.75);
+  --kicker-text-live: #f6f6f6;
+  --link-kicker-text: #866d50;
+  --masthead-nav-background: #052962;
+  --masthead-nav-border: #506991;
+  --masthead-nav-lines: #506991;
+  --masthead-nav-link-text: #ffffff;
+  --masthead-nav-link-text-hover: #ffe500;
+  --masthead-top-bar-background: #041f4a;
+  --masthead-top-bar-link-text: #ffffff;
+  --masthead-top-bar-vertical-divider: #506991;
+  --masthead-veggie-burger-background: #ffe500;
+  --masthead-veggie-burger-background-hover: #ffd900;
+  --most-viewed-description: #707070;
+  --most-viewed-footer-hover: #f6f6f6;
+  --narrow-play-icon-background: rgba(18, 18, 18, 0.7);
+  --narrow-play-icon-border: #999999;
+  --narrow-play-icon-fill: #ffffff;
+  --nav-reader-revenue-link-text: #ffe500;
+  --nav-search-bar-background: rgba(255, 255, 255, 0.1);
+  --nav-search-bar-icon: #ffffff;
+  --nav-search-bar-text: #ffffff;
+  --pill-background: rgba(18, 18, 18, 0.7);
+  --pill-divider: rgba(255, 255, 255, 0.5);
+  --pill-text: #ffffff;
+  --section-border: #dcdcdc;
+  --section-border-culture: #866d50;
+  --section-border-lifestyle: #bb3b80;
+  --section-border-opinion: #e05e00;
+  --section-border-primary: #333333;
+  --section-border-secondary: #bababa;
+  --section-border-sport: #0077b6;
+  --section-toggle-button: #707070;
+  --section-toggle-button-hover: #121212;
+  --slideshow-caption: #ffffff;
+  --slideshow-navigation-background: #f6f6f6;
+  --slideshow-pagination-dot: rgba(18, 18, 18, 0.2);
+  --slideshow-pagination-dot-active: #121212;
+  --stuck-background: #ffffff;
+  --sub-nav-link-hover: #6b5840;
+  --trending-topics-background: #ffffff;
+  --trending-topics-separator: #dcdcdc;
+  --trending-topics-text: #333333;
+}
+@media (max-width: 739.9px) {
+  .dcr-x87iin {
+    background-color: transparent;
+  }
+}
+@media (min-width: 740px) {
+  .dcr-1l8peqy::before {
+    background-color: var(--card-border-top);
+  }
+}
+.dcr-8t873j {
+  --ad-background: #f6f6f6;
+  --ad-border: #dcdcdc;
+  --ad-labels-text: #707070;
+  --article-border: #dcdcdc;
+  --article-section-background: #ffffff;
+  --article-section-border: #dcdcdc;
+  --article-section-secondary-title: #333333;
+  --article-section-title: #121212;
+  --article-section-title-culture: #866d50;
+  --article-section-title-lifestyle: #bb3b80;
+  --article-section-title-news: #121212;
+  --article-section-title-opinion: #c74600;
+  --article-section-title-sport: #0077b6;
+  --article-text: #121212;
+  --avatar-background: #ededed;
+  --card-background: transparent;
+  --card-background-hover: rgba(18, 18, 18, 0.1);
+  --card-border-supporting: #dcdcdc;
+  --card-border-top: #bababa;
+  --card-footer-text: #707070;
+  --card-headline: #121212;
+  --card-kicker-text: #c70000;
+  --card-media-background: #f6f6f6;
+  --card-quote-icon: #c70000;
+  --card-sublinks-background: #f6f6f6;
+  --card-trail-text: #707070;
+  --carousel-chevron: #121212;
+  --carousel-chevron-border: #bababa;
+  --carousel-chevron-border-disabled: rgba(186, 186, 186, 0.32);
+  --carousel-chevron-disabled: rgba(18, 18, 18, 0.32);
+  --carousel-chevron-hover: rgba(186, 186, 186, 0.2);
+  --feature-card-background: #ededed;
+  --feature-card-footer-text: #dcdcdc;
+  --feature-card-headline: #f6f6f6;
+  --feature-card-kicker-text: #fff4f2;
+  --feature-card-trail-text: #dcdcdc;
+  --front-container-background: #ffffff;
+  --headline-colour: #f6f6f6;
+  --highlights-card-background: #fff4f2;
+  --highlights-card-headline: #c70000;
+  --highlights-card-kicker-text: #121212;
+  --highlights-card-quote-icon: #c70000;
+  --highlights-container-background: #ffffff;
+  --highlights-container-end-fade: rgba(255, 255, 255, 0);
+  --highlights-container-mid-fade: rgba(255, 255, 255, 0.6);
+  --highlights-container-separator: #dcdcdc;
+  --highlights-container-start-fade: #ffffff;
+  --kicker-background-live: #c70000;
+  --kicker-pulsing-dot-live: rgba(246, 246, 246, 0.75);
+  --kicker-text-live: #f6f6f6;
+  --link-kicker-text: #c70000;
+  --masthead-nav-background: #052962;
+  --masthead-nav-border: #506991;
+  --masthead-nav-lines: #506991;
+  --masthead-nav-link-text: #ffffff;
+  --masthead-nav-link-text-hover: #ffe500;
+  --masthead-top-bar-background: #041f4a;
+  --masthead-top-bar-link-text: #ffffff;
+  --masthead-top-bar-vertical-divider: #506991;
+  --masthead-veggie-burger-background: #ffe500;
+  --masthead-veggie-burger-background-hover: #ffd900;
+  --most-viewed-description: #707070;
+  --most-viewed-footer-hover: #f6f6f6;
+  --narrow-play-icon-background: rgba(18, 18, 18, 0.7);
+  --narrow-play-icon-border: #999999;
+  --narrow-play-icon-fill: #ffffff;
+  --nav-reader-revenue-link-text: #ffe500;
+  --nav-search-bar-background: rgba(255, 255, 255, 0.1);
+  --nav-search-bar-icon: #ffffff;
+  --nav-search-bar-text: #ffffff;
+  --pill-background: rgba(18, 18, 18, 0.7);
+  --pill-divider: rgba(255, 255, 255, 0.5);
+  --pill-text: #ffffff;
+  --section-border: #dcdcdc;
+  --section-border-culture: #866d50;
+  --section-border-lifestyle: #bb3b80;
+  --section-border-opinion: #e05e00;
+  --section-border-primary: #333333;
+  --section-border-secondary: #bababa;
+  --section-border-sport: #0077b6;
+  --section-toggle-button: #707070;
+  --section-toggle-button-hover: #121212;
+  --slideshow-caption: #ffffff;
+  --slideshow-navigation-background: #f6f6f6;
+  --slideshow-pagination-dot: rgba(18, 18, 18, 0.2);
+  --slideshow-pagination-dot-active: #121212;
+  --stuck-background: #ffffff;
+  --sub-nav-link-hover: #c70000;
+  --trending-topics-background: #ffffff;
+  --trending-topics-separator: #dcdcdc;
+  --trending-topics-text: #333333;
+}
+.dcr-292shq {
+  --ad-background: #f6f6f6;
+  --ad-border: #dcdcdc;
+  --ad-labels-text: #707070;
+  --article-border: #dcdcdc;
+  --article-section-background: #ffffff;
+  --article-section-border: #dcdcdc;
+  --article-section-secondary-title: #333333;
+  --article-section-title: #121212;
+  --article-section-title-culture: #866d50;
+  --article-section-title-lifestyle: #bb3b80;
+  --article-section-title-news: #121212;
+  --article-section-title-opinion: #c74600;
+  --article-section-title-sport: #0077b6;
+  --article-text: #121212;
+  --avatar-background: #ededed;
+  --card-background: transparent;
+  --card-background-hover: rgba(18, 18, 18, 0.1);
+  --card-border-supporting: #dcdcdc;
+  --card-border-top: #bababa;
+  --card-footer-text: #707070;
+  --card-headline: #121212;
+  --card-kicker-text: #c70000;
+  --card-media-background: #f6f6f6;
+  --card-quote-icon: #c70000;
+  --card-sublinks-background: #f6f6f6;
+  --card-trail-text: #707070;
+  --carousel-chevron: #121212;
+  --carousel-chevron-border: #bababa;
+  --carousel-chevron-border-disabled: rgba(186, 186, 186, 0.32);
+  --carousel-chevron-disabled: rgba(18, 18, 18, 0.32);
+  --carousel-chevron-hover: rgba(186, 186, 186, 0.2);
+  --feature-card-background: #ededed;
+  --feature-card-footer-text: #dcdcdc;
+  --feature-card-headline: #f6f6f6;
+  --feature-card-kicker-text: #fff4f2;
+  --feature-card-trail-text: #dcdcdc;
+  --front-container-background: #ffffff;
+  --headline-colour: #121212;
+  --highlights-card-background: #fff4f2;
+  --highlights-card-headline: #c70000;
+  --highlights-card-kicker-text: #121212;
+  --highlights-card-quote-icon: #c70000;
+  --highlights-container-background: #ffffff;
+  --highlights-container-end-fade: rgba(255, 255, 255, 0);
+  --highlights-container-mid-fade: rgba(255, 255, 255, 0.6);
+  --highlights-container-separator: #dcdcdc;
+  --highlights-container-start-fade: #ffffff;
+  --kicker-background-live: #c70000;
+  --kicker-pulsing-dot-live: rgba(246, 246, 246, 0.75);
+  --kicker-text-live: #f6f6f6;
+  --link-kicker-text: #ab0613;
+  --masthead-nav-background: #052962;
+  --masthead-nav-border: #506991;
+  --masthead-nav-lines: #506991;
+  --masthead-nav-link-text: #ffffff;
+  --masthead-nav-link-text-hover: #ffe500;
+  --masthead-top-bar-background: #041f4a;
+  --masthead-top-bar-link-text: #ffffff;
+  --masthead-top-bar-vertical-divider: #506991;
+  --masthead-veggie-burger-background: #ffe500;
+  --masthead-veggie-burger-background-hover: #ffd900;
+  --most-viewed-description: #707070;
+  --most-viewed-footer-hover: #f6f6f6;
+  --narrow-play-icon-background: rgba(18, 18, 18, 0.7);
+  --narrow-play-icon-border: #999999;
+  --narrow-play-icon-fill: #ffffff;
+  --nav-reader-revenue-link-text: #ffe500;
+  --nav-search-bar-background: rgba(255, 255, 255, 0.1);
+  --nav-search-bar-icon: #ffffff;
+  --nav-search-bar-text: #ffffff;
+  --pill-background: rgba(18, 18, 18, 0.7);
+  --pill-divider: rgba(255, 255, 255, 0.5);
+  --pill-text: #ffffff;
+  --section-border: #dcdcdc;
+  --section-border-culture: #866d50;
+  --section-border-lifestyle: #bb3b80;
+  --section-border-opinion: #e05e00;
+  --section-border-primary: #333333;
+  --section-border-secondary: #bababa;
+  --section-border-sport: #0077b6;
+  --section-toggle-button: #707070;
+  --section-toggle-button-hover: #121212;
+  --slideshow-caption: #ffffff;
+  --slideshow-navigation-background: #f6f6f6;
+  --slideshow-pagination-dot: rgba(18, 18, 18, 0.2);
+  --slideshow-pagination-dot-active: #121212;
+  --stuck-background: #ffffff;
+  --sub-nav-link-hover: #ab0613;
+  --trending-topics-background: #ffffff;
+  --trending-topics-separator: #dcdcdc;
+  --trending-topics-text: #333333;
+}
+.dcr-1dr3ecf {
+  --ad-background: #f6f6f6;
+  --ad-border: #dcdcdc;
+  --ad-labels-text: #707070;
+  --article-border: #dcdcdc;
+  --article-section-background: #ffffff;
+  --article-section-border: #dcdcdc;
+  --article-section-secondary-title: #333333;
+  --article-section-title: #121212;
+  --article-section-title-culture: #866d50;
+  --article-section-title-lifestyle: #bb3b80;
+  --article-section-title-news: #121212;
+  --article-section-title-opinion: #c74600;
+  --article-section-title-sport: #0077b6;
+  --article-text: #121212;
+  --avatar-background: #ededed;
+  --card-background: transparent;
+  --card-background-hover: rgba(18, 18, 18, 0.1);
+  --card-border-supporting: #dcdcdc;
+  --card-border-top: #bababa;
+  --card-footer-text: #707070;
+  --card-headline: #121212;
+  --card-kicker-text: #c70000;
+  --card-media-background: #f6f6f6;
+  --card-quote-icon: #c70000;
+  --card-sublinks-background: #f6f6f6;
+  --card-trail-text: #707070;
+  --carousel-chevron: #121212;
+  --carousel-chevron-border: #bababa;
+  --carousel-chevron-border-disabled: rgba(186, 186, 186, 0.32);
+  --carousel-chevron-disabled: rgba(18, 18, 18, 0.32);
+  --carousel-chevron-hover: rgba(186, 186, 186, 0.2);
+  --feature-card-background: #ededed;
+  --feature-card-footer-text: #dcdcdc;
+  --feature-card-headline: #f6f6f6;
+  --feature-card-kicker-text: #fff4f2;
+  --feature-card-trail-text: #dcdcdc;
+  --front-container-background: #ffffff;
+  --headline-colour: #f6f6f6;
+  --highlights-card-background: #fff4f2;
+  --highlights-card-headline: #c70000;
+  --highlights-card-kicker-text: #121212;
+  --highlights-card-quote-icon: #c70000;
+  --highlights-container-background: #ffffff;
+  --highlights-container-end-fade: rgba(255, 255, 255, 0);
+  --highlights-container-mid-fade: rgba(255, 255, 255, 0.6);
+  --highlights-container-separator: #dcdcdc;
+  --highlights-container-start-fade: #ffffff;
+  --kicker-background-live: #c70000;
+  --kicker-pulsing-dot-live: rgba(246, 246, 246, 0.75);
+  --kicker-text-live: #f6f6f6;
+  --link-kicker-text: #c70000;
+  --masthead-nav-background: #052962;
+  --masthead-nav-border: #506991;
+  --masthead-nav-lines: #506991;
+  --masthead-nav-link-text: #ffffff;
+  --masthead-nav-link-text-hover: #ffe500;
+  --masthead-top-bar-background: #041f4a;
+  --masthead-top-bar-link-text: #ffffff;
+  --masthead-top-bar-vertical-divider: #506991;
+  --masthead-veggie-burger-background: #ffe500;
+  --masthead-veggie-burger-background-hover: #ffd900;
+  --most-viewed-description: #707070;
+  --most-viewed-footer-hover: #f6f6f6;
+  --narrow-play-icon-background: rgba(18, 18, 18, 0.7);
+  --narrow-play-icon-border: #999999;
+  --narrow-play-icon-fill: #ffffff;
+  --nav-reader-revenue-link-text: #ffe500;
+  --nav-search-bar-background: rgba(255, 255, 255, 0.1);
+  --nav-search-bar-icon: #ffffff;
+  --nav-search-bar-text: #ffffff;
+  --pill-background: rgba(18, 18, 18, 0.7);
+  --pill-divider: rgba(255, 255, 255, 0.5);
+  --pill-text: #ffffff;
+  --section-border: #dcdcdc;
+  --section-border-culture: #866d50;
+  --section-border-lifestyle: #bb3b80;
+  --section-border-opinion: #e05e00;
+  --section-border-primary: #333333;
+  --section-border-secondary: #bababa;
+  --section-border-sport: #0077b6;
+  --section-toggle-button: #707070;
+  --section-toggle-button-hover: #121212;
+  --slideshow-caption: #ffffff;
+  --slideshow-navigation-background: #f6f6f6;
+  --slideshow-pagination-dot: rgba(18, 18, 18, 0.2);
+  --slideshow-pagination-dot-active: #121212;
+  --stuck-background: #ffffff;
+  --sub-nav-link-hover: #c70000;
+  --trending-topics-background: #ffffff;
+  --trending-topics-separator: #dcdcdc;
+  --trending-topics-text: #333333;
+}
+.dcr-15lmw7t {
+  border-top: 2px solid var(--section-border-culture);
+}
+.dcr-106nlhw {
+  --ad-background: #f6f6f6;
+  --ad-border: #dcdcdc;
+  --ad-labels-text: #707070;
+  --article-border: #dcdcdc;
+  --article-section-background: #ffffff;
+  --article-section-border: #dcdcdc;
+  --article-section-secondary-title: #333333;
+  --article-section-title: #121212;
+  --article-section-title-culture: #866d50;
+  --article-section-title-lifestyle: #bb3b80;
+  --article-section-title-news: #121212;
+  --article-section-title-opinion: #c74600;
+  --article-section-title-sport: #0077b6;
+  --article-text: #121212;
+  --avatar-background: #ededed;
+  --card-background: transparent;
+  --card-background-hover: rgba(18, 18, 18, 0.1);
+  --card-border-supporting: #dcdcdc;
+  --card-border-top: #bababa;
+  --card-footer-text: #707070;
+  --card-headline: #121212;
+  --card-kicker-text: #866d50;
+  --card-media-background: #f6f6f6;
+  --card-quote-icon: #866d50;
+  --card-sublinks-background: #f6f6f6;
+  --card-trail-text: #707070;
+  --carousel-chevron: #121212;
+  --carousel-chevron-border: #bababa;
+  --carousel-chevron-border-disabled: rgba(186, 186, 186, 0.32);
+  --carousel-chevron-disabled: rgba(18, 18, 18, 0.32);
+  --carousel-chevron-hover: rgba(186, 186, 186, 0.2);
+  --feature-card-background: #ededed;
+  --feature-card-footer-text: #dcdcdc;
+  --feature-card-headline: #f6f6f6;
+  --feature-card-kicker-text: #e7d4b9;
+  --feature-card-trail-text: #dcdcdc;
+  --front-container-background: #ffffff;
+  --headline-colour: #f6f6f6;
+  --highlights-card-background: #fbf6ef;
+  --highlights-card-headline: #866d50;
+  --highlights-card-kicker-text: #121212;
+  --highlights-card-quote-icon: #866d50;
+  --highlights-container-background: #ffffff;
+  --highlights-container-end-fade: rgba(255, 255, 255, 0);
+  --highlights-container-mid-fade: rgba(255, 255, 255, 0.6);
+  --highlights-container-separator: #dcdcdc;
+  --highlights-container-start-fade: #ffffff;
+  --kicker-background-live: #866d50;
+  --kicker-pulsing-dot-live: rgba(246, 246, 246, 0.75);
+  --kicker-text-live: #f6f6f6;
+  --link-kicker-text: #866d50;
+  --masthead-nav-background: #052962;
+  --masthead-nav-border: #506991;
+  --masthead-nav-lines: #506991;
+  --masthead-nav-link-text: #ffffff;
+  --masthead-nav-link-text-hover: #ffe500;
+  --masthead-top-bar-background: #041f4a;
+  --masthead-top-bar-link-text: #ffffff;
+  --masthead-top-bar-vertical-divider: #506991;
+  --masthead-veggie-burger-background: #ffe500;
+  --masthead-veggie-burger-background-hover: #ffd900;
+  --most-viewed-description: #707070;
+  --most-viewed-footer-hover: #f6f6f6;
+  --narrow-play-icon-background: rgba(18, 18, 18, 0.7);
+  --narrow-play-icon-border: #999999;
+  --narrow-play-icon-fill: #ffffff;
+  --nav-reader-revenue-link-text: #ffe500;
+  --nav-search-bar-background: rgba(255, 255, 255, 0.1);
+  --nav-search-bar-icon: #ffffff;
+  --nav-search-bar-text: #ffffff;
+  --pill-background: rgba(18, 18, 18, 0.7);
+  --pill-divider: rgba(255, 255, 255, 0.5);
+  --pill-text: #ffffff;
+  --section-border: #dcdcdc;
+  --section-border-culture: #866d50;
+  --section-border-lifestyle: #bb3b80;
+  --section-border-opinion: #e05e00;
+  --section-border-primary: #333333;
+  --section-border-secondary: #bababa;
+  --section-border-sport: #0077b6;
+  --section-toggle-button: #707070;
+  --section-toggle-button-hover: #121212;
+  --slideshow-caption: #ffffff;
+  --slideshow-navigation-background: #f6f6f6;
+  --slideshow-pagination-dot: rgba(18, 18, 18, 0.2);
+  --slideshow-pagination-dot-active: #121212;
+  --stuck-background: #ffffff;
+  --sub-nav-link-hover: #6b5840;
+  --trending-topics-background: #ffffff;
+  --trending-topics-separator: #dcdcdc;
+  --trending-topics-text: #333333;
+}
+.dcr-1k5vak2 {
+  text-decoration: underline;
+  color: #0077b6;
+  color: inherit;
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+  text-decoration: none;
+}
+.dcr-1k5vak2:focus {
+  outline: 0;
+}
+html:not(.src-focus-disabled) .dcr-1k5vak2:focus {
+  box-shadow: 0 0 0 3px #0077b6;
+}
+.dcr-1k5vak2:hover {
+  color: #0077b6;
+}
+.dcr-1rp0xp4 {
+  color: var(--feature-card-footer-text);
+}
+.dcr-iatdch svg {
+  fill: var(--feature-card-footer-text);
+}
+.dcr-1p5va86 {
+  --ad-background: #f6f6f6;
+  --ad-border: #dcdcdc;
+  --ad-labels-text: #707070;
+  --article-border: #dcdcdc;
+  --article-section-background: #ffffff;
+  --article-section-border: #dcdcdc;
+  --article-section-secondary-title: #333333;
+  --article-section-title: #121212;
+  --article-section-title-culture: #866d50;
+  --article-section-title-lifestyle: #bb3b80;
+  --article-section-title-news: #121212;
+  --article-section-title-opinion: #c74600;
+  --article-section-title-sport: #0077b6;
+  --article-text: #121212;
+  --avatar-background: #ededed;
+  --card-background: transparent;
+  --card-background-hover: rgba(18, 18, 18, 0.1);
+  --card-border-supporting: #dcdcdc;
+  --card-border-top: #bababa;
+  --card-footer-text: #707070;
+  --card-headline: #121212;
+  --card-kicker-text: #866d50;
+  --card-media-background: #f6f6f6;
+  --card-quote-icon: #866d50;
+  --card-sublinks-background: #f6f6f6;
+  --card-trail-text: #707070;
+  --carousel-chevron: #121212;
+  --carousel-chevron-border: #bababa;
+  --carousel-chevron-border-disabled: rgba(186, 186, 186, 0.32);
+  --carousel-chevron-disabled: rgba(18, 18, 18, 0.32);
+  --carousel-chevron-hover: rgba(186, 186, 186, 0.2);
+  --feature-card-background: #ededed;
+  --feature-card-footer-text: #dcdcdc;
+  --feature-card-headline: #f6f6f6;
+  --feature-card-kicker-text: #e7d4b9;
+  --feature-card-trail-text: #dcdcdc;
+  --front-container-background: #ffffff;
+  --headline-colour: #121212;
+  --highlights-card-background: #fbf6ef;
+  --highlights-card-headline: #866d50;
+  --highlights-card-kicker-text: #121212;
+  --highlights-card-quote-icon: #866d50;
+  --highlights-container-background: #ffffff;
+  --highlights-container-end-fade: rgba(255, 255, 255, 0);
+  --highlights-container-mid-fade: rgba(255, 255, 255, 0.6);
+  --highlights-container-separator: #dcdcdc;
+  --highlights-container-start-fade: #ffffff;
+  --kicker-background-live: #866d50;
+  --kicker-pulsing-dot-live: rgba(246, 246, 246, 0.75);
+  --kicker-text-live: #f6f6f6;
+  --link-kicker-text: #866d50;
+  --masthead-nav-background: #052962;
+  --masthead-nav-border: #506991;
+  --masthead-nav-lines: #506991;
+  --masthead-nav-link-text: #ffffff;
+  --masthead-nav-link-text-hover: #ffe500;
+  --masthead-top-bar-background: #041f4a;
+  --masthead-top-bar-link-text: #ffffff;
+  --masthead-top-bar-vertical-divider: #506991;
+  --masthead-veggie-burger-background: #ffe500;
+  --masthead-veggie-burger-background-hover: #ffd900;
+  --most-viewed-description: #707070;
+  --most-viewed-footer-hover: #f6f6f6;
+  --narrow-play-icon-background: rgba(18, 18, 18, 0.7);
+  --narrow-play-icon-border: #999999;
+  --narrow-play-icon-fill: #ffffff;
+  --nav-reader-revenue-link-text: #ffe500;
+  --nav-search-bar-background: rgba(255, 255, 255, 0.1);
+  --nav-search-bar-icon: #ffffff;
+  --nav-search-bar-text: #ffffff;
+  --pill-background: rgba(18, 18, 18, 0.7);
+  --pill-divider: rgba(255, 255, 255, 0.5);
+  --pill-text: #ffffff;
+  --section-border: #dcdcdc;
+  --section-border-culture: #866d50;
+  --section-border-lifestyle: #bb3b80;
+  --section-border-opinion: #e05e00;
+  --section-border-primary: #333333;
+  --section-border-secondary: #bababa;
+  --section-border-sport: #0077b6;
+  --section-toggle-button: #707070;
+  --section-toggle-button-hover: #121212;
+  --slideshow-caption: #ffffff;
+  --slideshow-navigation-background: #f6f6f6;
+  --slideshow-pagination-dot: rgba(18, 18, 18, 0.2);
+  --slideshow-pagination-dot-active: #121212;
+  --stuck-background: #ffffff;
+  --sub-nav-link-hover: #6b5840;
+  --trending-topics-background: #ffffff;
+  --trending-topics-separator: #dcdcdc;
+  --trending-topics-text: #333333;
+}
+@media (max-width: 739.9px) {
+  .dcr-1smciyp {
+    -webkit-flex-basis: unset;
+    -ms-flex-preferred-size: unset;
+    flex-basis: unset;
+  }
+}
+@media (min-width: 740px) {
+  .dcr-1efae0v::before {
+    border-left: 1px solid var(--section-border);
+  }
+}
+.dcr-1q3os16 {
+  background-color: #ffe500;
+  color: #000000;
+}
+.dcr-1lbjig1 {
+  --ad-background: #f6f6f6;
+  --ad-border: #dcdcdc;
+  --ad-labels-text: #707070;
+  --article-border: #dcdcdc;
+  --article-section-background: #ffffff;
+  --article-section-border: #dcdcdc;
+  --article-section-secondary-title: #333333;
+  --article-section-title: #121212;
+  --article-section-title-culture: #866d50;
+  --article-section-title-lifestyle: #bb3b80;
+  --article-section-title-news: #121212;
+  --article-section-title-opinion: #c74600;
+  --article-section-title-sport: #0077b6;
+  --article-text: #121212;
+  --avatar-background: #ededed;
+  --card-background: transparent;
+  --card-background-hover: rgba(18, 18, 18, 0.1);
+  --card-border-supporting: #dcdcdc;
+  --card-border-top: #bababa;
+  --card-footer-text: #707070;
+  --card-headline: #121212;
+  --card-kicker-text: #866d50;
+  --card-media-background: #f6f6f6;
+  --card-quote-icon: #866d50;
+  --card-sublinks-background: #f6f6f6;
+  --card-trail-text: #707070;
+  --carousel-chevron: #121212;
+  --carousel-chevron-border: #bababa;
+  --carousel-chevron-border-disabled: rgba(186, 186, 186, 0.32);
+  --carousel-chevron-disabled: rgba(18, 18, 18, 0.32);
+  --carousel-chevron-hover: rgba(186, 186, 186, 0.2);
+  --feature-card-background: #ededed;
+  --feature-card-footer-text: #dcdcdc;
+  --feature-card-headline: #f6f6f6;
+  --feature-card-kicker-text: #e7d4b9;
+  --feature-card-trail-text: #dcdcdc;
+  --front-container-background: #ffffff;
+  --headline-colour: #121212;
+  --highlights-card-background: #fbf6ef;
+  --highlights-card-headline: #866d50;
+  --highlights-card-kicker-text: #121212;
+  --highlights-card-quote-icon: #866d50;
+  --highlights-container-background: #ffffff;
+  --highlights-container-end-fade: rgba(255, 255, 255, 0);
+  --highlights-container-mid-fade: rgba(255, 255, 255, 0.6);
+  --highlights-container-separator: #dcdcdc;
+  --highlights-container-start-fade: #ffffff;
+  --kicker-background-live: #866d50;
+  --kicker-pulsing-dot-live: rgba(246, 246, 246, 0.75);
+  --kicker-text-live: #f6f6f6;
+  --link-kicker-text: #866d50;
+  --masthead-nav-background: #052962;
+  --masthead-nav-border: #506991;
+  --masthead-nav-lines: #506991;
+  --masthead-nav-link-text: #ffffff;
+  --masthead-nav-link-text-hover: #ffe500;
+  --masthead-top-bar-background: #041f4a;
+  --masthead-top-bar-link-text: #ffffff;
+  --masthead-top-bar-vertical-divider: #506991;
+  --masthead-veggie-burger-background: #ffe500;
+  --masthead-veggie-burger-background-hover: #ffd900;
+  --most-viewed-description: #707070;
+  --most-viewed-footer-hover: #f6f6f6;
+  --narrow-play-icon-background: rgba(18, 18, 18, 0.7);
+  --narrow-play-icon-border: #999999;
+  --narrow-play-icon-fill: #ffffff;
+  --nav-reader-revenue-link-text: #ffe500;
+  --nav-search-bar-background: rgba(255, 255, 255, 0.1);
+  --nav-search-bar-icon: #ffffff;
+  --nav-search-bar-text: #ffffff;
+  --pill-background: rgba(18, 18, 18, 0.7);
+  --pill-divider: rgba(255, 255, 255, 0.5);
+  --pill-text: #ffffff;
+  --section-border: #dcdcdc;
+  --section-border-culture: #866d50;
+  --section-border-lifestyle: #bb3b80;
+  --section-border-opinion: #e05e00;
+  --section-border-primary: #333333;
+  --section-border-secondary: #bababa;
+  --section-border-sport: #0077b6;
+  --section-toggle-button: #707070;
+  --section-toggle-button-hover: #121212;
+  --slideshow-caption: #ffffff;
+  --slideshow-navigation-background: #f6f6f6;
+  --slideshow-pagination-dot: rgba(18, 18, 18, 0.2);
+  --slideshow-pagination-dot-active: #121212;
+  --stuck-background: #ffffff;
+  --sub-nav-link-hover: #6b5840;
+  --trending-topics-background: #ffffff;
+  --trending-topics-separator: #dcdcdc;
+  --trending-topics-text: #333333;
+}
+.dcr-1oqagk3 {
+  --ad-background: #f6f6f6;
+  --ad-border: #dcdcdc;
+  --ad-labels-text: #707070;
+  --article-border: #333333;
+  --article-section-background: #ffffff;
+  --article-section-border: #dcdcdc;
+  --article-section-secondary-title: #333333;
+  --article-section-title: #121212;
+  --article-section-title-culture: #866d50;
+  --article-section-title-lifestyle: #bb3b80;
+  --article-section-title-news: #121212;
+  --article-section-title-opinion: #c74600;
+  --article-section-title-sport: #0077b6;
+  --article-text: #121212;
+  --avatar-background: #ededed;
+  --card-background: transparent;
+  --card-background-hover: rgba(18, 18, 18, 0.1);
+  --card-border-supporting: #dcdcdc;
+  --card-border-top: #bababa;
+  --card-footer-text: #707070;
+  --card-headline: #121212;
+  --card-kicker-text: #c70000;
+  --card-media-background: #f6f6f6;
+  --card-quote-icon: #c70000;
+  --card-sublinks-background: #f6f6f6;
+  --card-trail-text: #545454;
+  --carousel-chevron: #121212;
+  --carousel-chevron-border: #bababa;
+  --carousel-chevron-border-disabled: rgba(186, 186, 186, 0.32);
+  --carousel-chevron-disabled: rgba(18, 18, 18, 0.32);
+  --carousel-chevron-hover: rgba(186, 186, 186, 0.2);
+  --feature-card-background: #ededed;
+  --feature-card-footer-text: #dcdcdc;
+  --feature-card-headline: #f6f6f6;
+  --feature-card-kicker-text: #fff4f2;
+  --feature-card-trail-text: #dcdcdc;
+  --front-container-background: #ffffff;
+  --headline-colour: #ffffff;
+  --highlights-card-background: #fff4f2;
+  --highlights-card-headline: #c70000;
+  --highlights-card-kicker-text: #121212;
+  --highlights-card-quote-icon: #c70000;
+  --highlights-container-background: #ffffff;
+  --highlights-container-end-fade: rgba(255, 255, 255, 0);
+  --highlights-container-mid-fade: rgba(255, 255, 255, 0.6);
+  --highlights-container-separator: #dcdcdc;
+  --highlights-container-start-fade: #ffffff;
+  --kicker-background-live: #c70000;
+  --kicker-pulsing-dot-live: rgba(246, 246, 246, 0.75);
+  --kicker-text-live: #f6f6f6;
+  --link-kicker-text: #c70000;
+  --masthead-nav-background: #052962;
+  --masthead-nav-border: #506991;
+  --masthead-nav-lines: #506991;
+  --masthead-nav-link-text: #ffffff;
+  --masthead-nav-link-text-hover: #ffe500;
+  --masthead-top-bar-background: #041f4a;
+  --masthead-top-bar-link-text: #ffffff;
+  --masthead-top-bar-vertical-divider: #506991;
+  --masthead-veggie-burger-background: #ffe500;
+  --masthead-veggie-burger-background-hover: #ffd900;
+  --most-viewed-description: #707070;
+  --most-viewed-footer-hover: #f6f6f6;
+  --narrow-play-icon-background: rgba(18, 18, 18, 0.7);
+  --narrow-play-icon-border: #999999;
+  --narrow-play-icon-fill: #ffffff;
+  --nav-reader-revenue-link-text: #ffe500;
+  --nav-search-bar-background: rgba(255, 255, 255, 0.1);
+  --nav-search-bar-icon: #ffffff;
+  --nav-search-bar-text: #ffffff;
+  --pill-background: rgba(18, 18, 18, 0.7);
+  --pill-divider: rgba(255, 255, 255, 0.5);
+  --pill-text: #ffffff;
+  --section-border: #dcdcdc;
+  --section-border-culture: #866d50;
+  --section-border-lifestyle: #bb3b80;
+  --section-border-opinion: #e05e00;
+  --section-border-primary: #333333;
+  --section-border-secondary: #bababa;
+  --section-border-sport: #0077b6;
+  --section-toggle-button: #707070;
+  --section-toggle-button-hover: #121212;
+  --slideshow-caption: #ffffff;
+  --slideshow-navigation-background: #f6f6f6;
+  --slideshow-pagination-dot: rgba(18, 18, 18, 0.2);
+  --slideshow-pagination-dot-active: #121212;
+  --stuck-background: #ffffff;
+  --sub-nav-link-hover: #c70000;
+  --trending-topics-background: #ffffff;
+  --trending-topics-separator: #dcdcdc;
+  --trending-topics-text: #333333;
+}
+.dcr-19oe9rm {
+  border-right: 1px solid var(--pill-divider);
+}
+.dcr-1lje61e {
+  border-top: 2px solid var(--section-border-lifestyle);
+}
+.dcr-aoe038 {
+  --ad-background: #f6f6f6;
+  --ad-border: #dcdcdc;
+  --ad-labels-text: #707070;
+  --article-border: #333333;
+  --article-section-background: #ffffff;
+  --article-section-border: #dcdcdc;
+  --article-section-secondary-title: #333333;
+  --article-section-title: #121212;
+  --article-section-title-culture: #866d50;
+  --article-section-title-lifestyle: #bb3b80;
+  --article-section-title-news: #121212;
+  --article-section-title-opinion: #c74600;
+  --article-section-title-sport: #0077b6;
+  --article-text: #121212;
+  --avatar-background: #ededed;
+  --card-background: transparent;
+  --card-background-hover: rgba(18, 18, 18, 0.1);
+  --card-border-supporting: #dcdcdc;
+  --card-border-top: #bababa;
+  --card-footer-text: #707070;
+  --card-headline: #121212;
+  --card-kicker-text: #bb3b80;
+  --card-media-background: #f6f6f6;
+  --card-quote-icon: #bb3b80;
+  --card-sublinks-background: #f6f6f6;
+  --card-trail-text: #545454;
+  --carousel-chevron: #121212;
+  --carousel-chevron-border: #bababa;
+  --carousel-chevron-border-disabled: rgba(186, 186, 186, 0.32);
+  --carousel-chevron-disabled: rgba(18, 18, 18, 0.32);
+  --carousel-chevron-hover: rgba(186, 186, 186, 0.2);
+  --feature-card-background: #ededed;
+  --feature-card-footer-text: #dcdcdc;
+  --feature-card-headline: #f6f6f6;
+  --feature-card-kicker-text: #fec8d3;
+  --feature-card-trail-text: #dcdcdc;
+  --front-container-background: #ffffff;
+  --headline-colour: #ffffff;
+  --highlights-card-background: #fef1f8;
+  --highlights-card-headline: #bb3b80;
+  --highlights-card-kicker-text: #121212;
+  --highlights-card-quote-icon: #bb3b80;
+  --highlights-container-background: #ffffff;
+  --highlights-container-end-fade: rgba(255, 255, 255, 0);
+  --highlights-container-mid-fade: rgba(255, 255, 255, 0.6);
+  --highlights-container-separator: #dcdcdc;
+  --highlights-container-start-fade: #ffffff;
+  --kicker-background-live: #bb3b80;
+  --kicker-pulsing-dot-live: rgba(246, 246, 246, 0.75);
+  --kicker-text-live: #f6f6f6;
+  --link-kicker-text: #bb3b80;
+  --masthead-nav-background: #052962;
+  --masthead-nav-border: #506991;
+  --masthead-nav-lines: #506991;
+  --masthead-nav-link-text: #ffffff;
+  --masthead-nav-link-text-hover: #ffe500;
+  --masthead-top-bar-background: #041f4a;
+  --masthead-top-bar-link-text: #ffffff;
+  --masthead-top-bar-vertical-divider: #506991;
+  --masthead-veggie-burger-background: #ffe500;
+  --masthead-veggie-burger-background-hover: #ffd900;
+  --most-viewed-description: #707070;
+  --most-viewed-footer-hover: #f6f6f6;
+  --narrow-play-icon-background: rgba(18, 18, 18, 0.7);
+  --narrow-play-icon-border: #999999;
+  --narrow-play-icon-fill: #ffffff;
+  --nav-reader-revenue-link-text: #ffe500;
+  --nav-search-bar-background: rgba(255, 255, 255, 0.1);
+  --nav-search-bar-icon: #ffffff;
+  --nav-search-bar-text: #ffffff;
+  --pill-background: rgba(18, 18, 18, 0.7);
+  --pill-divider: rgba(255, 255, 255, 0.5);
+  --pill-text: #ffffff;
+  --section-border: #dcdcdc;
+  --section-border-culture: #866d50;
+  --section-border-lifestyle: #bb3b80;
+  --section-border-opinion: #e05e00;
+  --section-border-primary: #333333;
+  --section-border-secondary: #bababa;
+  --section-border-sport: #0077b6;
+  --section-toggle-button: #707070;
+  --section-toggle-button-hover: #121212;
+  --slideshow-caption: #ffffff;
+  --slideshow-navigation-background: #f6f6f6;
+  --slideshow-pagination-dot: rgba(18, 18, 18, 0.2);
+  --slideshow-pagination-dot-active: #121212;
+  --stuck-background: #ffffff;
+  --sub-nav-link-hover: #bb3b80;
+  --trending-topics-background: #ffffff;
+  --trending-topics-separator: #dcdcdc;
+  --trending-topics-text: #333333;
+}
+@media (max-width: 739.9px) {
+  .dcr-p3480t {
+    -webkit-flex-basis: unset;
+    -ms-flex-preferred-size: unset;
+    flex-basis: unset;
+  }
+}
+@media (min-width: 740px) {
+  .dcr-p3480t {
+    -webkit-flex-basis: unset;
+    -ms-flex-preferred-size: unset;
+    flex-basis: unset;
+  }
+}
+.dcr-wdpb6j {
+  --ad-background: #f6f6f6;
+  --ad-border: #dcdcdc;
+  --ad-labels-text: #707070;
+  --article-border: rgba(153, 153, 153, 0.5);
+  --article-section-background: #ffffff;
+  --article-section-border: rgba(153, 153, 153, 0.5);
+  --article-section-secondary-title: #333333;
+  --article-section-title: #121212;
+  --article-section-title-culture: #866d50;
+  --article-section-title-lifestyle: #bb3b80;
+  --article-section-title-news: #121212;
+  --article-section-title-opinion: #c74600;
+  --article-section-title-sport: #0077b6;
+  --article-text: #121212;
+  --avatar-background: #ededed;
+  --card-background: transparent;
+  --card-background-hover: rgba(18, 18, 18, 0.1);
+  --card-border-supporting: #dcdcdc;
+  --card-border-top: #bababa;
+  --card-footer-text: #707070;
+  --card-headline: #121212;
+  --card-kicker-text: #c70000;
+  --card-media-background: #f6f6f6;
+  --card-quote-icon: #c70000;
+  --card-sublinks-background: #f6f6f6;
+  --card-trail-text: #545454;
+  --carousel-chevron: #121212;
+  --carousel-chevron-border: #bababa;
+  --carousel-chevron-border-disabled: rgba(186, 186, 186, 0.32);
+  --carousel-chevron-disabled: rgba(18, 18, 18, 0.32);
+  --carousel-chevron-hover: rgba(186, 186, 186, 0.2);
+  --feature-card-background: #ededed;
+  --feature-card-footer-text: #dcdcdc;
+  --feature-card-headline: #f6f6f6;
+  --feature-card-kicker-text: #fff4f2;
+  --feature-card-trail-text: #dcdcdc;
+  --front-container-background: #ffffff;
+  --headline-colour: #f6f6f6;
+  --highlights-card-background: #fff4f2;
+  --highlights-card-headline: #c70000;
+  --highlights-card-kicker-text: #121212;
+  --highlights-card-quote-icon: #c70000;
+  --highlights-container-background: #ffffff;
+  --highlights-container-end-fade: rgba(255, 255, 255, 0);
+  --highlights-container-mid-fade: rgba(255, 255, 255, 0.6);
+  --highlights-container-separator: #dcdcdc;
+  --highlights-container-start-fade: #ffffff;
+  --kicker-background-live: #c70000;
+  --kicker-pulsing-dot-live: rgba(246, 246, 246, 0.75);
+  --kicker-text-live: #f6f6f6;
+  --link-kicker-text: #c70000;
+  --masthead-nav-background: #052962;
+  --masthead-nav-border: #506991;
+  --masthead-nav-lines: #506991;
+  --masthead-nav-link-text: #ffffff;
+  --masthead-nav-link-text-hover: #ffe500;
+  --masthead-top-bar-background: #041f4a;
+  --masthead-top-bar-link-text: #ffffff;
+  --masthead-top-bar-vertical-divider: #506991;
+  --masthead-veggie-burger-background: #ffe500;
+  --masthead-veggie-burger-background-hover: #ffd900;
+  --most-viewed-description: #707070;
+  --most-viewed-footer-hover: #f6f6f6;
+  --narrow-play-icon-background: rgba(18, 18, 18, 0.7);
+  --narrow-play-icon-border: #999999;
+  --narrow-play-icon-fill: #ffffff;
+  --nav-reader-revenue-link-text: #ffe500;
+  --nav-search-bar-background: rgba(255, 255, 255, 0.1);
+  --nav-search-bar-icon: #ffffff;
+  --nav-search-bar-text: #ffffff;
+  --pill-background: rgba(18, 18, 18, 0.7);
+  --pill-divider: rgba(255, 255, 255, 0.5);
+  --pill-text: #ffffff;
+  --section-border: #dcdcdc;
+  --section-border-culture: #866d50;
+  --section-border-lifestyle: #bb3b80;
+  --section-border-opinion: #e05e00;
+  --section-border-primary: #333333;
+  --section-border-secondary: #bababa;
+  --section-border-sport: #0077b6;
+  --section-toggle-button: #707070;
+  --section-toggle-button-hover: #121212;
+  --slideshow-caption: #ffffff;
+  --slideshow-navigation-background: #f6f6f6;
+  --slideshow-pagination-dot: rgba(18, 18, 18, 0.2);
+  --slideshow-pagination-dot-active: #121212;
+  --stuck-background: #ffffff;
+  --sub-nav-link-hover: #c70000;
+  --trending-topics-background: #ffffff;
+  --trending-topics-separator: #dcdcdc;
+  --trending-topics-text: #333333;
+}
+.dcr-hg0eju {
+  background-color: var(--narrow-play-icon-background);
+  border: 1px solid var(--narrow-play-icon-border);
+  fill: var(--narrow-play-icon-fill);
+}
+.dcr-1cgvd8q {
+  -webkit-mask-image: linear-gradient(
+    180deg,
+    transparent 0px,
+    rgba(0, 0, 0, 0.0381) 8px,
+    rgba(0, 0, 0, 0.1464) 16px,
+    rgba(0, 0, 0, 0.3087) 24px,
+    rgba(0, 0, 0, 0.5) 32px,
+    rgba(0, 0, 0, 0.6913) 40px,
+    rgba(0, 0, 0, 0.8536) 48px,
+    rgba(0, 0, 0, 0.9619) 56px,
+    rgb(0, 0, 0) 64px
+  );
+  mask-image: linear-gradient(
+    180deg,
+    transparent 0px,
+    rgba(0, 0, 0, 0.0381) 8px,
+    rgba(0, 0, 0, 0.1464) 16px,
+    rgba(0, 0, 0, 0.3087) 24px,
+    rgba(0, 0, 0, 0.5) 32px,
+    rgba(0, 0, 0, 0.6913) 40px,
+    rgba(0, 0, 0, 0.8536) 48px,
+    rgba(0, 0, 0, 0.9619) 56px,
+    rgb(0, 0, 0) 64px
+  );
+}
+@supports not (backdrop-filter: blur(12px)) {
+  .dcr-1cgvd8q {
+    background-color: rgba(26, 26, 26, 0.7);
+  }
+}
+@media (min-width: 740px) {
+  .dcr-1cgvd8q {
+    -webkit-mask-image: linear-gradient(
+      270deg,
+      transparent 0px,
+      rgba(0, 0, 0, 0.0381) 8px,
+      rgba(0, 0, 0, 0.1464) 16px,
+      rgba(0, 0, 0, 0.3087) 24px,
+      rgba(0, 0, 0, 0.5) 32px,
+      rgba(0, 0, 0, 0.6913) 40px,
+      rgba(0, 0, 0, 0.8536) 48px,
+      rgba(0, 0, 0, 0.9619) 56px,
+      rgb(0, 0, 0) 64px
+    );
+    mask-image: linear-gradient(
+      270deg,
+      transparent 0px,
+      rgba(0, 0, 0, 0.0381) 8px,
+      rgba(0, 0, 0, 0.1464) 16px,
+      rgba(0, 0, 0, 0.3087) 24px,
+      rgba(0, 0, 0, 0.5) 32px,
+      rgba(0, 0, 0, 0.6913) 40px,
+      rgba(0, 0, 0, 0.8536) 48px,
+      rgba(0, 0, 0, 0.9619) 56px,
+      rgb(0, 0, 0) 64px
+    );
+  }
+}
+.dcr-mlhw78 {
+  color: var(--feature-card-trail-text);
+}
+.dcr-1tbbfjt {
+  border-color: var(--section-border);
+}
+@media (min-width: 1140px) {
+  .dcr-jphuvb::after {
+    background-color: var(--section-border);
+  }
+}
+.dcr-1j5oam0 {
+  border-left: 1px solid var(--article-border);
+}
+.dcr-l5c2za {
+  border-right: 1px solid var(--article-border);
+  border-top: 1px solid var(--article-border);
+}
+@media (min-width: 1140px) {
+  .dcr-l5c2za {
+    border-top: none;
+  }
+}
+.dcr-12fdiql {
+  color: var(--headline-colour);
+}
+.dcr-lf25lv {
+  color: var(--most-viewed-description);
+}
+.dcr-3yryde {
+  border-top: 1px solid var(--article-section-border);
+  border-right: 1px solid var(--article-section-border);
+}
+.dcr-3yryde:hover,
+.dcr-3yryde:focus {
+  background: var(--most-viewed-footer-hover);
+}
+.dcr-dqajlz {
+  text-decoration: none;
+  color: var(--article-text);
+}
+.dcr-n509ks {
+  fill: var(--article-text);
+}
+.dcr-16va5gi {
+  --ad-background: #f6f6f6;
+  --ad-border: #dcdcdc;
+  --ad-labels-text: #707070;
+  --article-border: #dcdcdc;
+  --article-section-background: #ffffff;
+  --article-section-border: #dcdcdc;
+  --article-section-secondary-title: #333333;
+  --article-section-title: #121212;
+  --article-section-title-culture: #866d50;
+  --article-section-title-lifestyle: #bb3b80;
+  --article-section-title-news: #121212;
+  --article-section-title-opinion: #c74600;
+  --article-section-title-sport: #0077b6;
+  --article-text: #121212;
+  --avatar-background: #ededed;
+  --card-background: transparent;
+  --card-background-hover: rgba(18, 18, 18, 0.1);
+  --card-border-supporting: #dcdcdc;
+  --card-border-top: #bababa;
+  --card-footer-text: #707070;
+  --card-headline: #121212;
+  --card-kicker-text: #c70000;
+  --card-media-background: #f6f6f6;
+  --card-quote-icon: #c70000;
+  --card-sublinks-background: #f6f6f6;
+  --card-trail-text: #707070;
+  --carousel-chevron: #121212;
+  --carousel-chevron-border: #bababa;
+  --carousel-chevron-border-disabled: rgba(186, 186, 186, 0.32);
+  --carousel-chevron-disabled: rgba(18, 18, 18, 0.32);
+  --carousel-chevron-hover: rgba(186, 186, 186, 0.2);
+  --feature-card-background: #ededed;
+  --feature-card-footer-text: #dcdcdc;
+  --feature-card-headline: #f6f6f6;
+  --feature-card-kicker-text: #fff4f2;
+  --feature-card-trail-text: #dcdcdc;
+  --front-container-background: #ffffff;
+  --headline-colour: #121212;
+  --highlights-card-background: #fff4f2;
+  --highlights-card-headline: #c70000;
+  --highlights-card-kicker-text: #121212;
+  --highlights-card-quote-icon: #c70000;
+  --highlights-container-background: #ffffff;
+  --highlights-container-end-fade: rgba(255, 255, 255, 0);
+  --highlights-container-mid-fade: rgba(255, 255, 255, 0.6);
+  --highlights-container-separator: #dcdcdc;
+  --highlights-container-start-fade: #ffffff;
+  --kicker-background-live: #c70000;
+  --kicker-pulsing-dot-live: rgba(246, 246, 246, 0.75);
+  --kicker-text-live: #f6f6f6;
+  --link-kicker-text: #c70000;
+  --masthead-nav-background: #052962;
+  --masthead-nav-border: #506991;
+  --masthead-nav-lines: #506991;
+  --masthead-nav-link-text: #ffffff;
+  --masthead-nav-link-text-hover: #ffe500;
+  --masthead-top-bar-background: #041f4a;
+  --masthead-top-bar-link-text: #ffffff;
+  --masthead-top-bar-vertical-divider: #506991;
+  --masthead-veggie-burger-background: #ffe500;
+  --masthead-veggie-burger-background-hover: #ffd900;
+  --most-viewed-description: #707070;
+  --most-viewed-footer-hover: #f6f6f6;
+  --narrow-play-icon-background: rgba(18, 18, 18, 0.7);
+  --narrow-play-icon-border: #999999;
+  --narrow-play-icon-fill: #ffffff;
+  --nav-reader-revenue-link-text: #ffe500;
+  --nav-search-bar-background: rgba(255, 255, 255, 0.1);
+  --nav-search-bar-icon: #ffffff;
+  --nav-search-bar-text: #ffffff;
+  --pill-background: rgba(18, 18, 18, 0.7);
+  --pill-divider: rgba(255, 255, 255, 0.5);
+  --pill-text: #ffffff;
+  --section-border: #dcdcdc;
+  --section-border-culture: #866d50;
+  --section-border-lifestyle: #bb3b80;
+  --section-border-opinion: #e05e00;
+  --section-border-primary: #333333;
+  --section-border-secondary: #bababa;
+  --section-border-sport: #0077b6;
+  --section-toggle-button: #707070;
+  --section-toggle-button-hover: #121212;
+  --slideshow-caption: #ffffff;
+  --slideshow-navigation-background: #f6f6f6;
+  --slideshow-pagination-dot: rgba(18, 18, 18, 0.2);
+  --slideshow-pagination-dot-active: #121212;
+  --stuck-background: #ffffff;
+  --sub-nav-link-hover: #c70000;
+  --trending-topics-background: #ffffff;
+  --trending-topics-separator: #dcdcdc;
+  --trending-topics-text: #333333;
+}
+.dcr-1uwwqu0 {
+  text-decoration: underline;
+  color: #0077b6;
+  color: var(--most-viewed-description);
+}
+.dcr-1uwwqu0:focus {
+  outline: 0;
+}
+html:not(.src-focus-disabled) .dcr-1uwwqu0:focus {
+  box-shadow: 0 0 0 3px #0077b6;
+}
+.dcr-1uwwqu0:hover {
+  color: #0077b6;
+}
+@media (min-width: 740px) {
+  .dcr-wqti5a {
+    border-left: 1px solid;
+    border-right: 1px solid;
+    border-color: var(--article-border);
+  }
+}
+.dcr-1e4647x {
+  color: var(--trending-topics-text);
+}
+.dcr-19e9gh9 {
+  background-image:
+    repeating-linear-gradient(
+      to bottom,
+      var(--trending-topics-background) 0px,
+      var(--trending-topics-background) 36px,
+      transparent 36px,
+      transparent 37px,
+      var(--trending-topics-background) 37px,
+      var(--trending-topics-background) 48px
+    ),
+    repeating-linear-gradient(
+      to right,
+      var(--trending-topics-separator) 0px,
+      var(--trending-topics-separator) 3px,
+      transparent 3px,
+      transparent 5px
+    );
+}
+.dcr-n5hcqc {
+  border: 1px solid var(--trending-topics-text);
+  text-decoration: none;
+  color: var(--trending-topics-text);
+}
+@media (min-width: 740px) {
+  .dcr-1wua8xh {
+    border-left: 1px solid;
+    border-right: 1px solid;
+    border-color: var(--article-border);
+  }
+}
+.dcr-lgyw9b {
+  text-decoration: none;
+  color: var(--sub-nav-link);
+}
+.dcr-lgyw9b:hover {
+  color: var(--sub-nav-link-hover);
+}
+.dcr-1hmrwdw {
+  background-color: #052962;
+  color: #ffffff;
+}
+.dcr-5tfry9 {
+  border-left: 1px solid #506991;
+  border-right: 1px solid #506991;
+}
+.dcr-1xyi04h {
+  border: 1px solid #506991;
+}
+.dcr-hw6wj6 {
+  border: none;
+  background: transparent;
+  text-decoration: none;
+  background-color: #052962;
+  color: #ffffff;
+  color: #052962;
+  background-color: #ffffff;
+}
+.dcr-hw6wj6:focus {
+  outline: 0;
+}
+html:not(.src-focus-disabled) .dcr-hw6wj6:focus {
+  outline: 5px solid #0077b6;
+}
+.dcr-hw6wj6:hover {
+  background-color: #03183a;
+}
+.dcr-hw6wj6 svg {
+  fill: currentColor;
+}
+.dcr-hw6wj6:hover {
+  background-color: #dcdcdc;
+}
+@media (max-width: 979.9px) {
+  .dcr-1ms2xl4 {
+    border-top: 1px solid #506991;
+  }
+}
+.dcr-1ms2xl4 ul {
+  border-left: 1px solid #506991;
+}
+.dcr-1ms2xl4 ul:nth-of-type(1) {
+  border-left: 0 none;
+}
+@media (max-width: 739.9px) {
+  .dcr-1ms2xl4 ul:nth-of-type(odd) {
+    border-left: 0;
+  }
+}
+@media (min-width: 980px) {
+  .dcr-1ms2xl4 ul:nth-of-type(1) {
+    border-left: 1px solid #506991;
+  }
+}
+.dcr-4coeh {
+  color: inherit;
+  text-decoration: none;
+}
+.dcr-4coeh:hover {
+  text-decoration: underline;
+  color: #ffe500;
+}
+.dcr-1v06yj3 {
+  border-left: 1px solid #506991;
+}
+@media (max-width: 739.9px) {
+  .dcr-1v06yj3 {
+    border-top: 1px solid #506991;
+  }
+}
+.dcr-1xnlu54 {
+  background-color: #052962;
+}
+.dcr-1bljy3y {
+  text-decoration: none;
+  color: #ffffff;
+}
+.dcr-1bljy3y:hover {
+  color: #ffe500;
+}
+.dcr-1bljy3y:hover .icon-container {
+  background-color: #ffe500;
+}
+.dcr-18yycfp {
+  background-color: #ffffff;
+}
+.dcr-stw9kc::before {
+  border: 2px solid #052962;
+  border-bottom: 0;
+  border-right: 0;
+}
+.dcr-syuney {
+  background: none !important;
+}
+.cover-drop-thrasher-1qhdomb-Component {
+  background: linear-gradient(90deg, #ffe500, #e4e5e8 60%);
+}
+.cover-drop-thrasher-sjwld8-Component {
+  color: #1a1a1a;
+}
+.cover-drop-thrasher-1rz1lk4-Component {
+  background-color: #ffe500;
+}
+@media (max-width: 1139.9px) {
+  .cover-drop-thrasher-1unfw6g-Column {
+    max-width: unset;
+  }
+}
+.dcr-1s2zcg3 {
+  background: none;
+  border: none;
+  text-decoration: none;
+  color: var(--masthead-nav-link-text);
+}
+.dcr-1s2zcg3:hover {
+  color: rgb(255, 229, 0);
+}
+.dcr-1s2zcg3::after {
+  border-right: 1px solid currentcolor;
+  border-bottom: 1px solid currentcolor;
+  border-image: initial;
+  border-left: transparent;
+  border-top: transparent;
+}
+.dcr-1s2zcg3:not(ul):hover {
+  color: var(--masthead-nav-link-text);
+  text-decoration: underline;
+}
+#navigation {
+  --pillar-underline: #ff5943;
+}
+a.dcr-9ucpkb {
+  --pillar-underline: #ff7f0f;
+}
+a.dcr-9ucpkb {
+  --pillar-underline: #00b2ff;
+}
+a.dcr-9ucpkb {
+  --pillar-underline: #eacca0;
+}
+a.dcr-9ucpkb {
+  --pillar-underline: #ffabdb;
+}
+ul.dcr-12t3ay9 {
+  --sub-nav-link: var(--sub-nav-link-header);
+}
+div.dcr-a4rp9m {
+  --sub-nav-link: var(--sub-nav-link-footer);
+}
+a.dcr-17fanw1 {
+  --pillar-underline: #ff5943;
+}
+a.dcr-9ucpkb {
+  --pillar-underline: #ff7f0f;
+}
+a.dcr-9ucpkb {
+  --pillar-underline: #00b2ff;
+}
+a.dcr-9ucpkb {
+  --pillar-underline: #eacca0;
+}
+a.dcr-9ucpkb {
+  --pillar-underline: #ffabdb;
+}
+div#bannerandheader > div > section {
+  background-color: var(--article-section-background);
+}
+div#bannerandheader > header > section {
+  background-color: var(--masthead-top-bar-background);
+}
+div#bannerandheader > header > section:nth-of-type(2) {
+  background-color: var(--highlights-container-background);
+}
+div#bannerandheader
+  > header
+  > section:nth-of-type(2)
+  > div
+  > gu-island
+  > div
+  > ol
+  > li
+  > div
+  > div
+  > div
+  > h3
+  > div {
+  color: var(--highlights-card-kicker-text);
+  background-color: transparent;
+}
+div#bannerandheader
+  > header
+  > section:nth-of-type(2)
+  > div
+  > gu-island
+  > div
+  > ol
+  > li:nth-of-type(2)
+  > div
+  > div
+  > div
+  > h3
+  > div {
+  color: var(--highlights-card-kicker-text);
+  background-color: transparent;
+}
+div#bannerandheader
+  > header
+  > section:nth-of-type(2)
+  > div
+  > gu-island
+  > div
+  > ol
+  > li:nth-of-type(3)
+  > div
+  > div
+  > div
+  > h3
+  > div {
+  color: var(--highlights-card-kicker-text);
+  background-color: transparent;
+}
+div#bannerandheader
+  > header
+  > section:nth-of-type(2)
+  > div
+  > gu-island
+  > div
+  > ol
+  > li:nth-of-type(4)
+  > div
+  > div
+  > div
+  > h3
+  > div {
+  color: var(--highlights-card-kicker-text);
+  background-color: transparent;
+}
+div#bannerandheader
+  > header
+  > section:nth-of-type(2)
+  > div
+  > gu-island
+  > div
+  > ol
+  > li:nth-of-type(4)
+  > div
+  > div
+  > div
+  > h3
+  > svg {
+  fill: var(--highlights-card-quote-icon);
+}
+div#bannerandheader
+  > header
+  > section:nth-of-type(2)
+  > div
+  > gu-island
+  > div
+  > ol
+  > li:nth-of-type(5)
+  > div
+  > div
+  > div
+  > h3
+  > div {
+  color: var(--highlights-card-kicker-text);
+  background-color: transparent;
+}
+div#bannerandheader
+  > header
+  > section:nth-of-type(2)
+  > div
+  > gu-island
+  > div
+  > ol
+  > li:nth-of-type(6)
+  > div
+  > div
+  > div
+  > h3
+  > div {
+  color: var(--highlights-card-kicker-text);
+  background-color: transparent;
+}
+div#bannerandheader > header > gu-island > nav {
+  background-color: var(--masthead-nav-background);
+  color: var(--masthead-nav-link-text);
+}
+section#news {
+  background-color: var(--front-container-background);
+}
+section#news > div:nth-of-type(2) > div > div > h2 {
+  color: var(--article-section-title-news);
+}
+div#container-news > ul > li > div > div > div {
+  background-color: var(--card-background);
+}
+div#container-news
+  > ul
+  > li
+  > div
+  > div
+  > div
+  > div:nth-of-type(2)
+  > div
+  > div
+  > h3
+  > div {
+  color: var(--card-kicker-text);
+  background-color: transparent;
+}
+div#container-news
+  > ul
+  > li
+  > div
+  > div
+  > div:nth-of-type(2)
+  > ul
+  > li
+  > div
+  > a
+  > h3
+  > div {
+  color: var(--card-kicker-text);
+  background-color: transparent;
+}
+div#container-news
+  > ul
+  > li
+  > div
+  > div
+  > div:nth-of-type(2)
+  > ul
+  > li:nth-of-type(2)
+  > div
+  > a
+  > h3
+  > div {
+  color: var(--card-kicker-text);
+  background-color: transparent;
+}
+div#container-news
+  > ul
+  > li
+  > div
+  > div
+  > div:nth-of-type(2)
+  > ul
+  > li:nth-of-type(3)
+  > div
+  > a
+  > h3
+  > div {
+  color: var(--card-kicker-text);
+  background-color: transparent;
+}
+div#container-news
+  > ul
+  > li
+  > div
+  > div
+  > div:nth-of-type(2)
+  > ul
+  > li:nth-of-type(4)
+  > div
+  > a
+  > h3
+  > div {
+  color: var(--card-kicker-text);
+  background-color: transparent;
+}
+div#container-news > ul:nth-of-type(2) > li > div > div > div {
+  background-color: var(--card-background);
+}
+div#container-news
+  > ul:nth-of-type(2)
+  > li
+  > div
+  > div
+  > div
+  > div:nth-of-type(2)
+  > div
+  > div
+  > h3
+  > div {
+  color: var(--card-kicker-text);
+  background-color: transparent;
+}
+div#container-news > ul:nth-of-type(3) > li > div > div > div {
+  background-color: var(--card-background);
+}
+div#container-news
+  > ul:nth-of-type(3)
+  > li
+  > div
+  > div
+  > div
+  > div:nth-of-type(2)
+  > div
+  > div
+  > h3
+  > div {
+  color: var(--card-kicker-text);
+  background-color: transparent;
+}
+div#container-news > ul:nth-of-type(3) > li:nth-of-type(2) > div > div > div {
+  background-color: var(--card-background);
+}
+div#container-news
+  > ul:nth-of-type(3)
+  > li:nth-of-type(2)
+  > div
+  > div
+  > div
+  > div:nth-of-type(2)
+  > div
+  > div
+  > h3
+  > div {
+  color: var(--card-kicker-text);
+  background-color: transparent;
+}
+div#container-news > ul:nth-of-type(4) > li > div > div > div {
+  background-color: var(--card-background);
+}
+div#container-news
+  > ul:nth-of-type(4)
+  > li
+  > div
+  > div
+  > div
+  > div:nth-of-type(2)
+  > div
+  > div
+  > h3
+  > div {
+  color: var(--card-kicker-text);
+  background-color: transparent;
+}
+div#container-news
+  > ul:nth-of-type(4)
+  > li
+  > div
+  > div
+  > div:nth-of-type(2)
+  > ul
+  > li
+  > div
+  > a
+  > h3
+  > div {
+  color: var(--card-kicker-text);
+  background-color: transparent;
+}
+div#container-news > ul:nth-of-type(4) > li:nth-of-type(2) > div > div > div {
+  background-color: var(--card-background);
+}
+div#container-news
+  > ul:nth-of-type(4)
+  > li:nth-of-type(2)
+  > div
+  > div
+  > div
+  > div:nth-of-type(2)
+  > div
+  > div
+  > h3
+  > div {
+  color: var(--kicker-text-live);
+  background-color: var(--kicker-background-live);
+}
+div#container-news > ul:nth-of-type(5) > li > div > div > div {
+  background-color: var(--card-background);
+}
+div#container-news
+  > ul:nth-of-type(5)
+  > li
+  > div
+  > div
+  > div
+  > div
+  > div
+  > div
+  > h3
+  > div {
+  color: var(--card-kicker-text);
+  background-color: transparent;
+}
+div#container-news > ul:nth-of-type(5) > li:nth-of-type(2) > div > div > div {
+  background-color: var(--card-background);
+}
+div#container-news
+  > ul:nth-of-type(5)
+  > li:nth-of-type(2)
+  > div
+  > div
+  > div
+  > div
+  > div
+  > div
+  > h3
+  > div {
+  color: var(--card-kicker-text);
+  background-color: transparent;
+}
+div#container-news > ul:nth-of-type(6) > li > div > div > div {
+  background-color: var(--card-background);
+}
+div#container-news
+  > ul:nth-of-type(6)
+  > li
+  > div
+  > div
+  > div
+  > div:nth-of-type(2)
+  > div
+  > div
+  > h3
+  > div {
+  color: var(--card-kicker-text);
+  background-color: transparent;
+}
+section#in-focus {
+  background-color: var(--front-container-background);
+}
+section#in-focus > div:nth-of-type(3) > div > div > h2 {
+  color: var(--article-section-secondary-title);
+}
+div#container-in-focus > ul > li > div > div > div {
+  background-color: var(--card-background);
+}
+div#container-in-focus
+  > ul
+  > li
+  > div
+  > div
+  > div
+  > div:nth-of-type(2)
+  > div
+  > div
+  > h3
+  > div {
+  color: var(--card-kicker-text);
+  background-color: transparent;
+}
+div#container-in-focus
+  > ul
+  > li
+  > div
+  > div
+  > div
+  > div:nth-of-type(2)
+  > div:nth-of-type(2)
+  > span
+  > ul
+  > li
+  > div
+  > a
+  > h3
+  > div {
+  color: var(--card-kicker-text);
+  background-color: transparent;
+}
+div#container-in-focus
+  > ul
+  > li
+  > div
+  > div
+  > div:nth-of-type(2)
+  > span
+  > ul
+  > li
+  > div
+  > a
+  > h3
+  > div {
+  color: var(--card-kicker-text);
+  background-color: transparent;
+}
+div#container-in-focus > ul:nth-of-type(2) > li > div > div > div {
+  background-color: var(--card-background);
+}
+div#container-in-focus
+  > ul:nth-of-type(2)
+  > li
+  > div
+  > div
+  > div
+  > div:nth-of-type(2)
+  > div
+  > div
+  > h3
+  > div {
+  color: var(--card-kicker-text);
+  background-color: transparent;
+}
+div#container-in-focus
+  > ul:nth-of-type(2)
+  > li:nth-of-type(2)
+  > div
+  > div
+  > div {
+  background-color: var(--card-background);
+}
+div#container-in-focus
+  > ul:nth-of-type(2)
+  > li:nth-of-type(2)
+  > div
+  > div
+  > div
+  > div:nth-of-type(2)
+  > div
+  > div
+  > h3
+  > div {
+  color: var(--card-kicker-text);
+  background-color: transparent;
+}
+section#features {
+  background-color: var(--front-container-background);
+}
+section#features > div:nth-of-type(3) > div > div > h2 {
+  color: var(--article-section-title);
+}
+div#container-features
+  > ul
+  > li
+  > div
+  > div
+  > div
+  > div
+  > div:nth-of-type(2)
+  > div
+  > div
+  > h3
+  > div {
+  color: var(--feature-card-kicker-text);
+  background-color: transparent;
+}
+div#container-features
+  > ul
+  > li:nth-of-type(2)
+  > div
+  > div
+  > div
+  > div
+  > div:nth-of-type(2)
+  > div
+  > div
+  > h3
+  > div {
+  color: var(--feature-card-kicker-text);
+  background-color: transparent;
+}
+section#more-features {
+  background-color: var(--front-container-background);
+}
+section#more-features > div:nth-of-type(3) > div > div > h2 {
+  color: var(--article-section-secondary-title);
+}
+div#container-more-features > ul > li > div > div > div {
+  background-color: var(--card-media-background);
+}
+div#container-more-features
+  > ul
+  > li
+  > div
+  > div
+  > div
+  > div:nth-of-type(2)
+  > div
+  > div
+  > h3
+  > div {
+  color: var(--card-kicker-text);
+  background-color: transparent;
+}
+div#container-more-features
+  > ul
+  > li
+  > div
+  > div
+  > div:nth-of-type(2)
+  > ul
+  > li
+  > div
+  > a
+  > h3
+  > div {
+  color: var(--card-kicker-text);
+  background-color: transparent;
+}
+div#container-more-features > ul > li:nth-of-type(2) > div > div > div {
+  background-color: var(--card-background);
+}
+div#container-more-features
+  > ul
+  > li:nth-of-type(2)
+  > div
+  > div
+  > div
+  > div:nth-of-type(2)
+  > div
+  > div
+  > h3
+  > div {
+  color: var(--card-kicker-text);
+  background-color: transparent;
+}
+div#container-more-features > ul:nth-of-type(2) > li > div > div > div {
+  background-color: var(--card-background);
+}
+div#container-more-features
+  > ul:nth-of-type(2)
+  > li
+  > div
+  > div
+  > div
+  > div:nth-of-type(2)
+  > div
+  > div
+  > h3
+  > div {
+  color: var(--card-kicker-text);
+  background-color: transparent;
+}
+div#container-more-features
+  > ul:nth-of-type(2)
+  > li:nth-of-type(2)
+  > div
+  > div
+  > div {
+  background-color: var(--card-background);
+}
+div#container-more-features
+  > ul:nth-of-type(2)
+  > li:nth-of-type(2)
+  > div
+  > div
+  > div
+  > div:nth-of-type(2)
+  > div
+  > div
+  > h3
+  > div {
+  color: var(--card-kicker-text);
+  background-color: transparent;
+}
+div#container-more-features > ul:nth-of-type(3) > li > div > div > div {
+  background-color: var(--card-background);
+}
+div#container-more-features
+  > ul:nth-of-type(3)
+  > li
+  > div
+  > div
+  > div
+  > div:nth-of-type(2)
+  > div
+  > div
+  > h3
+  > div {
+  color: var(--card-kicker-text);
+  background-color: transparent;
+}
+div#container-more-features
+  > ul:nth-of-type(3)
+  > li:nth-of-type(2)
+  > div
+  > div
+  > div {
+  background-color: var(--card-background);
+}
+div#container-more-features
+  > ul:nth-of-type(3)
+  > li:nth-of-type(2)
+  > div
+  > div
+  > div
+  > div:nth-of-type(2)
+  > div
+  > div
+  > h3
+  > div {
+  color: var(--card-kicker-text);
+  background-color: transparent;
+}
+section#opinion {
+  background-color: var(--front-container-background);
+}
+section#opinion > div:nth-of-type(3) > div > div > a > h2 {
+  color: var(--article-section-title-opinion);
+}
+div#container-opinion > ul > li > div > div > div {
+  background-color: var(--card-background);
+}
+div#container-opinion
+  > ul
+  > li
+  > div
+  > div
+  > div
+  > div:nth-of-type(2)
+  > div
+  > div
+  > h3
+  > svg {
+  fill: var(--card-quote-icon);
+}
+div#container-opinion > ul:nth-of-type(2) > li > div > div > div {
+  background-color: var(--card-background);
+}
+div#container-opinion
+  > ul:nth-of-type(2)
+  > li
+  > div
+  > div
+  > div
+  > div:nth-of-type(2)
+  > div
+  > div
+  > h3
+  > svg {
+  fill: var(--card-quote-icon);
+}
+section#more-opinion {
+  background-color: var(--front-container-background);
+}
+section#more-opinion > div:nth-of-type(3) > div > div > h2 {
+  color: var(--article-section-secondary-title);
+}
+div#container-more-opinion > gu-island > div > ol > li > div > div > div {
+  background-color: var(--card-background);
+}
+div#container-more-opinion
+  > gu-island
+  > div
+  > ol
+  > li
+  > div
+  > div
+  > div
+  > div:nth-of-type(2)
+  > div
+  > div
+  > h3
+  > svg {
+  fill: var(--card-quote-icon);
+}
+div#container-more-opinion
+  > gu-island
+  > div
+  > ol
+  > li:nth-of-type(2)
+  > div
+  > div
+  > div {
+  background-color: var(--card-background);
+}
+div#container-more-opinion
+  > gu-island
+  > div
+  > ol
+  > li:nth-of-type(2)
+  > div
+  > div
+  > div
+  > div:nth-of-type(2)
+  > div
+  > div
+  > h3
+  > svg {
+  fill: var(--card-quote-icon);
+}
+div#container-more-opinion
+  > gu-island
+  > div
+  > ol
+  > li:nth-of-type(3)
+  > div
+  > div
+  > div {
+  background-color: var(--card-background);
+}
+div#container-more-opinion
+  > gu-island
+  > div
+  > ol
+  > li:nth-of-type(3)
+  > div
+  > div
+  > div
+  > div:nth-of-type(2)
+  > div
+  > div
+  > h3
+  > svg {
+  fill: var(--card-quote-icon);
+}
+div#container-more-opinion
+  > gu-island
+  > div
+  > ol
+  > li:nth-of-type(4)
+  > div
+  > div
+  > div {
+  background-color: var(--card-background);
+}
+div#container-more-opinion
+  > gu-island
+  > div
+  > ol
+  > li:nth-of-type(4)
+  > div
+  > div
+  > div
+  > div:nth-of-type(2)
+  > div
+  > div
+  > h3
+  > div {
+  color: var(--card-kicker-text);
+  background-color: transparent;
+}
+section#editorials {
+  background-color: var(--front-container-background);
+}
+section#editorials > div:nth-of-type(3) > div > div > a > h2 {
+  color: var(--article-section-secondary-title);
+}
+div#container-editorials > ul > li > div > div > div {
+  background-color: var(--card-background);
+}
+div#container-editorials
+  > ul
+  > li
+  > div
+  > div
+  > div
+  > div
+  > div
+  > div
+  > h3
+  > div {
+  color: var(--card-kicker-text);
+  background-color: transparent;
+}
+section#sport {
+  background-color: var(--front-container-background);
+}
+section#sport > div:nth-of-type(3) > div > div > a > h2 {
+  color: var(--article-section-title-sport);
+}
+div#container-sport > ul > li > div > div > div {
+  background-color: var(--card-background);
+}
+div#container-sport
+  > ul
+  > li
+  > div
+  > div
+  > div
+  > div:nth-of-type(2)
+  > div
+  > div
+  > h3
+  > div {
+  color: var(--card-kicker-text);
+  background-color: transparent;
+}
+div#container-sport
+  > ul
+  > li
+  > div
+  > div
+  > div:nth-of-type(2)
+  > ul
+  > li
+  > div
+  > a
+  > h3
+  > div {
+  color: var(--card-kicker-text);
+  background-color: transparent;
+}
+div#container-sport
+  > ul
+  > li
+  > div
+  > div
+  > div:nth-of-type(2)
+  > ul
+  > li:nth-of-type(2)
+  > div
+  > a
+  > h3
+  > div {
+  color: var(--card-kicker-text);
+  background-color: transparent;
+}
+div#container-sport
+  > ul
+  > li
+  > div
+  > div
+  > div:nth-of-type(2)
+  > ul
+  > li:nth-of-type(3)
+  > div
+  > a
+  > h3
+  > div {
+  color: var(--card-kicker-text);
+  background-color: transparent;
+}
+div#container-sport
+  > ul
+  > li
+  > div
+  > div
+  > div:nth-of-type(2)
+  > ul
+  > li:nth-of-type(4)
+  > div
+  > a
+  > h3
+  > div {
+  color: var(--card-kicker-text);
+  background-color: transparent;
+}
+div#container-sport > ul:nth-of-type(2) > li > div > div > div {
+  background-color: var(--card-background);
+}
+div#container-sport
+  > ul:nth-of-type(2)
+  > li
+  > div
+  > div
+  > div
+  > div:nth-of-type(2)
+  > div
+  > div
+  > h3
+  > div {
+  color: var(--card-kicker-text);
+  background-color: transparent;
+}
+div#container-sport
+  > ul:nth-of-type(2)
+  > li
+  > div
+  > div
+  > div:nth-of-type(2)
+  > ul
+  > li
+  > div
+  > a
+  > h3
+  > div {
+  color: var(--card-kicker-text);
+  background-color: transparent;
+}
+div#container-sport
+  > ul:nth-of-type(2)
+  > li
+  > div
+  > div
+  > div:nth-of-type(2)
+  > ul
+  > li:nth-of-type(2)
+  > div
+  > a
+  > h3
+  > div {
+  color: var(--card-kicker-text);
+  background-color: transparent;
+}
+div#container-sport > ul:nth-of-type(3) > li > div > div > div {
+  background-color: var(--card-background);
+}
+div#container-sport
+  > ul:nth-of-type(3)
+  > li
+  > div
+  > div
+  > div
+  > div:nth-of-type(2)
+  > div
+  > div
+  > h3
+  > div {
+  color: var(--card-kicker-text);
+  background-color: transparent;
+}
+div#container-sport
+  > ul:nth-of-type(3)
+  > li
+  > div
+  > div
+  > div:nth-of-type(2)
+  > ul
+  > li
+  > div
+  > a
+  > h3
+  > div {
+  color: var(--card-kicker-text);
+  background-color: transparent;
+}
+div#container-sport > ul:nth-of-type(3) > li:nth-of-type(2) > div > div > div {
+  background-color: var(--card-background);
+}
+div#container-sport
+  > ul:nth-of-type(3)
+  > li:nth-of-type(2)
+  > div
+  > div
+  > div
+  > div:nth-of-type(2)
+  > div
+  > div
+  > h3
+  > div {
+  color: var(--card-kicker-text);
+  background-color: transparent;
+}
+div#container-sport
+  > ul:nth-of-type(3)
+  > li:nth-of-type(2)
+  > div
+  > div
+  > div:nth-of-type(2)
+  > ul
+  > li
+  > div
+  > a
+  > h3
+  > div {
+  color: var(--card-kicker-text);
+  background-color: transparent;
+}
+div#container-sport > ul:nth-of-type(4) > li > div > div > div {
+  background-color: var(--card-background);
+}
+div#container-sport
+  > ul:nth-of-type(4)
+  > li
+  > div
+  > div
+  > div
+  > div:nth-of-type(2)
+  > div
+  > div
+  > h3
+  > div {
+  color: var(--card-kicker-text);
+  background-color: transparent;
+}
+div#container-sport
+  > ul:nth-of-type(4)
+  > li
+  > div
+  > div
+  > div:nth-of-type(2)
+  > ul
+  > li
+  > div
+  > a
+  > h3
+  > div {
+  color: var(--card-kicker-text);
+  background-color: transparent;
+}
+div#container-sport
+  > ul:nth-of-type(4)
+  > li
+  > div
+  > div
+  > div:nth-of-type(2)
+  > ul
+  > li:nth-of-type(2)
+  > div
+  > a
+  > h3
+  > div {
+  color: var(--card-kicker-text);
+  background-color: transparent;
+}
+section#more-sport {
+  background-color: var(--front-container-background);
+}
+section#more-sport > div:nth-of-type(3) > div > div > h2 {
+  color: var(--article-section-secondary-title);
+}
+div#container-more-sport > gu-island > div > ol > li > div > div > div {
+  background-color: var(--card-background);
+}
+div#container-more-sport
+  > gu-island
+  > div
+  > ol
+  > li
+  > div
+  > div
+  > div
+  > div:nth-of-type(2)
+  > div
+  > div
+  > h3
+  > div {
+  color: var(--card-kicker-text);
+  background-color: transparent;
+}
+div#container-more-sport
+  > gu-island
+  > div
+  > ol
+  > li:nth-of-type(2)
+  > div
+  > div
+  > div {
+  background-color: var(--card-background);
+}
+div#container-more-sport
+  > gu-island
+  > div
+  > ol
+  > li:nth-of-type(2)
+  > div
+  > div
+  > div
+  > div:nth-of-type(2)
+  > div
+  > div
+  > h3
+  > div {
+  color: var(--card-kicker-text);
+  background-color: transparent;
+}
+div#container-more-sport
+  > gu-island
+  > div
+  > ol
+  > li:nth-of-type(3)
+  > div
+  > div
+  > div {
+  background-color: var(--card-background);
+}
+div#container-more-sport
+  > gu-island
+  > div
+  > ol
+  > li:nth-of-type(3)
+  > div
+  > div
+  > div
+  > div:nth-of-type(2)
+  > div
+  > div
+  > h3
+  > div {
+  color: var(--card-kicker-text);
+  background-color: transparent;
+}
+div#container-more-sport
+  > gu-island
+  > div
+  > ol
+  > li:nth-of-type(4)
+  > div
+  > div
+  > div {
+  background-color: var(--card-background);
+}
+div#container-more-sport
+  > gu-island
+  > div
+  > ol
+  > li:nth-of-type(4)
+  > div
+  > div
+  > div
+  > div:nth-of-type(2)
+  > div
+  > div
+  > h3
+  > div {
+  color: var(--card-kicker-text);
+  background-color: transparent;
+}
+section#more-top-stories {
+  background-color: var(--front-container-background);
+}
+section#more-top-stories > div:nth-of-type(3) > div > div > h2 {
+  color: var(--article-section-title);
+}
+div#container-more-top-stories > ul > li > div > div > div {
+  background-color: var(--card-background);
+}
+div#container-more-top-stories
+  > ul
+  > li
+  > div
+  > div
+  > div
+  > div:nth-of-type(2)
+  > div
+  > div
+  > h3
+  > div {
+  color: var(--card-kicker-text);
+  background-color: transparent;
+}
+div#container-more-top-stories > ul:nth-of-type(2) > li > div > div > div {
+  background-color: var(--card-background);
+}
+div#container-more-top-stories
+  > ul:nth-of-type(2)
+  > li
+  > div
+  > div
+  > div
+  > div:nth-of-type(2)
+  > div
+  > div
+  > h3
+  > div {
+  color: var(--card-kicker-text);
+  background-color: transparent;
+}
+div#container-more-top-stories
+  > ul:nth-of-type(2)
+  > li:nth-of-type(2)
+  > div
+  > div
+  > div {
+  background-color: var(--card-background);
+}
+div#container-more-top-stories
+  > ul:nth-of-type(2)
+  > li:nth-of-type(2)
+  > div
+  > div
+  > div
+  > div:nth-of-type(2)
+  > div
+  > div
+  > h3
+  > div {
+  color: var(--card-kicker-text);
+  background-color: transparent;
+}
+div#container-more-top-stories > ul:nth-of-type(3) > li > div > div > div {
+  background-color: var(--card-background);
+}
+div#container-more-top-stories
+  > ul:nth-of-type(3)
+  > li
+  > div
+  > div
+  > div
+  > div:nth-of-type(2)
+  > div
+  > div
+  > h3
+  > div {
+  color: var(--card-kicker-text);
+  background-color: transparent;
+}
+div#container-more-top-stories
+  > ul:nth-of-type(3)
+  > li:nth-of-type(2)
+  > div
+  > div
+  > div {
+  background-color: var(--card-background);
+}
+div#container-more-top-stories
+  > ul:nth-of-type(3)
+  > li:nth-of-type(2)
+  > div
+  > div
+  > div
+  > div:nth-of-type(2)
+  > div
+  > div
+  > h3
+  > div {
+  color: var(--card-kicker-text);
+  background-color: transparent;
+}
+section#climate-crisis-\&-environment {
+  background-color: var(--front-container-background);
+}
+section#climate-crisis-\&-environment
+  > div:nth-of-type(3)
+  > div
+  > div
+  > a
+  > h2 {
+  color: var(--article-section-secondary-title);
+}
+div#container-climate-crisis-\&-environment
+  > gu-island
+  > div
+  > ol
+  > li
+  > div
+  > div
+  > div {
+  background-color: var(--card-background);
+}
+div#container-climate-crisis-\&-environment
+  > gu-island
+  > div
+  > ol
+  > li
+  > div
+  > div
+  > div
+  > div:nth-of-type(2)
+  > div
+  > div
+  > h3
+  > div {
+  color: var(--card-kicker-text);
+  background-color: transparent;
+}
+div#container-climate-crisis-\&-environment
+  > gu-island
+  > div
+  > ol
+  > li:nth-of-type(2)
+  > div
+  > div
+  > div {
+  background-color: var(--card-background);
+}
+div#container-climate-crisis-\&-environment
+  > gu-island
+  > div
+  > ol
+  > li:nth-of-type(2)
+  > div
+  > div
+  > div
+  > div:nth-of-type(2)
+  > div
+  > div
+  > h3
+  > div {
+  color: var(--card-kicker-text);
+  background-color: transparent;
+}
+div#container-climate-crisis-\&-environment
+  > gu-island
+  > div
+  > ol
+  > li:nth-of-type(3)
+  > div
+  > div
+  > div {
+  background-color: var(--card-background);
+}
+div#container-climate-crisis-\&-environment
+  > gu-island
+  > div
+  > ol
+  > li:nth-of-type(3)
+  > div
+  > div
+  > div
+  > div:nth-of-type(2)
+  > div
+  > div
+  > h3
+  > div {
+  color: var(--card-kicker-text);
+  background-color: transparent;
+}
+div#container-climate-crisis-\&-environment
+  > gu-island
+  > div
+  > ol
+  > li:nth-of-type(4)
+  > div
+  > div
+  > div {
+  background-color: var(--card-media-background);
+}
+div#container-climate-crisis-\&-environment
+  > gu-island
+  > div
+  > ol
+  > li:nth-of-type(4)
+  > div
+  > div
+  > div
+  > div:nth-of-type(2)
+  > div
+  > div
+  > h3
+  > div {
+  color: var(--card-kicker-text);
+  background-color: transparent;
+}
+section#uk-news {
+  background-color: var(--front-container-background);
+}
+section#uk-news > div:nth-of-type(3) > div > div > a > h2 {
+  color: var(--article-section-secondary-title);
+}
+div#container-uk-news > gu-island > div > ol > li > div > div > div {
+  background-color: var(--card-background);
+}
+div#container-uk-news
+  > gu-island
+  > div
+  > ol
+  > li
+  > div
+  > div
+  > div
+  > div
+  > div
+  > div
+  > h3
+  > div {
+  color: var(--card-kicker-text);
+  background-color: transparent;
+}
+div#container-uk-news
+  > gu-island
+  > div
+  > ol
+  > li:nth-of-type(2)
+  > div
+  > div
+  > div {
+  background-color: var(--card-background);
+}
+div#container-uk-news
+  > gu-island
+  > div
+  > ol
+  > li:nth-of-type(2)
+  > div
+  > div
+  > div
+  > div
+  > div
+  > div
+  > h3
+  > div {
+  color: var(--card-kicker-text);
+  background-color: transparent;
+}
+div#container-uk-news
+  > gu-island
+  > div
+  > ol
+  > li:nth-of-type(3)
+  > div
+  > div
+  > div {
+  background-color: var(--card-background);
+}
+div#container-uk-news
+  > gu-island
+  > div
+  > ol
+  > li:nth-of-type(3)
+  > div
+  > div
+  > div
+  > div
+  > div
+  > div
+  > h3
+  > div {
+  color: var(--card-kicker-text);
+  background-color: transparent;
+}
+div#container-uk-news
+  > gu-island
+  > div
+  > ol
+  > li:nth-of-type(4)
+  > div
+  > div
+  > div {
+  background-color: var(--card-background);
+}
+div#container-uk-news
+  > gu-island
+  > div
+  > ol
+  > li:nth-of-type(4)
+  > div
+  > div
+  > div
+  > div
+  > div
+  > div
+  > h3
+  > div {
+  color: var(--card-kicker-text);
+  background-color: transparent;
+}
+section#world-news {
+  background-color: var(--front-container-background);
+}
+section#world-news > div:nth-of-type(3) > div > div > a > h2 {
+  color: var(--article-section-secondary-title);
+}
+div#container-world-news > gu-island > div > ol > li > div > div > div {
+  background-color: var(--card-background);
+}
+div#container-world-news
+  > gu-island
+  > div
+  > ol
+  > li
+  > div
+  > div
+  > div
+  > div
+  > div
+  > div
+  > h3
+  > div {
+  color: var(--card-kicker-text);
+  background-color: transparent;
+}
+div#container-world-news
+  > gu-island
+  > div
+  > ol
+  > li:nth-of-type(2)
+  > div
+  > div
+  > div {
+  background-color: var(--card-background);
+}
+div#container-world-news
+  > gu-island
+  > div
+  > ol
+  > li:nth-of-type(2)
+  > div
+  > div
+  > div
+  > div
+  > div
+  > div
+  > h3
+  > div {
+  color: var(--card-kicker-text);
+  background-color: transparent;
+}
+div#container-world-news
+  > gu-island
+  > div
+  > ol
+  > li:nth-of-type(3)
+  > div
+  > div
+  > div {
+  background-color: var(--card-background);
+}
+div#container-world-news
+  > gu-island
+  > div
+  > ol
+  > li:nth-of-type(3)
+  > div
+  > div
+  > div
+  > div
+  > div
+  > div
+  > h3
+  > div {
+  color: var(--card-kicker-text);
+  background-color: transparent;
+}
+div#container-world-news
+  > gu-island
+  > div
+  > ol
+  > li:nth-of-type(4)
+  > div
+  > div
+  > div {
+  background-color: var(--card-background);
+}
+div#container-world-news
+  > gu-island
+  > div
+  > ol
+  > li:nth-of-type(4)
+  > div
+  > div
+  > div
+  > div
+  > div
+  > div
+  > h3
+  > div {
+  color: var(--card-kicker-text);
+  background-color: transparent;
+}
+section#secure-messaging {
+  background-color: var(--front-container-background);
+}
+section#culture {
+  background-color: var(--front-container-background);
+}
+section#culture > div:nth-of-type(3) > div > div > a > h2 {
+  color: var(--article-section-title-culture);
+}
+div#container-culture
+  > ul
+  > li
+  > div
+  > div
+  > div
+  > div
+  > div:nth-of-type(2)
+  > div
+  > div
+  > h3
+  > div {
+  color: var(--feature-card-kicker-text);
+  background-color: transparent;
+}
+div#container-culture
+  > ul
+  > li:nth-of-type(2)
+  > div
+  > div
+  > div
+  > div
+  > div:nth-of-type(2)
+  > div
+  > div
+  > h3
+  > div {
+  color: var(--feature-card-kicker-text);
+  background-color: transparent;
+}
+section#best-culture-of-2025 {
+  background-color: var(--front-container-background);
+}
+section#best-culture-of-2025 > div:nth-of-type(3) > div > div > a > h2 {
+  color: var(--article-section-secondary-title);
+}
+div#container-best-culture-of-2025 > ul > li > div > div > div {
+  background-color: var(--card-background);
+}
+div#container-best-culture-of-2025
+  > ul
+  > li
+  > div
+  > div
+  > div
+  > div:nth-of-type(2)
+  > div
+  > div
+  > h3
+  > div {
+  color: var(--card-kicker-text);
+  background-color: transparent;
+}
+div#container-best-culture-of-2025 > ul > li:nth-of-type(2) > div > div > div {
+  background-color: var(--card-background);
+}
+div#container-best-culture-of-2025
+  > ul
+  > li:nth-of-type(2)
+  > div
+  > div
+  > div
+  > div:nth-of-type(2)
+  > div
+  > div
+  > h3
+  > div {
+  color: var(--card-kicker-text);
+  background-color: transparent;
+}
+div#container-best-culture-of-2025 > ul > li:nth-of-type(3) > div > div > div {
+  background-color: var(--card-background);
+}
+div#container-best-culture-of-2025
+  > ul
+  > li:nth-of-type(3)
+  > div
+  > div
+  > div
+  > div:nth-of-type(2)
+  > div
+  > div
+  > h3
+  > div {
+  color: var(--card-kicker-text);
+  background-color: transparent;
+}
+div#container-best-culture-of-2025 > ul > li:nth-of-type(4) > div > div > div {
+  background-color: var(--card-background);
+}
+div#container-best-culture-of-2025
+  > ul
+  > li:nth-of-type(4)
+  > div
+  > div
+  > div
+  > div:nth-of-type(2)
+  > div
+  > div
+  > h3
+  > div {
+  color: var(--card-kicker-text);
+  background-color: transparent;
+}
+section#what-to-watch {
+  background-color: var(--front-container-background);
+}
+section#what-to-watch > div:nth-of-type(3) > div > div > h2 {
+  color: var(--article-section-secondary-title);
+}
+div#container-what-to-watch > gu-island > div > ol > li > div > div > div {
+  background-color: var(--card-background);
+}
+div#container-what-to-watch
+  > gu-island
+  > div
+  > ol
+  > li
+  > div
+  > div
+  > div
+  > div:nth-of-type(2)
+  > div
+  > div
+  > h3
+  > div {
+  color: var(--card-kicker-text);
+  background-color: transparent;
+}
+div#container-what-to-watch
+  > gu-island
+  > div
+  > ol
+  > li:nth-of-type(2)
+  > div
+  > div
+  > div {
+  background-color: var(--card-background);
+}
+div#container-what-to-watch
+  > gu-island
+  > div
+  > ol
+  > li:nth-of-type(2)
+  > div
+  > div
+  > div
+  > div:nth-of-type(2)
+  > div
+  > div
+  > h3
+  > div {
+  color: var(--card-kicker-text);
+  background-color: transparent;
+}
+div#container-what-to-watch
+  > gu-island
+  > div
+  > ol
+  > li:nth-of-type(3)
+  > div
+  > div
+  > div {
+  background-color: var(--card-background);
+}
+div#container-what-to-watch
+  > gu-island
+  > div
+  > ol
+  > li:nth-of-type(3)
+  > div
+  > div
+  > div
+  > div:nth-of-type(2)
+  > div
+  > div
+  > h3
+  > div {
+  color: var(--card-kicker-text);
+  background-color: transparent;
+}
+div#container-what-to-watch
+  > gu-island
+  > div
+  > ol
+  > li:nth-of-type(4)
+  > div
+  > div
+  > div {
+  background-color: var(--card-background);
+}
+div#container-what-to-watch
+  > gu-island
+  > div
+  > ol
+  > li:nth-of-type(4)
+  > div
+  > div
+  > div
+  > div:nth-of-type(2)
+  > div
+  > div
+  > h3
+  > div {
+  color: var(--card-kicker-text);
+  background-color: transparent;
+}
+section#what-to-listen-to {
+  background-color: var(--front-container-background);
+}
+section#what-to-listen-to > div:nth-of-type(3) > div > div > h2 {
+  color: var(--article-section-secondary-title);
+}
+div#container-what-to-listen-to > gu-island > div > ol > li > div > div > div {
+  background-color: var(--card-background);
+}
+div#container-what-to-listen-to
+  > gu-island
+  > div
+  > ol
+  > li
+  > div
+  > div
+  > div
+  > div:nth-of-type(2)
+  > div
+  > div
+  > h3
+  > div {
+  color: var(--card-kicker-text);
+  background-color: transparent;
+}
+div#container-what-to-listen-to
+  > gu-island
+  > div
+  > ol
+  > li:nth-of-type(2)
+  > div
+  > div
+  > div {
+  background-color: var(--card-background);
+}
+div#container-what-to-listen-to
+  > gu-island
+  > div
+  > ol
+  > li:nth-of-type(2)
+  > div
+  > div
+  > div
+  > div:nth-of-type(2)
+  > div
+  > div
+  > h3
+  > div {
+  color: var(--card-kicker-text);
+  background-color: transparent;
+}
+div#container-what-to-listen-to
+  > gu-island
+  > div
+  > ol
+  > li:nth-of-type(3)
+  > div
+  > div
+  > div {
+  background-color: var(--card-background);
+}
+div#container-what-to-listen-to
+  > gu-island
+  > div
+  > ol
+  > li:nth-of-type(3)
+  > div
+  > div
+  > div
+  > div:nth-of-type(2)
+  > div
+  > div
+  > h3
+  > div {
+  color: var(--card-kicker-text);
+  background-color: transparent;
+}
+div#container-what-to-listen-to
+  > gu-island
+  > div
+  > ol
+  > li:nth-of-type(4)
+  > div
+  > div
+  > div {
+  background-color: var(--card-background);
+}
+div#container-what-to-listen-to
+  > gu-island
+  > div
+  > ol
+  > li:nth-of-type(4)
+  > div
+  > div
+  > div
+  > div:nth-of-type(2)
+  > div
+  > div
+  > h3
+  > div {
+  color: var(--card-kicker-text);
+  background-color: transparent;
+}
+section#what-to-read {
+  background-color: var(--front-container-background);
+}
+section#what-to-read > div:nth-of-type(3) > div > div > h2 {
+  color: var(--article-section-secondary-title);
+}
+div#container-what-to-read > gu-island > div > ol > li > div > div > div {
+  background-color: var(--card-background);
+}
+div#container-what-to-read
+  > gu-island
+  > div
+  > ol
+  > li
+  > div
+  > div
+  > div
+  > div:nth-of-type(2)
+  > div
+  > div
+  > h3
+  > div {
+  color: var(--card-kicker-text);
+  background-color: transparent;
+}
+div#container-what-to-read
+  > gu-island
+  > div
+  > ol
+  > li:nth-of-type(2)
+  > div
+  > div
+  > div {
+  background-color: var(--card-background);
+}
+div#container-what-to-read
+  > gu-island
+  > div
+  > ol
+  > li:nth-of-type(2)
+  > div
+  > div
+  > div
+  > div:nth-of-type(2)
+  > div
+  > div
+  > h3
+  > div {
+  color: var(--card-kicker-text);
+  background-color: transparent;
+}
+div#container-what-to-read
+  > gu-island
+  > div
+  > ol
+  > li:nth-of-type(3)
+  > div
+  > div
+  > div {
+  background-color: var(--card-background);
+}
+div#container-what-to-read
+  > gu-island
+  > div
+  > ol
+  > li:nth-of-type(3)
+  > div
+  > div
+  > div
+  > div:nth-of-type(2)
+  > div
+  > div
+  > h3
+  > div {
+  color: var(--card-kicker-text);
+  background-color: transparent;
+}
+div#container-what-to-read
+  > gu-island
+  > div
+  > ol
+  > li:nth-of-type(4)
+  > div
+  > div
+  > div {
+  background-color: var(--card-background);
+}
+div#container-what-to-read
+  > gu-island
+  > div
+  > ol
+  > li:nth-of-type(4)
+  > div
+  > div
+  > div
+  > div:nth-of-type(2)
+  > div
+  > div
+  > h3
+  > div {
+  color: var(--card-kicker-text);
+  background-color: transparent;
+}
+section#what-to-play {
+  background-color: var(--front-container-background);
+}
+section#what-to-play > div:nth-of-type(3) > div > div > h2 {
+  color: var(--article-section-secondary-title);
+}
+div#container-what-to-play > gu-island > div > ol > li > div > div > div {
+  background-color: var(--card-background);
+}
+div#container-what-to-play
+  > gu-island
+  > div
+  > ol
+  > li
+  > div
+  > div
+  > div
+  > div:nth-of-type(2)
+  > div
+  > div
+  > h3
+  > div {
+  color: var(--card-kicker-text);
+  background-color: transparent;
+}
+div#container-what-to-play
+  > gu-island
+  > div
+  > ol
+  > li:nth-of-type(2)
+  > div
+  > div
+  > div {
+  background-color: var(--card-background);
+}
+div#container-what-to-play
+  > gu-island
+  > div
+  > ol
+  > li:nth-of-type(2)
+  > div
+  > div
+  > div
+  > div:nth-of-type(2)
+  > div
+  > div
+  > h3
+  > div {
+  color: var(--card-kicker-text);
+  background-color: transparent;
+}
+div#container-what-to-play
+  > gu-island
+  > div
+  > ol
+  > li:nth-of-type(3)
+  > div
+  > div
+  > div {
+  background-color: var(--card-background);
+}
+div#container-what-to-play
+  > gu-island
+  > div
+  > ol
+  > li:nth-of-type(3)
+  > div
+  > div
+  > div
+  > div:nth-of-type(2)
+  > div
+  > div
+  > h3
+  > div {
+  color: var(--card-kicker-text);
+  background-color: transparent;
+}
+div#container-what-to-play
+  > gu-island
+  > div
+  > ol
+  > li:nth-of-type(4)
+  > div
+  > div
+  > div {
+  background-color: var(--card-background);
+}
+div#container-what-to-play
+  > gu-island
+  > div
+  > ol
+  > li:nth-of-type(4)
+  > div
+  > div
+  > div
+  > div:nth-of-type(2)
+  > div
+  > div
+  > h3
+  > div {
+  color: var(--card-kicker-text);
+  background-color: transparent;
+}
+section#more-culture {
+  background-color: var(--front-container-background);
+}
+section#more-culture > div:nth-of-type(3) > div > div > h2 {
+  color: var(--article-section-secondary-title);
+}
+div#container-more-culture > gu-island > div > ol > li > div > div > div {
+  background-color: var(--card-media-background);
+}
+div#container-more-culture
+  > gu-island
+  > div
+  > ol
+  > li
+  > div
+  > div
+  > div
+  > div:nth-of-type(2)
+  > div
+  > div
+  > h3
+  > div {
+  color: var(--card-kicker-text);
+  background-color: transparent;
+}
+div#container-more-culture
+  > gu-island
+  > div
+  > ol
+  > li:nth-of-type(2)
+  > div
+  > div
+  > div {
+  background-color: var(--card-background);
+}
+div#container-more-culture
+  > gu-island
+  > div
+  > ol
+  > li:nth-of-type(2)
+  > div
+  > div
+  > div
+  > div:nth-of-type(2)
+  > div
+  > div
+  > h3
+  > div {
+  color: var(--card-kicker-text);
+  background-color: transparent;
+}
+div#container-more-culture
+  > gu-island
+  > div
+  > ol
+  > li:nth-of-type(3)
+  > div
+  > div
+  > div {
+  background-color: var(--card-background);
+}
+div#container-more-culture
+  > gu-island
+  > div
+  > ol
+  > li:nth-of-type(3)
+  > div
+  > div
+  > div
+  > div:nth-of-type(2)
+  > div
+  > div
+  > h3
+  > div {
+  color: var(--card-kicker-text);
+  background-color: transparent;
+}
+div#container-more-culture
+  > gu-island
+  > div
+  > ol
+  > li:nth-of-type(4)
+  > div
+  > div
+  > div {
+  background-color: var(--card-background);
+}
+div#container-more-culture
+  > gu-island
+  > div
+  > ol
+  > li:nth-of-type(4)
+  > div
+  > div
+  > div
+  > div:nth-of-type(2)
+  > div
+  > div
+  > h3
+  > div {
+  color: var(--card-kicker-text);
+  background-color: transparent;
+}
+section#lifestyle {
+  background-color: var(--front-container-background);
+}
+section#lifestyle > div:nth-of-type(3) > div > div > a > h2 {
+  color: var(--article-section-title-lifestyle);
+}
+div#container-lifestyle
+  > ul
+  > li
+  > div
+  > div
+  > div
+  > div
+  > div:nth-of-type(2)
+  > div
+  > div
+  > h3
+  > div {
+  color: var(--feature-card-kicker-text);
+  background-color: transparent;
+}
+div#container-lifestyle
+  > ul
+  > li:nth-of-type(2)
+  > div
+  > div
+  > div
+  > div
+  > div:nth-of-type(2)
+  > div
+  > div
+  > h3
+  > div {
+  color: var(--feature-card-kicker-text);
+  background-color: transparent;
+}
+section#food {
+  background-color: var(--front-container-background);
+}
+section#food > div:nth-of-type(3) > div > div > a > h2 {
+  color: var(--article-section-secondary-title);
+}
+div#container-food > gu-island > div > ol > li > div > div > div {
+  background-color: var(--card-background);
+}
+div#container-food
+  > gu-island
+  > div
+  > ol
+  > li
+  > div
+  > div
+  > div
+  > div:nth-of-type(2)
+  > div
+  > div
+  > h3
+  > div {
+  color: var(--card-kicker-text);
+  background-color: transparent;
+}
+div#container-food
+  > gu-island
+  > div
+  > ol
+  > li:nth-of-type(2)
+  > div
+  > div
+  > div {
+  background-color: var(--card-background);
+}
+div#container-food
+  > gu-island
+  > div
+  > ol
+  > li:nth-of-type(2)
+  > div
+  > div
+  > div
+  > div:nth-of-type(2)
+  > div
+  > div
+  > h3
+  > div {
+  color: var(--card-kicker-text);
+  background-color: transparent;
+}
+div#container-food
+  > gu-island
+  > div
+  > ol
+  > li:nth-of-type(3)
+  > div
+  > div
+  > div {
+  background-color: var(--card-background);
+}
+div#container-food
+  > gu-island
+  > div
+  > ol
+  > li:nth-of-type(3)
+  > div
+  > div
+  > div
+  > div:nth-of-type(2)
+  > div
+  > div
+  > h3
+  > div {
+  color: var(--card-kicker-text);
+  background-color: transparent;
+}
+div#container-food
+  > gu-island
+  > div
+  > ol
+  > li:nth-of-type(4)
+  > div
+  > div
+  > div {
+  background-color: var(--card-media-background);
+}
+div#container-food
+  > gu-island
+  > div
+  > ol
+  > li:nth-of-type(4)
+  > div
+  > div
+  > div
+  > div:nth-of-type(2)
+  > div
+  > div
+  > h3
+  > div {
+  color: var(--card-kicker-text);
+  background-color: transparent;
+}
+section#fashion-\&-beauty {
+  background-color: var(--front-container-background);
+}
+section#fashion-\&-beauty > div:nth-of-type(3) > div > div > h2 {
+  color: var(--article-section-secondary-title);
+}
+div#container-fashion-\&-beauty > gu-island > div > ol > li > div > div > div {
+  background-color: var(--card-background);
+}
+div#container-fashion-\&-beauty
+  > gu-island
+  > div
+  > ol
+  > li
+  > div
+  > div
+  > div
+  > div:nth-of-type(2)
+  > div
+  > div
+  > h3
+  > div {
+  color: var(--card-kicker-text);
+  background-color: transparent;
+}
+div#container-fashion-\&-beauty
+  > gu-island
+  > div
+  > ol
+  > li:nth-of-type(2)
+  > div
+  > div
+  > div {
+  background-color: var(--card-media-background);
+}
+div#container-fashion-\&-beauty
+  > gu-island
+  > div
+  > ol
+  > li:nth-of-type(2)
+  > div
+  > div
+  > div
+  > div:nth-of-type(2)
+  > div
+  > div
+  > h3
+  > div {
+  color: var(--card-kicker-text);
+  background-color: transparent;
+}
+div#container-fashion-\&-beauty
+  > gu-island
+  > div
+  > ol
+  > li:nth-of-type(3)
+  > div
+  > div
+  > div {
+  background-color: var(--card-background);
+}
+div#container-fashion-\&-beauty
+  > gu-island
+  > div
+  > ol
+  > li:nth-of-type(3)
+  > div
+  > div
+  > div
+  > div:nth-of-type(2)
+  > div
+  > div
+  > h3
+  > div {
+  color: var(--card-kicker-text);
+  background-color: transparent;
+}
+div#container-fashion-\&-beauty
+  > gu-island
+  > div
+  > ol
+  > li:nth-of-type(4)
+  > div
+  > div
+  > div {
+  background-color: var(--card-background);
+}
+div#container-fashion-\&-beauty
+  > gu-island
+  > div
+  > ol
+  > li:nth-of-type(4)
+  > div
+  > div
+  > div
+  > div:nth-of-type(2)
+  > div
+  > div
+  > h3
+  > div {
+  color: var(--card-kicker-text);
+  background-color: transparent;
+}
+section#relationships {
+  background-color: var(--front-container-background);
+}
+section#relationships > div:nth-of-type(3) > div > div > a > h2 {
+  color: var(--article-section-secondary-title);
+}
+div#container-relationships > gu-island > div > ol > li > div > div > div {
+  background-color: var(--card-background);
+}
+div#container-relationships
+  > gu-island
+  > div
+  > ol
+  > li
+  > div
+  > div
+  > div
+  > div:nth-of-type(2)
+  > div
+  > div
+  > h3
+  > div {
+  color: var(--card-kicker-text);
+  background-color: transparent;
+}
+div#container-relationships
+  > gu-island
+  > div
+  > ol
+  > li:nth-of-type(2)
+  > div
+  > div
+  > div {
+  background-color: var(--card-background);
+}
+div#container-relationships
+  > gu-island
+  > div
+  > ol
+  > li:nth-of-type(2)
+  > div
+  > div
+  > div
+  > div:nth-of-type(2)
+  > div
+  > div
+  > h3
+  > div {
+  color: var(--card-kicker-text);
+  background-color: transparent;
+}
+div#container-relationships
+  > gu-island
+  > div
+  > ol
+  > li:nth-of-type(3)
+  > div
+  > div
+  > div {
+  background-color: var(--card-background);
+}
+div#container-relationships
+  > gu-island
+  > div
+  > ol
+  > li:nth-of-type(3)
+  > div
+  > div
+  > div
+  > div:nth-of-type(2)
+  > div
+  > div
+  > h3
+  > div {
+  color: var(--card-kicker-text);
+  background-color: transparent;
+}
+div#container-relationships
+  > gu-island
+  > div
+  > ol
+  > li:nth-of-type(4)
+  > div
+  > div
+  > div {
+  background-color: var(--card-background);
+}
+div#container-relationships
+  > gu-island
+  > div
+  > ol
+  > li:nth-of-type(4)
+  > div
+  > div
+  > div
+  > div:nth-of-type(2)
+  > div
+  > div
+  > h3
+  > div {
+  color: var(--card-kicker-text);
+  background-color: transparent;
+}
+section#health-\&-fitness {
+  background-color: var(--front-container-background);
+}
+section#health-\&-fitness > div:nth-of-type(3) > div > div > a > h2 {
+  color: var(--article-section-secondary-title);
+}
+div#container-health-\&-fitness > gu-island > div > ol > li > div > div > div {
+  background-color: var(--card-media-background);
+}
+div#container-health-\&-fitness
+  > gu-island
+  > div
+  > ol
+  > li
+  > div
+  > div
+  > div
+  > div:nth-of-type(2)
+  > div
+  > div
+  > h3
+  > div {
+  color: var(--card-kicker-text);
+  background-color: transparent;
+}
+div#container-health-\&-fitness
+  > gu-island
+  > div
+  > ol
+  > li:nth-of-type(2)
+  > div
+  > div
+  > div {
+  background-color: var(--card-background);
+}
+div#container-health-\&-fitness
+  > gu-island
+  > div
+  > ol
+  > li:nth-of-type(2)
+  > div
+  > div
+  > div
+  > div:nth-of-type(2)
+  > div
+  > div
+  > h3
+  > div {
+  color: var(--card-kicker-text);
+  background-color: transparent;
+}
+div#container-health-\&-fitness
+  > gu-island
+  > div
+  > ol
+  > li:nth-of-type(3)
+  > div
+  > div
+  > div {
+  background-color: var(--card-background);
+}
+div#container-health-\&-fitness
+  > gu-island
+  > div
+  > ol
+  > li:nth-of-type(3)
+  > div
+  > div
+  > div
+  > div:nth-of-type(2)
+  > div
+  > div
+  > h3
+  > div {
+  color: var(--card-kicker-text);
+  background-color: transparent;
+}
+div#container-health-\&-fitness
+  > gu-island
+  > div
+  > ol
+  > li:nth-of-type(4)
+  > div
+  > div
+  > div {
+  background-color: var(--card-background);
+}
+div#container-health-\&-fitness
+  > gu-island
+  > div
+  > ol
+  > li:nth-of-type(4)
+  > div
+  > div
+  > div
+  > div:nth-of-type(2)
+  > div
+  > div
+  > h3
+  > div {
+  color: var(--card-kicker-text);
+  background-color: transparent;
+}
+section#more-lifestyle- {
+  background-color: var(--front-container-background);
+}
+section#more-lifestyle- > div:nth-of-type(3) > div > div > h2 {
+  color: var(--article-section-secondary-title);
+}
+div#container-more-lifestyle- > gu-island > div > ol > li > div > div > div {
+  background-color: var(--card-background);
+}
+div#container-more-lifestyle-
+  > gu-island
+  > div
+  > ol
+  > li
+  > div
+  > div
+  > div
+  > div:nth-of-type(2)
+  > div
+  > div
+  > h3
+  > div {
+  color: var(--card-kicker-text);
+  background-color: transparent;
+}
+div#container-more-lifestyle-
+  > gu-island
+  > div
+  > ol
+  > li:nth-of-type(2)
+  > div
+  > div
+  > div {
+  background-color: var(--card-background);
+}
+div#container-more-lifestyle-
+  > gu-island
+  > div
+  > ol
+  > li:nth-of-type(2)
+  > div
+  > div
+  > div
+  > div:nth-of-type(2)
+  > div
+  > div
+  > h3
+  > div {
+  color: var(--card-kicker-text);
+  background-color: transparent;
+}
+div#container-more-lifestyle-
+  > gu-island
+  > div
+  > ol
+  > li:nth-of-type(3)
+  > div
+  > div
+  > div {
+  background-color: var(--card-background);
+}
+div#container-more-lifestyle-
+  > gu-island
+  > div
+  > ol
+  > li:nth-of-type(3)
+  > div
+  > div
+  > div
+  > div:nth-of-type(2)
+  > div
+  > div
+  > h3
+  > div {
+  color: var(--card-kicker-text);
+  background-color: transparent;
+}
+div#container-more-lifestyle-
+  > gu-island
+  > div
+  > ol
+  > li:nth-of-type(4)
+  > div
+  > div
+  > div {
+  background-color: var(--card-background);
+}
+div#container-more-lifestyle-
+  > gu-island
+  > div
+  > ol
+  > li:nth-of-type(4)
+  > div
+  > div
+  > div
+  > div:nth-of-type(2)
+  > div
+  > div
+  > h3
+  > div {
+  color: var(--card-kicker-text);
+  background-color: transparent;
+}
+section#documentary {
+  background-color: var(--front-container-background);
+}
+section#documentary > div:nth-of-type(3) > div > div > a > h2 {
+  color: var(--article-section-title);
+}
+div#container-documentary
+  > ul
+  > li
+  > div
+  > div
+  > div
+  > div
+  > div:nth-of-type(4)
+  > div
+  > div
+  > h3
+  > div {
+  color: var(--feature-card-kicker-text);
+  background-color: transparent;
+}
+section#you-may-have-missed {
+  background-color: var(--front-container-background);
+}
+section#you-may-have-missed > div:nth-of-type(3) > div > div > h2 {
+  color: var(--article-section-title);
+}
+div#container-you-may-have-missed
+  > gu-island
+  > div
+  > ol
+  > li
+  > div
+  > div
+  > div
+  > div
+  > div:nth-of-type(2)
+  > div
+  > div
+  > h3
+  > div {
+  color: var(--feature-card-kicker-text);
+  background-color: transparent;
+}
+div#container-you-may-have-missed
+  > gu-island
+  > div
+  > ol
+  > li:nth-of-type(2)
+  > div
+  > div
+  > div
+  > div
+  > div:nth-of-type(2)
+  > div
+  > div
+  > h3
+  > div {
+  color: var(--feature-card-kicker-text);
+  background-color: transparent;
+}
+div#container-you-may-have-missed
+  > gu-island
+  > div
+  > ol
+  > li:nth-of-type(3)
+  > div
+  > div
+  > div
+  > div
+  > div:nth-of-type(2)
+  > div
+  > div
+  > h3
+  > div {
+  color: var(--feature-card-kicker-text);
+  background-color: transparent;
+}
+section#take-part {
+  background-color: var(--front-container-background);
+}
+section#take-part > div:nth-of-type(3) > div > div > h2 {
+  color: var(--article-section-secondary-title);
+}
+div#container-take-part > gu-island > div > ol > li > div > div > div {
+  background-color: var(--card-background);
+}
+div#container-take-part
+  > gu-island
+  > div
+  > ol
+  > li
+  > div
+  > div
+  > div
+  > div:nth-of-type(2)
+  > div
+  > div
+  > h3
+  > div {
+  color: var(--card-kicker-text);
+  background-color: transparent;
+}
+div#container-take-part
+  > gu-island
+  > div
+  > ol
+  > li:nth-of-type(2)
+  > div
+  > div
+  > div {
+  background-color: var(--card-background);
+}
+div#container-take-part
+  > gu-island
+  > div
+  > ol
+  > li:nth-of-type(2)
+  > div
+  > div
+  > div
+  > div:nth-of-type(2)
+  > div
+  > div
+  > h3
+  > div {
+  color: var(--card-kicker-text);
+  background-color: transparent;
+}
+div#container-take-part
+  > gu-island
+  > div
+  > ol
+  > li:nth-of-type(3)
+  > div
+  > div
+  > div {
+  background-color: var(--card-background);
+}
+div#container-take-part
+  > gu-island
+  > div
+  > ol
+  > li:nth-of-type(3)
+  > div
+  > div
+  > div
+  > div:nth-of-type(2)
+  > div
+  > div
+  > h3
+  > div {
+  color: var(--card-kicker-text);
+  background-color: transparent;
+}
+div#container-take-part
+  > gu-island
+  > div
+  > ol
+  > li:nth-of-type(4)
+  > div
+  > div
+  > div {
+  background-color: var(--card-background);
+}
+div#container-take-part
+  > gu-island
+  > div
+  > ol
+  > li:nth-of-type(4)
+  > div
+  > div
+  > div
+  > div:nth-of-type(2)
+  > div
+  > div
+  > h3
+  > div {
+  color: var(--card-kicker-text);
+  background-color: transparent;
+}
+section#newsletters {
+  background-color: var(--front-container-background);
+}
+section#newsletters > div:nth-of-type(3) > div > div > a > h2 {
+  color: var(--article-section-secondary-title);
+}
+div#container-newsletters > gu-island > div > ol > li > div > div > div {
+  background-color: var(--card-media-background);
+}
+div#container-newsletters
+  > gu-island
+  > div
+  > ol
+  > li
+  > div
+  > div
+  > div
+  > div:nth-of-type(2)
+  > div
+  > div
+  > h3
+  > div {
+  color: var(--card-kicker-text);
+  background-color: transparent;
+}
+div#container-newsletters
+  > gu-island
+  > div
+  > ol
+  > li:nth-of-type(2)
+  > div
+  > div
+  > div {
+  background-color: var(--card-media-background);
+}
+div#container-newsletters
+  > gu-island
+  > div
+  > ol
+  > li:nth-of-type(2)
+  > div
+  > div
+  > div
+  > div:nth-of-type(2)
+  > div
+  > div
+  > h3
+  > div {
+  color: var(--card-kicker-text);
+  background-color: transparent;
+}
+div#container-newsletters
+  > gu-island
+  > div
+  > ol
+  > li:nth-of-type(3)
+  > div
+  > div
+  > div {
+  background-color: var(--card-media-background);
+}
+div#container-newsletters
+  > gu-island
+  > div
+  > ol
+  > li:nth-of-type(3)
+  > div
+  > div
+  > div
+  > div:nth-of-type(2)
+  > div
+  > div
+  > h3
+  > div {
+  color: var(--card-kicker-text);
+  background-color: transparent;
+}
+div#container-newsletters
+  > gu-island
+  > div
+  > ol
+  > li:nth-of-type(4)
+  > div
+  > div
+  > div {
+  background-color: var(--card-media-background);
+}
+div#container-newsletters
+  > gu-island
+  > div
+  > ol
+  > li:nth-of-type(4)
+  > div
+  > div
+  > div
+  > div:nth-of-type(2)
+  > div
+  > div
+  > h3
+  > div {
+  color: var(--card-kicker-text);
+  background-color: transparent;
+}
+section#in-pictures {
+  background-color: var(--front-container-background);
+}
+section#in-pictures > div:nth-of-type(3) > div > div > a > h2 {
+  color: var(--article-section-title);
+}
+div#container-in-pictures > ul > li > div > div > div {
+  background-color: var(--card-media-background);
+}
+div#container-in-pictures
+  > ul
+  > li
+  > div
+  > div
+  > div
+  > div:nth-of-type(2)
+  > div
+  > div
+  > h3
+  > div {
+  color: var(--card-kicker-text);
+  background-color: transparent;
+}
+section#most-viewed {
+  background-color: var(--front-container-background);
+}
+section#most-viewed > div:nth-of-type(2) > div > div > h2 {
+  color: var(--article-section-title);
+}
+div#container-most-viewed
+  > div
+  > div
+  > div
+  > section
+  > ol
+  > li:nth-of-type(9)
+  > a
+  > div
+  > div
+  > h4
+  > div {
+  color: var(--kicker-text-live);
+  background-color: var(--kicker-background-live);
+}
+div#container-most-viewed
+  > div
+  > div
+  > div
+  > section:nth-of-type(2)
+  > ol
+  > li:nth-of-type(4)
+  > a
+  > div
+  > div
+  > h4
+  > svg {
+  fill: var(--link-kicker-text);
+}
+div#container-most-viewed
+  > div
+  > div
+  > div
+  > section:nth-of-type(2)
+  > ol
+  > li:nth-of-type(8)
+  > a
+  > div
+  > div
+  > h4
+  > svg {
+  fill: var(--link-kicker-text);
+}
+div#container-most-viewed
+  > div
+  > div
+  > div
+  > section:nth-of-type(2)
+  > ol
+  > li:nth-of-type(9)
+  > a
+  > div
+  > div
+  > h4
+  > svg {
+  fill: var(--link-kicker-text);
+}
+div#container-most-viewed
+  > div
+  > div
+  > div
+  > section:nth-of-type(2)
+  > ol
+  > li:nth-of-type(10)
+  > a
+  > div
+  > div
+  > h4
+  > svg {
+  fill: var(--link-kicker-text);
+}
+section#trending-topics {
+  background-color: var(--front-container-background);
+}
+html > body > aside {
+  background-color: var(--article-section-background);
+}
+html > body > aside:nth-of-type(2) {
+  background-color: var(--front-container-background);
+}
+html > body > footer {
+  background-color: rgb(5, 41, 98);
+}
+html > body > footer > div {
+  border-top-color: rgb(80, 105, 145);
+  border-right-color: rgb(80, 105, 145);
+  border-bottom-color: rgb(80, 105, 145);
+  border-left-color: rgb(80, 105, 145);
+}
+html
+  > body
+  > footer
+  > div
+  > div
+  > div:nth-of-type(2)
+  > div:nth-of-type(2)
+  > ul:nth-of-type(3)
+  > li:nth-of-type(6)
+  > gu-island
+  > span {
+  color: transparent;
+}
