@@ -58,6 +58,44 @@
   let votedSide = $state<"left" | "right" | null>(null);
   let rounds = $state<RoundResult[]>([]);
 
+  interface MethodRank {
+    method: string;
+    wins: number;
+    appearances: number;
+    winRate: number;
+  }
+
+  function normalizeMethod(method: string): string {
+    return method.replace(/ \(variation #\d+\)$/, "");
+  }
+
+  function computeMethodRanking(rounds: RoundResult[]): MethodRank[] {
+    const stats = new Map<string, { wins: number; appearances: number }>();
+    for (const round of rounds) {
+      const left = normalizeMethod(round.leftMethod);
+      const right = normalizeMethod(round.rightMethod);
+      const winner = round.votedSide === "left" ? left : right;
+
+      if (!stats.has(left)) stats.set(left, { wins: 0, appearances: 0 });
+      if (!stats.has(right)) stats.set(right, { wins: 0, appearances: 0 });
+
+      stats.get(left)!.appearances++;
+      stats.get(right)!.appearances++;
+      stats.get(winner)!.wins++;
+    }
+
+    return [...stats.entries()]
+      .map(([method, { wins, appearances }]) => ({
+        method,
+        wins,
+        appearances,
+        winRate: appearances > 0 ? wins / appearances : 0,
+      }))
+      .sort((a, b) => b.winRate - a.winRate || b.wins - a.wins);
+  }
+
+  let methodRanking = $derived.by(() => computeMethodRanking(rounds));
+
   function computeDeltaEScores() {
     if (!manualPalette || !leftData || !rightData) return;
     const emptyFontSizes = {};
@@ -255,7 +293,45 @@
       </div>
     {/if}
 
-    <!-- TODO: Recommended Model For You -->
+    {#if methodRanking.length > 0}
+      <h3 class="text-xl font-bold mt-8 mb-3">Recommended Method For You</h3>
+      <div
+        class="mx-auto mb-4 w-max rounded-lg border-2 border-purple-400 bg-purple-50 px-6 py-3"
+      >
+        <p class="text-lg font-semibold text-purple-700">
+          {methodRanking[0].method}
+        </p>
+        <p class="text-sm text-purple-600">
+          Win rate: {(methodRanking[0].winRate * 100).toFixed(0)}% ({methodRanking[0]
+            .wins}/{methodRanking[0].appearances})
+        </p>
+      </div>
+      <div class="overflow-x-auto">
+        <table class="mx-auto text-sm text-left border-collapse">
+          <thead>
+            <tr class="border-b border-gray-300">
+              <th class="px-3 py-2">Rank</th>
+              <th class="px-3 py-2">Method</th>
+              <th class="px-3 py-2">Wins</th>
+              <th class="px-3 py-2">Appeared</th>
+              <th class="px-3 py-2">Win Rate</th>
+            </tr>
+          </thead>
+          <tbody>
+            {#each methodRanking as entry, i}
+              <tr class="border-b border-gray-200" class:font-bold={i === 0}>
+                <td class="px-3 py-2">{i + 1}</td>
+                <td class="px-3 py-2">{entry.method}</td>
+                <td class="px-3 py-2">{entry.wins}</td>
+                <td class="px-3 py-2">{entry.appearances}</td>
+                <td class="px-3 py-2">{(entry.winRate * 100).toFixed(0)}%</td>
+              </tr>
+            {/each}
+          </tbody>
+        </table>
+      </div>
+    {/if}
+
     <!-- TODO: Small backend with results -->
     <!-- TODO: (optional) compare your voting to other people -->
     <button
