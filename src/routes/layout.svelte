@@ -13,7 +13,7 @@
 </script>
 
 <nav class="container mx-auto p-4">
-  <ul class="flex items-center justify-center w-full gap-8 mb-4">
+  <ul class="flex items-center justify-center w-full gap-8">
     <li>
       <a
         class="text-purple-700 hover:text-purple-900 flex items-center gap-1"
