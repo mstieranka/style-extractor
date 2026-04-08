@@ -1,3 +1,15 @@
+import type { Component } from "svelte";
+import type { ColorPalette } from "../types";
+
+export interface RoundSelection {
+  dataName: string;
+  backgroundUrl: string;
+  manualPalette: ColorPalette | undefined;
+  leftData: { method: string; palette: ColorPalette };
+  rightData: { method: string; palette: ColorPalette };
+  widget: { name: string; component: Component };
+}
+
 export interface RoundResult {
   dataName: string;
   leftMethod: string;

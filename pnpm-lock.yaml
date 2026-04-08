@@ -15,7 +15,7 @@ importers:
         specifier: 3.41.1
         version: 3.41.1(svelte@5.46.0)
       '@zerodevx/svelte-toast':
-        specifier: ^0.9.6
+        specifier: 0.9.6
         version: 0.9.6(svelte@5.46.0)
       colorjs.io:
         specifier: 0.5.2
@@ -26,6 +26,9 @@ importers:
       prettier:
         specifier: 3.7.4
         version: 3.7.4
+      random:
+        specifier: 5.4.1
+        version: 5.4.1
       sv-router:
         specifier: 0.15.0
         version: 0.15.0(svelte@5.46.0)
@@ -917,6 +920,10 @@ packages:
     resolution: {integrity: sha512-iG+GYldRf2BQ0UDUAd6JQ/RwzaQy6mXmsk/IzlYyal4A4SNFw54MeH4/tLkF4I5WoWG9SQwuqWzS99jaFQHBuQ==}
     engines: {node: ^20.17.0 || >=22.9.0}
 
+  random@5.4.1:
+    resolution: {integrity: sha512-HtccRkYkAXCbj9bqsyGKGlicyeZ5AsQgs49fEuUO/BvrJ7WOQqXPjdg1CZrFjBkoT75ozrWlQXJ7TcXXLv2ISQ==}
+    engines: {node: '>=18'}
+
   read-cmd-shim@6.0.0:
     resolution: {integrity: sha512-1zM5HuOfagXCBWMN83fuFI/x+T/UhZ7k+KIzhrHXcQoeX5+7gmaDYjELQHmmzIodumBHeByBJT4QYS7ufAgs7A==}
     engines: {node: ^20.17.0 || >=22.9.0}
@@ -1784,6 +1791,8 @@ snapshots:
   prettier@3.7.4: {}
 
   proc-log@6.1.0: {}
+
+  random@5.4.1: {}
 
   read-cmd-shim@6.0.0: {}
 

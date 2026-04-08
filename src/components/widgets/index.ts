@@ -23,8 +23,3 @@ export const widgets = [
   { name: "RatingCard", component: RatingCard },
   { name: "SocialShare", component: SocialShare },
 ];
-
-export function getRandomWidget() {
-  const randomIndex = Math.floor(Math.random() * widgets.length);
-  return widgets[randomIndex];
-}

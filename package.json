@@ -20,10 +20,11 @@
   "dependencies": {
     "@supabase/supabase-js": "2.102.1",
     "@tabler/icons-svelte-runes": "3.41.1",
-    "@zerodevx/svelte-toast": "^0.9.6",
+    "@zerodevx/svelte-toast": "0.9.6",
     "colorjs.io": "0.5.2",
     "css-tree": "3.1.0",
     "prettier": "3.7.4",
+    "random": "5.4.1",
     "sv-router": "0.15.0",
     "svelte": "5.46.0"
   },

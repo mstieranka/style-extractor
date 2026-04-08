@@ -3,24 +3,22 @@
   import ArenaLogin from "../components/ArenaLogin.svelte";
   import ArenaResults from "../components/ArenaResults.svelte";
   import ArenaRound from "../components/ArenaRound.svelte";
-  import type { ColorPalette } from "../lib/types";
-  import type { PendingSession, RoundResult } from "../lib/frontend/arenaTypes";
+  import type {
+    PendingSession,
+    RoundResult,
+    RoundSelection,
+  } from "../lib/frontend/arenaTypes";
   import { paletteData } from "../paletteData";
   import { computeMetrics } from "../lib/compareTokens";
   import { supabase } from "../lib/frontend/supabaseClient";
   import { getUser, isLoading } from "../lib/frontend/auth.svelte";
   import { toast } from "@zerodevx/svelte-toast";
   import Loading from "../components/Loading.svelte";
-  import { getRandomWidget } from "../components/widgets";
+  import { generateRound } from "../lib/frontend/generateRound";
 
   let currentStep = $state(0);
-  let currentWidget = $state(getRandomWidget());
+  let selection = $state<RoundSelection | undefined>(undefined);
   let reveal = $state(false);
-  let leftData = $state<{ method: string; palette: ColorPalette }>();
-  let rightData = $state<{ method: string; palette: ColorPalette }>();
-  let backgroundUrl = $state("");
-  let dataName = $state("");
-  let manualPalette = $state<ColorPalette>();
   let leftDeltaEScore = $state<number | null>(null);
   let rightDeltaEScore = $state<number | null>(null);
   let votedSide = $state<"left" | "right" | null>(null);
@@ -165,7 +163,6 @@
       currentStep = 11;
     } else {
       currentStep = maxRound + 1;
-      currentWidget = getRandomWidget();
       reveal = false;
       leftDeltaEScore = null;
       rightDeltaEScore = null;
@@ -179,16 +176,16 @@
   }
 
   function computeDeltaEScores() {
-    if (!manualPalette || !leftData || !rightData) return;
+    if (!selection?.manualPalette) return;
     const emptyFontSizes = {};
     const leftMetrics = computeMetrics(
-      { color: leftData.palette, fontSize: emptyFontSizes },
-      { color: manualPalette, fontSize: emptyFontSizes },
+      { color: selection.leftData.palette, fontSize: emptyFontSizes },
+      { color: selection.manualPalette, fontSize: emptyFontSizes },
       { computeColors: true, computeFontSizes: false, computeSyntax: false },
     );
     const rightMetrics = computeMetrics(
-      { color: rightData.palette, fontSize: emptyFontSizes },
-      { color: manualPalette, fontSize: emptyFontSizes },
+      { color: selection.rightData.palette, fontSize: emptyFontSizes },
+      { color: selection.manualPalette, fontSize: emptyFontSizes },
       { computeColors: true, computeFontSizes: false, computeSyntax: false },
     );
     leftDeltaEScore = leftMetrics.deltaEScoreMean;
@@ -196,7 +193,7 @@
   }
 
   async function recordRound(side: "left" | "right") {
-    if (!leftData || !rightData) return;
+    if (!selection) return;
     votedSide = side;
     computeDeltaEScores();
 
@@ -210,9 +207,9 @@
     }
 
     rounds.push({
-      dataName,
-      leftMethod: leftData.method,
-      rightMethod: rightData.method,
+      dataName: selection.dataName,
+      leftMethod: selection.leftData.method,
+      rightMethod: selection.rightData.method,
       leftDeltaEScore,
       rightDeltaEScore,
       votedSide: side,
@@ -221,10 +218,10 @@
 
     const { error } = await supabase.from("votes").insert({
       user_id: getUser()!.id,
-      data_id: dataName,
-      widget_id: currentWidget.name,
-      method_left: leftData.method,
-      method_right: rightData.method,
+      data_id: selection.dataName,
+      widget_id: selection.widget.name,
+      method_left: selection.leftData.method,
+      method_right: selection.rightData.method,
       voted_for: side,
       round_number: currentStep,
       session_id: sessionId!,
@@ -264,7 +261,6 @@
       sessionId = sid;
       currentStep = nextStep;
       pendingSession = null;
-      currentWidget = getRandomWidget();
       pickRandomData();
       sessionLoading = false;
     }
@@ -279,10 +275,7 @@
 
   function reset() {
     currentStep = 0;
-    leftData = undefined;
-    rightData = undefined;
-    dataName = "";
-    manualPalette = undefined;
+    selection = undefined;
     leftDeltaEScore = null;
     rightDeltaEScore = null;
     votedSide = null;
@@ -293,7 +286,6 @@
   }
 
   function nextRound() {
-    currentWidget = getRandomWidget();
     currentStep++;
     reveal = false;
     leftDeltaEScore = null;
@@ -307,30 +299,7 @@
   }
 
   function pickRandomData() {
-    // pick random item from paletteData
-    const paletteDataIdx = Math.floor(Math.random() * paletteData.length);
-    const webData = paletteData[paletteDataIdx];
-    dataName = webData.name;
-
-    // pick two random palettes from the selected webData
-    const leftPaletteIdx = Math.floor(Math.random() * webData.palettes.length);
-    let rightPaletteIdx = leftPaletteIdx;
-    // ensure different palettes for left and right
-    while (rightPaletteIdx === leftPaletteIdx) {
-      rightPaletteIdx = Math.floor(Math.random() * webData.palettes.length);
-    }
-
-    backgroundUrl = webData.backgroundUrl;
-    const manualEntry = webData.palettes.find((p) => p.method === "Manual");
-    manualPalette = manualEntry?.color;
-    leftData = {
-      method: webData.palettes[leftPaletteIdx].method,
-      palette: webData.palettes[leftPaletteIdx].color,
-    };
-    rightData = {
-      method: webData.palettes[rightPaletteIdx].method,
-      palette: webData.palettes[rightPaletteIdx].color,
-    };
+    selection = generateRound(sessionId!, currentStep);
   }
 </script>
 
@@ -356,14 +325,14 @@
   </main>
 {:else if currentStep > 10}
   <ArenaResults {rounds} onReset={() => reset()} />
-{:else if leftData && rightData}
+{:else if selection}
   <ArenaRound
     {currentStep}
-    {dataName}
-    {leftData}
-    {rightData}
-    {currentWidget}
-    {backgroundUrl}
+    dataName={selection.dataName}
+    leftData={selection.leftData}
+    rightData={selection.rightData}
+    currentWidget={selection.widget}
+    backgroundUrl={selection.backgroundUrl}
     {reveal}
     {leftDeltaEScore}
     {rightDeltaEScore}
