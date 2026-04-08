@@ -1,4 +1,5 @@
 <script lang="ts">
+  import Button from "../components/Button.svelte";
   import { cleanCss } from "../lib/clean-css";
 
   let inputCss: string = $state("");
@@ -30,10 +31,7 @@
       bind:value={inputCss}
       placeholder="Paste your CSS here..."
     ></textarea>
-    <button
-      class="bg-purple-300 text-purple-700 hover:bg-purple-500 hover:text-purple-900 px-4 py-2 rounded transition-colors duration-150 cursor-pointer"
-      onclick={() => onClick()}>Clean CSS</button
-    >
+    <Button onclick={() => onClick()}>Clean CSS</Button>
     {#if error}
       <p class="text-red-600 mt-2">{error}</p>
     {/if}

@@ -1,4 +1,5 @@
 <script lang="ts">
+  import Button from "../components/Button.svelte";
   import { type ThemePalette, extractPalette } from "../lib/extractor";
 
   let input: string = $state("");
@@ -25,10 +26,7 @@
       bind:value={input}
       placeholder="Paste your CSS here..."
     ></textarea>
-    <button
-      class="bg-purple-300 text-purple-700 hover:bg-purple-500 hover:text-purple-900 px-4 py-2 rounded transition-colors duration-150 cursor-pointer"
-      onclick={() => onClick()}>Extract Styles</button
-    >
+    <Button onclick={() => onClick()}>Extract Styles</Button>
     <p class="mt-4">Output:</p>
     <div>
       {#each Object.entries(palette || {}) as [key, color]}
