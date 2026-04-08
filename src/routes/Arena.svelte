@@ -71,6 +71,81 @@
     }
   }
 
+  async function fetchSessionRounds(sid: string): Promise<RoundResult[]> {
+    const user = getUser();
+    if (!user) return [];
+
+    const { data, error } = await supabase
+      .from("votes")
+      .select("data_id, method_left, method_right, voted_for, round_number")
+      .eq("user_id", user.id)
+      .eq("session_id", sid)
+      .order("round_number");
+
+    if (error || !data) return [];
+
+    const emptyFontSizes = {};
+    return data.map((row) => {
+      const siteEntry = paletteData.find((s) => s.name === row.data_id);
+      const manualPaletteEntry = siteEntry?.palettes.find(
+        (p) => p.method === "Manual",
+      );
+      const leftPaletteEntry = siteEntry?.palettes.find(
+        (p) => p.method === row.method_left,
+      );
+      const rightPaletteEntry = siteEntry?.palettes.find(
+        (p) => p.method === row.method_right,
+      );
+
+      let leftDeltaE: number | null = null;
+      let rightDeltaE: number | null = null;
+      let aligned: boolean | null = null;
+
+      if (manualPaletteEntry && leftPaletteEntry && rightPaletteEntry) {
+        const manual = manualPaletteEntry.color;
+        const leftMetrics = computeMetrics(
+          { color: leftPaletteEntry.color, fontSize: emptyFontSizes },
+          { color: manual, fontSize: emptyFontSizes },
+          {
+            computeColors: true,
+            computeFontSizes: false,
+            computeSyntax: false,
+          },
+        );
+        const rightMetrics = computeMetrics(
+          { color: rightPaletteEntry.color, fontSize: emptyFontSizes },
+          { color: manual, fontSize: emptyFontSizes },
+          {
+            computeColors: true,
+            computeFontSizes: false,
+            computeSyntax: false,
+          },
+        );
+        leftDeltaE = leftMetrics.deltaEScoreMean;
+        rightDeltaE = rightMetrics.deltaEScoreMean;
+
+        if (
+          leftDeltaE != null &&
+          rightDeltaE != null &&
+          leftDeltaE !== rightDeltaE
+        ) {
+          const betterSide = leftDeltaE > rightDeltaE ? "left" : "right";
+          aligned = row.voted_for === betterSide;
+        }
+      }
+
+      return {
+        dataName: row.data_id,
+        leftMethod: row.method_left,
+        rightMethod: row.method_right,
+        votedSide: row.voted_for,
+        leftDeltaEScore: leftDeltaE,
+        rightDeltaEScore: rightDeltaE,
+        alignedWithDeltaE: aligned,
+      };
+    });
+  }
+
   async function resyncSession() {
     const user = getUser();
     if (!user || !sessionId) return;
@@ -84,6 +159,7 @@
     if (error || !data || data.length === 0) return;
 
     const maxRound = Math.max(...data.map((r) => r.round_number));
+    rounds = await fetchSessionRounds(sessionId);
 
     if (maxRound >= 10) {
       currentStep = 11;
@@ -177,13 +253,21 @@
     if (ok) reveal = true;
   }
 
-  function continueSession() {
+  async function continueSession() {
     if (!pendingSession) return;
-    sessionId = pendingSession.sessionId;
-    currentStep = pendingSession.maxRound + 1;
-    pendingSession = null;
-    currentWidget = getRandomWidget();
-    pickRandomData();
+    sessionLoading = true;
+    const sid = pendingSession.sessionId;
+    const nextStep = pendingSession.maxRound + 1;
+    try {
+      rounds = await fetchSessionRounds(sid);
+    } finally {
+      sessionId = sid;
+      currentStep = nextStep;
+      pendingSession = null;
+      currentWidget = getRandomWidget();
+      pickRandomData();
+      sessionLoading = false;
+    }
   }
 
   function start() {

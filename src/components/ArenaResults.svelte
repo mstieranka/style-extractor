@@ -127,5 +127,5 @@
       </table>
     </div>
   {/if}
-  <Button onclick={onReset}>Start Over</Button>
+  <Button class="mt-8" onclick={onReset}>Start Over</Button>
 </main>
