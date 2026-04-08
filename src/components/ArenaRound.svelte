@@ -15,8 +15,8 @@
     leftDeltaEScore: number | null;
     rightDeltaEScore: number | null;
     votedSide: "left" | "right" | null;
-    onVoteLeft: () => void;
-    onVoteRight: () => void;
+    onVoteLeft: () => void | Promise<void>;
+    onVoteRight: () => void | Promise<void>;
     onNextRound: () => void;
     onReset: () => void;
   }

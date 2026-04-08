@@ -17,8 +17,8 @@
     widget: Component<{}>;
     leftData: SideData;
     rightData: SideData;
-    onVoteLeft: () => void;
-    onVoteRight: () => void;
+    onVoteLeft: () => void | Promise<void>;
+    onVoteRight: () => void | Promise<void>;
     reveal?: boolean;
     leftDeltaEScore?: number | null;
     rightDeltaEScore?: number | null;
@@ -42,6 +42,17 @@
     return Object.entries(palette)
       .map(([key, color]) => `--color-${camelToKebab(key)}: ${color}`)
       .join("; ");
+  }
+
+  let votedDirection = $state<"left" | "right" | null>(null);
+
+  async function handleVote(side: "left" | "right") {
+    votedDirection = side;
+    try {
+      await (side === "left" ? onVoteLeft() : onVoteRight());
+    } finally {
+      votedDirection = null;
+    }
   }
 
   let leftStyle = $derived.by(() => paletteToStyle(leftData.palette));
@@ -115,7 +126,9 @@
     >
       <Button
         variant="primary"
-        onclick={() => onVoteLeft()}
+        onclick={() => handleVote("left")}
+        loading={votedDirection === "left"}
+        disabled={votedDirection === "right"}
         icon={IconArrowLeftSquare}
         iconPosition="left"
       >
@@ -125,7 +138,9 @@
     <div class="z-10 flex items-center justify-center order-4 md:order-4">
       <Button
         variant="primary"
-        onclick={() => onVoteRight()}
+        onclick={() => handleVote("right")}
+        loading={votedDirection === "right"}
+        disabled={votedDirection === "left"}
         icon={IconArrowRightSquare}
         iconPosition="right"
       >
