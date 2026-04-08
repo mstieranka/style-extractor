@@ -1,31 +1,7 @@
 <script lang="ts">
-  import AnalyticsDashboard from "../components/widgets/AnalyticsDashboard.svelte";
-  import ChatWidget from "../components/widgets/ChatWidget.svelte";
-  import CommentBox from "../components/widgets/CommentBox.svelte";
-  import CookieConsent from "../components/widgets/CookieConsent.svelte";
-  import EmbedPlayer from "../components/widgets/EmbedPlayer.svelte";
-  import FeedbackForm from "../components/widgets/FeedbackForm.svelte";
-  import LoginPrompt from "../components/widgets/LoginPrompt.svelte";
-  import NewsletterSignup from "../components/widgets/NewsletterSignup.svelte";
-  import NotificationToast from "../components/widgets/NotificationToast.svelte";
-  import RatingCard from "../components/widgets/RatingCard.svelte";
-  import SocialShare from "../components/widgets/SocialShare.svelte";
   import type { ColorPalette } from "../lib/types";
   import { paletteData } from "../paletteData";
-
-  const widgets = [
-    { name: "AnalyticsDashboard", component: AnalyticsDashboard },
-    { name: "ChatWidget", component: ChatWidget },
-    { name: "CommentBox", component: CommentBox },
-    { name: "CookieConsent", component: CookieConsent },
-    { name: "EmbedPlayer", component: EmbedPlayer },
-    { name: "FeedbackForm", component: FeedbackForm },
-    { name: "LoginPrompt", component: LoginPrompt },
-    { name: "NewsletterSignup", component: NewsletterSignup },
-    { name: "NotificationToast", component: NotificationToast },
-    { name: "RatingCard", component: RatingCard },
-    { name: "SocialShare", component: SocialShare },
-  ];
+  import { widgets } from "../components/widgets";
 
   function camelToKebab(str: string) {
     return str.replace(/([a-z0-9])([A-Z])/g, "$1-$2").toLowerCase();

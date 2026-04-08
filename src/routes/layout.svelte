@@ -5,14 +5,18 @@
     IconColorSwatch,
     IconFilePower,
     IconHome,
+    IconLogout,
     IconVs,
-  } from "@tabler/icons-svelte";
+  } from "@tabler/icons-svelte-runes";
   import { isActiveLink } from "sv-router";
+  import { SvelteToast } from "@zerodevx/svelte-toast";
+  import { getUser, signOut } from "../lib/frontend/auth.svelte";
+  import Button from "../components/Button.svelte";
 
   let { children }: { children: Snippet } = $props();
 </script>
 
-<nav class="container mx-auto p-4">
+<nav class="container mx-auto p-4 relative">
   <ul class="flex items-center justify-center w-full gap-8">
     <li>
       <a
@@ -45,5 +49,17 @@
       >
     </li>
   </ul>
+  {#if getUser()}
+    <Button
+      size="sm"
+      variant="outline"
+      class="absolute right-4 top-1/2 -translate-y-1/2"
+      onclick={() => signOut()}
+      icon={IconLogout}
+    >
+      Sign out
+    </Button>
+  {/if}
 </nav>
+<SvelteToast />
 {@render children()}

@@ -4,7 +4,8 @@
   import {
     IconArrowLeftSquare,
     IconArrowRightSquare,
-  } from "@tabler/icons-svelte";
+  } from "@tabler/icons-svelte-runes";
+  import Button from "./Button.svelte";
 
   interface SideData {
     palette: ColorPalette;
@@ -110,20 +111,24 @@
     {/if}
   {:else}
     <div class="relative z-10 flex items-center justify-center">
-      <button
-        class="bg-purple-500 text-white px-4 py-2 flex gap-2 rounded hover:bg-purple-600 transition-colors duration-150"
+      <Button
+        variant="primary"
         onclick={() => onVoteLeft()}
+        icon={IconArrowLeftSquare}
+        iconPosition="left"
       >
-        <IconArrowLeftSquare /> Vote Left
-      </button>
+        Vote Left
+      </Button>
     </div>
     <div class="relative z-10 flex items-center justify-center">
-      <button
-        class="bg-purple-500 text-white px-4 py-2 flex gap-2 rounded hover:bg-purple-600 transition-colors duration-150"
+      <Button
+        variant="primary"
         onclick={() => onVoteRight()}
+        icon={IconArrowRightSquare}
+        iconPosition="right"
       >
-        Vote Right <IconArrowRightSquare />
-      </button>
+        Vote Right
+      </Button>
     </div>
   {/if}
 </div>

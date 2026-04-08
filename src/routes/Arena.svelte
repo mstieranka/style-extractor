@@ -1,52 +1,20 @@
 <script lang="ts">
-  import AnalyticsDashboard from "../components/widgets/AnalyticsDashboard.svelte";
-  import ChatWidget from "../components/widgets/ChatWidget.svelte";
-  import CommentBox from "../components/widgets/CommentBox.svelte";
-  import CookieConsent from "../components/widgets/CookieConsent.svelte";
-  import EmbedPlayer from "../components/widgets/EmbedPlayer.svelte";
-  import FeedbackForm from "../components/widgets/FeedbackForm.svelte";
-  import LoginPrompt from "../components/widgets/LoginPrompt.svelte";
-  import NewsletterSignup from "../components/widgets/NewsletterSignup.svelte";
-  import NotificationToast from "../components/widgets/NotificationToast.svelte";
-  import RatingCard from "../components/widgets/RatingCard.svelte";
-  import SocialShare from "../components/widgets/SocialShare.svelte";
-  const widgets = [
-    AnalyticsDashboard,
-    ChatWidget,
-    CommentBox,
-    CookieConsent,
-    EmbedPlayer,
-    FeedbackForm,
-    LoginPrompt,
-    NewsletterSignup,
-    NotificationToast,
-    RatingCard,
-    SocialShare,
-  ];
-
-  import WidgetPair from "../components/WidgetPair.svelte";
   import ArenaIntro from "../components/ArenaIntro.svelte";
+  import ArenaLogin from "../components/ArenaLogin.svelte";
+  import ArenaResults from "../components/ArenaResults.svelte";
+  import ArenaRound from "../components/ArenaRound.svelte";
   import type { ColorPalette } from "../lib/types";
+  import type { PendingSession, RoundResult } from "../lib/frontend/arenaTypes";
   import { paletteData } from "../paletteData";
   import { computeMetrics } from "../lib/compareTokens";
-  import { IconCheck, IconX } from "@tabler/icons-svelte";
-
-  interface RoundResult {
-    dataName: string;
-    leftMethod: string;
-    rightMethod: string;
-    leftDeltaEScore: number | null;
-    rightDeltaEScore: number | null;
-    votedSide: "left" | "right";
-    alignedWithDeltaE: boolean | null;
-  }
-
-  function getRandomWidget() {
-    return widgets[Math.floor(Math.random() * widgets.length)];
-  }
+  import { supabase } from "../lib/frontend/supabaseClient";
+  import { getUser, isLoading } from "../lib/frontend/auth.svelte";
+  import { toast } from "@zerodevx/svelte-toast";
+  import Loading from "../components/Loading.svelte";
+  import { getRandomWidget } from "../components/widgets";
 
   let currentStep = $state(0);
-  let CurrentWidget = $state(getRandomWidget());
+  let currentWidget = $state(getRandomWidget());
   let reveal = $state(false);
   let leftData = $state<{ method: string; palette: ColorPalette }>();
   let rightData = $state<{ method: string; palette: ColorPalette }>();
@@ -57,44 +25,82 @@
   let rightDeltaEScore = $state<number | null>(null);
   let votedSide = $state<"left" | "right" | null>(null);
   let rounds = $state<RoundResult[]>([]);
+  let sessionId = $state<string | null>(null);
+  let sessionLoading = $state(false);
+  let sessionChecked = $state(false);
+  let pendingSession = $state<PendingSession | null>(null);
 
-  interface MethodRank {
-    method: string;
-    wins: number;
-    appearances: number;
-    winRate: number;
+  $effect(() => {
+    const user = getUser();
+    if (user && !sessionChecked && !sessionLoading && currentStep === 0) {
+      loadSession();
+    }
+  });
+
+  async function loadSession() {
+    const user = getUser();
+    if (!user) return;
+    sessionLoading = true;
+    try {
+      const { data, error } = await supabase
+        .from("session_max_rounds")
+        .select("session_id, max_round")
+        .eq("user_id", user.id)
+        .lt("max_round", 10)
+        .limit(1);
+
+      if (error) {
+        console.error("Error loading session:", error);
+        return;
+      }
+
+      if (
+        data &&
+        data.length > 0 &&
+        data[0].session_id &&
+        data[0].max_round != null
+      ) {
+        pendingSession = {
+          sessionId: data[0].session_id,
+          maxRound: data[0].max_round,
+        };
+      }
+    } finally {
+      sessionLoading = false;
+      sessionChecked = true;
+    }
   }
 
-  function normalizeMethod(method: string): string {
-    return method.replace(/ \(variation #\d+\)$/, "");
-  }
+  async function resyncSession() {
+    const user = getUser();
+    if (!user || !sessionId) return;
 
-  function computeMethodRanking(rounds: RoundResult[]): MethodRank[] {
-    const stats = new Map<string, { wins: number; appearances: number }>();
-    for (const round of rounds) {
-      const left = normalizeMethod(round.leftMethod);
-      const right = normalizeMethod(round.rightMethod);
-      const winner = round.votedSide === "left" ? left : right;
+    const { data, error } = await supabase
+      .from("votes")
+      .select("round_number")
+      .eq("user_id", user.id)
+      .eq("session_id", sessionId);
 
-      if (!stats.has(left)) stats.set(left, { wins: 0, appearances: 0 });
-      if (!stats.has(right)) stats.set(right, { wins: 0, appearances: 0 });
+    if (error || !data || data.length === 0) return;
 
-      stats.get(left)!.appearances++;
-      stats.get(right)!.appearances++;
-      stats.get(winner)!.wins++;
+    const maxRound = Math.max(...data.map((r) => r.round_number));
+
+    if (maxRound >= 10) {
+      currentStep = 11;
+    } else {
+      currentStep = maxRound + 1;
+      currentWidget = getRandomWidget();
+      reveal = false;
+      leftDeltaEScore = null;
+      rightDeltaEScore = null;
+      votedSide = null;
+      pickRandomData();
     }
 
-    return [...stats.entries()]
-      .map(([method, { wins, appearances }]) => ({
-        method,
-        wins,
-        appearances,
-        winRate: appearances > 0 ? wins / appearances : 0,
-      }))
-      .sort((a, b) => b.winRate - a.winRate || b.wins - a.wins);
+    toast.push(
+      "This session was continued on another device. Resynced to the latest round.",
+    );
   }
-
-  let methodRanking = $derived.by(() => computeMethodRanking(rounds));
 
   function computeDeltaEScores() {
     if (!manualPalette || !leftData || !rightData) return;
@@ -113,7 +119,7 @@
     rightDeltaEScore = rightMetrics.deltaEScoreMean;
   }
 
-  function recordRound(side: "left" | "right") {
+  async function recordRound(side: "left" | "right") {
     if (!leftData || !rightData) return;
     votedSide = side;
     computeDeltaEScores();
@@ -136,19 +142,53 @@
       votedSide: side,
       alignedWithDeltaE: aligned,
     });
+
+    const { error } = await supabase.from("votes").insert({
+      user_id: getUser()!.id,
+      data_id: dataName,
+      widget_id: currentWidget.name,
+      method_left: leftData.method,
+      method_right: rightData.method,
+      voted_for: side,
+      round_number: currentStep,
+      session_id: sessionId!,
+    });
+
+    if (error) {
+      if (error.code === "23505") {
+        // Unique constraint violation — session continued on another device
+        rounds.pop();
+        votedSide = null;
+        await resyncSession();
+        return false;
+      }
+      console.error("Error recording vote:", error);
+    }
+    return true;
   }
 
-  function onVoteLeft() {
-    recordRound("left");
-    reveal = true;
+  async function onVoteLeft() {
+    const ok = await recordRound("left");
+    if (ok) reveal = true;
   }
 
-  function onVoteRight() {
-    recordRound("right");
-    reveal = true;
+  async function onVoteRight() {
+    const ok = await recordRound("right");
+    if (ok) reveal = true;
+  }
+
+  function continueSession() {
+    if (!pendingSession) return;
+    sessionId = pendingSession.sessionId;
+    currentStep = pendingSession.maxRound + 1;
+    pendingSession = null;
+    currentWidget = getRandomWidget();
+    pickRandomData();
   }
 
   function start() {
+    pendingSession = null;
+    sessionId = crypto.randomUUID();
     currentStep = 1;
     pickRandomData();
   }
@@ -163,10 +203,13 @@
     rightDeltaEScore = null;
     votedSide = null;
     rounds = [];
+    sessionId = null;
+    sessionChecked = false;
+    pendingSession = null;
   }
 
   function nextRound() {
-    CurrentWidget = getRandomWidget();
+    currentWidget = getRandomWidget();
     currentStep++;
     reveal = false;
     leftDeltaEScore = null;
@@ -211,170 +254,39 @@
   <title>Arena | Style Extractor</title>
 </svelte:head>
 
-{#if currentStep === 0}
+{#if isLoading() || sessionLoading}
+  <main class="container mx-auto p-4 text-center mt-10">
+    <Loading />
+  </main>
+{:else if !getUser()}
   <main class="container mx-auto p-4">
-    <ArenaIntro onStart={() => start()} />
+    <ArenaLogin />
+  </main>
+{:else if currentStep === 0}
+  <main class="container mx-auto p-4">
+    <ArenaIntro
+      onStart={() => start()}
+      onContinue={pendingSession ? () => continueSession() : null}
+      resumeRound={pendingSession ? pendingSession.maxRound + 1 : null}
+    />
   </main>
 {:else if currentStep > 10}
-  <main class="container mx-auto p-4 text-center mt-10">
-    <h2 class="text-2xl font-bold mb-4">Thanks for participating!</h2>
-
-    {#if rounds.length > 0}
-      {@const alignedCount = rounds.filter(
-        (r) => r.alignedWithDeltaE === true,
-      ).length}
-      {@const scoredCount = rounds.filter(
-        (r) => r.alignedWithDeltaE !== null,
-      ).length}
-      <p class="mb-4 text-lg">
-        You agreed with &Delta;E {alignedCount}/{scoredCount} times
-      </p>
-      <div class="overflow-x-auto">
-        <table class="mx-auto text-sm text-left border-collapse">
-          <thead>
-            <tr class="border-b border-gray-300">
-              <th class="px-3 py-2">Round</th>
-              <th class="px-3 py-2 pr-8">Dataset</th>
-              <th class="px-3 py-2">Left Method</th>
-              <th class="px-3 py-2">&Delta;E Score</th>
-              <th class="px-3 py-2 pl-8">Your Pick</th>
-              <th class="px-3 py-2 pr-8">Aligned?</th>
-              <th class="px-3 py-2">Right Method</th>
-              <th class="px-3 py-2">&Delta;E Score</th>
-            </tr>
-          </thead>
-          <tbody>
-            {#each rounds as round, i}
-              <tr class="border-b border-gray-200">
-                <td class="px-3 py-2">{i + 1}</td>
-                <td class="px-3 py-2 pr-8">{round.dataName}</td>
-                <td
-                  class="px-3 py-2"
-                  class:font-bold={round.votedSide === "left"}
-                  >{round.leftMethod}</td
-                >
-                <td class="px-3 py-2"
-                  >{round.leftMethod === "Manual"
-                    ? "(baseline)"
-                    : round.leftDeltaEScore != null
-                      ? round.leftDeltaEScore.toFixed(1)
-                      : "\u2014"}</td
-                >
-                <td class="px-3 py-2 pl-8"
-                  >{round.votedSide === "left"
-                    ? "\u2190 Left"
-                    : "Right \u2192"}</td
-                >
-                <td class="px-3 py-2 pr-8">
-                  {#if round.alignedWithDeltaE === true}
-                    <span class="text-green-600"><IconCheck /></span>
-                  {:else if round.alignedWithDeltaE === false}
-                    <span class="text-red-500"><IconX /></span>
-                  {:else}
-                    &mdash;
-                  {/if}
-                </td>
-                <td
-                  class="px-3 py-2"
-                  class:font-bold={round.votedSide === "right"}
-                  >{round.rightMethod}</td
-                >
-                <td class="px-3 py-2"
-                  >{round.rightMethod === "Manual"
-                    ? "(baseline)"
-                    : round.rightDeltaEScore != null
-                      ? round.rightDeltaEScore.toFixed(1)
-                      : "\u2014"}</td
-                >
-              </tr>
-            {/each}
-          </tbody>
-        </table>
-      </div>
-    {/if}
-
-    {#if methodRanking.length > 0}
-      <h3 class="text-xl font-bold mt-8 mb-3">Recommended Method For You</h3>
-      <div
-        class="mx-auto mb-4 w-max rounded-lg border-2 border-purple-400 bg-purple-50 px-6 py-3"
-      >
-        <p class="text-lg font-semibold text-purple-700">
-          {methodRanking[0].method}
-        </p>
-        <p class="text-sm text-purple-600">
-          Win rate: {(methodRanking[0].winRate * 100).toFixed(0)}% ({methodRanking[0]
-            .wins}/{methodRanking[0].appearances})
-        </p>
-      </div>
-      <div class="overflow-x-auto">
-        <table class="mx-auto text-sm text-left border-collapse">
-          <thead>
-            <tr class="border-b border-gray-300">
-              <th class="px-3 py-2">Rank</th>
-              <th class="px-3 py-2">Method</th>
-              <th class="px-3 py-2">Wins</th>
-              <th class="px-3 py-2">Appeared</th>
-              <th class="px-3 py-2">Win Rate</th>
-            </tr>
-          </thead>
-          <tbody>
-            {#each methodRanking as entry, i}
-              <tr class="border-b border-gray-200" class:font-bold={i === 0}>
-                <td class="px-3 py-2">{i + 1}</td>
-                <td class="px-3 py-2">{entry.method}</td>
-                <td class="px-3 py-2">{entry.wins}</td>
-                <td class="px-3 py-2">{entry.appearances}</td>
-                <td class="px-3 py-2">{(entry.winRate * 100).toFixed(0)}%</td>
-              </tr>
-            {/each}
-          </tbody>
-        </table>
-      </div>
-    {/if}
-
-    <!-- TODO: Small backend with results -->
-    <!-- TODO: (optional) compare your voting to other people -->
-    <button
-      class="mt-4 bg-purple-500 text-white px-4 py-2 rounded hover:bg-purple-600 transition-colors duration-150"
-      onclick={() => reset()}
-    >
-      Start Over
-    </button>
-  </main>
-{:else}
-  <main class="p-4">
-    <div class="flex items-center justify-between pb-4">
-      <h2 class="text-2xl font-bold">Round {currentStep}/10 - {dataName}</h2>
-      <button
-        class="text-sm text-gray-500 hover:text-gray-700 mr-4"
-        onclick={() => reset()}
-      >
-        End Arena
-      </button>
-    </div>
-    {#if leftData && rightData}
-      <WidgetPair
-        widget={CurrentWidget}
-        {backgroundUrl}
-        {onVoteLeft}
-        {onVoteRight}
-        {leftData}
-        {rightData}
-        {reveal}
-        {leftDeltaEScore}
-        {rightDeltaEScore}
-        {votedSide}
-      />
-    {/if}
-    {#if reveal}
-      <div class="flex justify-center">
-        <button
-          class="mt-4 bg-purple-500 text-white px-4 py-2 rounded hover:bg-purple-600 transition-colors duration-150"
-          onclick={() => nextRound()}
-        >
-          Next Round
-        </button>
-      </div>
-    {/if}
-  </main>
+  <ArenaResults {rounds} onReset={() => reset()} />
+{:else if leftData && rightData}
+  <ArenaRound
+    {currentStep}
+    {dataName}
+    {leftData}
+    {rightData}
+    {currentWidget}
+    {backgroundUrl}
+    {reveal}
+    {leftDeltaEScore}
+    {rightDeltaEScore}
+    {votedSide}
+    {onVoteLeft}
+    {onVoteRight}
+    onNextRound={() => nextRound()}
+    onReset={() => reset()}
+  />
 {/if}
