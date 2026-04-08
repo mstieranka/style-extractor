@@ -2,6 +2,7 @@
   import type { ColorPalette } from "../lib/types";
   import { paletteData } from "../paletteData";
   import { widgets } from "../components/widgets";
+  import Button from "../components/Button.svelte";
 
   function camelToKebab(str: string) {
     return str.replace(/([a-z0-9])([A-Z])/g, "$1-$2").toLowerCase();
@@ -36,11 +37,13 @@
     <ul class="flex flex-col gap-1">
       {#each widgets as { name }}
         <li>
-          <button
+          <Button
+            variant="ghost"
+            size="sm"
             onclick={() => scrollTo(camelToKebab(name))}
-            class="text-sm text-purple-700 hover:text-purple-900 hover:underline text-left cursor-pointer"
-            >{name}</button
           >
+            {name}
+          </Button>
         </li>
       {/each}
     </ul>
@@ -51,7 +54,11 @@
 
     {#each widgets as { name, component: Widget }}
       <section id={camelToKebab(name)} class="mb-12 scroll-mt-4">
-        <h2 class="text-xl font-semibold mb-4 border-b pb-2">{name}</h2>
+        <h2
+          class="text-xl font-semibold mb-4 py-2 border-b sticky top-0 z-20 bg-white"
+        >
+          {name}
+        </h2>
         <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
           {#each allSchemes as scheme}
             <div class="flex flex-col gap-1">

@@ -2,6 +2,7 @@
   import type { Snippet } from "svelte";
   import { p } from "../router";
   import {
+    IconAlbum,
     IconColorSwatch,
     IconFilePower,
     IconHome,
@@ -46,6 +47,14 @@
         class="text-purple-700 hover:text-purple-900 flex items-center gap-1"
         href={p("/arena")}
         {@attach isActiveLink({ className: "underline" })}><IconVs /> Arena</a
+      >
+    </li>
+    <li>
+      <a
+        class="text-purple-700 hover:text-purple-900 flex items-center gap-1"
+        href={p("/gallery")}
+        {@attach isActiveLink({ className: "underline" })}
+        ><IconAlbum /> Gallery</a
       >
     </li>
   </ul>
