@@ -12,7 +12,7 @@ This repository contains an implementation of a system for extracting a **color 
 The repo has two main parts:
 
 - **Python / Gradio app** ([app.py](app.py)): runs a local LLM and extracts a palette.
-- **TypeScript utilities + Svelte UI**: heuristic palette extractor, Dembrandt output post-processor, and a CSS cleaner.
+- **TypeScript utilities + Svelte UI**: heuristic palette extractor, Dembrandt output post-processor, a CSS cleaner, and an arena that allows users to select which one of two randomly selected palettes looks better on a given webpage.
 
 ## Python (Gradio + local LLM)
 
@@ -42,7 +42,9 @@ This starts a Gradio UI for running local inference and extracting a palette fro
 pnpm install
 ```
 
-### Run the frontend (heuristic extractor + CSS cleaner)
+### Run the frontend (heuristic extractor, CSS cleaner, arena)
+
+For the arena backend to work, you need to set up an `.env` file with variables from `.env.example`. Then run:
 
 ```bash
 pnpm dev
