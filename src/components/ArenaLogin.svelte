@@ -6,6 +6,7 @@
   } from "../lib/frontend/auth.svelte";
   import Button from "./Button.svelte";
   import ArenaScreenWarning from "./ArenaScreenWarning.svelte";
+  import ArenaDescription from "./ArenaDescription.svelte";
 
   let signingInMethod = $state<"github" | "google" | null>(null);
 
@@ -21,14 +22,7 @@
 </script>
 
 <h1 class="text-2xl font-bold mb-4">Arena</h1>
-<section class="mb-6">
-  <p class="mb-4">
-    In the arena, you will compare widgets, which were themed to fit various
-    websites, using various methods. In each of 10 rounds in total, you will be
-    shown one widget with two different color palettes side by side, and vote
-    for the one you prefer.
-  </p>
-</section>
+<ArenaDescription />
 <ArenaScreenWarning />
 <div class="flex flex-col gap-3 w-64">
   <p class="mb-2 font-semibold">Sign in to continue:</p>

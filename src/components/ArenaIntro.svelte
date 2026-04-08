@@ -2,6 +2,7 @@
   import { IconArrowRight, IconPlus } from "@tabler/icons-svelte-runes";
   import Button from "./Button.svelte";
   import ArenaScreenWarning from "./ArenaScreenWarning.svelte";
+  import ArenaDescription from "./ArenaDescription.svelte";
 
   interface ArenaIntroProps {
     onStart: () => void;
@@ -17,18 +18,7 @@
 </script>
 
 <h1 class="text-2xl font-bold mb-4">Arena</h1>
-<section class="mb-6">
-  <p class="mb-4">Here you can compare two extracted palettes side by side.</p>
-  <p class="mb-4">
-    You will be shown 10 pairs of themed widgets, where for each pair, the
-    palette was extracted from the same website but using different extraction
-    methods.
-  </p>
-  <p class="mb-4">
-    After you choose which widget you prefer, you will be shown which extraction
-    method was used to obtain which palette.
-  </p>
-</section>
+<ArenaDescription />
 <ArenaScreenWarning />
 {#if onContinue}
   <div class="mb-6 rounded-lg border border-purple-200 bg-purple-50 p-4">

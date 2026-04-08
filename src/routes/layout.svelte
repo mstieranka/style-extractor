@@ -43,7 +43,7 @@
   </ul>
   <!-- mobile nav -->
   <ul class="flex md:hidden items-center justify-center gap-4">
-    {#each links as { name, icon: Icon, href }}
+    {#each links as { icon: Icon, href }}
       <li>
         <a
           class="text-purple-700 hover:text-purple-900 border-2 border-transparent flex items-center gap-1 p-1 rounded"

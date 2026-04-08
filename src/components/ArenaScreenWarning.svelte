@@ -9,12 +9,12 @@
     <IconAlertTriangle />
     <p class="font-semibold">Warning</p>
   </div>
-  <p>
+  <p class="text-sm">
     Your screen is narrower than <code>48rem</code>. The arena shows a
     background image to provide context for how well the widgets match the
     original site design, which may not be fully visible on smaller screens.
   </p>
-  <p>
+  <p class="text-sm">
     You may have a degraded experience in the arena, and we recommend using a
     larger screen if possible.
   </p>
