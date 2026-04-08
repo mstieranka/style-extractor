@@ -31,7 +31,7 @@
 
 <div class="flex gap-6 container mx-auto p-4">
   <nav
-    class="sticky top-4 self-start shrink-0 w-48 max-h-[calc(100vh-2rem)] overflow-y-auto"
+    class="hidden lg:block top-4 self-start shrink-0 w-48 max-h-[calc(100vh-2rem)] overflow-y-auto"
   >
     <h2 class="text-sm font-semibold text-gray-500 uppercase mb-2">Widgets</h2>
     <ul class="flex flex-col gap-1">

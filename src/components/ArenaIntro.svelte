@@ -1,6 +1,7 @@
 <script lang="ts">
   import { IconArrowRight, IconPlus } from "@tabler/icons-svelte-runes";
   import Button from "./Button.svelte";
+  import ArenaScreenWarning from "./ArenaScreenWarning.svelte";
 
   interface ArenaIntroProps {
     onStart: () => void;
@@ -28,13 +29,14 @@
     method was used to obtain which palette.
   </p>
 </section>
+<ArenaScreenWarning />
 {#if onContinue}
   <div class="mb-6 rounded-lg border border-purple-200 bg-purple-50 p-4">
     <p class="text-purple-800">
       You have an unfinished voting session (Round {resumeRound}/10).
     </p>
   </div>
-  <div class="flex gap-3">
+  <div class="flex flex-col md:flex-row gap-3">
     <Button
       variant="primary"
       size="md"

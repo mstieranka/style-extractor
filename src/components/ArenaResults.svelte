@@ -127,7 +127,5 @@
       </table>
     </div>
   {/if}
-
-  <!-- TODO: (optional) compare your voting to other people -->
   <Button onclick={onReset}>Start Over</Button>
 </main>

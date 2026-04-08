@@ -71,19 +71,19 @@
 </script>
 
 <div
-  class="widget-pair h-[calc(100vh-192px)] relative grid grid-cols-2 items-center justify-items-center pb-4 rounded overflow-hidden border border-gray-300 after:content-[''] after:bg-black/10 after:absolute after:inset-0 after:pointer-events-none"
-  style="background-image: url({backgroundUrl}); background-size: cover; grid-template-rows: 1fr auto;"
+  class="widget-pair md:h-[calc(100vh-192px)] relative grid grid-cols-1 md:grid-cols-2 items-center justify-items-center pb-4 rounded overflow-hidden border border-gray-300 after:content-[''] after:bg-black/10 after:absolute after:inset-0 after:pointer-events-none"
+  style="background-image: url({backgroundUrl}); background-size: cover; background-position: top; grid-template-rows: 1fr auto;"
 >
-  <div class="relative z-10 m-4 rounded-lg drop-shadow min-w-80">
+  <div class="z-10 m-4 rounded-lg drop-shadow min-w-80 order-1 md:order-1">
     <Widget style={leftStyle} />
   </div>
-  <div class="relative z-10 m-4 rounded-lg drop-shadow min-w-80">
+  <div class="z-10 m-4 rounded-lg drop-shadow min-w-80 order-3 md:order-2">
     <Widget style={rightStyle} />
   </div>
 
   {#if reveal}
     <div
-      class="relative z-10 bg-white rounded w-max p-2 drop-shadow text-center"
+      class="mb-12 md:mb-0 z-10 bg-white rounded w-max p-2 drop-shadow text-center order-2 md:order-3"
     >
       <p>Method used: {leftData.method}</p>
       {#if formatDeltaE(leftDeltaEScore, leftData.method)}
@@ -93,7 +93,7 @@
       {/if}
     </div>
     <div
-      class="relative z-10 bg-white rounded w-max p-2 drop-shadow text-center"
+      class="mb-12 md:mb-0 z-10 bg-white rounded w-max p-2 drop-shadow text-center order-4 md:order-4"
     >
       <p>Method used: {rightData.method}</p>
       {#if formatDeltaE(rightDeltaEScore, rightData.method)}
@@ -104,13 +104,15 @@
     </div>
     {#if alignmentText}
       <p
-        class="relative z-10 col-span-2 text-center bg-white/90 rounded px-3 py-1 drop-shadow text-sm font-medium"
+        class="order-5 z-10 md:col-span-2 text-center bg-white/90 rounded px-3 py-1 mt-2 drop-shadow text-sm font-medium"
       >
         {alignmentText}
       </p>
     {/if}
   {:else}
-    <div class="relative z-10 flex items-center justify-center">
+    <div
+      class="z-10 flex items-center justify-center order-2 md:order-3 mb-12 md:mb-0"
+    >
       <Button
         variant="primary"
         onclick={() => onVoteLeft()}
@@ -120,7 +122,7 @@
         Vote Left
       </Button>
     </div>
-    <div class="relative z-10 flex items-center justify-center">
+    <div class="z-10 flex items-center justify-center order-4 md:order-4">
       <Button
         variant="primary"
         onclick={() => onVoteRight()}

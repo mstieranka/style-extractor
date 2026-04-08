@@ -39,8 +39,8 @@
   }: Props = $props();
 </script>
 
-<main class="p-4">
-  <div class="flex items-center justify-between pb-4">
+<main class="md:p-4">
+  <div class="p-4 md:p-0 flex items-center justify-between md:pb-4">
     <h2 class="text-2xl font-bold">Round {currentStep}/10 - {dataName}</h2>
     <Button variant="ghost" size="sm" onclick={onReset}>End Arena</Button>
   </div>
@@ -58,7 +58,9 @@
   />
   {#if reveal}
     <div class="flex justify-center">
-      <Button class="mt-4" onclick={onNextRound}>Next Round</Button>
+      <Button class="mb-4 md:mb-0 mt-4" onclick={onNextRound}>
+        Next Round
+      </Button>
     </div>
   {/if}
 </main>

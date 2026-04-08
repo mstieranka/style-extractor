@@ -5,6 +5,7 @@
     signInWithGoogle,
   } from "../lib/frontend/auth.svelte";
   import Button from "./Button.svelte";
+  import ArenaScreenWarning from "./ArenaScreenWarning.svelte";
 
   let signingInMethod = $state<"github" | "google" | null>(null);
 
@@ -21,15 +22,16 @@
 
 <h1 class="text-2xl font-bold mb-4">Arena</h1>
 <section class="mb-6">
-  <p class="mb-4">Sign in to participate in the Arena.</p>
   <p class="mb-4">
-    You will compare widgets, which were themed to fit various websites, using
-    various methods. In each of 10 rounds in total, you will be shown one widget
-    with two different color palettes side by side, and vote for the one you
-    prefer.
+    In the arena, you will compare widgets, which were themed to fit various
+    websites, using various methods. In each of 10 rounds in total, you will be
+    shown one widget with two different color palettes side by side, and vote
+    for the one you prefer.
   </p>
 </section>
+<ArenaScreenWarning />
 <div class="flex flex-col gap-3 w-64">
+  <p class="mb-2 font-semibold">Sign in to continue:</p>
   <Button
     class="flex items-center justify-center gap-2 bg-gray-800 text-white! py-2 px-4 rounded hover:bg-gray-700 cursor-pointer disabled:opacity-50 disabled:cursor-not-allowed"
     variant="ghost"
