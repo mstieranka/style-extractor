@@ -37,6 +37,7 @@
     rightDeltaEScore,
     votedSide,
   }: WidgetPairProps = $props();
+  const baseUrl = import.meta.env.BASE_URL || "/";
 
   function paletteToStyle(palette: ColorPalette) {
     return Object.entries(palette)
@@ -83,7 +84,7 @@
 
 <div
   class="widget-pair md:h-[calc(100vh-192px)] relative grid grid-cols-1 md:grid-cols-2 items-center justify-items-center pb-4 rounded overflow-hidden border border-gray-300 after:content-[''] after:bg-black/10 after:absolute after:inset-0 after:pointer-events-none"
-  style="background-image: url({backgroundUrl}); background-size: cover; background-position: top; grid-template-rows: 1fr auto;"
+  style="background-image: url({baseUrl}{backgroundUrl}); background-size: cover; background-position: top; grid-template-rows: 1fr auto;"
 >
   <div class="z-10 m-4 rounded-lg drop-shadow min-w-80 order-1 md:order-1">
     <Widget style={leftStyle} />
