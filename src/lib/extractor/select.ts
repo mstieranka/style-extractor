@@ -2,7 +2,6 @@
  * Selection utilities for choosing best candidates
  */
 
-import Color from "colorjs.io";
 import type { ThemePalette, ColorCandidate } from "./types";
 import { MAX_RESULTS, MIN_SCORE } from "./constants";
 import { roleDesirability } from "./score";

@@ -265,10 +265,7 @@ const COLOR_FUNCTIONS = new Set([
 /**
  * Check if a css-tree value AST contains color tokens
  */
-function hasColorInValueAst(
-  valueAst: csstree.CssNode,
-  lenient: boolean,
-): boolean {
+function hasColorInValueAst(valueAst: csstree.CssNode): boolean {
   let hasColor = false;
 
   csstree.walk(valueAst, {
@@ -393,10 +390,7 @@ function extractVarReferences(
 // Step 1: Collect custom properties
 // ============================================================================
 
-function collectVariables(
-  ast: csstree.CssNode,
-  options: Required<CleanCssOptions>,
-): Map<string, VariableInfo> {
+function collectVariables(ast: csstree.CssNode): Map<string, VariableInfo> {
   const variables = new Map<string, VariableInfo>();
 
   csstree.walk(ast, {
@@ -418,7 +412,7 @@ function collectVariables(
       // We'll collect variables in a second pass with full context
 
       const valueAst = node.value;
-      const isColorVariable = hasColorInValueAst(valueAst, options.lenient);
+      const isColorVariable = hasColorInValueAst(valueAst);
 
       variables.set(node.property, {
         valueAst,
@@ -468,7 +462,7 @@ function isVariableColorBearing(
   // Check if value contains var() references
   if (!hasVarFunction(varInfo.valueAst)) {
     // No var() references, check if it contains colors directly
-    const result = hasColorInValueAst(varInfo.valueAst, ctx.options.lenient);
+    const result = hasColorInValueAst(varInfo.valueAst);
     ctx.visitedVars.delete(varName);
     return result;
   }
@@ -487,10 +481,7 @@ function isVariableColorBearing(
     // Check fallback if referenced var is undefined
     if (!ctx.variables.has(ref.varName) && ref.fallbackAst) {
       // Fallback exists and referenced var is undefined
-      const fallbackHasColor = hasColorInValueAst(
-        ref.fallbackAst,
-        ctx.options.lenient,
-      );
+      const fallbackHasColor = hasColorInValueAst(ref.fallbackAst);
       if (fallbackHasColor) {
         ctx.visitedVars.delete(varName);
         return true;
@@ -543,7 +534,7 @@ function isDeclarationColorBearing(
   }
 
   // Check if value contains color tokens
-  if (hasColorInValueAst(decl.value, ctx.options.lenient)) {
+  if (hasColorInValueAst(decl.value)) {
     return true;
   }
 
@@ -562,7 +553,7 @@ function isDeclarationColorBearing(
 
       // Check fallback
       if (ref.fallbackAst) {
-        if (hasColorInValueAst(ref.fallbackAst, ctx.options.lenient)) {
+        if (hasColorInValueAst(ref.fallbackAst)) {
           return true;
         }
         // Check if fallback has var() to undefined variables
@@ -798,7 +789,7 @@ export function cleanCss(
   const ast = csstree.parse(cssString) as csstree.StyleSheet;
 
   // Collect variables
-  const variables = collectVariables(ast, opts);
+  const variables = collectVariables(ast);
 
   // Create filter context
   const ctx: FilterContext = {

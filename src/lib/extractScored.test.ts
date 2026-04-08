@@ -1,6 +1,6 @@
 import { describe, it, expect } from "vitest";
 import { extractPalette } from "./extractor";
-import { MAX_RESULTS, MIN_SCORE } from "./constants";
+import { MAX_RESULTS } from "./constants";
 
 describe("extractPalette per-purpose scoring", () => {
   it("should filter candidates by MIN_SCORE and trim to MAX_RESULTS", () => {

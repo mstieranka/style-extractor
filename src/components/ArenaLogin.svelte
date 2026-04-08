@@ -83,10 +83,12 @@
 
 <style>
   .gsi-material-button {
+    user-select: none;
     -moz-user-select: none;
     -webkit-user-select: none;
     -ms-user-select: none;
     -webkit-appearance: none;
+    appearance: none;
     background-color: #131314;
     background-image: none;
     border: 1px solid #747775;

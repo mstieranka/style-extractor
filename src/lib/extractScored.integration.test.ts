@@ -100,7 +100,7 @@ const TEST_CASES: TestCase[] = [
  * Takes the first (best-scoring) color from each category.
  */
 function paletteToPrediction(
-  palette: ReturnType<typeof extractPalette>
+  palette: ReturnType<typeof extractPalette>,
 ): TokenRecord {
   return {
     color: {
@@ -204,7 +204,7 @@ describe("extractPalette Integration Tests", () => {
               extracted[expectedKey as keyof typeof extracted];
             expect(
               extractedColors?.length ?? -1,
-              `${expectedKey} colors extracted`
+              `${expectedKey} colors extracted`,
             ).toBeGreaterThan(0);
           }
         }
@@ -212,7 +212,13 @@ describe("extractPalette Integration Tests", () => {
         // 7b. Assert arrays are trimmed to MAX_RESULTS and only contain values with score > MIN_SCORE
         const assertArrayConstraints = (arr: string[] | null, name: string) => {
           if (arr) {
-            expect(arr.length).toBeLessThanOrEqual(MAX_RESULTS);
+            try {
+              expect(arr.length).toBeLessThanOrEqual(MAX_RESULTS);
+            } catch (error) {
+              throw new Error(
+                `${name} array has more than ${MAX_RESULTS} results: ${arr.length}`,
+              );
+            }
             // Note: MIN_SCORE filtering happens during collection; scores > MIN_SCORE are included
           }
         };
@@ -232,14 +238,16 @@ describe("extractPalette Integration Tests", () => {
         console.log("Expected:", JSON.stringify(expected, null, 2));
         console.log(
           "ΔE per color:",
-          JSON.stringify(metrics.deltaEPerColor, null, 2)
+          JSON.stringify(metrics.deltaEPerColor, null, 2),
         );
         console.log(`Mean ΔE Score: ${metrics.deltaEScoreMean?.toFixed(2)}`);
         console.log(`Min ΔE Score: ${metrics.deltaEScoreMin?.toFixed(2)}`);
 
         // Assert mean color score is above threshold
         if (metrics.deltaEScoreMean !== null) {
-          expect(metrics.deltaEScoreMean).toBeGreaterThan(testCase.deltaEScoreThreshold);
+          expect(metrics.deltaEScoreMean).toBeGreaterThan(
+            testCase.deltaEScoreThreshold,
+          );
         }
       });
     });
@@ -284,33 +292,33 @@ describe("extractPalette Integration Tests", () => {
     console.log(
       `Mean ΔE Score (average of per-case means): ${
         suiteMeanDeltaEScore !== null ? suiteMeanDeltaEScore.toFixed(2) : "N/A"
-      }`
+      }`,
     );
     console.log(
       `Min ΔE Score (across all cases): ${
         suiteMinDeltaEScore !== null ? suiteMinDeltaEScore.toFixed(2) : "N/A"
-      }`
+      }`,
     );
     console.log(
       `Successful Extraction: ${
         successfulExtractionPercentage !== null
           ? successfulExtractionPercentage.toFixed(2)
           : "N/A"
-      }% (${suiteMetrics.totalPresentFields}/${suiteMetrics.totalExpectedFields} fields)`
+      }% (${suiteMetrics.totalPresentFields}/${suiteMetrics.totalExpectedFields} fields)`,
     );
     console.log(
       `Precise Extraction (ΔE < ${PRECISE_DELTA_E_THRESHOLD}): ${
         preciseExtractionPercentage !== null
           ? preciseExtractionPercentage.toFixed(2)
           : "N/A"
-      }% (${suiteMetrics.totalPreciseFields}/${suiteMetrics.totalExpectedFields} fields)`
+      }% (${suiteMetrics.totalPreciseFields}/${suiteMetrics.totalExpectedFields} fields)`,
     );
     console.log(
       `Very Precise Extraction (ΔE < ${VERY_PRECISE_DELTA_E_THRESHOLD}): ${
         veryPreciseExtractionPercentage !== null
           ? veryPreciseExtractionPercentage.toFixed(2)
           : "N/A"
-      }% (${suiteMetrics.totalVeryPreciseFields}/${suiteMetrics.totalExpectedFields} fields)`
+      }% (${suiteMetrics.totalVeryPreciseFields}/${suiteMetrics.totalExpectedFields} fields)`,
     );
     console.log("=".repeat(60) + "\n");
   });

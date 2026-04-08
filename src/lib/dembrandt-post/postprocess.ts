@@ -61,23 +61,6 @@ function parseColorProperties(color: string): {
   return { lightness, saturation };
 }
 
-// Normalize color to uppercase hex
-function normalizeToHex(color: string): string {
-  if (color.startsWith("#")) {
-    return color.toUpperCase();
-  }
-  if (color.startsWith("rgb")) {
-    const match = color.match(/rgba?\((\d+),?\s*(\d+),?\s*(\d+)/);
-    if (match) {
-      const r = parseInt(match[1]);
-      const g = parseInt(match[2]);
-      const b = parseInt(match[3]);
-      return `#${r.toString(16).padStart(2, "0")}${g.toString(16).padStart(2, "0")}${b.toString(16).padStart(2, "0")}`.toUpperCase();
-    }
-  }
-  return color;
-}
-
 export function getColorPaletteFromDembrandt(
   data: DembrandtColorData,
 ): ThemePalette {
