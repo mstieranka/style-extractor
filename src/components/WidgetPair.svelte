@@ -6,6 +6,7 @@
     IconArrowRightSquare,
   } from "@tabler/icons-svelte-runes";
   import Button from "./Button.svelte";
+  import { paletteToStyle } from "../lib/paletteToStyle";
 
   interface SideData {
     palette: ColorPalette;
@@ -39,12 +40,6 @@
   }: WidgetPairProps = $props();
   const baseUrl = import.meta.env.BASE_URL || "/";
 
-  function paletteToStyle(palette: ColorPalette) {
-    return Object.entries(palette)
-      .map(([key, color]) => `--color-${camelToKebab(key)}: ${color}`)
-      .join("; ");
-  }
-
   let votedDirection = $state<"left" | "right" | null>(null);
 
   async function handleVote(side: "left" | "right") {
@@ -59,9 +54,6 @@
   let leftStyle = $derived.by(() => paletteToStyle(leftData.palette));
   let rightStyle = $derived.by(() => paletteToStyle(rightData.palette));
 
-  function camelToKebab(str: string) {
-    return str.replace(/([a-z0-9])([A-Z])/g, "$1-$2").toLowerCase();
-  }
   function formatDeltaE(
     score: number | null | undefined,
     method: string,

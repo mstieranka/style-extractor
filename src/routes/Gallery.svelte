@@ -3,17 +3,8 @@
   import { paletteData } from "../paletteData";
   import { widgets } from "../components/widgets";
   import Button from "../components/Button.svelte";
-
-  function camelToKebab(str: string) {
-    return str.replace(/([a-z0-9])([A-Z])/g, "$1-$2").toLowerCase();
-  }
-
-  function paletteToStyle(palette: ColorPalette) {
-    return Object.entries(palette)
-      .filter(([, color]) => color != null)
-      .map(([key, color]) => `--color-${camelToKebab(key)}: ${color}`)
-      .join("; ");
-  }
+  import { camelToKebab } from "../lib/camelToKebab";
+  import { paletteToStyle } from "../lib/paletteToStyle";
 
   function scrollTo(id: string) {
     document.getElementById(id)?.scrollIntoView({ behavior: "smooth" });
