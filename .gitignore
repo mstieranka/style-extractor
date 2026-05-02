@@ -4,3 +4,4 @@ dist
 output
 .github/copilot-instructions.md
 .env
+.wrangler
