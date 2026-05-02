@@ -223,20 +223,6 @@
 			alignedWithDeltaE: aligned,
 		});
 
-		console.log("Recording vote:", {
-			userId: user.id,
-			sessionId,
-			dataId: selection.dataName,
-			widgetId: selection.widget.name,
-			methodLeft: selection.leftData.method,
-			methodRight: selection.rightData.method,
-			votedFor: roundVote,
-			roundNumber: currentStep,
-			leftDeltaEScore,
-			rightDeltaEScore,
-			alignedWithDeltaE: aligned,
-		});
-
 		const { error } = await supabase.from("votes").insert({
 			user_id: user.id,
 			data_id: selection.dataName,

@@ -215,7 +215,6 @@ export const paletteData = [
 		],
 	},
 ];
-console.log("Loaded palette data:", paletteData);
 
 async function getUniquePalettes(
 	data: Array<{ color: ColorPalette }>,
