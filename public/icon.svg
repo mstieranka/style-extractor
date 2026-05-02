@@ -1,0 +1,33 @@
+<svg width="32" height="32" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1E293B" />
+      <stop offset="100%" stop-color="#020617" />
+    </linearGradient>
+    
+    <linearGradient id="bulb-grad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#EC4899" />
+      <stop offset="100%" stop-color="#AD46FF" />
+    </linearGradient>
+  </defs>
+
+  <rect width="32" height="32" rx="8" fill="url(#bg-grad)" />
+
+  <path d="M 9 6 Q 5 6 5 10 L 5 13 Q 5 16 2 16 Q 5 16 5 19 L 5 22 Q 5 26 9 26" 
+        stroke="#94A3B8" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round" />
+
+  <path d="M 23 6 Q 27 6 27 10 L 27 13 Q 27 16 30 16 Q 27 16 27 19 L 27 22 Q 27 26 23 26" 
+        stroke="#94A3B8" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round" />
+
+  <g>
+    <path d="M 13 10 V 6 A 3 3 0 0 1 19 6 V 10 Z" fill="url(#bulb-grad)" />
+
+    <rect x="12" y="10" width="8" height="2.5" rx="1" fill="#94A3B8" />
+
+    <path d="M 13.5 12.5 L 18.5 12.5 L 18.5 18 L 16 22 L 13.5 18 Z" fill="#F8FAFC" fill-opacity="0.6" stroke="#64748B" stroke-width="1" stroke-linejoin="round"/>
+
+    <path d="M 14.5 16 L 17.5 16 L 17.5 18 L 16 20.3 L 14.5 18 Z" fill="#AD46FF" />
+  </g>
+
+  <path d="M 16 23 C 16 23 18 25.5 18 27 C 18 28.1 17.1 29 16 29 C 14.9 29 14 28.1 14 27 C 14 25.5 16 23 16 23 Z" fill="#AD46FF" />
+</svg>
