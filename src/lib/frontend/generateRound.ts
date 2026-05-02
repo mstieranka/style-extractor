@@ -23,7 +23,6 @@ export function generateRound(
 
 	return {
 		dataName: webData.name,
-		backgroundUrl: webData.backgroundUrl,
 		manualPalette: manualEntry?.color,
 		leftData: { method: left.method, palette: left.color },
 		rightData: { method: right.method, palette: right.color },

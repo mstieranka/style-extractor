@@ -4,7 +4,6 @@ import type { ColorPalette } from "./lib/types";
 export const paletteData = [
 	{
 		name: "01-material",
-		backgroundUrl: "widget-backgrounds/01-material.png",
 		palettes: [
 			{
 				method: "Manual",
@@ -31,7 +30,6 @@ export const paletteData = [
 	},
 	{
 		name: "02-m365",
-		backgroundUrl: "widget-backgrounds/02-m365.png",
 		palettes: [
 			{
 				method: "Manual",
@@ -51,7 +49,6 @@ export const paletteData = [
 	},
 	{
 		name: "03-carbon",
-		backgroundUrl: "widget-backgrounds/03-carbon.png",
 		palettes: [
 			{
 				method: "Manual",
@@ -71,7 +68,6 @@ export const paletteData = [
 	},
 	{
 		name: "04-zed",
-		backgroundUrl: "widget-backgrounds/04-zed.png",
 		palettes: [
 			{
 				method: "Manual",
@@ -91,7 +87,6 @@ export const paletteData = [
 	},
 	{
 		name: "05-recombee",
-		backgroundUrl: "widget-backgrounds/05-recombee.png",
 		palettes: [
 			{
 				method: "Manual",
@@ -112,7 +107,6 @@ export const paletteData = [
 	},
 	{
 		name: "06-stripe",
-		backgroundUrl: "widget-backgrounds/06-stripe.png",
 		palettes: [
 			{
 				method: "Manual",
@@ -132,7 +126,6 @@ export const paletteData = [
 	},
 	{
 		name: "07-react",
-		backgroundUrl: "widget-backgrounds/07-react.png",
 		palettes: [
 			{
 				method: "Manual",
@@ -152,7 +145,6 @@ export const paletteData = [
 	},
 	{
 		name: "08-reddit",
-		backgroundUrl: "widget-backgrounds/08-reddit.png",
 		palettes: [
 			{
 				method: "Manual",
@@ -178,7 +170,6 @@ export const paletteData = [
 	},
 	{
 		name: "09-guardian",
-		backgroundUrl: "widget-backgrounds/09-guardian.png",
 		palettes: [
 			{
 				method: "Manual",
@@ -199,7 +190,6 @@ export const paletteData = [
 	},
 	{
 		name: "10-hackernews",
-		backgroundUrl: "widget-backgrounds/10-hackernews.png",
 		palettes: [
 			{
 				method: "Manual",

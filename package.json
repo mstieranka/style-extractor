@@ -16,7 +16,8 @@
 		"check": "svelte-check --tsconfig ./tsconfig.app.json && tsc -p tsconfig.node.json --noEmit",
 		"format": "biome format",
 		"lint": "biome lint",
-		"compare-llm": "tsx compare-llm-results.ts",
+		"compare-llm": "tsx scripts/compare-llm-results.ts",
+		"optimize-images": "tsx scripts/optimize-widget-backgrounds.ts",
 		"sb:login": "supabase login",
 		"sb:generate-types": "supabase gen types typescript --project-id vciodekmnrtxbarvojjo --schema public > src/lib/frontend/supabaseTypes.ts"
 	},
@@ -41,6 +42,7 @@
 		"@types/css-tree": "2.3.11",
 		"@types/node": "25.6.0",
 		"playwright": "1.59.1",
+		"sharp": "0.34.5",
 		"supabase": "2.98.0",
 		"svelte-check": "4.4.7",
 		"tailwindcss": "4.2.4",

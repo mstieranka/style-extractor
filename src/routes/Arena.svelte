@@ -332,7 +332,6 @@
 		leftData={selection.leftData}
 		rightData={selection.rightData}
 		currentWidget={selection.widget}
-		backgroundUrl={selection.backgroundUrl}
 		{reveal}
 		{leftDeltaEScore}
 		{rightDeltaEScore}

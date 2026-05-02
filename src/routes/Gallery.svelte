@@ -13,7 +13,6 @@
   const allSchemes = paletteData.flatMap((site) =>
     site.palettes.map((p) => ({
       siteName: site.name,
-      backgroundUrl: site.backgroundUrl,
       method: p.method,
       palette: p.color as ColorPalette,
     })),
@@ -52,15 +51,35 @@
         </h2>
         <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
           {#each allSchemes as scheme}
+            {@const backgroundImagePrefix = `/widget-backgrounds/${scheme.siteName}`}
             <div class="flex flex-col gap-1">
               <div
                 class="relative rounded overflow-hidden border border-gray-300 p-4 flex items-center justify-center min-h-64"
-                style="background-image: url({scheme.backgroundUrl}); background-size: cover;"
               >
+                <picture
+                  class="absolute -z-10 inset-0 w-full h-full pointer-events-none"
+                >
+                  <source
+                    type="image/avif"
+                    sizes="100vw"
+                    srcset="{backgroundImagePrefix}-800w.avif 800w, {backgroundImagePrefix}-1600w.avif 1600w, {backgroundImagePrefix}-2992w.avif 2992w"
+                  />
+                  <source
+                    type="image/webp"
+                    sizes="100vw"
+                    srcset="{backgroundImagePrefix}-800w.webp 800w, {backgroundImagePrefix}-1600w.webp 1600w, {backgroundImagePrefix}-2992w.webp 2992w"
+                  />
+                  <img
+                    alt="Widget Background"
+                    aria-hidden="true"
+                    fetchpriority="high"
+                    class="h-full w-full object-cover object-top"
+                  />
+                </picture>
                 <div
-                  class="absolute inset-0 bg-black/10 pointer-events-none"
+                  class="absolute inset-0 bg-black/10 z-0 pointer-events-none"
                 ></div>
-                <div class="relative z-10 rounded-lg drop-shadow min-w-72">
+                <div class="relative z-20 rounded-lg drop-shadow min-w-72">
                   <Widget style={paletteToStyle(scheme.palette)} />
                 </div>
               </div>

@@ -18,7 +18,6 @@
     leftData: { method: string; palette: ColorPalette };
     rightData: { method: string; palette: ColorPalette };
     currentWidget: { name: string; component: Component<object> };
-    backgroundUrl: string;
     reveal: boolean;
     leftDeltaEScore: number | null;
     rightDeltaEScore: number | null;
@@ -33,7 +32,6 @@
     leftData,
     rightData,
     currentWidget,
-    backgroundUrl,
     reveal,
     leftDeltaEScore,
     rightDeltaEScore,
@@ -41,8 +39,6 @@
     onNextRound,
     onReset,
   }: Props = $props();
-
-  const baseUrl = import.meta.env.BASE_URL || "/";
 
   let processingVote = $state<Vote | null>(null);
 
@@ -58,6 +54,7 @@
   let leftStyle = $derived(paletteToStyle(leftData.palette));
   let rightStyle = $derived(paletteToStyle(rightData.palette));
   let Widget = $derived(currentWidget.component);
+  let backgroundImagePrefix = $derived(`/widget-backgrounds/${dataName}`);
 
   function formatDeltaE(
     score: number | null | undefined,
@@ -76,8 +73,25 @@
   </div>
   <div
     class="widget-pair min-h-[calc(100vh-8rem)] relative flex flex-col md:grid md:grid-cols-2 md:grid-rows-[1fr_auto] pb-4 rounded overflow-hidden border border-gray-300 after:content-[''] after:bg-black/10 after:absolute after:inset-0 after:pointer-events-none"
-    style="background-image: url({baseUrl}{backgroundUrl}); background-size: cover; background-position: top;"
   >
+    <picture class="absolute inset-0 w-full h-full pointer-events-none">
+      <source
+        type="image/avif"
+        sizes="100vw"
+        srcset="{backgroundImagePrefix}-800w.avif 800w, {backgroundImagePrefix}-1600w.avif 1600w, {backgroundImagePrefix}-2992w.avif 2992w"
+      />
+      <source
+        type="image/webp"
+        sizes="100vw"
+        srcset="{backgroundImagePrefix}-800w.webp 800w, {backgroundImagePrefix}-1600w.webp 1600w, {backgroundImagePrefix}-2992w.webp 2992w"
+      />
+      <img
+        alt="Widget Background"
+        aria-hidden="true"
+        fetchpriority="high"
+        class="w-full h-full object-cover object-top"
+      />
+    </picture>
     <div
       class="z-10 flex-1 flex flex-col items-center justify-center m-4 md:m-8 order-1 gap-8"
     >

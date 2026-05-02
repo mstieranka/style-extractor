@@ -4,7 +4,6 @@ import type { Database } from "./supabaseTypes";
 
 export interface RoundSelection {
 	dataName: string;
-	backgroundUrl: string;
 	manualPalette: ColorPalette | undefined;
 	leftData: { method: string; palette: ColorPalette };
 	rightData: { method: string; palette: ColorPalette };
