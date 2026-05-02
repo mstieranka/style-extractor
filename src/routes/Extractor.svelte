@@ -1,6 +1,6 @@
 <script lang="ts">
   import Button from "../components/Button.svelte";
-  import { type ThemePalette, extractPalette } from "../lib/extractor";
+  import { extractPalette, type ThemePalette } from "../lib/extractor";
 
   let input: string = $state("");
   let output: string | null = $state(null);

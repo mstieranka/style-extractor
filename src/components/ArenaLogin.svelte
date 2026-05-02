@@ -4,9 +4,9 @@
     signInWithGitHub,
     signInWithGoogle,
   } from "../lib/frontend/auth.svelte";
-  import Button from "./Button.svelte";
-  import ArenaScreenWarning from "./ArenaScreenWarning.svelte";
   import ArenaDescription from "./ArenaDescription.svelte";
+  import ArenaScreenWarning from "./ArenaScreenWarning.svelte";
+  import Button from "./Button.svelte";
 
   let signingInMethod = $state<"github" | "google" | null>(null);
 

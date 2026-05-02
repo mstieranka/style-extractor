@@ -11,15 +11,15 @@ import RatingCard from "./RatingCard.svelte";
 import SocialShare from "./SocialShare.svelte";
 
 export const widgets = [
-  { name: "AnalyticsDashboard", component: AnalyticsDashboard },
-  { name: "ChatWidget", component: ChatWidget },
-  { name: "CommentBox", component: CommentBox },
-  { name: "CookieConsent", component: CookieConsent },
-  { name: "EmbedPlayer", component: EmbedPlayer },
-  { name: "FeedbackForm", component: FeedbackForm },
-  { name: "LoginPrompt", component: LoginPrompt },
-  { name: "NewsletterSignup", component: NewsletterSignup },
-  { name: "NotificationToast", component: NotificationToast },
-  { name: "RatingCard", component: RatingCard },
-  { name: "SocialShare", component: SocialShare },
+	{ name: "AnalyticsDashboard", component: AnalyticsDashboard },
+	{ name: "ChatWidget", component: ChatWidget },
+	{ name: "CommentBox", component: CommentBox },
+	{ name: "CookieConsent", component: CookieConsent },
+	{ name: "EmbedPlayer", component: EmbedPlayer },
+	{ name: "FeedbackForm", component: FeedbackForm },
+	{ name: "LoginPrompt", component: LoginPrompt },
+	{ name: "NewsletterSignup", component: NewsletterSignup },
+	{ name: "NotificationToast", component: NotificationToast },
+	{ name: "RatingCard", component: RatingCard },
+	{ name: "SocialShare", component: SocialShare },
 ];

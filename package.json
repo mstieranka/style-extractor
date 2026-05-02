@@ -1,58 +1,58 @@
 {
-  "name": "style-extractor",
-  "private": true,
-  "version": "0.0.0",
-  "type": "module",
-  "packageManager": "pnpm@10.20.0",
-  "engines": {
-    "node": ">=22.16.0"
-  },
-  "scripts": {
-    "dev": "vite",
-    "build": "vite build",
-    "preview": "vite preview",
-    "test": "vitest run",
-    "test-dev": "vitest dev",
-    "check": "svelte-check --tsconfig ./tsconfig.app.json && tsc -p tsconfig.node.json",
-    "format": "biome format",
-    "lint": "biome lint",
-    "compare-llm": "tsx compare-llm-results.ts",
-    "sb:login": "supabase login",
-    "sb:generate-types": "supabase gen types typescript --project-id vciodekmnrtxbarvojjo --schema public > src/lib/frontend/supabaseTypes.ts"
-  },
-  "dependencies": {
-    "@supabase/supabase-js": "2.105.1",
-    "@tabler/icons-svelte-runes": "3.41.1",
-    "@zerodevx/svelte-toast": "0.9.6",
-    "colorjs.io": "0.6.1",
-    "css-tree": "3.2.1",
-    "prettier": "3.8.3",
-    "random": "5.4.1",
-    "sv-router": "0.16.0",
-    "svelte": "5.55.5",
-    "tailwind-merge": "3.5.0"
-  },
-  "devDependencies": {
-    "@biomejs/biome": "2.4.14",
-    "@cloudflare/vite-plugin": "^1.35.0",
-    "@sveltejs/vite-plugin-svelte": "7.0.0",
-    "@tailwindcss/vite": "4.2.4",
-    "@tsconfig/svelte": "5.0.8",
-    "@types/css-tree": "2.3.11",
-    "@types/node": "25.6.0",
-    "playwright": "1.59.1",
-    "supabase": "2.98.0",
-    "svelte-check": "4.4.7",
-    "tailwindcss": "4.2.4",
-    "tsx": "4.21.0",
-    "typescript": "6.0.3",
-    "vite": "8.0.10",
-    "vitest": "4.1.5",
-    "wrangler": "^4.87.0"
-  },
-  "pnpm": {
-    "onlyBuiltDependencies": [
-      "supabase"
-    ]
-  }
+	"name": "style-extractor",
+	"private": true,
+	"version": "0.0.0",
+	"type": "module",
+	"packageManager": "pnpm@10.20.0",
+	"engines": {
+		"node": ">=22.16.0"
+	},
+	"scripts": {
+		"dev": "vite",
+		"build": "vite build",
+		"preview": "vite preview",
+		"test": "vitest run",
+		"test-dev": "vitest dev",
+		"check": "svelte-check --tsconfig ./tsconfig.app.json && tsc -p tsconfig.node.json --noEmit",
+		"format": "biome format",
+		"lint": "biome lint",
+		"compare-llm": "tsx compare-llm-results.ts",
+		"sb:login": "supabase login",
+		"sb:generate-types": "supabase gen types typescript --project-id vciodekmnrtxbarvojjo --schema public > src/lib/frontend/supabaseTypes.ts"
+	},
+	"dependencies": {
+		"@supabase/supabase-js": "2.105.1",
+		"@tabler/icons-svelte-runes": "3.41.1",
+		"@zerodevx/svelte-toast": "0.9.6",
+		"colorjs.io": "0.6.1",
+		"css-tree": "3.2.1",
+		"prettier": "3.8.3",
+		"random": "5.4.1",
+		"sv-router": "0.16.0",
+		"svelte": "5.55.5",
+		"tailwind-merge": "3.5.0"
+	},
+	"devDependencies": {
+		"@biomejs/biome": "2.4.14",
+		"@cloudflare/vite-plugin": "^1.35.0",
+		"@sveltejs/vite-plugin-svelte": "7.0.0",
+		"@tailwindcss/vite": "4.2.4",
+		"@tsconfig/svelte": "5.0.8",
+		"@types/css-tree": "2.3.11",
+		"@types/node": "25.6.0",
+		"playwright": "1.59.1",
+		"supabase": "2.98.0",
+		"svelte-check": "4.4.7",
+		"tailwindcss": "4.2.4",
+		"tsx": "4.21.0",
+		"typescript": "6.0.3",
+		"vite": "8.0.10",
+		"vitest": "4.1.5",
+		"wrangler": "^4.87.0"
+	},
+	"pnpm": {
+		"onlyBuiltDependencies": [
+			"supabase"
+		]
+	}
 }

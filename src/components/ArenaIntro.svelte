@@ -1,8 +1,8 @@
 <script lang="ts">
   import { IconArrowRight, IconPlus } from "@tabler/icons-svelte-runes";
-  import Button from "./Button.svelte";
-  import ArenaScreenWarning from "./ArenaScreenWarning.svelte";
   import ArenaDescription from "./ArenaDescription.svelte";
+  import ArenaScreenWarning from "./ArenaScreenWarning.svelte";
+  import Button from "./Button.svelte";
 
   interface ArenaIntroProps {
     onStart: () => void;

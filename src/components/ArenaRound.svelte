@@ -1,8 +1,4 @@
 <script lang="ts">
-  import type { Component } from "svelte";
-  import type { ColorPalette } from "../lib/types";
-  import Button from "./Button.svelte";
-  import type { Vote } from "../lib/frontend/arenaTypes";
   import {
     IconArrowDownSquare,
     IconArrowLeftSquare,
@@ -10,14 +6,18 @@
     IconArrowUpSquare,
     IconQuestionMark,
   } from "@tabler/icons-svelte-runes";
+  import type { Component } from "svelte";
+  import type { Vote } from "../lib/frontend/arenaTypes";
   import { paletteToStyle } from "../lib/paletteToStyle";
+  import type { ColorPalette } from "../lib/types";
+  import Button from "./Button.svelte";
 
   interface Props {
     currentStep: number;
     dataName: string;
     leftData: { method: string; palette: ColorPalette };
     rightData: { method: string; palette: ColorPalette };
-    currentWidget: { name: string; component: Component<{}> };
+    currentWidget: { name: string; component: Component<object> };
     backgroundUrl: string;
     reveal: boolean;
     leftDeltaEScore: number | null;

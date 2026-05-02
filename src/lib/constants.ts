@@ -254,14 +254,14 @@ export const MIN_ALPHA_THRESHOLD = 0.9;
 
 /** CSS variable prefixes for common UI frameworks (Bootstrap, Tailwind, etc.) */
 export const FRAMEWORK_PREFIXES = [
-  "--bs-", // Bootstrap
-  "--tw-", // Tailwind
-  "--pf-", // PatternFly
-  "--chakra-", // Chakra UI
-  "--mui-", // Material UI
-  "--mdc-", // Material Design Components
-  "--carbon-", // IBM Carbon
-  "--pf-global", // PatternFly global
+	"--bs-", // Bootstrap
+	"--tw-", // Tailwind
+	"--pf-", // PatternFly
+	"--chakra-", // Chakra UI
+	"--mui-", // Material UI
+	"--mdc-", // Material Design Components
+	"--carbon-", // IBM Carbon
+	"--pf-global", // PatternFly global
 ] as const;
 
 // =============================================================================
@@ -270,27 +270,27 @@ export const FRAMEWORK_PREFIXES = [
 
 /** Patterns that indicate Material Design system */
 export const DESIGN_SYSTEM_MATERIAL_PATTERNS = [
-  "--md-",
-  "--mdc-",
-  "md-sys-color",
-  "on-primary",
-  "on-surface",
-  "primary-container",
-  "surface-variant",
+	"--md-",
+	"--mdc-",
+	"md-sys-color",
+	"on-primary",
+	"on-surface",
+	"primary-container",
+	"surface-variant",
 ] as const;
 
 /** Patterns that indicate Fluent/Microsoft design system */
 export const DESIGN_SYSTEM_FLUENT_PATTERNS = [
-  "--fluent",
-  "neutralForeground",
-  "neutralBackground",
-  "brandBackground",
+	"--fluent",
+	"neutralForeground",
+	"neutralBackground",
+	"brandBackground",
 ] as const;
 
 /** Patterns that indicate IBM Carbon design system */
 export const DESIGN_SYSTEM_CARBON_PATTERNS = [
-  "--cds-",
-  "--carbon-",
-  "cds-text",
-  "cds-background",
+	"--cds-",
+	"--carbon-",
+	"cds-text",
+	"cds-background",
 ] as const;

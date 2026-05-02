@@ -1,10 +1,10 @@
 <script lang="ts">
-  import type { ColorPalette } from "../lib/types";
-  import { paletteData } from "../paletteData";
-  import { widgets } from "../components/widgets";
   import Button from "../components/Button.svelte";
+  import { widgets } from "../components/widgets";
   import { camelToKebab } from "../lib/camelToKebab";
   import { paletteToStyle } from "../lib/paletteToStyle";
+  import type { ColorPalette } from "../lib/types";
+  import { paletteData } from "../paletteData";
 
   function scrollTo(id: string) {
     document.getElementById(id)?.scrollIntoView({ behavior: "smooth" });

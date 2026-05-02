@@ -5,43 +5,43 @@ let user = $state<User | null>(null);
 let loading = $state(true);
 
 supabase.auth.getSession().then(({ data: { session } }) => {
-  user = session?.user ?? null;
-  loading = false;
+	user = session?.user ?? null;
+	loading = false;
 });
 
 supabase.auth.onAuthStateChange((event, session) => {
-  user = session?.user ?? null;
-  if (event === "SIGNED_IN") {
-    window.location.hash = "#/arena";
-  }
+	user = session?.user ?? null;
+	if (event === "SIGNED_IN") {
+		window.location.hash = "#/arena";
+	}
 });
 
 function getRedirectTo() {
-  return window.location.origin + window.location.pathname;
+	return window.location.origin + window.location.pathname;
 }
 
 export function signInWithGitHub() {
-  return supabase.auth.signInWithOAuth({
-    provider: "github",
-    options: { redirectTo: getRedirectTo() },
-  });
+	return supabase.auth.signInWithOAuth({
+		provider: "github",
+		options: { redirectTo: getRedirectTo() },
+	});
 }
 
 export function signInWithGoogle() {
-  return supabase.auth.signInWithOAuth({
-    provider: "google",
-    options: { redirectTo: getRedirectTo() },
-  });
+	return supabase.auth.signInWithOAuth({
+		provider: "google",
+		options: { redirectTo: getRedirectTo() },
+	});
 }
 
 export function signOut() {
-  return supabase.auth.signOut();
+	return supabase.auth.signOut();
 }
 
 export function getUser() {
-  return user;
+	return user;
 }
 
 export function isLoading() {
-  return loading;
+	return loading;
 }

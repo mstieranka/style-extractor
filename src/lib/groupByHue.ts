@@ -133,7 +133,9 @@ export function groupByHueSmart(
 
 		const colors = members
 			.slice()
-			.sort((a, b) => inputOrder.get(a.hex)! - inputOrder.get(b.hex)!)
+			.sort(
+				(a, b) => (inputOrder.get(a.hex) ?? 0) - (inputOrder.get(b.hex) ?? 0),
+			)
 			.map((m) => m.hex);
 
 		return { meanHue, colors, members };

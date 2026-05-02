@@ -1,8 +1,8 @@
 <script lang="ts">
   import { IconCheck, IconX } from "@tabler/icons-svelte-runes";
-  import Button from "./Button.svelte";
   import type { RoundResult } from "../lib/frontend/arenaTypes";
   import { computeMethodRanking } from "../lib/frontend/arenaUtils";
+  import Button from "./Button.svelte";
 
   interface Props {
     rounds: RoundResult[];

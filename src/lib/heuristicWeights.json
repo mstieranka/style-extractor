@@ -1,44 +1,41 @@
 {
-  "semanticVarBoostDefault": 8,
-  "desirability": {
-    "border": {
-      "satMax": 15,
-      "lightMin": 50,
-      "lightMax": 75,
-      "weight": 20
-    },
-    "primary": {
-      "satMin": 35,
-      "lightMin": 5,
-      "lightMax": 70,
-      "weight": 8
-    },
-    "danger": {
-      "hueRanges": [
-        [340, 360],
-        [0, 35]
-      ],
-      "satMin": 30,
-      "weight": 12
-    },
-    "link": {
-      "satMin": 30,
-      "weight": 8
-    },
-    "text": {
-      "lightMax": 30,
-      "weight": 3
-    },
-    "muted": {
-      "lightMin": 25,
-      "lightMax": 60,
-      "weight": 3
-    }
-  },
-  "modeLightnessThresholds": {
-    "text": 30,
-    "background": 50,
-    "surface": 50,
-    "muted": 25
-  }
+	"semanticVarBoostDefault": 8,
+	"desirability": {
+		"border": {
+			"satMax": 15,
+			"lightMin": 50,
+			"lightMax": 75,
+			"weight": 20
+		},
+		"primary": {
+			"satMin": 35,
+			"lightMin": 5,
+			"lightMax": 70,
+			"weight": 8
+		},
+		"danger": {
+			"hueRanges": [[340, 360], [0, 35]],
+			"satMin": 30,
+			"weight": 12
+		},
+		"link": {
+			"satMin": 30,
+			"weight": 8
+		},
+		"text": {
+			"lightMax": 30,
+			"weight": 3
+		},
+		"muted": {
+			"lightMin": 25,
+			"lightMax": 60,
+			"weight": 3
+		}
+	},
+	"modeLightnessThresholds": {
+		"text": 30,
+		"background": 50,
+		"surface": 50,
+		"muted": 25
+	}
 }

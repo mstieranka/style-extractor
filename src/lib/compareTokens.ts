@@ -4,40 +4,40 @@ import * as csstree from "css-tree";
 import type { ColorPalette, FontSizes } from "./types";
 
 export type TokenRecord = {
-  color: ColorPalette;
-  fontSize: FontSizes;
+	color: ColorPalette;
+	fontSize: FontSizes;
 };
 
 export interface MetricsConfig {
-  computeColors?: boolean;
-  computeFontSizes?: boolean;
-  computeSyntax?: boolean;
+	computeColors?: boolean;
+	computeFontSizes?: boolean;
+	computeSyntax?: boolean;
 }
 
 export interface DeltaEPerKey {
-  [key: string]: number; // ΔE for that color key
+	[key: string]: number; // ΔE for that color key
 }
 
 export interface RelativeErrorPerKey {
-  [key: string]: number; // relative error (0..∞, typically 0..1+)
+	[key: string]: number; // relative error (0..∞, typically 0..1+)
 }
 
 export interface MetricsResult {
-  deltaEPerColor: DeltaEPerKey;
-  deltaEScoreMean: number | null;
-  deltaEScoreMin: number | null;
+	deltaEPerColor: DeltaEPerKey;
+	deltaEScoreMean: number | null;
+	deltaEScoreMin: number | null;
 
-  colorSyntaxValidityRatio: number;
-  colorValidCount: number;
-  colorTotalCount: number;
+	colorSyntaxValidityRatio: number;
+	colorValidCount: number;
+	colorTotalCount: number;
 
-  fontSizeSyntaxValidityRatio: number;
-  fontSizeValidCount: number;
-  fontSizeTotalCount: number;
+	fontSizeSyntaxValidityRatio: number;
+	fontSizeValidCount: number;
+	fontSizeTotalCount: number;
 
-  fontSizeRelativeErrorPerKey: RelativeErrorPerKey;
-  fontSizeRelativeErrorMean: number | null;
-  fontSizeRelativeErrorMax: number | null;
+	fontSizeRelativeErrorPerKey: RelativeErrorPerKey;
+	fontSizeRelativeErrorMean: number | null;
+	fontSizeRelativeErrorMax: number | null;
 }
 
 /**
@@ -45,16 +45,16 @@ export interface MetricsResult {
  * Returns true if parsing succeeds, false otherwise.
  */
 function isValidCssValue(value: string): boolean {
-  try {
-    // Parse as a full declaration value
-    csstree.parse(value, {
-      context: "value",
-      positions: false,
-    });
-    return true;
-  } catch {
-    return false;
-  }
+	try {
+		// Parse as a full declaration value
+		csstree.parse(value, {
+			context: "value",
+			positions: false,
+		});
+		return true;
+	} catch {
+		return false;
+	}
 }
 
 /**
@@ -62,11 +62,11 @@ function isValidCssValue(value: string): boolean {
  * Returns null if parsing fails.
  */
 function parseColorSafe(value: string): Color | null {
-  try {
-    return new Color(value);
-  } catch {
-    return null;
-  }
+	try {
+		return new Color(value);
+	} catch {
+		return null;
+	}
 }
 
 /**
@@ -74,12 +74,12 @@ function parseColorSafe(value: string): Color | null {
  * Returns null if either color cannot be parsed.
  */
 function computeDeltaE(pred: string, truth: string): number | null {
-  const cPred = parseColorSafe(pred);
-  const cTruth = parseColorSafe(truth);
-  if (!cPred || !cTruth) return null;
+	const cPred = parseColorSafe(pred);
+	const cTruth = parseColorSafe(truth);
+	if (!cPred || !cTruth) return null;
 
-  // convert to LCH or Lab first; colorjs.io can compute deltaE directly via .deltaE()
-  return cPred.deltaE(cTruth, "2000");
+	// convert to LCH or Lab first; colorjs.io can compute deltaE directly via .deltaE()
+	return cPred.deltaE(cTruth, "2000");
 }
 
 /**
@@ -96,35 +96,35 @@ function computeDeltaE(pred: string, truth: string): number | null {
  *  - Unitless values (use null instead)
  */
 function parseFontSizePx(value: string): number | null {
-  const trimmed = value.trim();
+	const trimmed = value.trim();
 
-  // Direct px case
-  if (trimmed.endsWith("px")) {
-    const num = parseFloat(trimmed.slice(0, -2));
-    if (!isFinite(num) || num === 0) return null;
-    return num;
-  }
+	// Direct px case
+	if (trimmed.endsWith("px")) {
+		const num = parseFloat(trimmed.slice(0, -2));
+		if (!Number.isFinite(num) || num === 0) return null;
+		return num;
+	}
 
-  // Unitless values are invalid
-  try {
-    const ast = csstree.parse(trimmed, { context: "value", positions: false });
+	// Unitless values are invalid
+	try {
+		const ast = csstree.parse(trimmed, { context: "value", positions: false });
 
-    let result: number | null = null;
+		let result: number | null = null;
 
-    csstree.walk(ast, (node) => {
-      if (node.type === "Dimension" && node.unit === "px" && result === null) {
-        const num = parseFloat(node.value);
-        if (isFinite(num) && num !== 0) {
-          result = num;
-        }
-      }
-      // Unitless values (Number nodes) are treated as invalid
-    });
+		csstree.walk(ast, (node) => {
+			if (node.type === "Dimension" && node.unit === "px" && result === null) {
+				const num = parseFloat(node.value);
+				if (Number.isFinite(num) && num !== 0) {
+					result = num;
+				}
+			}
+			// Unitless values (Number nodes) are treated as invalid
+		});
 
-    return result;
-  } catch {
-    return null;
-  }
+		return result;
+	} catch {
+		return null;
+	}
 }
 
 /**
@@ -133,26 +133,26 @@ function parseFontSizePx(value: string): number | null {
  * If truth is 0, returns null (undefined).
  */
 function computeRelativeError(predPx: number, truthPx: number): number | null {
-  if (truthPx === 0) return null;
-  return Math.abs(predPx - truthPx) / Math.abs(truthPx);
+	if (truthPx === 0) return null;
+	return Math.abs(predPx - truthPx) / Math.abs(truthPx);
 }
 
 /**
  * Helper function to compute mean of an array.
  */
 function mean(arr: number[]): number | null {
-  return arr.length === 0
-    ? null
-    : arr.reduce((sum, x) => sum + x, 0) / arr.length;
+	return arr.length === 0
+		? null
+		: arr.reduce((sum, x) => sum + x, 0) / arr.length;
 }
 
 /**
  * Helper function to compute max of an array.
  */
 function max(arr: number[]): number | null {
-  return arr.length === 0
-    ? null
-    : arr.reduce((m, x) => (x > m ? x : m), arr[0]);
+	return arr.length === 0
+		? null
+		: arr.reduce((m, x) => (x > m ? x : m), arr[0]);
 }
 
 /**
@@ -164,35 +164,39 @@ function max(arr: number[]): number | null {
  * Score = max(0, 100 - deltaE), clamped to [0, 100].
  */
 function deltaEToScore(deltaE: number): number {
-  return Math.max(0, 100 - deltaE);
+	return Math.max(0, 100 - deltaE);
 }
 
 function computeColorMetrics(
-  prediction: ColorPalette,
-  groundTruth: ColorPalette
-): Pick<MetricsResult, "deltaEPerColor" | "deltaEScoreMean" | "deltaEScoreMin"> {
-  const deltaEPerColor: DeltaEPerKey = {};
-  const deltaEScores: number[] = [];
+	prediction: ColorPalette,
+	groundTruth: ColorPalette,
+): Pick<
+	MetricsResult,
+	"deltaEPerColor" | "deltaEScoreMean" | "deltaEScoreMin"
+> {
+	const deltaEPerColor: DeltaEPerKey = {};
+	const deltaEScores: number[] = [];
 
-  for (const key of Object.keys(groundTruth) as (keyof ColorPalette)[]) {
-    const truthValue = groundTruth[key];
-    const predValue = prediction[key];
+	for (const key of Object.keys(groundTruth) as (keyof ColorPalette)[]) {
+		const truthValue = groundTruth[key];
+		const predValue = prediction[key];
 
-    // Skip if either value is null or undefined
-    if (predValue === null || truthValue === null) continue;
+		// Skip if either value is null or undefined
+		if (predValue === null || truthValue === null) continue;
 
-    const dE = computeDeltaE(predValue, truthValue);
-    if (dE != null && isFinite(dE)) {
-      deltaEPerColor[key] = dE;
-      deltaEScores.push(deltaEToScore(dE));
-    }
-  }
+		const dE = computeDeltaE(predValue, truthValue);
+		if (dE != null && Number.isFinite(dE)) {
+			deltaEPerColor[key] = dE;
+			deltaEScores.push(deltaEToScore(dE));
+		}
+	}
 
-  return {
-    deltaEPerColor,
-    deltaEScoreMean: mean(deltaEScores),
-    deltaEScoreMin: deltaEScores.length === 0 ? null : Math.min(...deltaEScores),
-  };
+	return {
+		deltaEPerColor,
+		deltaEScoreMean: mean(deltaEScores),
+		deltaEScoreMin:
+			deltaEScores.length === 0 ? null : Math.min(...deltaEScores),
+	};
 }
 
 /**
@@ -200,71 +204,71 @@ function computeColorMetrics(
  * Returns null values if no valid font-size metrics found.
  */
 function computeFontSizeMetrics(
-  prediction: FontSizes,
-  groundTruth: FontSizes
+	prediction: FontSizes,
+	groundTruth: FontSizes,
 ): Pick<
-  MetricsResult,
-  | "fontSizeRelativeErrorPerKey"
-  | "fontSizeRelativeErrorMean"
-  | "fontSizeRelativeErrorMax"
+	MetricsResult,
+	| "fontSizeRelativeErrorPerKey"
+	| "fontSizeRelativeErrorMean"
+	| "fontSizeRelativeErrorMax"
 > {
-  const fontSizeRelativeErrorPerKey: RelativeErrorPerKey = {};
-  const fontSizeRelErrors: number[] = [];
+	const fontSizeRelativeErrorPerKey: RelativeErrorPerKey = {};
+	const fontSizeRelErrors: number[] = [];
 
-  for (const key of Object.keys(groundTruth)) {
-    const truthValue = groundTruth[key];
-    const predValue = prediction[key];
+	for (const key of Object.keys(groundTruth)) {
+		const truthValue = groundTruth[key];
+		const predValue = prediction[key];
 
-    // Skip if either value is null or undefined
-    if (predValue === null || truthValue === null) continue;
+		// Skip if either value is null or undefined
+		if (predValue === null || truthValue === null) continue;
 
-    const predPx = parseFontSizePx(predValue);
-    const truthPx = parseFontSizePx(truthValue);
+		const predPx = parseFontSizePx(predValue);
+		const truthPx = parseFontSizePx(truthValue);
 
-    if (predPx != null && truthPx != null) {
-      const relErr = computeRelativeError(predPx, truthPx);
-      if (relErr != null && isFinite(relErr)) {
-        fontSizeRelativeErrorPerKey[key] = relErr;
-        fontSizeRelErrors.push(relErr);
-      }
-    }
-  }
+		if (predPx != null && truthPx != null) {
+			const relErr = computeRelativeError(predPx, truthPx);
+			if (relErr != null && Number.isFinite(relErr)) {
+				fontSizeRelativeErrorPerKey[key] = relErr;
+				fontSizeRelErrors.push(relErr);
+			}
+		}
+	}
 
-  return {
-    fontSizeRelativeErrorPerKey,
-    fontSizeRelativeErrorMean: mean(fontSizeRelErrors),
-    fontSizeRelativeErrorMax: max(fontSizeRelErrors),
-  };
+	return {
+		fontSizeRelativeErrorPerKey,
+		fontSizeRelativeErrorMean: mean(fontSizeRelErrors),
+		fontSizeRelativeErrorMax: max(fontSizeRelErrors),
+	};
 }
 
 /**
  * Compute syntax validity metrics for prediction vs ground truth.
  */
 function computeSyntaxMetrics(prediction: Record<string, string | null>): {
-  syntaxValidityRatio: number;
-  validCount: number;
-  totalCount: number;
+	syntaxValidityRatio: number;
+	validCount: number;
+	totalCount: number;
 } {
-  let validCount = 0;
-  let totalCount = 0;
+	let validCount = 0;
+	let totalCount = 0;
 
-  for (const key of Object.keys(prediction)) {
-    const value = prediction[key];
+	for (const key of Object.keys(prediction)) {
+		const value = prediction[key];
 
-    // Only validate non-null values
-    if (value !== null && value !== undefined) {
-      totalCount++;
-      if (isValidCssValue(value)) validCount++;
-    }
-  }
+		// Only validate non-null values
+		if (value !== null && value !== undefined) {
+			totalCount++;
+			if (isValidCssValue(value)) validCount++;
+		}
+	}
 
-  const syntaxValidityRatio = totalCount === 0 ? 1 : validCount / totalCount;
+	const syntaxValidityRatio = totalCount === 0 ? 1 : validCount / totalCount;
 
-  return {
-    syntaxValidityRatio,
-    validCount,
-    totalCount,
-  };
+	return {
+		syntaxValidityRatio,
+		validCount,
+		totalCount,
+	};
 }
 
 /**
@@ -278,55 +282,55 @@ function computeSyntaxMetrics(prediction: Record<string, string | null>): {
  * @returns Metrics result with computed fields populated (others as null/empty)
  */
 export function computeMetrics(
-  prediction: TokenRecord,
-  groundTruth: TokenRecord,
-  config: MetricsConfig = {
-    computeColors: true,
-    computeFontSizes: true,
-    computeSyntax: true,
-  }
+	prediction: TokenRecord,
+	groundTruth: TokenRecord,
+	config: MetricsConfig = {
+		computeColors: true,
+		computeFontSizes: true,
+		computeSyntax: true,
+	},
 ): MetricsResult {
-  const shouldComputeColors = config.computeColors !== false;
-  const shouldComputeFontSizes = config.computeFontSizes !== false;
-  const shouldComputeSyntax = config.computeSyntax !== false;
+	const shouldComputeColors = config.computeColors !== false;
+	const shouldComputeFontSizes = config.computeFontSizes !== false;
+	const shouldComputeSyntax = config.computeSyntax !== false;
 
-  const colorMetrics = shouldComputeColors
-    ? computeColorMetrics(prediction.color, groundTruth.color)
-    : { deltaEPerColor: {}, deltaEScoreMean: null, deltaEScoreMin: null };
+	const colorMetrics = shouldComputeColors
+		? computeColorMetrics(prediction.color, groundTruth.color)
+		: { deltaEPerColor: {}, deltaEScoreMean: null, deltaEScoreMin: null };
 
-  const fontSizeMetrics = shouldComputeFontSizes
-    ? computeFontSizeMetrics(prediction.fontSize, groundTruth.fontSize)
-    : {
-        fontSizeRelativeErrorPerKey: {},
-        fontSizeRelativeErrorMean: null,
-        fontSizeRelativeErrorMax: null,
-      };
+	const fontSizeMetrics = shouldComputeFontSizes
+		? computeFontSizeMetrics(prediction.fontSize, groundTruth.fontSize)
+		: {
+				fontSizeRelativeErrorPerKey: {},
+				fontSizeRelativeErrorMean: null,
+				fontSizeRelativeErrorMax: null,
+			};
 
-  const colorSyntaxMetrics = shouldComputeSyntax
-    ? computeSyntaxMetrics(
-        prediction.color as unknown as Record<string, string | null>
-      )
-    : { syntaxValidityRatio: 1, validCount: 0, totalCount: 0 };
+	const colorSyntaxMetrics = shouldComputeSyntax
+		? computeSyntaxMetrics(
+				prediction.color as unknown as Record<string, string | null>,
+			)
+		: { syntaxValidityRatio: 1, validCount: 0, totalCount: 0 };
 
-  const fontSizeSyntaxMetrics = shouldComputeSyntax
-    ? computeSyntaxMetrics(prediction.fontSize)
-    : { syntaxValidityRatio: 1, validCount: 0, totalCount: 0 };
+	const fontSizeSyntaxMetrics = shouldComputeSyntax
+		? computeSyntaxMetrics(prediction.fontSize)
+		: { syntaxValidityRatio: 1, validCount: 0, totalCount: 0 };
 
-  return {
-    deltaEPerColor: colorMetrics.deltaEPerColor,
-    deltaEScoreMean: colorMetrics.deltaEScoreMean,
-    deltaEScoreMin: colorMetrics.deltaEScoreMin,
+	return {
+		deltaEPerColor: colorMetrics.deltaEPerColor,
+		deltaEScoreMean: colorMetrics.deltaEScoreMean,
+		deltaEScoreMin: colorMetrics.deltaEScoreMin,
 
-    colorSyntaxValidityRatio: colorSyntaxMetrics.syntaxValidityRatio,
-    colorValidCount: colorSyntaxMetrics.validCount,
-    colorTotalCount: colorSyntaxMetrics.totalCount,
+		colorSyntaxValidityRatio: colorSyntaxMetrics.syntaxValidityRatio,
+		colorValidCount: colorSyntaxMetrics.validCount,
+		colorTotalCount: colorSyntaxMetrics.totalCount,
 
-    fontSizeSyntaxValidityRatio: fontSizeSyntaxMetrics.syntaxValidityRatio,
-    fontSizeValidCount: fontSizeSyntaxMetrics.validCount,
-    fontSizeTotalCount: fontSizeSyntaxMetrics.totalCount,
+		fontSizeSyntaxValidityRatio: fontSizeSyntaxMetrics.syntaxValidityRatio,
+		fontSizeValidCount: fontSizeSyntaxMetrics.validCount,
+		fontSizeTotalCount: fontSizeSyntaxMetrics.totalCount,
 
-    fontSizeRelativeErrorPerKey: fontSizeMetrics.fontSizeRelativeErrorPerKey,
-    fontSizeRelativeErrorMean: fontSizeMetrics.fontSizeRelativeErrorMean,
-    fontSizeRelativeErrorMax: fontSizeMetrics.fontSizeRelativeErrorMax,
-  };
+		fontSizeRelativeErrorPerKey: fontSizeMetrics.fontSizeRelativeErrorPerKey,
+		fontSizeRelativeErrorMean: fontSizeMetrics.fontSizeRelativeErrorMean,
+		fontSizeRelativeErrorMax: fontSizeMetrics.fontSizeRelativeErrorMax,
+	};
 }

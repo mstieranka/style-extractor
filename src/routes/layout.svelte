@@ -1,6 +1,4 @@
 <script lang="ts">
-  import type { Snippet } from "svelte";
-  import { p } from "../router";
   import {
     IconAlbum,
     IconColorSwatch,
@@ -9,10 +7,12 @@
     IconLogout,
     IconVs,
   } from "@tabler/icons-svelte-runes";
-  import { isActiveLink } from "sv-router";
   import { SvelteToast } from "@zerodevx/svelte-toast";
-  import { getUser, signOut } from "../lib/frontend/auth.svelte";
+  import { isActiveLink } from "sv-router";
+  import type { Snippet } from "svelte";
   import Button from "../components/Button.svelte";
+  import { getUser, signOut } from "../lib/frontend/auth.svelte";
+  import { p } from "../router";
 
   let { children }: { children: Snippet } = $props();
 

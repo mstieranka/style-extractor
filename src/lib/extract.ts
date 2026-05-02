@@ -1,5 +1,5 @@
 import Color from "colorjs.io";
-import { findAll, parse, type CssNode } from "css-tree";
+import { type CssNode, findAll, parse } from "css-tree";
 import { groupByHueSmart } from "./groupByHue";
 
 const invalidCssColors = [
