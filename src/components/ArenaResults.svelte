@@ -56,9 +56,15 @@
                     ? round.leftDeltaEScore.toFixed(1)
                     : "\u2014"}</td
               >
-              <td class="px-3 py-2 pl-8"
-                >{round.vote === "left" ? "\u2190 Left" : "Right \u2192"}</td
-              >
+              <td class="px-3 py-2 pl-8">
+                {#if round.vote === "left"}
+                  &#8592; Left
+                {:else if round.vote === "right"}
+                  Right &#8594;
+                {:else}
+                  Draw
+                {/if}
+              </td>
               <td class="px-3 py-2 pr-8">
                 {#if round.alignedWithDeltaE === true}
                   <span class="text-green-600"><IconCheck /></span>

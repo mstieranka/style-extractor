@@ -123,12 +123,13 @@
 				leftDeltaE = leftMetrics.deltaEScoreMean;
 				rightDeltaE = rightMetrics.deltaEScoreMean;
 
-				if (
-					leftDeltaE != null &&
-					rightDeltaE != null &&
-					leftDeltaE !== rightDeltaE
-				) {
-					const betterSide = leftDeltaE > rightDeltaE ? "left" : "right";
+				if (leftDeltaE != null && rightDeltaE != null) {
+					const betterSide =
+						leftDeltaE === rightDeltaE
+							? "draw"
+							: leftDeltaE > rightDeltaE
+								? "left"
+								: "right";
 					aligned = row.voted_for === betterSide;
 				}
 			}
@@ -203,11 +204,13 @@
 
 		let aligned: boolean | null = null;
 		if (leftDeltaEScore != null && rightDeltaEScore != null) {
-			if (leftDeltaEScore !== rightDeltaEScore) {
-				const betterSide =
-					leftDeltaEScore > rightDeltaEScore ? "left" : "right";
-				aligned = vote === betterSide;
-			}
+			const betterSide =
+				leftDeltaEScore === rightDeltaEScore
+					? "draw"
+					: leftDeltaEScore > rightDeltaEScore
+						? "left"
+						: "right";
+			aligned = vote === betterSide;
 		}
 
 		rounds.push({
@@ -217,6 +220,20 @@
 			leftDeltaEScore,
 			rightDeltaEScore,
 			vote: roundVote,
+			alignedWithDeltaE: aligned,
+		});
+
+		console.log("Recording vote:", {
+			userId: user.id,
+			sessionId,
+			dataId: selection.dataName,
+			widgetId: selection.widget.name,
+			methodLeft: selection.leftData.method,
+			methodRight: selection.rightData.method,
+			votedFor: roundVote,
+			roundNumber: currentStep,
+			leftDeltaEScore,
+			rightDeltaEScore,
 			alignedWithDeltaE: aligned,
 		});
 

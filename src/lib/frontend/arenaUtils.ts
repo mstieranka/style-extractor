@@ -9,6 +9,7 @@ export function computeMethodRanking(rounds: RoundResult[]): MethodRank[] {
 	for (const round of rounds) {
 		const left = normalizeMethod(round.leftMethod);
 		const right = normalizeMethod(round.rightMethod);
+		if (round.vote === "draw") continue;
 		const winner = round.vote === "left" ? left : right;
 
 		if (!stats.has(left)) stats.set(left, { wins: 0, appearances: 0 });
