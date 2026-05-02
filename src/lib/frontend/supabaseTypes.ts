@@ -68,7 +68,7 @@ export type Database = {
       [_ in never]: never
     }
     Enums: {
-      voted_for: "left" | "right"
+      voted_for: "left" | "right" | "draw"
     }
     CompositeTypes: {
       [_ in never]: never
@@ -196,7 +196,7 @@ export type CompositeTypes<
 export const Constants = {
   public: {
     Enums: {
-      voted_for: ["left", "right"],
+      voted_for: ["left", "right", "draw"],
     },
   },
 } as const

@@ -35,6 +35,9 @@ importers:
       svelte:
         specifier: 5.46.0
         version: 5.46.0
+      tailwind-merge:
+        specifier: 3.5.0
+        version: 3.5.0
     devDependencies:
       '@biomejs/biome':
         specifier: 2.3.1
@@ -984,6 +987,9 @@ packages:
     resolution: {integrity: sha512-ZhLtvroYxUxr+HQJfMZEDRsGsmU46x12RvAv/zi9584f5KOX7bUrEbhPJ7cKFmUvZTJXi/CFZUYwDC6M1FigPw==}
     engines: {node: '>=18'}
 
+  tailwind-merge@3.5.0:
+    resolution: {integrity: sha512-I8K9wewnVDkL1NTGoqWmVEIlUcB9gFriAEkXkfCjX5ib8ezGxtR3xD7iZIxrfArjEsH7F1CHD4RFUtxefdqV/A==}
+
   tailwindcss@4.1.16:
     resolution: {integrity: sha512-pONL5awpaQX4LN5eiv7moSiSPd/DLDzKVRJz8Q9PgzmAdd1R4307GQS2ZpfiN7ZmekdQrfhZZiSE5jkLR4WNaA==}
 
@@ -1885,6 +1891,8 @@ snapshots:
       locate-character: 3.0.0
       magic-string: 0.30.21
       zimmerframe: 1.1.4
+
+  tailwind-merge@3.5.0: {}
 
   tailwindcss@4.1.16: {}
 

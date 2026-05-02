@@ -4,6 +4,7 @@
     type Icon as IconType,
   } from "@tabler/icons-svelte-runes";
   import type { Snippet } from "svelte";
+  import { twMerge } from "tailwind-merge";
 
   type Variant = "primary" | "outline" | "ghost";
   type Size = "sm" | "md";
@@ -52,7 +53,7 @@
   };
 
   let classes = $derived(
-    `${base} ${variantClasses[variant]} ${sizeClasses[size]}${extraClass ? ` ${extraClass}` : ""}`,
+    twMerge(base, variantClasses[variant], sizeClasses[size], extraClass),
   );
 </script>
 

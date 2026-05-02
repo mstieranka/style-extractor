@@ -7,6 +7,7 @@
     PendingSession,
     RoundResult,
     RoundSelection,
+    Vote,
   } from "../lib/frontend/arenaTypes";
   import { paletteData } from "../paletteData";
   import { computeMetrics } from "../lib/compareTokens";
@@ -21,7 +22,7 @@
   let reveal = $state(false);
   let leftDeltaEScore = $state<number | null>(null);
   let rightDeltaEScore = $state<number | null>(null);
-  let votedSide = $state<"left" | "right" | null>(null);
+  let vote = $state<Vote | null>(null);
   let rounds = $state<RoundResult[]>([]);
   let sessionId = $state<string | null>(null);
   let sessionLoading = $state(false);
@@ -136,7 +137,7 @@
         dataName: row.data_id,
         leftMethod: row.method_left,
         rightMethod: row.method_right,
-        votedSide: row.voted_for,
+        vote: row.voted_for,
         leftDeltaEScore: leftDeltaE,
         rightDeltaEScore: rightDeltaE,
         alignedWithDeltaE: aligned,
@@ -166,7 +167,7 @@
       reveal = false;
       leftDeltaEScore = null;
       rightDeltaEScore = null;
-      votedSide = null;
+      vote = null;
       pickRandomData();
     }
 
@@ -192,9 +193,9 @@
     rightDeltaEScore = rightMetrics.deltaEScoreMean;
   }
 
-  async function recordRound(side: "left" | "right") {
+  async function recordRound(roundVote: Vote) {
     if (!selection) return;
-    votedSide = side;
+    vote = roundVote;
     computeDeltaEScores();
 
     let aligned: boolean | null = null;
@@ -202,7 +203,7 @@
       if (leftDeltaEScore !== rightDeltaEScore) {
         const betterSide =
           leftDeltaEScore > rightDeltaEScore ? "left" : "right";
-        aligned = side === betterSide;
+        aligned = vote === betterSide;
       }
     }
 
@@ -212,7 +213,7 @@
       rightMethod: selection.rightData.method,
       leftDeltaEScore,
       rightDeltaEScore,
-      votedSide: side,
+      vote: roundVote,
       alignedWithDeltaE: aligned,
     });
 
@@ -222,7 +223,7 @@
       widget_id: selection.widget.name,
       method_left: selection.leftData.method,
       method_right: selection.rightData.method,
-      voted_for: side,
+      voted_for: roundVote,
       round_number: currentStep,
       session_id: sessionId!,
     });
@@ -231,7 +232,7 @@
       if (error.code === "23505") {
         // Unique constraint violation — session continued on another device
         rounds.pop();
-        votedSide = null;
+        vote = null;
         await resyncSession();
         return false;
       }
@@ -240,13 +241,8 @@
     return true;
   }
 
-  async function onVoteLeft() {
-    const ok = await recordRound("left");
-    if (ok) reveal = true;
-  }
-
-  async function onVoteRight() {
-    const ok = await recordRound("right");
+  async function onVote(vote: Vote) {
+    const ok = await recordRound(vote);
     if (ok) reveal = true;
   }
 
@@ -278,7 +274,7 @@
     selection = undefined;
     leftDeltaEScore = null;
     rightDeltaEScore = null;
-    votedSide = null;
+    vote = null;
     rounds = [];
     sessionId = null;
     sessionChecked = false;
@@ -290,7 +286,7 @@
     reveal = false;
     leftDeltaEScore = null;
     rightDeltaEScore = null;
-    votedSide = null;
+    vote = null;
     if (currentStep > 10) {
       // End of arena
       return;
@@ -336,9 +332,7 @@
     {reveal}
     {leftDeltaEScore}
     {rightDeltaEScore}
-    {votedSide}
-    {onVoteLeft}
-    {onVoteRight}
+    {onVote}
     onNextRound={() => nextRound()}
     onReset={() => reset()}
   />

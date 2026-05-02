@@ -14,7 +14,7 @@
   let methodRanking = $derived.by(() => computeMethodRanking(rounds));
 </script>
 
-<main class="container mx-auto p-4 text-center mt-10">
+<main class="lg:container mx-auto py-4 lg:px-4 text-center mt-10">
   <h2 class="text-2xl font-bold mb-4">Thanks for participating!</h2>
 
   {#if rounds.length > 0}
@@ -46,7 +46,7 @@
             <tr class="border-b border-gray-200">
               <td class="px-3 py-2">{i + 1}</td>
               <td class="px-3 py-2 pr-8">{round.dataName}</td>
-              <td class="px-3 py-2" class:font-bold={round.votedSide === "left"}
+              <td class="px-3 py-2" class:font-bold={round.vote === "left"}
                 >{round.leftMethod}</td
               >
               <td class="px-3 py-2"
@@ -57,9 +57,7 @@
                     : "\u2014"}</td
               >
               <td class="px-3 py-2 pl-8"
-                >{round.votedSide === "left"
-                  ? "\u2190 Left"
-                  : "Right \u2192"}</td
+                >{round.vote === "left" ? "\u2190 Left" : "Right \u2192"}</td
               >
               <td class="px-3 py-2 pr-8">
                 {#if round.alignedWithDeltaE === true}
@@ -70,9 +68,7 @@
                   &mdash;
                 {/if}
               </td>
-              <td
-                class="px-3 py-2"
-                class:font-bold={round.votedSide === "right"}
+              <td class="px-3 py-2" class:font-bold={round.vote === "right"}
                 >{round.rightMethod}</td
               >
               <td class="px-3 py-2"

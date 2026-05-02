@@ -1,5 +1,6 @@
 import type { Component } from "svelte";
 import type { ColorPalette } from "../types";
+import type { Database } from "./supabaseTypes";
 
 export interface RoundSelection {
   dataName: string;
@@ -7,7 +8,7 @@ export interface RoundSelection {
   manualPalette: ColorPalette | undefined;
   leftData: { method: string; palette: ColorPalette };
   rightData: { method: string; palette: ColorPalette };
-  widget: { name: string; component: Component };
+  widget: { name: string; component: Component<{}> };
 }
 
 export interface RoundResult {
@@ -16,7 +17,7 @@ export interface RoundResult {
   rightMethod: string;
   leftDeltaEScore: number | null;
   rightDeltaEScore: number | null;
-  votedSide: "left" | "right";
+  vote: Vote;
   alignedWithDeltaE: boolean | null;
 }
 
@@ -31,3 +32,5 @@ export interface PendingSession {
   sessionId: string;
   maxRound: number;
 }
+
+export type Vote = Database["public"]["Enums"]["voted_for"];
