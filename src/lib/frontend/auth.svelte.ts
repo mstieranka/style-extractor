@@ -9,11 +9,8 @@ supabase.auth.getSession().then(({ data: { session } }) => {
 	loading = false;
 });
 
-supabase.auth.onAuthStateChange((event, session) => {
+supabase.auth.onAuthStateChange((_, session) => {
 	user = session?.user ?? null;
-	if (event === "SIGNED_IN") {
-		window.location.hash = "#/arena";
-	}
 });
 
 function getRedirectTo() {
