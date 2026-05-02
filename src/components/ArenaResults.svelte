@@ -36,7 +36,11 @@
             <th class="px-3 py-2">Left Method</th>
             <th class="px-3 py-2">&Delta;E Score</th>
             <th class="px-3 py-2 pl-8">Your Pick</th>
-            <th class="px-3 py-2 pr-8">Aligned?</th>
+            <th
+              class="px-3 py-2 pr-8"
+              title="Shows if your pick aligned with the &Delta;E score"
+              >Aligned [?]</th
+            >
             <th class="px-3 py-2">Right Method</th>
             <th class="px-3 py-2">&Delta;E Score</th>
           </tr>
