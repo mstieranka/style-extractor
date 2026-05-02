@@ -1,0 +1,12 @@
+#:schema ./node_modules/wrangler/config-schema.json
+name = "style-extractor"
+compatibility_date = "2026-05-02"
+
+[assets]
+html_handling = "drop-trailing-slash"
+directory = "dist"
+not_found_handling = "single-page-application"
+
+[vars]
+PNPM_VERSION = "10.20.0"
+NODE_VERSION = "22"
