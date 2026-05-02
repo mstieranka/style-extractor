@@ -10,3 +10,4 @@ not_found_handling = "single-page-application"
 [vars]
 PNPM_VERSION = "10.20.0"
 NODE_VERSION = "22"
+SKIP_DEPENDENCY_INSTALL = "true"
