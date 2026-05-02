@@ -19,7 +19,6 @@ vi.mock("../../paletteData", () => {
 		paletteData: [
 			{
 				name: "01-test",
-				backgroundUrl: "/test1.png",
 				palettes: [
 					{ method: "Manual", color: p("#fff", "#000") },
 					{ method: "LLM - test", color: p("#000", "#fff") },
@@ -28,7 +27,6 @@ vi.mock("../../paletteData", () => {
 			},
 			{
 				name: "02-test",
-				backgroundUrl: "/test2.png",
 				palettes: [
 					{ method: "Manual", color: p("#eee", "#111") },
 					{ method: "LLM - test", color: p("#111", "#eee") },
@@ -36,7 +34,6 @@ vi.mock("../../paletteData", () => {
 			},
 			{
 				name: "03-test",
-				backgroundUrl: "/test3.png",
 				palettes: [
 					{ method: "Manual", color: p("#abc", "#cba") },
 					{ method: "Dembrandt", color: p("#123", "#321") },
@@ -63,7 +60,6 @@ describe("generateRound", () => {
 		const b = generateRound("session-abc-123", 1);
 
 		expect(a.dataName).toBe(b.dataName);
-		expect(a.backgroundUrl).toBe(b.backgroundUrl);
 		expect(a.leftData.method).toBe(b.leftData.method);
 		expect(a.rightData.method).toBe(b.rightData.method);
 		expect(a.widget.name).toBe(b.widget.name);
@@ -88,7 +84,6 @@ describe("generateRound", () => {
 		const result = generateRound("session-abc-123", 1);
 
 		expect(typeof result.dataName).toBe("string");
-		expect(typeof result.backgroundUrl).toBe("string");
 		expect(result).toHaveProperty("manualPalette");
 		expect(typeof result.leftData.method).toBe("string");
 		expect(result.leftData.palette).toBeDefined();
