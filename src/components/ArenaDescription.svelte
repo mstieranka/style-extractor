@@ -30,6 +30,12 @@
       <p>
         This arena is part of a research project and a master thesis exploring
         algorithms for extracting color palettes from arbitrary websites.
+        <a
+          href="https://github.com/mstieranka/style-extractor"
+          class="text-purple-700 hover:text-purple-900 underline"
+        >
+          View the source code on GitHub.
+        </a>
       </p>
       <p>
         In each round, one website and one widget are selected at random from
