@@ -8,47 +8,25 @@
 		"node": ">=22.16.0"
 	},
 	"scripts": {
-		"dev": "vite",
-		"build": "vite build",
-		"preview": "vite preview",
-		"test": "vitest run",
-		"test-dev": "vitest dev",
-		"check": "svelte-check --tsconfig ./tsconfig.app.json && tsc -p tsconfig.node.json --noEmit",
-		"format": "biome format",
-		"lint": "biome lint",
+		"dev": "pnpm --filter @style-extractor/frontend dev",
+		"build": "pnpm --filter @style-extractor/frontend build",
+		"preview": "pnpm --filter @style-extractor/frontend preview",
+		"test": "pnpm -r run test",
+		"format": "biome format .",
+		"lint": "biome lint .",
 		"compare-llm": "tsx scripts/compare-llm-results.ts",
-		"optimize-images": "tsx scripts/optimize-widget-backgrounds.ts",
-		"sb:login": "supabase login",
-		"sb:generate-types": "supabase gen types typescript --project-id vciodekmnrtxbarvojjo --schema public > src/lib/frontend/supabaseTypes.ts"
-	},
-	"dependencies": {
-		"@supabase/supabase-js": "2.105.1",
-		"@tabler/icons-svelte-runes": "3.41.1",
-		"@zerodevx/svelte-toast": "0.9.6",
-		"colorjs.io": "0.6.1",
-		"css-tree": "3.2.1",
-		"prettier": "3.8.3",
-		"random": "5.4.1",
-		"sv-router": "0.16.0",
-		"svelte": "5.55.5",
-		"tailwind-merge": "3.5.0"
+		"get-palette-names": "tsx scripts/get-palette-names.ts",
+		"optimize-images": "pnpm --filter @style-extractor/frontend optimize-images",
+		"frontend:login": "pnpm --filter @style-extractor/frontend sb:login",
+		"frontend:generate-types": "pnpm --filter @style-extractor/frontend sb:generate-types"
 	},
 	"devDependencies": {
 		"@biomejs/biome": "2.4.14",
-		"@sveltejs/vite-plugin-svelte": "7.0.0",
-		"@tailwindcss/vite": "4.2.4",
-		"@tsconfig/svelte": "5.0.8",
-		"@types/css-tree": "2.3.11",
 		"@types/node": "25.6.0",
 		"playwright": "1.59.1",
-		"sharp": "0.34.5",
-		"supabase": "2.98.0",
-		"svelte-check": "4.4.7",
-		"tailwindcss": "4.2.4",
+		"prettier": "3.8.3",
 		"tsx": "4.21.0",
-		"typescript": "6.0.3",
-		"vite": "8.0.10",
-		"vitest": "4.1.5"
+		"typescript": "6.0.3"
 	},
 	"pnpm": {
 		"onlyBuiltDependencies": [

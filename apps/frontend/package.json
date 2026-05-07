@@ -1,0 +1,45 @@
+{
+	"name": "@style-extractor/frontend",
+	"version": "0.0.0",
+	"private": true,
+	"type": "module",
+	"scripts": {
+		"dev": "vite",
+		"build": "vite build",
+		"preview": "vite preview",
+		"test": "vitest run",
+		"test-dev": "vitest dev",
+		"check": "svelte-check --tsconfig ./tsconfig.json",
+		"sb:login": "supabase login",
+		"sb:generate-types": "supabase gen types typescript --project-id vciodekmnrtxbarvojjo --schema public > src/lib/supabaseTypes.ts",
+		"optimize-images": "tsx scripts/optimize-widget-backgrounds.ts"
+	},
+	"dependencies": {
+		"@style-extractor/extractor": "workspace:*",
+		"@style-extractor/shared": "workspace:*",
+		"@supabase/supabase-js": "2.105.1",
+		"@tabler/icons-svelte-runes": "3.41.1",
+		"@zerodevx/svelte-toast": "0.9.6",
+		"colorjs.io": "0.6.1",
+		"css-tree": "3.2.1",
+		"prettier": "3.8.3",
+		"random": "5.4.1",
+		"sv-router": "0.16.0",
+		"svelte": "5.55.5",
+		"tailwind-merge": "3.5.0"
+	},
+	"devDependencies": {
+		"@sveltejs/vite-plugin-svelte": "7.0.0",
+		"@tailwindcss/vite": "4.2.4",
+		"@tsconfig/svelte": "5.0.8",
+		"@types/css-tree": "2.3.11",
+		"@types/node": "25.6.0",
+		"sharp": "0.34.5",
+		"supabase": "2.98.0",
+		"svelte-check": "4.4.7",
+		"tailwindcss": "4.2.4",
+		"typescript": "6.0.3",
+		"vite": "8.0.10",
+		"vitest": "4.1.5"
+	}
+}

@@ -4,7 +4,7 @@ import {
 	computeMetrics,
 	type MetricsConfig,
 	type TokenRecord,
-} from "../src/lib/compareTokens";
+} from "../packages/shared/src/compareTokens";
 
 /**
  * ΔE threshold for "precise" extraction - colors within this threshold
