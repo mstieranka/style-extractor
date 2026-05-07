@@ -1,14 +1,10 @@
 <script lang="ts">
   import type { ColorPalette } from "@style-extractor/shared";
-  import Button from "../components/Button.svelte";
   import { widgets } from "../components/widgets";
   import { camelToKebab } from "../lib/camelToKebab";
+  import { cx } from "../lib/cx";
   import { paletteToStyle } from "../lib/paletteToStyle";
   import { paletteData } from "../paletteData";
-
-  function scrollTo(id: string) {
-    document.getElementById(id)?.scrollIntoView({ behavior: "smooth" });
-  }
 
   const allSchemes = paletteData.flatMap((site) =>
     site.palettes.map((p) => ({
@@ -17,30 +13,76 @@
       palette: p.color as ColorPalette,
     })),
   );
+
+  let activeId = $state("");
+
+  // Setup the observer on mount
+  $effect(() => {
+    const sections = Array.from(
+      document.querySelectorAll("section[id]"),
+    ) as HTMLElement[];
+
+    const observer = new IntersectionObserver(
+      (entries) => {
+        entries.forEach((entry) => {
+          if (entry.isIntersecting) {
+            activeId = entry.target.id;
+          }
+        });
+      },
+      { rootMargin: "0px 0px -80% 0px" },
+    );
+
+    sections.forEach((el) => {
+      observer.observe(el);
+    });
+
+    return () => observer.disconnect();
+  });
 </script>
 
 <div class="flex gap-6 container mx-auto p-4">
   <nav
-    class="hidden lg:block top-4 self-start shrink-0 w-48 max-h-[calc(100vh-2rem)] overflow-y-auto"
+    class="hidden lg:block fixed top-20 self-start shrink-0 w-48 max-h-[calc(100vh-2rem)] overflow-y-auto"
   >
     <h2 class="text-sm font-semibold text-gray-500 uppercase mb-2">Widgets</h2>
-    <ul class="flex flex-col gap-1">
+    <ul class="flex flex-col gap-1 ml-2">
       {#each widgets as { name }}
         <li>
-          <Button
-            variant="ghost"
-            size="sm"
-            onclick={() => scrollTo(camelToKebab(name))}
+          <a
+            href={`#${camelToKebab(name)}`}
+            onclick={(e) => {
+              e.preventDefault();
+              window.history.pushState(null, "", `#${camelToKebab(name)}`);
+              document
+                .getElementById(camelToKebab(name))
+                ?.scrollIntoView({ behavior: "smooth" });
+            }}
+            class={cx(
+              "text-gray-500 text-sm hover:underline",
+              activeId === camelToKebab(name) && "text-gray-700 font-semibold",
+            )}
           >
             {name}
-          </Button>
+          </a>
         </li>
       {/each}
     </ul>
   </nav>
 
-  <div class="flex-1 min-w-0">
+  <div class="flex-1 min-w-0 lg:pl-48">
     <h1 class="text-2xl font-bold mb-6">Widget Gallery</h1>
+    <div class="mb-6 space-y-4">
+      <p>
+        This page contains a gallery of widgets styled with palettes extracted
+        using different methods.
+      </p>
+      <p>
+        Below each widget, you'll find the dataset ID (corresponding to the site
+        it was extracted from) and the method used to extract the palette.
+      </p>
+      <p>All these widgets and palettes are used in the Arena.</p>
+    </div>
 
     {#each widgets as { name, component: Widget }}
       <section id={camelToKebab(name)} class="mb-12 scroll-mt-4">

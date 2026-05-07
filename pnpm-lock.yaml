@@ -44,6 +44,9 @@ importers:
       '@zerodevx/svelte-toast':
         specifier: 0.9.6
         version: 0.9.6(svelte@5.55.5)
+      clsx:
+        specifier: 2.1.1
+        version: 2.1.1
       colorjs.io:
         specifier: 0.6.1
         version: 0.6.1
