@@ -14,7 +14,7 @@ The repo has the following parts:
 - **Python / Gradio app** (`apps/python-llm`): runs a local LLM and extracts a palette.
 - **Heuristic palette extractor** (`packages/extractor`): a TypeScript implementation of a heuristic-based palette extraction method.
 - **Dembrandt post-processor** (`packages/dembrandt-post`): a TypeScript implementation of a post-processor for the output of [Dembrandt](https://github.com/dembrandt/dembrandt), an existing palette extraction method.
-- **Shared utilities** (`packages/shared`): shared code and types for the above parts. Also includes a CSS cleaner that removes all color-related declarations from a CSS string.
+- **Shared utilities** (`packages/shared`): shared code and types for the above parts. Also includes a CSS cleaner that removes all CSS declarations for a stylesheet that aren't necessary for the palette extraction (to save tokens).
 - **Svelte UI** (`apps/frontend`): heuristic palette extractor, a CSS cleaner, and an arena that allows users to select which one of two randomly selected palettes looks better on a given webpage.
 
 ## Python (Gradio + local LLM)
