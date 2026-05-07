@@ -79,7 +79,7 @@
                 <div
                   class="absolute inset-0 bg-black/10 z-0 pointer-events-none"
                 ></div>
-                <div class="relative z-20 rounded-lg drop-shadow min-w-72">
+                <div class="relative z-10 rounded-lg drop-shadow min-w-72">
                   <Widget style={paletteToStyle(scheme.palette)} />
                 </div>
               </div>
